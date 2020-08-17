@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivation for work</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://timnew.me/blog/2014/08/18/new-favicon-design-for-my-blog/logo.png">
+</head>
+<body>
+    <div id="header">
+        <h1></h1>
+        <h4 id="goal">Input your goal and time!</h4>
+    </div>
+
+    <div id="clockContainer">
+        <span id="clock"></span>
+    </div>
+    
+       
+    <div id = "imageContainer">
+        <img id="image" src="" alt="cat clock" width="auto" height="100%"> 
+    </div>
+
+    <div id="footer">
+        <input type="text" id="newGoal" placeholder="Do something">
+        <label for="goal">for</label>
+        <input type="number" name="minutesToWork" id="minutesToWork" placeholder="30" value="30" pattern="0-9">
+        <label for="minutesToWork">minutes!</label>
+        <input type="submit" name="submitGoal" id="submitGoal" value="Safe" onclick="submitGoal()">
+    </div>
+<audio id="tone">
+    <source src="tone.mp3" type="audio/mp3">
+</audio>
+<script src="app.js"></script>
+</body>
+</html>

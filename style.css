@@ -1,0 +1,73 @@
+/* General body styles */
+body {
+    background-color: var(--tg-theme-bg-color, #ffffff);
+    color: var(--tg-theme-text-color, #000000);
+}
+
+/* --- Styles for github-markdown-css --- */
+.markdown-body {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 45px;
+}
+
+/* --- Dark Theme Adjustments --- */
+body.dark .markdown-body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+body.dark .markdown-body a {
+    color: #58a6ff;
+}
+
+body.dark .markdown-body h1,
+body.dark .markdown-body h2 {
+    border-bottom-color: #21262d;
+}
+
+body.dark .markdown-body code:not(pre code) {
+    background-color: rgba(110,118,129,0.4);
+    color: #c9d1d9;
+}
+
+body.dark .markdown-body blockquote {
+    color: #8b949e;
+    border-left-color: #30363d;
+}
+
+/* --- Code block and copy button styles --- */
+pre {
+    position: relative; /* Required for absolute positioning of the button */
+}
+
+.copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 6px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.2s;
+}
+
+pre:hover .copy-btn {
+    opacity: 1; /* Show on hover */
+}
+
+.copy-btn:hover {
+    background-color: #555;
+}
+
+.copy-btn.copied {
+    background-color: #28a745; /* Green color for success */
+    color: #fff;
+}

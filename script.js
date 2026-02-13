@@ -10,9 +10,38 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const contentDiv = document.getElementById('content');
     const hash = window.location.hash.substring(1);
+    const params = new URLSearchParams(window.location.search);
+    const textId = params.get('id');
+    const apiBase = params.get('api_base') || 'http://127.0.0.1:8015';
     
     // --- 2. Data Fetching and Rendering ---
     let markdownText = '# Привет!\n\nЭто ваше мини-приложение для просмотра Markdown. Отправьте боту текст, и он пришлет вам ссылку для его просмотра здесь.\n\n## Пример кода\n\n```python\ndef hello():\n    print("Hello, World!")\n```';
+
+    if (textId) {
+        fetch(`${apiBase.replace(/\/+$/, '')}/plugins/markdown_answers/${encodeURIComponent(textId)}`)
+            .then((resp) => {
+                if (!resp.ok) {
+                    throw new Error(`HTTP ${resp.status}`);
+                }
+                return resp.json();
+            })
+            .then((data) => {
+                if (data && data.text) {
+                    markdownText = data.text;
+                } else {
+                    markdownText = '# Ошибка\n\nТекст не найден.';
+                }
+                contentDiv.innerHTML = marked.parse(markdownText);
+                hljs.highlightAll();
+                addCopyButtons();
+            })
+            .catch((err) => {
+                console.error('Failed to fetch text:', err);
+                markdownText = '# Ошибка\n\nНе удалось загрузить текст.';
+                contentDiv.innerHTML = marked.parse(markdownText);
+            });
+        return;
+    }
 
     if (hash.startsWith('data=')) {
         const encodedData = hash.substring('data='.length);
@@ -34,13 +63,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     contentDiv.innerHTML = marked.parse(markdownText);
-
-    // --- 3. Syntax Highlighting ---
-    // Применяем подсветку ко всем блокам кода после их рендеринга.
     hljs.highlightAll();
+    addCopyButtons();
+});
 
-    // --- 4. Add "Copy" Buttons ---
-    // Находим все блоки <pre> и добавляем в них кнопку.
+function addCopyButtons() {
     document.querySelectorAll('pre').forEach(preElement => {
         const codeElement = preElement.querySelector('code');
         if (!codeElement) return;
@@ -66,4 +93,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
         preElement.appendChild(btn);
     });
-});
+}

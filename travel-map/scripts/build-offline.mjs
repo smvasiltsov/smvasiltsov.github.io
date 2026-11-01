@@ -16,6 +16,7 @@ export async function buildOffline(configPath) {
  const shared=join(siteRoot,'travel-map');
  for(const file of await readdir(shared))if(file.endsWith('.js'))await add(join(shared,file));
  async function directory(path){for(const entry of await readdir(path,{withFileTypes:true})){const p=join(path,entry.name);if(entry.isDirectory())await directory(p);else await add(p);}}
+ await add(join(cityRoot,'app.webmanifest'));await directory(join(cityRoot,'app-icons'));
  await directory(join(shared,'styles'));await directory(join(shared,'vendor'));await directory(join(cityRoot,folder));
  const assetBase=new URL(context.city.assetBase,pathToFileURL(config));
  for(const point of context.points)for(const photo of point.photos)for(const key of ['src','thumbnail'])if(photo[key])await add(fileURLToPath(new URL(photo[key],assetBase)));

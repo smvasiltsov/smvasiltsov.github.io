@@ -1,3 +1,4 @@
+import {setupInstall} from './install-ui.js';
 import {loadCity,hotels} from './data.js';
 import {$,el} from './dom.js';
 import {number,plural} from './format.js';
@@ -30,5 +31,6 @@ async function start(){
   setupOffline(context).catch(error=>console.warn('Offline setup failed',error));
   const params=new URLSearchParams(location.search),requested=context.pointMap.get(params.get('place')||params.get('hotel'));if(requested)choose(requested);
 }
+setupInstall();
 $('data-retry').onclick=()=>location.reload();
 start().catch(error=>{console.error('City data could not be loaded',error);$('map-status').textContent='Не удалось загрузить список мест. Попробуйте ещё раз.';$('data-retry').hidden=false;});

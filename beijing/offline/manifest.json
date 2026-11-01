@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "city": "beijing",
-  "version": "772f11ecd41551ba31043350",
-  "createdAt": "2026-11-01T16:43:02.415Z",
-  "bytes": 82311545,
+  "version": "1e9defa8be523c0af8d28960",
+  "createdAt": "2026-11-01T17:05:48.604Z",
+  "bytes": 82333145,
   "map": {
     "style": "./offline/map-20261102/style.json",
     "bounds": [
@@ -19,8 +19,38 @@
   "files": [
     {
       "url": "/beijing/",
-      "bytes": 3890,
-      "sha256": "9949411de71bfc1f06685321182cf13390c6882f533f6ae77efe11709e7abac2"
+      "bytes": 4542,
+      "sha256": "ce2848a31d29a725239573db4edeebe53326ce69bbc6949c1ff84df72ac674aa"
+    },
+    {
+      "url": "/beijing/app-icons/apple-touch-icon.png",
+      "bytes": 1183,
+      "sha256": "d3f2117fd2506d5e6c43d87ebf54126270120b31798220ae7ad557180439bf27"
+    },
+    {
+      "url": "/beijing/app-icons/icon-192.png",
+      "bytes": 1141,
+      "sha256": "f7524afcd9845a8a82ad5ab425511c0168208f8c5d838cfdde697d9997c2d555"
+    },
+    {
+      "url": "/beijing/app-icons/icon-512.png",
+      "bytes": 3734,
+      "sha256": "67e2858eaefa5a466d4df8b36c5099c50921edda40acd837ee6a042bf633cfbc"
+    },
+    {
+      "url": "/beijing/app-icons/icon.svg",
+      "bytes": 422,
+      "sha256": "dfcfe95d983ed9e531f1ff40c0e36572ecfb7e6193de3aa80e3c65da8b818547"
+    },
+    {
+      "url": "/beijing/app-icons/maskable-512.png",
+      "bytes": 3734,
+      "sha256": "67e2858eaefa5a466d4df8b36c5099c50921edda40acd837ee6a042bf633cfbc"
+    },
+    {
+      "url": "/beijing/app.webmanifest",
+      "bytes": 786,
+      "sha256": "8d4d44ce0f4cb4d4270f0188e24d4bb4fa3066cb51415b52f39a67938c3a1709"
     },
     {
       "url": "/beijing/assets/places/1/01-thumb.webp",
@@ -1719,8 +1749,8 @@
     },
     {
       "url": "/beijing/compare.html",
-      "bytes": 4049,
-      "sha256": "a8cf3b6c390b5bb3ed70aac2c678f79fc43026f59e2096d175346b9056c2dfac"
+      "bytes": 4552,
+      "sha256": "5b7dff2028c52db319badfd8938f1411ca226aa0f353bb0e3c4a92835a29938b"
     },
     {
       "url": "/beijing/data/categories.json",
@@ -1744,8 +1774,8 @@
     },
     {
       "url": "/beijing/index.html",
-      "bytes": 3890,
-      "sha256": "9949411de71bfc1f06685321182cf13390c6882f533f6ae77efe11709e7abac2"
+      "bytes": 4542,
+      "sha256": "ce2848a31d29a725239573db4edeebe53326ce69bbc6949c1ff84df72ac674aa"
     },
     {
       "url": "/beijing/offline/map-20261102/FONT-CJK-LICENSE.txt",
@@ -5508,9 +5538,19 @@
       "sha256": "0e1185d3240af2b9655d0424ed96baa5273e675f0e4f22c6483817b5ceec607d"
     },
     {
+      "url": "/travel-map/install-prompt.js",
+      "bytes": 680,
+      "sha256": "a9be1ce57e7e6e5ba52738bd66a3ed5e1dfc65b9eefeab2d0efbb2c04ed6e2b0"
+    },
+    {
+      "url": "/travel-map/install-ui.js",
+      "bytes": 5827,
+      "sha256": "5e449b28e2773a45d8b8f162617abf08cced209fb19789eb4dd28187798db5d3"
+    },
+    {
       "url": "/travel-map/map-page.js",
-      "bytes": 3538,
-      "sha256": "984d9baa6427340c0900153e285f410bf07787d03f2e85994db87f0b379bf174"
+      "bytes": 3600,
+      "sha256": "59a11103ad86d808d73e643778358b1acecd2642a068db5526cdf2798c193f9d"
     },
     {
       "url": "/travel-map/map-view.js",
@@ -5559,8 +5599,8 @@
     },
     {
       "url": "/travel-map/styles/compare.css",
-      "bytes": 4343,
-      "sha256": "d764672c2d5775573cd276d3f305d6d6863e8af366c1909334506690cbbaa998"
+      "bytes": 4637,
+      "sha256": "c73e16dbfef2a228fdb5ce0c0bd6977be1c0dea781d4d69ac2e17714f5439b2b"
     },
     {
       "url": "/travel-map/styles/hotel-comparison.css",
@@ -5568,9 +5608,14 @@
       "sha256": "38b4e4acd935e0b3c1ce824fdceb81906c1df3f19b2e299e6f6bbb7f98f1cf93"
     },
     {
+      "url": "/travel-map/styles/install.css",
+      "bytes": 1363,
+      "sha256": "c29d9868e1e61f9272a5d05d6b54f90c61054c1dfaa3a0ff133d88defbb83caa"
+    },
+    {
       "url": "/travel-map/styles/map-page.css",
-      "bytes": 5347,
-      "sha256": "3b059176812081ec993b1778c90478729614d45795ffa9d9f8b13fb03eaa240f"
+      "bytes": 5914,
+      "sha256": "83b938e1269a54274d01f16e47c7e4359a7db64f16552bd369b83bfcf3fd6c3d"
     },
     {
       "url": "/travel-map/styles/offline.css",

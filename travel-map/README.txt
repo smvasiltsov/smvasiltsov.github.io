@@ -101,3 +101,23 @@ photo-credits.json и room-photo-sources.json сохраняют исследо�
 источники. Research-файлы помечены snapshotOnly и не загружаются интерфейсом.
 Редактировать рабочие сведения нужно в data/points.json; при замене фото
 обновлять также реестр источников/лицензий и хранить обязательную атрибуцию.
+
+Установка на главный экран:
+/beijing/app.webmanifest — стабильный id и start_url в /beijing/, standalone,
+иконки 192/512, отдельная maskable и apple-touch-icon 180.
+Обе страницы ссылаются на один манифест; в офлайн-пакет входят манифест,
+иконки и интерфейс установки. При добавлении города скопировать app.webmanifest
+и app-icons, изменить id, имена, описание и apple-mobile-web-app-title в HTML.
+Иконка — собственный векторный рисунок с генератором PNG:
+python3 travel-map/scripts/make-app-icons.py
+Кнопка «На главный экран» открывает инструкции. При beforeinstallprompt
+доступна нативная установка; предложение используется один раз, отмена не
+считается установкой. В standalone/iOS navigator.standalone кнопка скрывается.
+На iPhone пользователю предлагается Safari → Поделиться → На экран «Домой».
+После установки открыть приложение онлайн и проверить сохранённый город
+именно в приложении; Safari и приложение могут использовать разные хранилища.
+Физическая установка и проверка в авиарежиме выполняются на самом телефоне.
+Источники поведения (проверены 2026-11-02):
+https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable
+https://support.apple.com/guide/iphone/open-as-web-app-iphea86e5236/ios
+https://bugs.webkit.org/show_bug.cgi?id=181849

@@ -1,0 +1,13 @@
+#online-map{position:absolute;inset:0;z-index:0;background:var(--bg)}
+#map{position:relative;z-index:1}
+#live-markers{position:absolute;inset:0;width:100%;height:100%;z-index:2;pointer-events:none}
+#live-markers .point{pointer-events:auto}
+#map-mode{position:absolute;top:17px;left:76px;right:95px;z-index:5;display:flex;gap:8px;align-items:center;flex-wrap:wrap;pointer-events:none}
+#map-mode-text{font-size:11px;color:var(--ink);background:var(--panel);border:1px solid var(--border);border-radius:7px;padding:5px 8px;max-width:100%}
+#toggle-map{font-size:11px;padding:5px 8px;pointer-events:auto;box-shadow:0 1px 4px #0001}
+.zoom{z-index:5}.north{z-index:5;top:62px;right:14px}
+#overview{z-index:4}.hint{z-index:4;max-width:65%;background:var(--panel);border-radius:5px;padding:2px 5px}
+.map-footer{z-index:4;pointer-events:auto;background:var(--panel);border-radius:5px;padding:3px 5px;right:auto;max-width:calc(100% - 35px)}
+#online-map .maplibregl-ctrl-bottom-right{bottom:0;right:5px}
+#online-map .maplibregl-ctrl-attrib{font-size:10px;line-height:18px}
+@media(max-width:650px){#map-mode{top:15px;left:70px;right:50px;gap:5px}#map-mode-text{font-size:10px;max-width:100%}#toggle-map{font-size:10px}#online-map .maplibregl-ctrl-bottom-right{bottom:0}.map-footer{bottom:37px;max-width:calc(100% - 30px);font-size:9px}#overview{bottom:105px}.hint{bottom:240px}.north{top:65px}}

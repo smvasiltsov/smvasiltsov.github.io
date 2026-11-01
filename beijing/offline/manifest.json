@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "city": "beijing",
-  "version": "571834bc39227d61f6dab3f6",
-  "createdAt": "2026-11-01T16:40:34.737Z",
-  "bytes": 82311197,
+  "version": "772f11ecd41551ba31043350",
+  "createdAt": "2026-11-01T16:43:02.415Z",
+  "bytes": 82311545,
   "map": {
     "style": "./offline/map-20261102/style.json",
     "bounds": [
@@ -5539,8 +5539,8 @@
     },
     {
       "url": "/travel-map/offline-ui.js",
-      "bytes": 10177,
-      "sha256": "061818f8bcd555b65a5ede1f92c5f2f5ea0e07811aabf4d407e8177c27c8fc15"
+      "bytes": 10525,
+      "sha256": "a87880d88ac79457cec94035af9e2ea2701ae0754109868ceb5232d66f71b7ba"
     },
     {
       "url": "/travel-map/offline-worker.js",

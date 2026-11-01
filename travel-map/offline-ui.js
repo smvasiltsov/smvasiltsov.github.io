@@ -78,8 +78,10 @@ export async function setupOffline(context) {
           status.textContent = `Скачано ${value.done} из ${value.total} файлов · ${mb(value.bytes)} из ${mb(value.totalBytes)}. Не закрывайте вкладку.`;
           button.textContent = 'Скачивание · ' + percent + '%';
         }});
-        state = {active}; await refreshWorker(); channel?.postMessage({type: 'changed'});
-        summary(); document.dispatchEvent(new Event('travel-offline-changed'));
+        state = {active}; await refreshWorker(); channel?.postMessage({type: 'changed', action: 'saved'});
+        summary();
+        try { sessionStorage.setItem('travel-city:saved-panel:' + new URL(scope).pathname, '1'); } catch {}
+        location.reload();
       });
     } catch (error) {
       state = await storage.read(); summary();
@@ -90,10 +92,10 @@ export async function setupOffline(context) {
   remove.onclick = async () => {
     if (busy) return;
     try {
-      await exclusive(async () => { await storage.clear(); state = {}; await refreshWorker(); channel?.postMessage({type: 'changed'}); summary(); document.dispatchEvent(new Event('travel-offline-changed')); });
+      await exclusive(async () => { await storage.clear(); state = {}; await refreshWorker(); channel?.postMessage({type: 'changed', action: 'deleted'}); summary(); document.dispatchEvent(new Event('travel-offline-changed')); });
     } catch (error) { status.textContent = error.message; }
   };
-  channel?.addEventListener('message', async () => { if (!busy) { state = await storage.read(); summary(); document.dispatchEvent(new Event('travel-offline-changed')); } });
+  channel?.addEventListener('message', async event => { if (!busy) { if (event.data?.action === 'saved') { location.reload(); return; } state = await storage.read(); summary(); document.dispatchEvent(new Event('travel-offline-changed')); } });
   try {
     registration = await navigator.serviceWorker.register(new URL('sw.js', scope), {scope, type: 'module', updateViaCache: 'none'});
   } catch (error) {
@@ -108,5 +110,6 @@ export async function setupOffline(context) {
   state = await storage.read();
   if (state.active && !(await caches.keys()).includes(state.active.cacheName)) { state = {}; await storage.write(state); }
   summary();
+  try { const key = 'travel-city:saved-panel:' + new URL(scope).pathname; if (sessionStorage.getItem(key)) { sessionStorage.removeItem(key); toggle(true); } } catch {}
   if (!state.active) { try { await freshManifest(); summary(); } catch {} }
 }

@@ -4,6 +4,7 @@ import {number,plural} from './format.js';
 import {walkScore} from './assessment.js';
 import {Cards} from './cards.js';
 import {MapView} from './map-view.js';
+import {setupOffline} from './offline-ui.js';
 import {PointPicker} from './point-picker.js';
 async function start(){
   const context=await loadCity();document.title=`${context.city.name} · личная карта путешествия`;$('city-name').textContent=context.city.name;
@@ -25,6 +26,8 @@ async function start(){
   $('center').onclick=()=>{picker.hide();cards.close();map.center();};$('reset').onclick=()=>{picker.hide();cards.close();map.fitAll();};$('plus').onclick=()=>map.zoom(1);$('minus').onclick=()=>map.zoom(-1);
   document.addEventListener('keydown',event=>{if(event.key==='Escape'){picker.hide();cards.close(event);}});
   map.start();
+  document.addEventListener('travel-offline-changed',()=>map.start());
+  setupOffline(context).catch(error=>console.warn('Offline setup failed',error));
   const params=new URLSearchParams(location.search),requested=context.pointMap.get(params.get('place')||params.get('hotel'));if(requested)choose(requested);
 }
 $('data-retry').onclick=()=>location.reload();

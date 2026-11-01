@@ -1,3 +1,4 @@
+import {savedMap} from './offline-map.js';
 import {walkScore} from './assessment.js';
 import {number} from './format.js';
 const SVG='http://www.w3.org/2000/svg';
@@ -14,22 +15,23 @@ export class MapView {
     this.resizeObserver=new ResizeObserver(()=>{if(this.map){this.map.resize();this.render();}});this.resizeObserver.observe(container);retry.onclick=()=>this.start();
   }
   async start(){
-    this.ready=false;this.tileError=false;const generation=++this.generation;clearTimeout(this.timer);this.map?.remove();this.map=null;this.overlay=null;this.nodes.clear();this.container.replaceChildren();this.setStatus('Загружаю онлайн-карту…');
+    this.ready=false;this.tileError=false;const generation=++this.generation;clearTimeout(this.timer);this.map?.remove();this.map=null;this.overlay=null;this.nodes.clear();this.container.replaceChildren();this.setStatus('Загружаю карту…');
     this.timer=setTimeout(()=>{if(generation===this.generation)this.setStatus('Карта пока не загрузилась. Проверьте подключение.',true);},20000);
     try{
-      const library=await loadLibrary();if(generation!==this.generation)return;
+      const [library,offline]=await Promise.all([loadLibrary(),savedMap(this.context)]);if(generation!==this.generation)return;this.offline=offline;
       const config=this.context.city.map;
-      this.map=new library.Map({container:this.container,style:config.style,center:config.defaultView.center,zoom:config.defaultView.zoom});
+      this.map=new library.Map({container:this.container,style:offline?.style||config.style,center:config.defaultView.center,zoom:config.defaultView.zoom,...(offline?{minZoom:offline.minZoom,maxZoom:offline.maxZoom,maxBounds:[offline.bounds[0]-1,offline.bounds[1]-.4,offline.bounds[2]+1,offline.bounds[3]+.4],localIdeographFontFamily:false}:{})});
       this.map.addControl(new library.ScaleControl({unit:'metric'}),'bottom-right');this.map.addControl(new library.NavigationControl({showZoom:false}),'top-right');
       this.overlay=svg('svg',{id:'live-markers','aria-label':'Места на карте'});this.container.append(this.overlay);
       this.map.on('move',()=>this.render());
       this.map.on('movestart',()=>{this.onMove();this.tileError=false;if(this.ready)this.setStatus('Подгружаю карту…');});
-      this.map.on('load',()=>{clearTimeout(this.timer);this.ready=true;this.setStatus('Онлайн-карта · OpenFreeMap');this.render();});
-      this.map.on('idle',()=>{if(this.ready)this.setStatus(this.tileError?'Часть карты не загрузилась':'Онлайн-карта · OpenFreeMap',!!this.tileError);});
+      this.map.on('load',()=>{clearTimeout(this.timer);this.ready=true;this.setStatus(this.normalStatus());this.render();});
+      this.map.on('idle',()=>{if(this.ready)this.setStatus(this.tileError?'Часть карты не загрузилась':(this.normalStatus()),!!this.tileError);});
       this.map.on('error',()=>{this.tileError=true;this.setStatus('Часть карты не загрузилась. Проверьте подключение.',true);});
       if(this.selected)this.focus(this.selected);this.render();
     }catch(error){clearTimeout(this.timer);this.ready=false;this.setStatus('Карта недоступна. Список мест и карточки доступны.',true);console.warn('Map initialization failed',error);}
   }
+  normalStatus(){if(!this.offline)return 'Онлайн-карта · OpenFreeMap';const center=this.map.getCenter(),[w,s,e,n]=this.offline.bounds;return center.lng<w||center.lng>e||center.lat<s||center.lat>n?'За пределами сохранённой области':'Сохранённая карта · OpenFreeMap';}
   setStatus(message,retry=false){this.status.textContent=message;this.retry.hidden=!retry;}
   focus(point){this.selected=point;if(this.map){this.map.resize();this.map.easeTo({center:point.coord,zoom:Math.max(this.map.getZoom(),this.context.city.map.selectedZoom),duration:this.duration()});this.render();}}
   clearSelection(){this.selected=null;this.render();}

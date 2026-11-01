@@ -59,8 +59,8 @@ function renderHotel(point, points, onChoose) {
   const room = hotelSection('Номер с окном и цена');
   room.append(hotelElement('p', h.room, 'hotel-room-name'),
     hotelElement('p', `${h.area} · ${h.bed} · ${h.window}`),
-    hotelElement('p', 'Собственная ванная · для некурящих. Для сравнения выбраны категории от 18 м² с подтверждённым окном.'),
-    hotelElement('p', `${rub(h.total)} за 7 ночей, налоги и сборы включены. За ночь — средняя стоимость: сумма / 7. Завтрак не включён. Предоплата онлайн; на момент проверки — бесплатная отмена до 7 ноября, 18:00 по местному времени отеля.`),
+    hotelElement('p', 'Собственная ванная · для некурящих. Сравниваем указанные категории с окном; площадь и условия различаются, компактные варианты отмечены отдельно.'),
+    hotelElement('p', `${rub(h.total)} за 7 ночей, налоги и сборы включены. За ночь — средняя стоимость: сумма / 7. ${h.rateDetails}`),
     hotelElement('p', h.discount, 'hotel-small'),
     hotelElement('p', h.roomWarning, 'hotel-callout'),
     hotelElement('p', 'Это снимок предложения Trip.com, а не текущая гарантированная цена. Скидки и наличие зависят от аккаунта и условий акции; финальную сумму и правила отмены проверьте перед оплатой.', 'hotel-small'));
@@ -94,7 +94,7 @@ function renderHotel(point, points, onChoose) {
   routes.append(subwayLink);
   details.append(routes);
 
-  const comparison = hotelSection('В сравнении с остальными четырьмя');
+  const comparison = hotelSection('В сравнении с другими отелями');
   const columns = hotelElement('div', undefined, 'hotel-pro-con');
   const pros = hotelElement('div');
   const cons = hotelElement('div');
@@ -105,7 +105,7 @@ function renderHotel(point, points, onChoose) {
     `Trip.com: ${h.rating} · ${h.reviewCount.toLocaleString('ru-RU')} отзывов на момент проверки. Упоминания проблем — отдельные отзывы, а не гарантия качества каждого номера.`, 'hotel-small'));
   details.append(comparison);
 
-  const shortlist = hotelSection('Все 5 отелей');
+  const shortlist = hotelSection(`Все ${points.filter(p => p.hotel).length} отелей`);
   shortlist.append(hotelElement('p', 'Одинаковые даты и состав гостей; категории номеров и скидки различаются.', 'hotel-small'));
   const cards = hotelElement('div', undefined, 'hotel-shortlist');
   for (const other of points.filter(p => p.hotel)) {
@@ -126,6 +126,6 @@ function renderHotel(point, points, onChoose) {
   sources.append(document.createTextNode('Источник номеров, цен и отзывов: '));
   const trip = hotelElement('a', 'Trip.com ↗');
   trip.href = point.url; trip.target = '_blank'; trip.rel = 'noopener';
-  sources.append(trip, document.createTextNode('. Сравнительные выводы и время в пути — авторская оценка. Метка показывает расположение объекта; вход уточняйте в AMap. Фотографии относятся к отелю в целом.'));
+  sources.append(trip, document.createTextNode('. Сравнительные выводы и время в пути — авторская оценка. Метка показывает расположение объекта; вход уточняйте в AMap. Показаны фотографии выбранной категории номера с Trip.com. Планировка, вид из окна и площадь конкретного выделенного номера могут отличаться.'));
   details.append(sources);
 }

@@ -53,8 +53,18 @@ function renderHotel(point, points, onChoose) {
     hotelElement('strong', `≈ ${meanTravel(h)} мин`),
     hotelElement('span', 'по 7 городским точкам · в одну сторону'));
   stats.append(price, travel);
+  const expert = hotelElement('div', undefined, 'hotel-stat');
+  expert.append(hotelElement('span', 'Авторская оценка номера'), hotelElement('strong', `${HotelAssessment.number(HotelAssessment.assess(h).score)} / 10`), hotelElement('span', 'расположение · комфорт · цена · отзывы'));
+  stats.append(expert);
   summary.append(stats, hotelElement('p', h.verdict, 'hotel-verdict'),
     hotelElement('p', '7–14 ноября 2026 · 2 взрослых · проверено 1 ноября', 'hotel-small'));
+
+  const evaluation = hotelSection('Экспертная оценка выбранного номера');
+  evaluation.append(HotelAssessment.render(h));
+  const compareLink = hotelElement('a', 'Сравнить все отели в таблице ↗', 'hotel-compare-link');
+  compareLink.href = './compare.html';
+  evaluation.append(compareLink);
+  details.append(evaluation);
 
   const room = hotelSection('Номер с окном и цена');
   room.append(hotelElement('p', h.room, 'hotel-room-name'),

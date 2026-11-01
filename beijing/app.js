@@ -1,6 +1,6 @@
 
 (async()=>{
-'use strict';const $=id=>document.getElementById(id),points=JSON.parse($('data').textContent),bounds=JSON.parse($('boundaries').textContent);const roads=JSON.parse($('roads').textContent);
+'use strict';const $=id=>document.getElementById(id),points=[...JSON.parse($('data').textContent),...HOTEL_POINTS],bounds=JSON.parse($('boundaries').textContent);const roads=JSON.parse($('roads').textContent);
 $('loading').hidden=true;let selected=null,photoIndex=0,zoom,previousFocus=null,showAll=true;let liveMap=null,liveReady=false,preferOnline=true,liveOverlay=null,loadTimer=null,loadingScript=null,onlineErrors=false;const colors=['var(--attraction)','var(--walk)','var(--hotel)'],cats=['Достопримечательность','Прогулки и кафе','Отель'];
 for(let cat=0;cat<3;cat++){const group=document.createElement('optgroup');group.label=['Достопримечательности','Прогулки и кафе','Отели'][cat];for(const p of points.filter(p=>p.cat===cat)){const o=document.createElement('option');o.value=p.id;o.textContent=p.id+' · '+p.name;group.append(o)}$('places').append(group)}
 const isIOS=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1),isMobile=isIOS||/Android/.test(navigator.userAgent);
@@ -166,5 +166,5 @@ $('toggle-map').onclick=()=>{
  }
 };
 
-$('plus').onclick=()=>liveReady&&preferOnline?liveMap.zoomIn():d3.select($('map')).call(zoom.scaleBy,1.5);$('minus').onclick=()=>liveReady&&preferOnline?liveMap.zoomOut():d3.select($('map')).call(zoom.scaleBy,1/1.5);new ResizeObserver(draw).observe($('map-area'));draw();startOnline();
+$('plus').onclick=()=>liveReady&&preferOnline?liveMap.zoomIn():d3.select($('map')).call(zoom.scaleBy,1.5);$('minus').onclick=()=>liveReady&&preferOnline?liveMap.zoomOut():d3.select($('map')).call(zoom.scaleBy,1/1.5);new ResizeObserver(draw).observe($('map-area'));draw();startOnline();const requested=points.find(p=>p.id===new URLSearchParams(location.search).get('hotel'));if(requested)choose(requested);
 })();

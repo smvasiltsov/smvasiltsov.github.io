@@ -30,3 +30,21 @@
 @media(max-width:360px){.hotel-stats{grid-template-columns:1fr}.hotel-routes{font-size:12px}}
 
 .actions{margin-bottom:22px}
+.hotel-stats{grid-template-columns:repeat(3,minmax(0,1fr))}
+.comparison-entry,.hotel-compare-link{display:inline-block;color:var(--ink);border:1px solid var(--border);background:var(--panel);border-radius:9px;padding:9px 13px;text-decoration:none;white-space:nowrap}
+.comparison-entry:hover,.hotel-compare-link:hover{border-color:var(--accent)}
+.expert-assessment{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:18px}
+.expert-heading{display:flex;align-items:center;gap:14px}
+.expert-score{font-size:27px;color:var(--hotel);white-space:nowrap;letter-spacing:-.5px}
+.expert-heading>span{font-size:12px;max-width:180px;color:var(--muted)}
+.expert-opinion{font-size:14px;margin:12px 0}
+.expert-breakdown{font-size:12px;margin-top:12px}
+.expert-breakdown summary{cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.expert-component{margin-top:16px}
+.expert-component-line{display:flex;justify-content:space-between;gap:12px}
+.expert-component meter{display:block;width:100%;height:12px;margin-top:5px;accent-color:var(--hotel)}
+.expert-component p,.expert-breakdown>p,.expert-note{font-size:12px;color:var(--muted);line-height:1.6}
+.expert-note{margin-bottom:0}
+.hotel-compare-link{margin-top:14px;font-size:13px}
+@media(max-width:850px){.hotel-stats{grid-template-columns:1fr 1fr}.hotel-stat:last-child{grid-column:1/-1}.comparison-entry{padding:7px 10px}}
+@media(max-width:650px){.tools .comparison-entry{padding:5px 10px;font-size:12px}}

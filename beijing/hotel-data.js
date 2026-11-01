@@ -1,0 +1,1248 @@
+'use strict';
+// Shared hotel and selected-room observations, Trip.com, 1 November 2026.
+const HOTEL_POINTS = [
+  {
+    "id": "H1",
+    "name": "Hejia Inn Houhai",
+    "zh": "和家宾馆（北京后海鼓楼店）",
+    "cat": 2,
+    "note": "No.6 Xiaobadaowan Hutong, Gulou West Street",
+    "coord": [
+      116.3809005,
+      39.9444515
+    ],
+    "url": "https://uk.trip.com/hotels/w/detail/?cityid=1&hotelid=1777604&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=en-GB",
+    "description": "Небольшой отель в хутуне у Хоухая. Самая удобная из 11 баз для прогулок по старому центру; номер и здание проще, чем у новых вариантов.",
+    "photos": [
+      {
+        "src": "./assets/rooms/h1-1.webp",
+        "source": "https://uk.trip.com/hotels/w/detail/?cityid=1&hotelid=1777604&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=en-GB",
+        "credit": "Trip.com · фотографии категории «Стандартный номер с кроватью «queen-size»»",
+        "caption": "Стандартный номер с кроватью «queen-size» · фото 1 из 4",
+        "width": 1137,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h1-2.webp",
+        "source": "https://uk.trip.com/hotels/w/detail/?cityid=1&hotelid=1777604&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=en-GB",
+        "credit": "Trip.com · фотографии категории «Стандартный номер с кроватью «queen-size»»",
+        "caption": "Стандартный номер с кроватью «queen-size» · фото 2 из 4",
+        "width": 1137,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h1-3.webp",
+        "source": "https://uk.trip.com/hotels/w/detail/?cityid=1&hotelid=1777604&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=en-GB",
+        "credit": "Trip.com · фотографии категории «Стандартный номер с кроватью «queen-size»»",
+        "caption": "Стандартный номер с кроватью «queen-size» · фото 3 из 4",
+        "width": 1137,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h1-4.webp",
+        "source": "https://uk.trip.com/hotels/w/detail/?cityid=1&hotelid=1777604&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=en-GB",
+        "credit": "Trip.com · фотографии категории «Стандартный номер с кроватью «queen-size»»",
+        "caption": "Стандартный номер с кроватью «queen-size» · фото 4 из 4",
+        "width": 1137,
+        "height": 853
+      }
+    ],
+    "hotel": {
+      "hotelId": "1777604",
+      "shortName": "Hejia Houhai",
+      "district": "Хоухай · старый центр",
+      "address": "No.6 Xiaobadaowan Hutong, Gulou West Street",
+      "metro": "Guloudajie / Shichahai; закладывайте 15–25 минут пешком в зависимости от станции и выхода.",
+      "room": "Стандартный номер с кроватью «queen-size»",
+      "area": "18 м²",
+      "window": "Обычное окно подтверждено в категории",
+      "bed": "1 queen-size",
+      "total": 28707,
+      "discount": "Special Discount; условия и доступность скидки проверяйте при бронировании.",
+      "roomWarning": "Budget Twin: окна только в части номеров; для сравнения выбран Standard Queen с подтверждённым окном.",
+      "rating": "9,2 / 10",
+      "reviewCount": 787,
+      "verdict": "Наиболее удобен для прогулок по хутунам и Хоухаю; разумный выбор для первой поездки.",
+      "pros": [
+        "Ближе остальных к Хоухаю и Гулоу: часть прогулок начинается пешком.",
+        "Меньше ежедневных переездов по старому центру, чем из Rihe, Jingqi и Yutong."
+      ],
+      "cons": [
+        "18 м²: меньше выбранных номеров Yutong, Jingqi и Rihe.",
+        "По выбранному тарифу дороже Yutong, Rihe и Hejia Anzhen; в отзывах есть замечания к звукоизоляции и запаху дыма."
+      ],
+      "times": [
+        [
+          35,
+          50
+        ],
+        [
+          45,
+          60
+        ],
+        [
+          50,
+          65
+        ],
+        [
+          15,
+          25
+        ],
+        [
+          25,
+          40
+        ],
+        [
+          40,
+          55
+        ],
+        [
+          65,
+          85
+        ]
+      ],
+      "wall": [
+        90,
+        130
+      ],
+      "rateDetails": "Завтрак не включён. Предоплата онлайн; бесплатная отмена до 7 ноября 2026, 18:00 по местному времени отеля.",
+      "assessmentFacts": {
+        "minArea": 18,
+        "panoramic": false,
+        "appliances": false,
+        "opinion": "Мой выбор для прогулок по хутунам: простые 18 м² компенсируются расположением. За тишину и оснащение переплачивать здесь не стоит."
+      }
+    }
+  },
+  {
+    "id": "H2",
+    "name": "Hejia Hotel — Beijing Anzhen Hospital",
+    "zh": "和家宾馆（北京安贞医院店）",
+    "cat": 2,
+    "note": "No.1 Waiguanxie Street, Andingmen Outer",
+    "coord": [
+      116.3993626,
+      39.9621049
+    ],
+    "url": "https://uk.trip.com/hotels/w/detail/?cityid=1&hotelid=1777636&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=en-GB",
+    "description": "Городской отель севернее старого центра. По выбранному тарифу дешевле Houhai; удобнее дальних южных и восточных отелей для Юнхэгуна и северных прогулочных районов.",
+    "photos": [
+      {
+        "src": "./assets/rooms/h2-1.webp",
+        "source": "https://uk.trip.com/hotels/w/detail/?cityid=1&hotelid=1777636&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=en-GB",
+        "credit": "Trip.com · фотографии категории «Номер с кроватью «queen-size»»",
+        "caption": "Номер с кроватью «queen-size» · фото 1 из 4",
+        "width": 1137,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h2-2.webp",
+        "source": "https://uk.trip.com/hotels/w/detail/?cityid=1&hotelid=1777636&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=en-GB",
+        "credit": "Trip.com · фотографии категории «Номер с кроватью «queen-size»»",
+        "caption": "Номер с кроватью «queen-size» · фото 2 из 4",
+        "width": 1137,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h2-3.webp",
+        "source": "https://uk.trip.com/hotels/w/detail/?cityid=1&hotelid=1777636&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=en-GB",
+        "credit": "Trip.com · фотографии категории «Номер с кроватью «queen-size»»",
+        "caption": "Номер с кроватью «queen-size» · фото 3 из 4",
+        "width": 639,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h2-4.webp",
+        "source": "https://uk.trip.com/hotels/w/detail/?cityid=1&hotelid=1777636&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=en-GB",
+        "credit": "Trip.com · фотографии категории «Номер с кроватью «queen-size»»",
+        "caption": "Номер с кроватью «queen-size» · фото 4 из 4",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "hotel": {
+      "hotelId": "1777636",
+      "shortName": "Hejia Anzhen",
+      "district": "Аньчжэнь · севернее старого центра",
+      "address": "No.1 Waiguanxie Street, Andingmen Outer",
+      "metro": "Севернее старого центра; Trip.com сейчас показывает Anhuaqiao около 1,2 км. Выход и пеший маршрут проверяйте в AMap.",
+      "room": "Номер с кроватью «queen-size»",
+      "area": "18 м²",
+      "window": "Панорамное окно подтверждено в категории",
+      "bed": "1 queen-size",
+      "total": 24635,
+      "discount": "Special Discount; условия и доступность скидки проверяйте при бронировании.",
+      "roomWarning": "Special Queen и Special Room — без окон. Выбрана именно Queen Room с French window(s).",
+      "rating": "9,2 / 10",
+      "reviewCount": 4151,
+      "verdict": "Компромисс между ценой и близостью к северу старого центра.",
+      "pros": [
+        "Дешевле Houhai, Yanqishe, Zhuokai, YIXIN и Jinjiang по выбранному тарифу.",
+        "Ближе к северу старого центра, чем южные отели; панорамное окно в категории."
+      ],
+      "cons": [
+        "До прогулочных улиц дальше, чем из Houhai; до метро нужен пеший подход.",
+        "18 м²: уступает Yutong и Jingqi по площади выбранной категории."
+      ],
+      "times": [
+        [
+          45,
+          60
+        ],
+        [
+          45,
+          60
+        ],
+        [
+          60,
+          75
+        ],
+        [
+          30,
+          45
+        ],
+        [
+          30,
+          45
+        ],
+        [
+          45,
+          60
+        ],
+        [
+          55,
+          75
+        ]
+      ],
+      "wall": [
+        80,
+        120
+      ],
+      "rateDetails": "Завтрак не включён. Предоплата онлайн; бесплатная отмена до 7 ноября 2026, 18:00 по местному времени отеля.",
+      "assessmentFacts": {
+        "minArea": 18,
+        "panoramic": true,
+        "appliances": false,
+        "opinion": "Один из самых ровных компромиссов: 18 м² с панорамным окном и умеренная цена. Плата за экономию — подход к метро и менее прогулочное окружение."
+      }
+    }
+  },
+  {
+    "id": "H3",
+    "name": "Beijing Rihe Executive Hotel — Biomedical Base",
+    "zh": "日禾行政酒店(北京大兴龙湖天街生物医药基地地铁站店)",
+    "coord": [
+      116.32309,
+      39.68314
+    ],
+    "cat": 2,
+    "photos": [
+      {
+        "src": "./assets/rooms/h3-1.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=92775101&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_S4xRBhacyW2",
+        "credit": "Trip.com · фотографии категории «Бизнес-номер с кроватью «queen-size»»",
+        "caption": "Бизнес-номер с кроватью «queen-size» · Общий вид: большая кровать, окно со шторами, телевизор и рабочая поверхность.",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h3-2.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=92775101&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_S4xRBhacyW2",
+        "credit": "Trip.com · фотографии категории «Бизнес-номер с кроватью «queen-size»»",
+        "caption": "Бизнес-номер с кроватью «queen-size» · Другой ракурс кровати и окна; кресло у окна.",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h3-3.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=92775101&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_S4xRBhacyW2",
+        "credit": "Trip.com · фотографии категории «Бизнес-номер с кроватью «queen-size»»",
+        "caption": "Бизнес-номер с кроватью «queen-size» · Кресло для отдыха и небольшой столик у окна.",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h3-4.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=92775101&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_S4xRBhacyW2",
+        "credit": "Trip.com · фотографии категории «Бизнес-номер с кроватью «queen-size»»",
+        "caption": "Бизнес-номер с кроватью «queen-size» · Ванная: раковина, зеркало с подсветкой, полотенца.",
+        "width": 568,
+        "height": 853
+      }
+    ],
+    "description": "Современный отель у Biomedical Base в Дасине. Окно и более просторный номер за умеренную цену, но самый длинный средний переезд к городским точкам в этой выборке.",
+    "note": "Building 11, No.1 Courtyard, Jinke Tianchenhui, Yongwang Road",
+    "url": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=92775101&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_S4xRBhacyW2",
+    "hotel": {
+      "hotelId": "92775101",
+      "shortName": "Rihe · Дасин",
+      "district": "Дасин · дальний юг",
+      "address": "Building 11, No.1 Courtyard, Jinke Tianchenhui, Yongwang Road",
+      "metro": "Biomedical Base / 生物医药基地 · линия 4–Дасин; 430 м по Trip.com, около 6–10 минут пешком.",
+      "room": "Бизнес-номер с кроватью «queen-size»",
+      "area": "19–23 м²",
+      "window": "Обычное окно подтверждено Trip.com",
+      "bed": "1 king-size по описанию кровати",
+      "total": 23753,
+      "discount": "Показаны «Предложение для поездки в Китай» и «Скидка после покупки авиабилета», суммарно −30%. Право на скидку нужно проверить.",
+      "roomWarning": "Benefit Queen и Queen Room без окон. Для сравнения выбран Business Queen; фото объекта не гарантирует вид конкретного номера.",
+      "rating": "9,4 / 10",
+      "reviewCount": 3298,
+      "verdict": "Для юга Пекина; для ежедневного осмотра центра экономия невелика.",
+      "pros": [
+        "Выбранная категория больше двух Hejia и дешевле Houhai и Jingqi по наблюдавшемуся тарифу.",
+        "Близкий подход к метро; выгоднее расположен относительно юга и аэропорта Дасин, чем северные отели."
+      ],
+      "cons": [
+        "Самая долгая средняя поездка к семи городским точкам; ежедневные переезды съедают время.",
+        "Цена включает условные скидки; по площади выбранного номера уступает Yutong."
+      ],
+      "times": [
+        [
+          85,
+          105
+        ],
+        [
+          65,
+          85
+        ],
+        [
+          105,
+          125
+        ],
+        [
+          90,
+          110
+        ],
+        [
+          90,
+          110
+        ],
+        [
+          75,
+          95
+        ],
+        [
+          120,
+          145
+        ]
+      ],
+      "wall": [
+        140,
+        190
+      ],
+      "windowSource": "https://www.trip.com/hotels/beijing-hotel-detail-92775101/beijing-rihe-executive-apartment/",
+      "rateDetails": "Завтрак не включён. Предоплата онлайн; бесплатная отмена до 7 ноября 2026, 18:00 по местному времени отеля.",
+      "assessmentFacts": {
+        "minArea": 19,
+        "panoramic": false,
+        "appliances": false,
+        "opinion": "Сам номер выглядит разумно за свои деньги, но для ежедневного осмотра Пекина я бы выбрал более центральную базу. Длинный путь перевешивает небольшую экономию."
+      }
+    }
+  },
+  {
+    "id": "H4",
+    "name": "Jingqi Ouju Hotel — Tiantan Hospital / Fengtai",
+    "zh": "京奇欧居酒店(北京天坛医院丰台火车站店)",
+    "coord": [
+      116.2933,
+      39.8412
+    ],
+    "cat": 2,
+    "photos": [
+      {
+        "src": "./assets/rooms/h4-1.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=25826691&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_bg2kNoEdyW2",
+        "credit": "Trip.com · фотографии категории «Double Bed Room with View (Mlily Zero Pressure Pillow + Fresh Air System)»",
+        "caption": "Double Bed Room with View (Mlily Zero Pressure Pillow + Fresh Air System) · Общий вид двуспальной кровати, окна, телевизора и входа в ванную.",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h4-2.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=25826691&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_bg2kNoEdyW2",
+        "credit": "Trip.com · фотографии категории «Double Bed Room with View (Mlily Zero Pressure Pillow + Fresh Air System)»",
+        "caption": "Double Bed Room with View (Mlily Zero Pressure Pillow + Fresh Air System) · Вид со стороны кровати на окно и рабочее место.",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h4-3.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=25826691&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_bg2kNoEdyW2",
+        "credit": "Trip.com · фотографии категории «Double Bed Room with View (Mlily Zero Pressure Pillow + Fresh Air System)»",
+        "caption": "Double Bed Room with View (Mlily Zero Pressure Pillow + Fresh Air System) · Спальное место, рабочий стол, стул и окно.",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h4-4.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=25826691&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_bg2kNoEdyW2",
+        "credit": "Trip.com · фотографии категории «Double Bed Room with View (Mlily Zero Pressure Pillow + Fresh Air System)»",
+        "caption": "Double Bed Room with View (Mlily Zero Pressure Pillow + Fresh Air System) · Собственная ванная: унитаз, раковина и душ с занавеской.",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "description": "Отель у Fengtai Nanlu и вокзала Фэнтай. Удобен для вокзала Фэнтай, но до старого центра дальше, чем из двух Hejia. Tiantan Hospital в названии — больница, а не Храм Неба.",
+    "note": "No.193, Liujia Village",
+    "url": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=25826691&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_bg2kNoEdyW2",
+    "hotel": {
+      "hotelId": "25826691",
+      "shortName": "Jingqi Ouju · Фэнтай",
+      "district": "Фэнтай · юго-запад",
+      "address": "No.193, Liujia Village",
+      "metro": "Fengtai Nanlu / 丰台南路 · линии 9 и 16; 340 м по Trip.com, около 5–8 минут пешком.",
+      "room": "Double Bed Room with View (Mlily Zero Pressure Pillow + Fresh Air System)",
+      "area": "20–25 м²",
+      "window": "Обычное окно подтверждено в категории",
+      "bed": "1 queen-size",
+      "total": 28593,
+      "discount": "Предложение для поездки в Китай и скидка после покупки авиабилета, суммарно −37%; условия могут отличаться.",
+      "roomWarning": "Scenic Double Bed Room 18 м² указан со слуховым окном. Выбрана категория Double Bed Room with View с обычным окном.",
+      "rating": "9,5 / 10",
+      "reviewCount": 1707,
+      "verdict": "Удобен для Фэнтая и его вокзала; для обзорной поездки есть более центральные варианты.",
+      "pros": [
+        "Короткий подход к двум линиям метро: 340 м, ближе большинства альтернатив.",
+        "20–25 м² больше обоих Hejia и YIXIN; есть бесплатная прачечная."
+      ],
+      "cons": [
+        "За неделю почти та же цена, что Houhai, при более долгих поездках к старому центру.",
+        "В отдельных отзывах есть жалобы на слышимость; Yutong дешевле и предлагает номер фиксированной площади 25 м²."
+      ],
+      "times": [
+        [
+          60,
+          75
+        ],
+        [
+          50,
+          65
+        ],
+        [
+          65,
+          85
+        ],
+        [
+          65,
+          80
+        ],
+        [
+          70,
+          85
+        ],
+        [
+          50,
+          65
+        ],
+        [
+          95,
+          120
+        ]
+      ],
+      "wall": [
+        120,
+        165
+      ],
+      "rateDetails": "Завтрак не включён. Предоплата онлайн; бесплатная отмена до 7 ноября 2026, 20:00 по местному времени отеля.",
+      "assessmentFacts": {
+        "minArea": 20,
+        "panoramic": false,
+        "appliances": false,
+        "opinion": "Практичный номер 20–25 м² у метро, особенно если нужен Фэнтай. При почти той же цене, что Houhai, для первой обзорной поездки уступает по расположению."
+      }
+    }
+  },
+  {
+    "id": "H5",
+    "name": "Yutong Hotel — Tongzhou Jiukeshu",
+    "zh": "仟同酒店(北京环球影城度假区九棵树地铁站店)",
+    "coord": [
+      116.6519,
+      39.8922
+    ],
+    "cat": 2,
+    "photos": [
+      {
+        "src": "./assets/rooms/h5-1.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=76192598&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_TU4NmU4dyW2",
+        "credit": "Trip.com · фотографии категории «Уютный номер с кроватью размера \"queen-size\"»",
+        "caption": "Уютный номер с кроватью размера \"queen-size\" · Кровать и панорамное окно с видом на город.",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h5-2.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=76192598&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_TU4NmU4dyW2",
+        "credit": "Trip.com · фотографии категории «Уютный номер с кроватью размера \"queen-size\"»",
+        "caption": "Уютный номер с кроватью размера \"queen-size\" · Вид вдоль кровати на окно, телевизор и письменный стол.",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h5-3.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=76192598&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_TU4NmU4dyW2",
+        "credit": "Trip.com · фотографии категории «Уютный номер с кроватью размера \"queen-size\"»",
+        "caption": "Уютный номер с кроватью размера \"queen-size\" · Душевая зона и раковина в ванной комнате.",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h5-4.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=76192598&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_TU4NmU4dyW2",
+        "credit": "Trip.com · фотографии категории «Уютный номер с кроватью размера \"queen-size\"»",
+        "caption": "Уютный номер с кроватью размера \"queen-size\" · Кровать, шкаф, телевизор и вход в ванную.",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "description": "Небольшой отель в Тунчжоу с просторными номерами и панорамными окнами. Привлекателен для Universal; для старого Пекина потребуются долгие ежедневные переезды.",
+    "note": "Building 15A, Gebudian Beili",
+    "url": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=76192598&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU&fromShare=TripAppDetail&linkhub_token=sl_TU4NmU4dyW2",
+    "hotel": {
+      "hotelId": "76192598",
+      "shortName": "Yutong · Тунчжоу",
+      "district": "Тунчжоу · дальний восток",
+      "address": "Building 15A, Gebudian Beili",
+      "metro": "Jiukeshu / 九棵树 · линия 1–Батун; 470 м по Trip.com, около 7–10 минут пешком.",
+      "room": "Уютный номер с кроватью размера \"queen-size\"",
+      "area": "25 м²",
+      "window": "Панорамное окно подтверждено в категории",
+      "bed": "1 queen-size",
+      "total": 21197,
+      "discount": "Предложение для первого проживания, −21%; доступность скидки зависит от условий Trip.com.",
+      "roomWarning": "Проверена категория 25 м² с французским окном; вид и этаж зависят от выделенного номера.",
+      "rating": "9,4 / 10",
+      "reviewCount": 928,
+      "verdict": "Бюджетная база для Universal: 25 м² и панорамное окно; до центра далеко.",
+      "pros": [
+        "Вторая по величине экономия после Comfort: 21 197 ₽ за неделю, 25 м² и панорамное окно.",
+        "Ближе остальных к Universal: Trip.com указывает 7,4 км; удобен для отдельной части поездки."
+      ],
+      "cons": [
+        "Далеко от старого центра и Летнего дворца; по ежедневным переездам проигрывает двум Hejia и Jingqi.",
+        "Тариф со скидкой для первого проживания; в отдельных отзывах отмечают недочёты уборки."
+      ],
+      "times": [
+        [
+          70,
+          90
+        ],
+        [
+          65,
+          85
+        ],
+        [
+          105,
+          130
+        ],
+        [
+          80,
+          100
+        ],
+        [
+          75,
+          95
+        ],
+        [
+          65,
+          85
+        ],
+        [
+          75,
+          100
+        ]
+      ],
+      "wall": [
+        110,
+        160
+      ],
+      "rateDetails": "Завтрак не включён. Предоплата онлайн; бесплатная отмена до 7 ноября 2026, 18:00 по местному времени отеля.",
+      "assessmentFacts": {
+        "minArea": 25,
+        "panoramic": true,
+        "appliances": false,
+        "opinion": "Хорошая покупка ради площади, окна и Universal. Для недели прогулок по старому Пекину низкая цена не компенсирует долгие ежедневные переезды."
+      }
+    }
+  },
+  {
+    "id": "H6",
+    "name": "Yanqishe Hotel（Beijing China-Japan Friendship Hospital Anzhen Branch）",
+    "zh": "雁栖舍酒店(北京中日友好医院安贞店)",
+    "cat": 2,
+    "coord": [
+      116.41599,
+      39.97179
+    ],
+    "note": "1st-2nd Floors, Building 3, and Bungalows, Buildings 1-11, No. 1 Shengguzhuang, Chaoyang, Beijing",
+    "description": "Удобная северная база у линии 5; простор выбранного номера не гарантирован.",
+    "url": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=112969397&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+    "hotel": {
+      "shortName": "Yanqishe · Hepingxiqiao",
+      "district": "Чаоян · север третьего кольца",
+      "metro": "Hepingxiqiao / 和平西桥 · линия 5; 450 м, около 7–10 минут пешком. Huixinxijie Nankou · линии 5/10 — 740 м.",
+      "area": "15–20 м²",
+      "bed": "1 queen-size · 1,8 м",
+      "window": "Обычное окно в выбранной категории",
+      "total": 27756,
+      "discount": "Скидка после покупки авиабилета, −26%; предложение зависит от права на акцию.",
+      "times": [
+        [
+          45,
+          60
+        ],
+        [
+          45,
+          60
+        ],
+        [
+          60,
+          80
+        ],
+        [
+          35,
+          50
+        ],
+        [
+          20,
+          35
+        ],
+        [
+          45,
+          60
+        ],
+        [
+          50,
+          70
+        ]
+      ],
+      "wall": [
+        80,
+        120
+      ],
+      "verdict": "Удобная северная база у линии 5; простор выбранного номера не гарантирован.",
+      "pros": [
+        "Метро ближе, чем у Hejia Anzhen, YIXIN и Jinjiang; линия 5 удобна для Юнхэгуна и Храма Неба.",
+        "Есть бесплатная прачечная и фитнес-зал; дешевле Houhai и Jinjiang по выбранному тарифу."
+      ],
+      "cons": [
+        "15–20 м²: конкретный номер может быть теснее обоих Hejia; Nanshu заметно просторнее.",
+        "Нет завтрака; в отдельных старых отзывах упоминаются слышимость и запах дыма."
+      ],
+      "roomWarning": "Дешёвые Comfy Sleep — без окна, Cozy — с окном в коридор. Выбран Deluxe Queen с обычным окном; категория допускает площадь от 15 м².",
+      "hotelId": "112969397",
+      "address": "1st-2nd Floors, Building 3, and Bungalows, Buildings 1-11, No. 1 Shengguzhuang, Chaoyang, Beijing",
+      "room": "Номер Делюкс с кроватью «queen-size»",
+      "rating": "9,2 / 10",
+      "reviewCount": 1669,
+      "rateDetails": "Завтрак не включён. Предоплата онлайн; бесплатная отмена до 7 ноября 2026, 18:00 по местному времени отеля.",
+      "assessmentFacts": {
+        "minArea": 15,
+        "panoramic": false,
+        "appliances": false,
+        "opinion": "Привлекателен близостью линии 5 и большой кроватью. Но 15–20 м² — широкий диапазон: я бы выбирал его ради расположения, а не ожидания просторного номера."
+      }
+    },
+    "photos": [
+      {
+        "src": "./assets/rooms/h6-1.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=112969397&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Номер Делюкс с кроватью «queen-size»»",
+        "caption": "Номер Делюкс с кроватью «queen-size» · фото 1 из 4",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h6-2.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=112969397&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Номер Делюкс с кроватью «queen-size»»",
+        "caption": "Номер Делюкс с кроватью «queen-size» · фото 2 из 4",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h6-3.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=112969397&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Номер Делюкс с кроватью «queen-size»»",
+        "caption": "Номер Делюкс с кроватью «queen-size» · фото 3 из 4",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h6-4.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=112969397&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Номер Делюкс с кроватью «queen-size»»",
+        "caption": "Номер Делюкс с кроватью «queen-size» · фото 4 из 4",
+        "width": 1277,
+        "height": 853
+      }
+    ]
+  },
+  {
+    "id": "H7",
+    "name": "YIXIN SELECT HOTEL",
+    "zh": "怡馨精选酒店(东方医院刘家窑地铁站店)",
+    "cat": 2,
+    "coord": [
+      116.43169,
+      39.85921
+    ],
+    "note": "Room 301, 3rd Floor, Building 22, Zone 4, Fangqunyuan, South 3rd Ring East Road, Fengtai, Beijing",
+    "description": "Самая компактная выбранная категория; по цене и площади уступает многим альтернативам.",
+    "url": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=134131273&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+    "hotel": {
+      "shortName": "YIXIN Select",
+      "district": "Фэнтай · Люцзяяо / Фанчжуан",
+      "metro": "Liujiayao / 刘家窑 · линия 5; 890 м, закладывайте около 12–18 минут пешком.",
+      "area": "12–15 м²",
+      "bed": "1 двуспальная · 1,5 м",
+      "window": "Панорамное окно / вид на город",
+      "total": 32128,
+      "discount": "Раннее бронирование, −16%; условия акции проверяйте перед оплатой.",
+      "times": [
+        [
+          45,
+          60
+        ],
+        [
+          30,
+          45
+        ],
+        [
+          80,
+          100
+        ],
+        [
+          55,
+          70
+        ],
+        [
+          45,
+          60
+        ],
+        [
+          40,
+          55
+        ],
+        [
+          80,
+          100
+        ]
+      ],
+      "wall": [
+        110,
+        155
+      ],
+      "verdict": "Самая компактная выбранная категория; по цене и площади уступает многим альтернативам.",
+      "pros": [
+        "Открыт в 2026 году; рейтинг 9,1, но пока всего 158 отзывов.",
+        "Удобнее для юга центра, чем Rihe или Yutong; подтверждён вид на город."
+      ],
+      "cons": [
+        "Всего 12–15 м² — самый маленький выбранный номер из 11; комфорт для двоих ограничен.",
+        "Дороже остальных выбранных категорий; метро почти в километре, завтрака нет."
+      ],
+      "roomWarning": "На эти даты показана одна категория: 12–15 м². Окно есть, но назвать такой номер просторным нельзя; более комфортной альтернативы в выдаче нет.",
+      "hotelId": "134131273",
+      "address": "Room 301, 3rd Floor, Building 22, Zone 4, Fangqunyuan, South 3rd Ring East Road, Fengtai, Beijing",
+      "room": "Floor-to-Ceiling Deluxe Double Bed Room (Smart Control + Mobile Screen Casting + Zero Pressure Mattress)",
+      "rating": "9,1 / 10",
+      "reviewCount": 158,
+      "rateDetails": "Завтрак не включён. Предоплата онлайн; бесплатная отмена до 7 ноября 2026, 10:00 по местному времени отеля.",
+      "assessmentFacts": {
+        "minArea": 12,
+        "panoramic": true,
+        "appliances": false,
+        "opinion": "Самый слабый вариант по сочетанию площади и цены: для двоих 12–15 м² тесно. Новизна и панорамное окно приятны, но не оправдывают самую высокую цену в выборке."
+      }
+    },
+    "photos": [
+      {
+        "src": "./assets/rooms/h7-1.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=134131273&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Floor-to-Ceiling Deluxe Double Bed Room (Smart Control + Mobile Screen Casting + Zero Pressure Mattress)»",
+        "caption": "Floor-to-Ceiling Deluxe Double Bed Room (Smart Control + Mobile Screen Casting + Zero Pressure Mattress) · фото 1 из 4",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h7-2.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=134131273&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Floor-to-Ceiling Deluxe Double Bed Room (Smart Control + Mobile Screen Casting + Zero Pressure Mattress)»",
+        "caption": "Floor-to-Ceiling Deluxe Double Bed Room (Smart Control + Mobile Screen Casting + Zero Pressure Mattress) · фото 2 из 4",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h7-3.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=134131273&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Floor-to-Ceiling Deluxe Double Bed Room (Smart Control + Mobile Screen Casting + Zero Pressure Mattress)»",
+        "caption": "Floor-to-Ceiling Deluxe Double Bed Room (Smart Control + Mobile Screen Casting + Zero Pressure Mattress) · фото 3 из 4",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h7-4.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=134131273&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Floor-to-Ceiling Deluxe Double Bed Room (Smart Control + Mobile Screen Casting + Zero Pressure Mattress)»",
+        "caption": "Floor-to-Ceiling Deluxe Double Bed Room (Smart Control + Mobile Screen Casting + Zero Pressure Mattress) · фото 4 из 4",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  {
+    "id": "H8",
+    "name": "Zhuokai Hotel",
+    "zh": "卓恺宾馆(北京中医药大学东方医院方庄院区方庄地铁站店)",
+    "cat": 2,
+    "coord": [
+      116.43244,
+      39.86948
+    ],
+    "note": "1st Floor, Building 13, Fangchengyuan District 1, Fangcheng Road, Fengtai, Beijing",
+    "description": "Небольшой отель для юга города; выгоднее YIXIN, но без явного преимущества перед Hejia.",
+    "url": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=123249432&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+    "hotel": {
+      "shortName": "Zhuokai · Фанчжуан",
+      "district": "Фэнтай · Фанчжуан",
+      "metro": "Fangzhuang / 方庄 · линия 14; 870 м, около 12–18 минут пешком; для линии 5 нужна пересадка.",
+      "area": "18–20 м²",
+      "bed": "1 двуспальная · 1,5 м",
+      "window": "Вид на город в выбранной категории",
+      "total": 29237,
+      "discount": "Раннее бронирование, −13%. Trip Coins не вычтены из стоимости.",
+      "times": [
+        [
+          45,
+          60
+        ],
+        [
+          30,
+          45
+        ],
+        [
+          80,
+          100
+        ],
+        [
+          55,
+          75
+        ],
+        [
+          50,
+          65
+        ],
+        [
+          35,
+          50
+        ],
+        [
+          75,
+          95
+        ]
+      ],
+      "wall": [
+        110,
+        155
+      ],
+      "verdict": "Небольшой отель для юга города; выгоднее YIXIN, но без явного преимущества перед Hejia.",
+      "pros": [
+        "18–20 м² больше YIXIN; Standard Queen дешевле его маленького номера.",
+        "Открыт в 2024 году; есть бесплатная прачечная, до Храма Неба ближе, чем из Rihe или Yutong."
+      ],
+      "cons": [
+        "Недельная цена выше Houhai и Hejia Anzhen, а для северных прогулок расположение хуже.",
+        "Метро в 870 м; нет завтрака. Окна нужно проверять именно по категории."
+      ],
+      "roomWarning": "В Standard Twin есть оговорка об окнах в коридор: он исключён. Выбран Standard Queen с видом на город и без этой оговорки; название кровати queen, но её указанная ширина — 1,5 м.",
+      "hotelId": "123249432",
+      "address": "1st Floor, Building 13, Fangchengyuan District 1, Fangcheng Road, Fengtai, Beijing",
+      "room": "Стандартный номер с кроватью «queen-size»",
+      "rating": "9,1 / 10",
+      "reviewCount": 426,
+      "rateDetails": "Завтрак не включён. Предоплата онлайн; бесплатная отмена до 7 ноября 2026, 18:00 по местному времени отеля.",
+      "assessmentFacts": {
+        "minArea": 18,
+        "panoramic": false,
+        "appliances": false,
+        "opinion": "Нормальный компактный вариант для юга города, но без убедительного преимущества по цене. Важно бронировать именно Standard Queen: у Twin есть оговорка об окнах в коридор."
+      }
+    },
+    "photos": [
+      {
+        "src": "./assets/rooms/h8-1.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=123249432&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Стандартный номер с кроватью «queen-size»»",
+        "caption": "Стандартный номер с кроватью «queen-size» · Общий вид: двуспальная кровать, внешнее окно со шторами, столик у окна.",
+        "width": 1280,
+        "height": 800
+      },
+      {
+        "src": "./assets/rooms/h8-2.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=123249432&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Стандартный номер с кроватью «queen-size»»",
+        "caption": "Стандартный номер с кроватью «queen-size» · Спальное место и умывальная зона с круглым зеркалом у входа.",
+        "width": 1280,
+        "height": 800
+      },
+      {
+        "src": "./assets/rooms/h8-3.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=123249432&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Стандартный номер с кроватью «queen-size»»",
+        "caption": "Стандартный номер с кроватью «queen-size» · Другой ракурс кровати и встроенных шкафов; перегородка у ванной.",
+        "width": 1280,
+        "height": 800
+      },
+      {
+        "src": "./assets/rooms/h8-4.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=123249432&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Стандартный номер с кроватью «queen-size»»",
+        "caption": "Стандартный номер с кроватью «queen-size» · Вид от кровати на телевизор, окно и рабочую поверхность.",
+        "width": 1280,
+        "height": 800
+      }
+    ]
+  },
+  {
+    "id": "H9",
+    "name": "Comfort Hotel (Beijing South Railway Station Tiantan South Gate)",
+    "zh": "康福瑞酒店(北京南站天坛南门店)",
+    "cat": 2,
+    "coord": [
+      116.4079,
+      39.86898
+    ],
+    "note": "Room 113, Building 9, No. 11 Yongwaitaoyang Road, Dongcheng, Beijing",
+    "description": "Самая низкая показанная цена; компромисс по оценке качества и пешему подходу к метро.",
+    "url": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=52324495&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+    "hotel": {
+      "shortName": "Comfort · юг Храма Неба",
+      "district": "Дунчэн · южнее Храма Неба",
+      "metro": "Yongdingmenwai / 永定门外 · линии 8/14; около 1 км. В зависимости от выхода и входа в парк закладывайте 15–20 минут пешком до метро.",
+      "area": "19 м²",
+      "bed": "1 двуспальная · 1,5 м",
+      "window": "Обычное окно в категории",
+      "total": 19169,
+      "discount": "Скидка после покупки авиабилета, −39%; без права на акцию сумма может быть выше.",
+      "times": [
+        [
+          40,
+          55
+        ],
+        [
+          30,
+          45
+        ],
+        [
+          75,
+          95
+        ],
+        [
+          45,
+          65
+        ],
+        [
+          45,
+          60
+        ],
+        [
+          30,
+          45
+        ],
+        [
+          80,
+          100
+        ]
+      ],
+      "wall": [
+        110,
+        155
+      ],
+      "verdict": "Самая низкая показанная цена; компромисс по оценке качества и пешему подходу к метро.",
+      "pros": [
+        "Дешевле всех 11 выбранных категорий; центр доступнее, чем из Rihe и Yutong.",
+        "19 м² с окном; удобен для юга Храма Неба, Цяньмэнь и южного вокзала."
+      ],
+      "cons": [
+        "8,3/10 — самая низкая оценка в выборке; свежие отзывы содержат жалобы на уборку, слышимость и назначение категории.",
+        "До метро около километра; завтрак не предоставляется, низкая цена зависит от скидки после авиабилета."
+      ],
+      "roomWarning": "Выбран Exclusive Superior Double, 19 м² с окном. В отзывах есть жалобы на выдачу другой категории: сверяйте название при заселении.",
+      "hotelId": "52324495",
+      "address": "Room 113, Building 9, No. 11 Yongwaitaoyang Road, Dongcheng, Beijing",
+      "room": "Эксклюзивный улучшенный номер (двуспальная кровать)",
+      "rating": "8,3 / 10",
+      "reviewCount": 1702,
+      "rateDetails": "Завтрак не включён. Предоплата онлайн; бесплатная отмена до 7 ноября 2026, 18:00 по местному времени отеля.",
+      "assessmentFacts": {
+        "minArea": 19,
+        "panoramic": false,
+        "appliances": false,
+        "opinion": "Сильный бюджетный кандидат: 19 м² с окном и сравнительно доступный центр. Я бы выбирал его только при готовности к рискам уборки и звукоизоляции из отзывов."
+      }
+    },
+    "photos": [
+      {
+        "src": "./assets/rooms/h9-1.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=52324495&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Эксклюзивный улучшенный номер (двуспальная кровать)»",
+        "caption": "Эксклюзивный улучшенный номер (двуспальная кровать) · Общий вид небольшой спальни: двуспальная кровать, внешнее окно, шкаф и телевизор.",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h9-2.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=52324495&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Эксклюзивный улучшенный номер (двуспальная кровать)»",
+        "caption": "Эксклюзивный улучшенный номер (двуспальная кровать) · Вид к входу: кровать, встроенный шкаф и кухонная зона.",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h9-3.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=52324495&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Эксклюзивный улучшенный номер (двуспальная кровать)»",
+        "caption": "Эксклюзивный улучшенный номер (двуспальная кровать) · Кухонный проход со стиральной машиной, далее кровать и окно.",
+        "width": 568,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h9-4.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=52324495&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Эксклюзивный улучшенный номер (двуспальная кровать)»",
+        "caption": "Эксклюзивный улучшенный номер (двуспальная кровать) · Собственная ванная: унитаз, раковина, зеркало и душ с занавеской.",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  {
+    "id": "H10",
+    "name": "Beijing Nanshu Apartment (Outside South Third Ring Songjiazhuang Subway Station)",
+    "zh": "北京楠树公寓(南三环外宋家庄地铁站店)",
+    "cat": 2,
+    "coord": [
+      116.42059,
+      39.8502
+    ],
+    "note": "1st Floor, Building 8, No. 15 Courtyard, Jiajia Garden, Shazikou Road, Фэнтай, Пекин, Китай",
+    "description": "Лучший вариант по площади за эту цену: студия 35 м² и два завтрака, с оговорками по отзывам.",
+    "url": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=132619693&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+    "hotel": {
+      "shortName": "Nanshu · Songjiazhuang",
+      "district": "Фэнтай · южнее третьего кольца",
+      "metro": "Songjiazhuang / 宋家庄 · линии 5, 10 и Ичжуан; 960 м, около 14–20 минут пешком.",
+      "area": "35 м²",
+      "bed": "1 двуспальная · 1,5 м",
+      "window": "Обычное окно в категории",
+      "total": 24525,
+      "discount": "Скидка после покупки авиабилета, −41%. Trip Coins не вычтены из стоимости.",
+      "times": [
+        [
+          50,
+          65
+        ],
+        [
+          35,
+          50
+        ],
+        [
+          80,
+          105
+        ],
+        [
+          60,
+          75
+        ],
+        [
+          50,
+          65
+        ],
+        [
+          45,
+          60
+        ],
+        [
+          80,
+          105
+        ]
+      ],
+      "wall": [
+        115,
+        160
+      ],
+      "verdict": "Лучший вариант по площади за эту цену: студия 35 м² и два завтрака, с оговорками по отзывам.",
+      "pros": [
+        "Самая просторная выбранная категория: 35 м², стиральная машина, холодильник и микроволновка.",
+        "Два завтрака включены; дешевле обоих Hejia, Yanqishe, Zhuokai и Jinjiang по показанному тарифу."
+      ],
+      "cons": [
+        "Метро почти в километре; для хутунов и Летнего дворца менее удобен, чем северные варианты.",
+        "Только 78 отзывов; встречаются жалобы на уборку и запахи, несмотря на открытие в 2025 году."
+      ],
+      "roomWarning": "Выбрана Classic Studio 35 м² с окном. Exclusive Studio 42 м² — другая категория и стоит дороже; её фотографии сюда не подмешаны.",
+      "hotelId": "132619693",
+      "address": "1st Floor, Building 8, No. 15 Courtyard, Jiajia Garden, Shazikou Road, Фэнтай, Пекин, Китай",
+      "room": "Classic Studio (Fridge + Microwave + Washing Machine)",
+      "rating": "9,0 / 10",
+      "reviewCount": 78,
+      "rateDetails": "Включены два завтрака ежедневно. Предоплата онлайн; бесплатная отмена до 7 ноября 2026, 20:00 по местному времени отеля.",
+      "assessmentFacts": {
+        "minArea": 35,
+        "panoramic": false,
+        "appliances": true,
+        "opinion": "Мой фаворит по бытовому комфорту за эту цену: 35 м², своя стиральная машина и два завтрака. До метро нужно идти, а небольшая база отзывов оставляет больше неопределённости."
+      }
+    },
+    "photos": [
+      {
+        "src": "./assets/rooms/h10-1.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=132619693&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Classic Studio (Fridge + Microwave + Washing Machine)»",
+        "caption": "Classic Studio (Fridge + Microwave + Washing Machine) · Кровать, телевизор, кондиционер и окно за тюлем.",
+        "width": 1137,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h10-2.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=132619693&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Classic Studio (Fridge + Microwave + Washing Machine)»",
+        "caption": "Classic Studio (Fridge + Microwave + Washing Machine) · Собственная ванная: душевая кабина, раковина и туалет.",
+        "width": 1137,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h10-3.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=132619693&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Classic Studio (Fridge + Microwave + Washing Machine)»",
+        "caption": "Classic Studio (Fridge + Microwave + Washing Machine) · Кровать, холодильник и шкаф.",
+        "width": 1137,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h10-4.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=132619693&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Classic Studio (Fridge + Microwave + Washing Machine)»",
+        "caption": "Classic Studio (Fridge + Microwave + Washing Machine) · Кровать, окно, телевизор и проход в ванную.",
+        "width": 1137,
+        "height": 853
+      }
+    ]
+  },
+  {
+    "id": "H11",
+    "name": "Jinjiang Inn Style Hotel (Beijing Dongzhime, Sanlitun)",
+    "zh": "锦江之星风尚酒店(北京东直门三里屯店)",
+    "cat": 2,
+    "coord": [
+      116.44399,
+      39.94236
+    ],
+    "note": "Building 1, No. 29 Nan'erlizhuang, Dongzhimenwai, Дунчен, Пекин, Китай",
+    "description": "Хорош для Саньлитуня, набережной и аэропорта Шоуду; площадь номера сильно варьируется.",
+    "url": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=60169431&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+    "hotel": {
+      "shortName": "Jinjiang · Dongzhimen",
+      "district": "Дунчэн / Чаоян · Дунчжимэнь, Саньлитунь",
+      "metro": "Dongzhimen / 东直门 · линии 2/13 и экспресс в Шоуду; 960 м, около 13–20 минут пешком.",
+      "area": "15–28 м²",
+      "bed": "1 queen-size · 1,51 м",
+      "window": "Обычное окно в категории",
+      "total": 30934,
+      "discount": "Предложение для поездки в Китай, −15%; условия акции могут отличаться.",
+      "times": [
+        [
+          40,
+          55
+        ],
+        [
+          50,
+          65
+        ],
+        [
+          70,
+          90
+        ],
+        [
+          35,
+          50
+        ],
+        [
+          30,
+          45
+        ],
+        [
+          45,
+          60
+        ],
+        [
+          40,
+          60
+        ]
+      ],
+      "wall": [
+        90,
+        135
+      ],
+      "verdict": "Хорош для Саньлитуня, набережной и аэропорта Шоуду; площадь номера сильно варьируется.",
+      "pros": [
+        "Набережная Liangma River в 260 м, Taikoo Li примерно в 1,55 км пешком; к 798 удобнее южных отелей.",
+        "Dongzhimen связывает кольцевую линию 2 и аэропорт Шоуду; много отзывов (2 882)."
+      ],
+      "cons": [
+        "Дороже Houhai, Hejia Anzhen и Nanshu; 15–28 м² означает, что большой номер не гарантирован.",
+        "Метро почти в километре, завтрак платный; в отдельных свежих отзывах есть жалобы на уборку."
+      ],
+      "roomWarning": "Выбран Superior Double с окном, но площадь категории 15–28 м². Фото показывают варианты категории, а не гарантированную планировку или метраж.",
+      "hotelId": "60169431",
+      "address": "Building 1, No. 29 Nan'erlizhuang, Dongzhimenwai, Дунчен, Пекин, Китай",
+      "room": "Улучшенный двухместный номер",
+      "rating": "9,0 / 10",
+      "reviewCount": 2882,
+      "rateDetails": "Завтрак не включён. Предоплата онлайн; бесплатная отмена до 7 ноября 2026, 18:00 по местному времени отеля.",
+      "assessmentFacts": {
+        "minArea": 15,
+        "panoramic": false,
+        "appliances": false,
+        "opinion": "Выбрал бы ради Саньлитуня, набережной и связи с Шоуду. По самому номеру предложение среднее: 15–28 м² не гарантируют простор, а цена выше более выгодных альтернатив."
+      }
+    },
+    "photos": [
+      {
+        "src": "./assets/rooms/h11-1.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=60169431&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Улучшенный двухместный номер»",
+        "caption": "Улучшенный двухместный номер · Кровать, телевизор, письменный стол и закрытые шторы.",
+        "width": 1137,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h11-2.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=60169431&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Улучшенный двухместный номер»",
+        "caption": "Улучшенный двухместный номер · Кровать и кресло со стороны входа.",
+        "width": 1137,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h11-3.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=60169431&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Улучшенный двухместный номер»",
+        "caption": "Улучшенный двухместный номер · Кровать, шкаф и телевизор с другого ракурса.",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "./assets/rooms/h11-4.webp",
+        "source": "https://ru.trip.com/hotels/w/detail/?cityid=1&hotelid=60169431&checkin=2026-11-07&checkout=2026-11-14&curr=RUB&locale=ru-RU",
+        "credit": "Trip.com · фотографии категории «Улучшенный двухместный номер»",
+        "caption": "Улучшенный двухместный номер · Ванная: раковина, туалет и душ.",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  }
+];

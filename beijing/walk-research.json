@@ -781,20 +781,101 @@
       "name": "Янмэйчжу и соседние хутуны",
       "zh": "杨梅竹斜街",
       "coord": [
-        116.392053,
-        39.8956048
+        116.3870944,
+        39.8945583
       ],
       "cat": 1,
       "note": "Метка — ориентир, а не граница района. Вход и часы работы уточняйте в AMap.",
       "description": "Книжные, небольшие кафе, винтажные и дизайнерские магазины среди старых хутунов. Основная улица короткая — около 500 м; продолжить прогулку можно по Tieshu Xiejie и Yingtao Xiejie, затем выйти к Дашиланю.",
-      "photos": [],
+      "photos": [
+        {
+          "title": "Yangmeizhu Xiejie (20240210151543).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Yangmeizhu_Xiejie_(20240210151543).jpg",
+          "originalSource": "",
+          "sourceProvider": "Wikimedia Commons",
+          "caption": "Янмэйчжу: прогулочная улица и небольшие магазины, февраль 2024.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 1280,
+          "height": 853,
+          "src": "./assets/places/H/01.webp",
+          "thumbnail": "./assets/places/H/01-thumb.webp",
+          "dateTaken": "2024-02-10 15:15:43"
+        },
+        {
+          "title": "Suzuki Kitchen at Yangmeizhu Xiejie, Beijing (20240210151713).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Suzuki_Kitchen_at_Yangmeizhu_Xiejie,_Beijing_(20240210151713).jpg",
+          "originalSource": "",
+          "sourceProvider": "Wikimedia Commons",
+          "caption": "Фасад Suzuki Kitchen на Янмэйчжу, февраль 2024.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 1280,
+          "height": 853,
+          "src": "./assets/places/H/02.webp",
+          "thumbnail": "./assets/places/H/02-thumb.webp",
+          "dateTaken": "2024-02-10 15:17:13"
+        },
+        {
+          "title": "20240811 135647 Beijing.jpg",
+          "author": "J. Patrick Fischer",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:20240811_135647_Beijing.jpg",
+          "originalSource": "",
+          "sourceProvider": "Wikimedia Commons",
+          "caption": "Табличка Янмэйчжу у восточного выхода на Мэйши-цзе, август 2024.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 1280,
+          "height": 960,
+          "src": "./assets/places/H/03.webp",
+          "thumbnail": "./assets/places/H/03-thumb.webp",
+          "dateTaken": "2024-08-11 13:56:47"
+        },
+        {
+          "title": "Hutongs outside Qianmen.jpg",
+          "author": "郭友柏",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Hutongs_outside_Qianmen.jpg",
+          "originalSource": "",
+          "sourceProvider": "Wikimedia Commons",
+          "caption": "Архивное фото, 2017: панорама соседних хутунов у Цяньмэнь.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 1280,
+          "height": 960,
+          "src": "./assets/places/H/04.webp",
+          "thumbnail": "./assets/places/H/04-thumb.webp",
+          "dateTaken": "2017-07-07 12:34:03"
+        },
+        {
+          "title": "·˙·ChinaUli2010·.· Beijing - panoramio (18).jpg",
+          "author": "·˙·ChinaUli2010·.·",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:%C2%B7%CB%99%C2%B7ChinaUli2010%C2%B7.%C2%B7_Beijing_-_panoramio_(18).jpg",
+          "originalSource": "https://web.archive.org/web/20161016190042/http://www.panoramio.com/photo/44547935",
+          "sourceProvider": "Wikimedia Commons",
+          "caption": "Архивное фото, 2010: зимний переулок рядом с Тешу-цзецзе, к юго-западу от Янмэйчжу.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 960,
+          "height": 1280,
+          "src": "./assets/places/H/05.webp",
+          "thumbnail": "./assets/places/H/05-thumb.webp",
+          "dateTaken": "Taken on 8 January 2010"
+        }
+      ],
       "walk": {
         "kind": "Улица и переулки",
         "duration": "1–2,5 часа",
         "sources": [
           "https://www.visitbeijing.com.cn/article/4PQ2YR76lkR"
         ],
-        "coordinateSource": "https://zh.wikipedia.org/wiki/杨梅竹斜街",
+        "coordinateSource": "https://www.openstreetmap.org/way/30749235",
         "scores": [
           4.5,
           4.5,
@@ -808,7 +889,8 @@
           "Основная улица около 500 м; оценка учитывает соседние переулки.",
           "Разнообразные магазины, ремёсла, архитектура и еда."
         ],
-        "checked": "2026-11-01"
+        "checked": "2026-11-01",
+        "coordinateMethod": "WGS84, ориентир на улице 杨梅竹斜街; подтверждён OSM way30749235 и координатами Commons."
       }
     },
     {
@@ -822,7 +904,109 @@
       "cat": 1,
       "note": "Метка — ориентир, а не граница района. Вход и часы работы уточняйте в AMap.",
       "description": "Камерная прогулка вдоль воды и мостиков среди хутунов к востоку от Цяньмэня. Есть кафе у воды; район удобно соединить с Сяньюйкоу и Янмэйчжу. Это Саньлихэ возле Цяньмэня, не одноимённый район на западе Пекина.",
-      "photos": [],
+      "photos": [
+        {
+          "title": "Sanli River, Dongcheng (20240508111813).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Sanli_River,_Dongcheng_(20240508111813).jpg",
+          "originalSource": "",
+          "sourceProvider": "Wikimedia Commons",
+          "caption": "Канал и ивы в парке Саньлихэ у Цяньмэнь, май 2024.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 1280,
+          "height": 853,
+          "src": "./assets/places/I/01.webp",
+          "thumbnail": "./assets/places/I/01-thumb.webp",
+          "dateTaken": "2024-05-08 11:18:13"
+        },
+        {
+          "title": "Spring arrives at Sanlihe.",
+          "author": "Bruce Connolly",
+          "license": "Разрешение на перепубликацию портала Beijing.gov.cn",
+          "licenseUrl": "https://english.beijing.gov.cn/tabbar/ourwebsite/202005/t20200513_1896928.html",
+          "sourcePage": "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202604/t20260424_4609395.html",
+          "originalSource": "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202604/t20260424_4609395.html",
+          "sourceProvider": "english.beijing.gov.cn",
+          "caption": "Весна в парке Саньлихэ у Цяньмэнь; публикация 2026 года.",
+          "changes": "Без изменений; сохранены исходные байты JPEG.",
+          "creditExact": "source: english.beijing.gov.cn",
+          "preserveOriginal": true,
+          "width": 800,
+          "height": 533,
+          "src": "./assets/places/I/02.jpg",
+          "thumbnail": "./assets/places/I/02.jpg"
+        },
+        {
+          "title": "Magnolia blossoms are in full bloom.",
+          "author": "Bruce Connolly",
+          "license": "Разрешение на перепубликацию портала Beijing.gov.cn",
+          "licenseUrl": "https://english.beijing.gov.cn/tabbar/ourwebsite/202005/t20200513_1896928.html",
+          "sourcePage": "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202604/t20260424_4609395.html",
+          "originalSource": "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202604/t20260424_4609395.html",
+          "sourceProvider": "english.beijing.gov.cn",
+          "caption": "Цветение магнолий в парке Саньлихэ; публикация 2026 года.",
+          "changes": "Без изменений; сохранены исходные байты JPEG.",
+          "creditExact": "source: english.beijing.gov.cn",
+          "preserveOriginal": true,
+          "width": 800,
+          "height": 533,
+          "src": "./assets/places/I/03.jpg",
+          "thumbnail": "./assets/places/I/03.jpg"
+        },
+        {
+          "title": "Peach blossoms are in bloom.",
+          "author": "Bruce Connolly",
+          "license": "Разрешение на перепубликацию портала Beijing.gov.cn",
+          "licenseUrl": "https://english.beijing.gov.cn/tabbar/ourwebsite/202005/t20200513_1896928.html",
+          "sourcePage": "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202604/t20260424_4609395.html",
+          "originalSource": "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202604/t20260424_4609395.html",
+          "sourceProvider": "english.beijing.gov.cn",
+          "caption": "Цветущие персиковые деревья у Саньлихэ; публикация 2026 года.",
+          "changes": "Без изменений; сохранены исходные байты JPEG.",
+          "creditExact": "source: english.beijing.gov.cn",
+          "preserveOriginal": true,
+          "width": 800,
+          "height": 533,
+          "src": "./assets/places/I/04.jpg",
+          "thumbnail": "./assets/places/I/04.jpg"
+        },
+        {
+          "title": "Hutong along Sanlihe",
+          "author": "Bruce Connolly",
+          "license": "Разрешение на перепубликацию портала Beijing.gov.cn",
+          "licenseUrl": "https://english.beijing.gov.cn/tabbar/ourwebsite/202005/t20200513_1896928.html",
+          "sourcePage": "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202604/t20260424_4609395.html",
+          "originalSource": "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202604/t20260424_4609395.html",
+          "sourceProvider": "english.beijing.gov.cn",
+          "caption": "Хутун у Саньлихэ; публикация 2026 года.",
+          "changes": "Без изменений; сохранены исходные байты JPEG.",
+          "creditExact": "source: english.beijing.gov.cn",
+          "preserveOriginal": true,
+          "width": 800,
+          "height": 527,
+          "src": "./assets/places/I/05.jpg",
+          "thumbnail": "./assets/places/I/05.jpg"
+        },
+        {
+          "title": "Sanlihe is in full spring splendor.",
+          "author": "Bruce Connolly",
+          "license": "Разрешение на перепубликацию портала Beijing.gov.cn",
+          "licenseUrl": "https://english.beijing.gov.cn/tabbar/ourwebsite/202005/t20200513_1896928.html",
+          "sourcePage": "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202604/t20260424_4609395.html",
+          "originalSource": "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202604/t20260424_4609395.html",
+          "sourceProvider": "english.beijing.gov.cn",
+          "caption": "Весенняя зелень и вода в парке Саньлихэ; публикация 2026 года.",
+          "changes": "Без изменений; сохранены исходные байты JPEG.",
+          "creditExact": "source: english.beijing.gov.cn",
+          "preserveOriginal": true,
+          "width": 800,
+          "height": 533,
+          "src": "./assets/places/I/06.jpg",
+          "thumbnail": "./assets/places/I/06.jpg"
+        }
+      ],
       "walk": {
         "kind": "Парк и хутуны у воды",
         "duration": "45–90 минут",
@@ -843,7 +1027,8 @@
           "Небольшой маршрут; соседние районы позволяют его продлить.",
           "Интереснее ради атмосферы и прогулки, чем ради большого числа магазинов."
         ],
-        "checked": "2026-11-01"
+        "checked": "2026-11-01",
+        "photoNote": "Весенние виды Саньлихэ, снятые в 2024–2026 годах; цветение на фотографиях не относится к ноябрю."
       }
     },
     {
@@ -857,7 +1042,60 @@
       "cat": 1,
       "note": "Метка — ориентир, а не граница района. Вход и часы работы уточняйте в AMap.",
       "description": "Парк на месте бывшего Пекинского парка развлечений: озеро, прогулочные петли и сохранённое колесо обозрения как исторический ориентир. Лучше подходит для спокойной прогулки с кофе, чем для поиска модных магазинов. Набережная юго-восточного второго кольца — возможное продолжение, а не часть одной маленькой площадки.",
-      "photos": [],
+      "photos": [
+        {
+          "title": "File:Longtan Central Park (20211001161557).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Longtan_Central_Park_(20211001161557).jpg",
+          "caption": "Центральное озеро Лунтань и сохранённое колесо обозрения, октябрь 2021 года.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 1280,
+          "height": 853,
+          "src": "./assets/places/J/01.webp",
+          "thumbnail": "./assets/places/J/01-thumb.webp"
+        },
+        {
+          "title": "File:龙潭中湖公园.jpg",
+          "author": "Luoniya",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:%E9%BE%99%E6%BD%AD%E4%B8%AD%E6%B9%96%E5%85%AC%E5%9B%AD.jpg",
+          "caption": "Вход в парк Лунтань Чжунху (龙潭中湖公园), снимок 2024 года.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 962,
+          "height": 1280,
+          "src": "./assets/places/J/02.webp",
+          "thumbnail": "./assets/places/J/02-thumb.webp"
+        },
+        {
+          "title": "北京游乐园 摩天轮",
+          "author": "li yong (West Zest)",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "sourcePage": "https://www.flickr.com/photos/cnlyong/3073906882/",
+          "caption": "Архив: колесо обозрения бывшего Beijing Amusement Park, 29 ноября 2008 года.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 500,
+          "height": 752,
+          "src": "./assets/places/J/03.webp",
+          "thumbnail": "./assets/places/J/03-thumb.webp"
+        },
+        {
+          "title": "北京游乐园 摩天轮",
+          "author": "li yong (West Zest)",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "sourcePage": "https://www.flickr.com/photos/cnlyong/3073906888/",
+          "caption": "Архив: бывший Beijing Amusement Park до закрытия, 29 ноября 2008 года.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 602,
+          "height": 400,
+          "src": "./assets/places/J/04.webp",
+          "thumbnail": "./assets/places/J/04-thumb.webp"
+        }
+      ],
       "walk": {
         "kind": "Озёрный парк",
         "duration": "1–2 часа",
@@ -878,7 +1116,8 @@
           "Около 40 га и несколько прогулочных петель.",
           "Природа и местная жизнь; меньше магазинов и культурных остановок."
         ],
-        "checked": "2026-11-01"
+        "checked": "2026-11-01",
+        "photoNote": "Найдены 4 подтверждённых свободных снимка: два современных вида парка (2021 и 2024) и два архивных кадра колеса обозрения Beijing Amusement Park (2008). Архивные снимки не отражают нынешний вид всей территории."
       }
     },
     {
@@ -914,7 +1153,9 @@
           "Ремёсла, выставки и мастерские; впечатление зависит от доступных площадок."
         ],
         "checked": "2026-11-01",
-        "coordinateMethod": "Приблизительный WGS84: официальный BD-09 пин [116.435136,39.895315] преобразован BD09→GCJ02→WGS84; метка-ориентир, не проверка входа."
+        "coordinateMethod": "Приблизительный WGS84: официальный BD-09 пин [116.435136,39.895315] преобразован BD09→GCJ02→WGS84; метка-ориентир, не проверка входа.",
+        "photoGalleryUrl": "https://r.visitbeijing.com.cn/leisure/485",
+        "photoGalleryLabel": "Фотографии Юнъюаня на туристическом портале Пекина ↗"
       }
     },
     {
@@ -928,7 +1169,72 @@
       "cat": 1,
       "note": "Метка — ориентир, а не граница района. Вход и часы работы уточняйте в AMap.",
       "description": "Отдельное арт-пространство на пятом этаже рынка Хунцяо (天坛路9号): терраса с видом на Храм Неба, чтение и кафе. Это короткая остановка после храма, а не большой прогулочный район. Доступ на террасу, часы работы и условия посещения уточняйте у площадки.",
-      "photos": [],
+      "photos": [
+        {
+          "author": "Deng Wei / 邓伟",
+          "license": "Условия портала Пекина: републикация с указанием источника, без изменений",
+          "licenseUrl": "https://english.beijing.gov.cn/tabbar/ourwebsite/202005/t20200513_1896928.html",
+          "sourcePage": "https://english.beijing.gov.cn/consuminginbeijing/news/202507/t20250730_4162676.html",
+          "originalSource": "https://english.beijing.gov.cn/consuminginbeijing/news/202507/W020250730631510969546.png",
+          "sourceProvider": "english.beijing.gov.cn",
+          "caption": "Терраса Гуаньтаня и вид на Храм Неба, публикация июля 2025",
+          "changes": "Без изменений: сохранены исходные PNG-байты публикации.",
+          "creditExact": "source: english.beijing.gov.cn",
+          "preserveOriginal": true,
+          "width": 966,
+          "height": 644,
+          "src": "./assets/places/L/01.png",
+          "thumbnail": "./assets/places/L/01.png"
+        },
+        {
+          "title": "Hongqiao Market (20200803133253).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Hongqiao_Market_(20200803133253).jpg",
+          "originalSource": "https://commons.wikimedia.org/wiki/File:Hongqiao_Market_(20200803133253).jpg",
+          "sourceProvider": "Wikimedia Commons",
+          "caption": "Здание рынка Хунцяо, в котором находится Гуаньтань, август 2020",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 1280,
+          "height": 853,
+          "src": "./assets/places/L/02.webp",
+          "thumbnail": "./assets/places/L/02-thumb.webp",
+          "pageId": 92842624
+        },
+        {
+          "title": "Entrance lobby of Hongqiao Market (20200803132932).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Entrance_lobby_of_Hongqiao_Market_(20200803132932).jpg",
+          "originalSource": "https://commons.wikimedia.org/wiki/File:Entrance_lobby_of_Hongqiao_Market_(20200803132932).jpg",
+          "sourceProvider": "Wikimedia Commons",
+          "caption": "Входной вестибюль рынка Хунцяо, август 2020; не интерьер Гуаньтаня",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 1280,
+          "height": 853,
+          "src": "./assets/places/L/03.webp",
+          "thumbnail": "./assets/places/L/03-thumb.webp",
+          "pageId": 92843117
+        },
+        {
+          "title": "Beijing, China (37500140904).jpg",
+          "author": "Andrey Filippov 安德烈 from Moscow, Russia",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Beijing,_China_(37500140904).jpg",
+          "originalSource": "https://commons.wikimedia.org/wiki/File:Beijing,_China_(37500140904).jpg",
+          "sourceProvider": "Wikimedia Commons",
+          "caption": "Фасад рынка Хунцяо, ноябрь 2017; архивный вид здания",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 1024,
+          "height": 683,
+          "src": "./assets/places/L/04.webp",
+          "thumbnail": "./assets/places/L/04-thumb.webp",
+          "pageId": 69125517
+        }
+      ],
       "walk": {
         "kind": "Арт-пространство и терраса",
         "duration": "20–60 минут",
@@ -949,7 +1255,8 @@
           "Одна площадка: полноценную прогулку по району не заменяет.",
           "Вид, чтение и культурные функции; доступность программы меняется."
         ],
-        "checked": "2026-11-01"
+        "checked": "2026-11-01",
+        "photoNote": "Фотографии террасы и здания рынка Хунцяо. Подписи отделяют вид самой площадки от архивных видов здания и входа."
       }
     },
     {
@@ -963,7 +1270,88 @@
       "cat": 1,
       "note": "Метка — ориентир, а не граница района. Вход и часы работы уточняйте в AMap.",
       "description": "Местная прогулка ради ужина и городской повседневности вдоль Pufang Road и Fanggu Road. Район обновляется; ориентиры — Fangzhuang Shopping Centre и Fangzhuang Sports Park. Летний гастрономический фестиваль не включён в ноябрьскую оценку: постоянная улица и сезонный маркет — разные впечатления.",
-      "photos": [],
+      "photos": [
+        {
+          "title": "Fangzhuang Roundabout (20210626151445).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Fangzhuang_Roundabout_(20210626151445).jpg",
+          "caption": "Круговая площадь Фанчжуан у гастрономического района, июнь 2021 года.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 1280,
+          "height": 853,
+          "src": "./assets/places/M/01.webp",
+          "thumbnail": "./assets/places/M/01-thumb.webp"
+        },
+        {
+          "title": "Der Landgraf Brauhaus Restaurant at Fangzhuang (20210626153140).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Der_Landgraf_Brauhaus_Restaurant_at_Fangzhuang_(20210626153140).jpg",
+          "caption": "Ресторан Der Landgraf Brauhaus в Фанчжуане, июнь 2021 года.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 1280,
+          "height": 854,
+          "src": "./assets/places/M/02.webp",
+          "thumbnail": "./assets/places/M/02-thumb.webp"
+        },
+        {
+          "title": "2016-05-16 Pekingenten-Restaurant in Peking anagoria 02.JPG",
+          "author": "Anagoria",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:2016-05-16_Pekingenten-Restaurant_in_Peking_anagoria_02.JPG",
+          "caption": "Ресторанная улица на Pufang Road: вывески и фасады, май 2016 года.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 1280,
+          "height": 961,
+          "src": "./assets/places/M/03.webp",
+          "thumbnail": "./assets/places/M/03-thumb.webp"
+        },
+        {
+          "title": "Fangzhuang, Fengtai, Beijing, China - panoramio.jpg",
+          "author": "张彬",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Fangzhuang,_Fengtai,_Beijing,_China_-_panoramio.jpg",
+          "originalSource": "https://web.archive.org/web/20161017064113/http://www.panoramio.com/photo/47669499",
+          "caption": "Рестораны района Фанчжуан: вид улицы в феврале 2011 года.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 700,
+          "height": 480,
+          "src": "./assets/places/M/04.webp",
+          "thumbnail": "./assets/places/M/04-thumb.webp"
+        },
+        {
+          "title": "Fangzhuang Market (20261001115606).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Fangzhuang_Market_(20261001115606).jpg",
+          "caption": "Рынок Фанчжуан и повседневная торговля района, октябрь 2026 года.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 1280,
+          "height": 853,
+          "src": "./assets/places/M/05.webp",
+          "thumbnail": "./assets/places/M/05-thumb.webp"
+        },
+        {
+          "title": "Peking Duck Restaurant Beijing (3019202241).jpg",
+          "author": "Dave Proffer",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Peking_Duck_Restaurant_Beijing_(3019202241).jpg",
+          "originalSource": "https://www.flickr.com/photos/deepphoto/3019202241/",
+          "caption": "Ночная вывеска ресторана Quanjude в Фанчжуане, октябрь 2008 года.",
+          "changes": "Уменьшение и перекодирование в WebP, без кадрирования.",
+          "width": 1280,
+          "height": 960,
+          "src": "./assets/places/M/06.webp",
+          "thumbnail": "./assets/places/M/06-thumb.webp"
+        }
+      ],
       "walk": {
         "kind": "Ресторанная улица и местный район",
         "duration": "45–90 минут",
@@ -985,8 +1373,16 @@
           "Еда и городская повседневность; меньше самостоятельных культурных точек."
         ],
         "checked": "2026-11-01",
-        "coordinateMethod": "WGS84: центр bbox здания 方庄购物中心, ориентир прогулочной улицы, не вход."
+        "coordinateMethod": "WGS84: центр bbox здания 方庄购物中心, ориентир прогулочной улицы, не вход.",
+        "photoNote": "Снимки района разных лет, включая архивные. Они не показывают гарантированный текущий вид проекта благоустройства или работу летнего фестиваля."
       }
+    }
+  ],
+  "photoGaps": [
+    {
+      "pointId": "K",
+      "reason": "Не найдено подтверждённого разрешения на локальную републикацию фотографий именно Юнъюаня.",
+      "externalGallery": "https://r.visitbeijing.com.cn/leisure/485"
     }
   ]
 }

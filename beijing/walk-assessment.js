@@ -36,6 +36,12 @@ const WalkAssessment = (() => {
     details.append(el('p', 'Итог — среднее четырёх авторских баллов с одинаковым весом 25%, округлённое до 0,1. Шкала: 1 — слабо, 3 — умеренно, 5 — очень сильно по этому критерию. Оценивается прогулка в ноябре, без бонуса за летние фестивали. Авторская оценка по опубликованным описаниям; это не рейтинг посетителей и не результат личной инспекции. Разница в 0,1–0,2 несущественна.', 'walk-method'));
     details.append(el('p', 'Небольшая терраса может быть интересной и атмосферной, но получить низкий балл масштаба. Большой парк может быть хорош для отдыха при умеренной «модности». Продолжительность — ориентир с остановками, не измеренный маршрут.', 'walk-method'));
     container.append(details);
+    if (w.photoNote) container.append(el('p', w.photoNote, 'walk-method'));
+    if (w.photoGalleryUrl) {
+      const gallery = el('a', w.photoGalleryLabel, 'walk-external-gallery');
+      gallery.href = w.photoGalleryUrl; gallery.target = '_blank'; gallery.rel = 'noopener';
+      container.append(gallery);
+    }
     if (w.sources?.length) {
       const sources = el('p', 'О месте: ', 'walk-sources');
       for (const [i, href] of w.sources.entries()) {

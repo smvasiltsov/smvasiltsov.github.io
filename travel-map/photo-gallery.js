@@ -1,7 +1,7 @@
 'use strict';
 
 // Photos are local files. Attribution and source links are retained per photograph.
-function renderPlacePhoto(place, index, onSelect) {
+export function renderPlacePhoto(place, index, onSelect) {
   const photo = place.photos?.[index];
   const image = document.getElementById('photo');
   const figure = image.closest('figure');

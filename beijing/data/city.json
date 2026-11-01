@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "beijing",
+  "name": "Пекин",
+  "locale": "ru-RU",
+  "timezone": "Asia/Shanghai",
+  "assetBase": "../",
+  "points": "./points.json",
+  "categories": "./categories.json",
+  "trip": "./trip.json",
+  "pages": {
+    "map": "../",
+    "compare": "../compare.html"
+  },
+  "map": {
+    "label": "Карта Пекина",
+    "style": "https://tiles.openfreemap.org/styles/liberty",
+    "defaultView": {
+      "center": [
+        116.397,
+        39.916
+      ],
+      "zoom": 11
+    },
+    "selectedZoom": 12,
+    "maxFitZoom": 12
+  },
+  "navigation": {
+    "provider": "amap",
+    "label": "AMap",
+    "sourceApplication": "TravelMap"
+  },
+  "transport": {
+    "url": "https://www.bjsubway.com/",
+    "label": "Проверить маршрут на официальном сайте метро ↗"
+  },
+  "hotelDestinations": [
+    {
+      "pointId": "1",
+      "label": "Запретный город · южный вход"
+    },
+    {
+      "pointId": "3",
+      "label": "Храм Неба · восточные ворота"
+    },
+    {
+      "pointId": "4",
+      "label": "Летний дворец · Бэйгунмэнь"
+    },
+    {
+      "pointId": "5",
+      "label": "Шичахай / Гулоу"
+    },
+    {
+      "pointId": "7",
+      "label": "Храм Юнхэгун"
+    },
+    {
+      "pointId": "10",
+      "label": "Цяньмэнь"
+    },
+    {
+      "pointId": "15",
+      "label": "Арт-квартал 798"
+    }
+  ],
+  "assessment": {
+    "hotel": {
+      "weights": {
+        "location": 0.35,
+        "comfort": 0.25,
+        "value": 0.25,
+        "reviews": 0.15
+      },
+      "travel": {
+        "bestMinutes": 35,
+        "minutesPerPoint": 10,
+        "roundTo": 5
+      },
+      "areaAnchors": [
+        [
+          0,
+          0
+        ],
+        [
+          12,
+          3.5
+        ],
+        [
+          15,
+          5
+        ],
+        [
+          18,
+          6.5
+        ],
+        [
+          20,
+          7.5
+        ],
+        [
+          25,
+          8.5
+        ],
+        [
+          35,
+          10
+        ]
+      ],
+      "panoramicBonus": 0.3,
+      "appliancesBonus": 0.5,
+      "price": {
+        "currency": "RUB",
+        "bestNightly": 2500,
+        "perPoint": 400
+      },
+      "lowReviewCount": 200
+    },
+    "walk": {
+      "criteria": [
+        {
+          "id": "fashion",
+          "label": "Модность",
+          "weight": 0.25,
+          "description": "Современные кафе, дизайн, независимые магазины и культурная среда."
+        },
+        {
+          "id": "atmosphere",
+          "label": "Крутость / атмосфера",
+          "weight": 0.25,
+          "description": "Характер места, выразительность архитектуры и желание задержаться."
+        },
+        {
+          "id": "scale",
+          "label": "Масштаб прогулки",
+          "weight": 0.25,
+          "description": "Сколько можно гулять и менять маршрут: 1 — одна короткая остановка; 3 — около часа; 5 — большой район на несколько часов. Это не площадь в гектарах."
+        },
+        {
+          "id": "interest",
+          "label": "Интересность",
+          "weight": 0.25,
+          "description": "Разнообразие остановок: архитектура, культура, магазины, еда и местная жизнь."
+        }
+      ],
+      "note": "Небольшая терраса может быть интересной и атмосферной, но получить низкий балл масштаба. Большой парк может быть хорош для отдыха при умеренной «модности». Продолжительность — ориентир с остановками, не измеренный маршрут."
+    }
+  }
+}

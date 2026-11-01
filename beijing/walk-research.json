@@ -1384,5 +1384,7 @@
       "reason": "Не найдено подтверждённого разрешения на локальную републикацию фотографий именно Юнъюаня.",
       "externalGallery": "https://r.visitbeijing.com.cn/leisure/485"
     }
-  ]
+  ],
+  "snapshotOnly": true,
+  "runtimeSource": "./data/points.json"
 }

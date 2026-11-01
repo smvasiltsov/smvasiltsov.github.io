@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sight",
+    "label": "Достопримечательность",
+    "listLabel": "Достопримечательности",
+    "legend": "Смотреть",
+    "color": "#315a8b",
+    "darkColor": "#8db9ee",
+    "shape": "circle",
+    "card": "place"
+  },
+  {
+    "id": "walk",
+    "label": "Прогулки и кафе",
+    "listLabel": "Прогулки и кафе",
+    "legend": "Гулять · ★ /5",
+    "color": "#975429",
+    "darkColor": "#e6ac79",
+    "shape": "square",
+    "card": "walk"
+  },
+  {
+    "id": "hotel",
+    "label": "Отель",
+    "listLabel": "Отели",
+    "legend": "Жить",
+    "color": "#286d50",
+    "darkColor": "#91d7b4",
+    "shape": "diamond",
+    "card": "hotel"
+  }
+]

@@ -2,7 +2,7 @@
 (async()=>{
 'use strict';const $=id=>document.getElementById(id),points=[...JSON.parse($('data').textContent),...HOTEL_POINTS],bounds=JSON.parse($('boundaries').textContent);const roads=JSON.parse($('roads').textContent);
 $('loading').hidden=true;let selected=null,photoIndex=0,zoom,previousFocus=null,showAll=true;let liveMap=null,liveReady=false,preferOnline=true,liveOverlay=null,loadTimer=null,loadingScript=null,onlineErrors=false;const colors=['var(--attraction)','var(--walk)','var(--hotel)'],cats=['Достопримечательность','Прогулки и кафе','Отель'];
-for(let cat=0;cat<3;cat++){const group=document.createElement('optgroup');group.label=['Достопримечательности','Прогулки и кафе','Отели'][cat];for(const p of points.filter(p=>p.cat===cat)){const o=document.createElement('option');o.value=p.id;o.textContent=p.id+' · '+p.name;group.append(o)}$('places').append(group)}
+for(let cat=0;cat<3;cat++){const group=document.createElement('optgroup');group.label=['Достопримечательности','Прогулки и кафе','Отели'][cat];for(const p of points.filter(p=>p.cat===cat)){const o=document.createElement('option');o.value=p.id;o.textContent=p.id+' · '+p.name+(p.walk?' · ★ '+WalkAssessment.number(WalkAssessment.score(p)):'');group.append(o)}$('places').append(group)}
 const isIOS=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1),isMobile=isIOS||/Android/.test(navigator.userAgent);
 function configureLinks(p){
  const web=new URL($('amap').href);web.searchParams.set('callnative','0');$('amap-web').href=web.href;$('amap-web').hidden=!isMobile;
@@ -10,7 +10,7 @@ function configureLinks(p){
  else $('amap').target=isMobile?'_self':'_blank';
 }
 function showPhoto(){renderPlacePhoto(selected,photoIndex,index=>{photoIndex=index;showPhoto()})}
-function choose(p){hidePointPicker();previousFocus=document.activeElement;selected=p;photoIndex=0;$('drawer').hidden=false;document.body.classList.add('has-panel');$('places').value=p.id;$('category').textContent=cats[p.cat];$('point-id').textContent='Точка '+p.id;$('place-title').textContent=p.name;$('place-zh').textContent=p.zh;$('description').textContent=p.description;$('amap').href='https://uri.amap.com/marker?'+new URLSearchParams({position:p.coord.join(','),name:p.zh,coordinate:'wgs84',src:'beijing-travel-map',callnative:'1'});configureLinks(p);$('trip').hidden=!p.url;if(p.url){const u=new URL(p.url);if(isMobile)u.searchParams.set('wkp','1');$('trip').href=u.href;$('trip').target=isMobile?'_self':'_blank'}else $('trip').removeAttribute('href');$('note').textContent=p.cat===2?'7–14 ноября 2026 · 2 взрослых. Цены проверены 1 ноября и не обновляются автоматически.':p.id==='16'?'Метка обозначает район Мутяньюй. Для поездки уточните нужный вход.':p.cat===1||p.id==='5'?'Метка — ориентир для прогулки, а не граница района.':'';renderHotel(p,points,choose);showPhoto();$('drawer').scrollTop=0;draw();if(liveReady&&preferOnline){liveMap.easeTo({center:p.coord,zoom:Math.max(liveMap.getZoom(),12),duration:250})}$('close').focus({preventScroll:true})}
+function choose(p){hidePointPicker();previousFocus=document.activeElement;selected=p;photoIndex=0;$('drawer').hidden=false;document.body.classList.add('has-panel');$('places').value=p.id;$('category').textContent=cats[p.cat];$('point-id').textContent='Точка '+p.id;$('place-title').textContent=p.name;$('place-zh').textContent=p.zh;$('description').textContent=p.description;$('amap').href='https://uri.amap.com/marker?'+new URLSearchParams({position:p.coord.join(','),name:p.zh,coordinate:'wgs84',src:'beijing-travel-map',callnative:'1'});configureLinks(p);$('trip').hidden=!p.url;if(p.url){const u=new URL(p.url);if(isMobile)u.searchParams.set('wkp','1');$('trip').href=u.href;$('trip').target=isMobile?'_self':'_blank'}else $('trip').removeAttribute('href');$('note').textContent=p.cat===2?'7–14 ноября 2026 · 2 взрослых. Цены проверены 1 ноября и не обновляются автоматически.':p.id==='16'?'Метка обозначает район Мутяньюй. Для поездки уточните нужный вход.':p.cat===1||p.id==='5'?'Метка — ориентир для прогулки, а не граница района.':'';renderHotel(p,points,choose);WalkAssessment.render(p);showPhoto();$('drawer').scrollTop=0;draw();if(liveReady&&preferOnline){liveMap.easeTo({center:p.coord,zoom:Math.max(liveMap.getZoom(),12),duration:250})}$('close').focus({preventScroll:true})}
 function close(event){event?.preventDefault?.();event?.stopPropagation?.();if($('drawer').hidden)return;$('drawer').hidden=true;document.body.classList.remove('has-panel');selected=null;$('places').value='';draw();if(event?.type==='keydown'||event?.detail===0){if(previousFocus?.isConnected)previousFocus.focus({preventScroll:true});else (liveReady&&preferOnline?liveMap.getCanvas():$('map')).focus({preventScroll:true})}else{document.activeElement?.blur?.()}}
 $('close').onclick=close;document.addEventListener('keydown',e=>{if(e.key==='Escape'){hidePointPicker();close(e)}});$('places').onchange=()=>{const p=points.find(p=>p.id===$('places').value);if(p)choose(p);else close()};$('prev').onclick=()=>{photoIndex=(photoIndex-1+selected.photos.length)%selected.photos.length;showPhoto()};$('next').onclick=()=>{photoIndex=(photoIndex+1)%selected.photos.length;showPhoto()};$('reset').onclick=()=>{showAll=true;close();if(liveReady&&preferOnline)fitOnline(true);else draw()};$('center').onclick=()=>{showAll=false;close();if(liveReady&&preferOnline)fitOnline(false);else draw()};
 function multi(coordinates){return{type:'MultiPoint',coordinates}}
@@ -50,7 +50,7 @@ function openPointPicker(point,candidates){
  const list=document.createElement('div');list.className='point-picker-list';
  for(const p of nearby){
   const button=document.createElement('button');button.type='button';
-  button.textContent=p.id+' · '+p.name;button.onclick=()=>choose(points.find(x=>x.id===p.id));
+  button.textContent=p.id+' · '+p.name+(p.walk?' · ★ '+WalkAssessment.number(WalkAssessment.score(p)):'');button.onclick=()=>choose(points.find(x=>x.id===p.id));
   list.append(button);
  }
  picker.append(list);list.querySelector('button').focus({preventScroll:true});picker.scrollTop=0;
@@ -73,15 +73,16 @@ function renderAnchoredMarkers(markers,source,project,w,h){
      .attr('fill',colors[p.cat]).attr('class','marker');
    });
    group.append('text').attr('class','marker-label');
+   group.filter(p=>p.walk).each(function(p){const badge=d3.select(this).append('g').attr('class','walk-map-rating');badge.append('rect').attr('x',-22).attr('y',17).attr('width',44).attr('height',18).attr('rx',9);badge.append('text').attr('y',29).text('★ '+WalkAssessment.number(WalkAssessment.score(p)));});
    return group;
   }
  );
- groups.attr('aria-label',p=>p.id+' · '+p.name)
+ groups.attr('aria-label',p=>p.id+' · '+p.name+(p.walk?' · оценка прогулки '+WalkAssessment.number(WalkAssessment.score(p))+' из 5':''))
   .attr('aria-pressed',p=>selected?.id===p.id?'true':'false')
   .attr('transform',p=>`translate(${p.x},${p.y})`)
   .on('click',(event,p)=>{event.stopPropagation();openPointPicker(p,visible)})
   .on('keydown',(event,p)=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();openPointPicker(p,visible)}});
- groups.select('title').text(p=>p.name);
+ groups.select('title').text(p=>p.name+(p.walk?' · авторская оценка ★ '+WalkAssessment.number(WalkAssessment.score(p))+' / 5':''));
  groups.select('.active-ring').attr('display',p=>selected?.id===p.id?null:'none');
  groups.select('.marker-label').text(p=>p.id);
  groups.filter(p=>selected?.id===p.id).raise();

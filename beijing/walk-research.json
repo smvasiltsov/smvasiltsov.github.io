@@ -1,0 +1,992 @@
+{
+  "checked": "2026-11-01",
+  "method": "Четыре авторских балла 1–5 с равными весами 25%: модность, крутость/атмосфера, масштаб прогулки, интересность. Итог — среднее, округлённое до 0,1. Для ноябрьской прогулки; не рейтинг посетителей и не личная инспекция.",
+  "walks": [
+    {
+      "id": "A",
+      "name": "Wudaoying / Удаоин",
+      "zh": "五道营胡同",
+      "cat": 1,
+      "note": "Кофейни, небольшие магазины и старые переулки.",
+      "coord": [
+        116.4063623,
+        39.9469886
+      ],
+      "description": "Wudaoying — небольшой хутун с кофейнями, мастерскими и магазинами. Хорошо подходит для спокойной паузы после Юнхэгуна и храмов на улице Гоцзыцзянь. Здесь интереснее идти медленно и заглядывать во дворы.",
+      "photos": [
+        {
+          "title": "Beijing hutong Wudaoying 1.jpg",
+          "author": "Andrzej Otrębski",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Beijing_hutong_Wudaoying_1.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/5/52/Beijing_hutong_Wudaoying_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Улица Удаоин",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 155976370,
+          "src": "./assets/places/a/01.webp",
+          "thumbnail": "./assets/places/a/01-thumb.webp",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "title": "Beijing hutong Wudaoying 2.jpg",
+          "author": "Andrzej Otrębski",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Beijing_hutong_Wudaoying_2.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Beijing_hutong_Wudaoying_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Прогулка по хутуну Удаоин",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 155976368,
+          "src": "./assets/places/a/02.webp",
+          "thumbnail": "./assets/places/a/02-thumb.webp",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "title": "Beijing hutong Wudaoying 3.jpg",
+          "author": "Andrzej Otrębski",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Beijing_hutong_Wudaoying_3.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Beijing_hutong_Wudaoying_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Застройка Удаоин",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 155976395,
+          "src": "./assets/places/a/03.webp",
+          "thumbnail": "./assets/places/a/03-thumb.webp",
+          "width": 853,
+          "height": 1280
+        },
+        {
+          "title": "Hongguan Qipao at Wudaoying (20221009172811).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Hongguan_Qipao_at_Wudaoying_(20221009172811).jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Hongguan_Qipao_at_Wudaoying_%2820221009172811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Магазин ципао на Удаоин",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 123988234,
+          "src": "./assets/places/a/04.webp",
+          "thumbnail": "./assets/places/a/04-thumb.webp",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "title": "Tube Station Pizza at Wudaoying (20260831172724).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Tube_Station_Pizza_at_Wudaoying_(20260831172724).jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/4/46/Tube_Station_Pizza_at_Wudaoying_%2820260831172724%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Пиццерия на Удаоин",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 198561640,
+          "src": "./assets/places/a/05.webp",
+          "thumbnail": "./assets/places/a/05-thumb.webp",
+          "width": 1280,
+          "height": 853
+        }
+      ],
+      "walk": {
+        "scores": [
+          4.5,
+          4.5,
+          3,
+          4.5
+        ],
+        "verdict": "Компактный и атмосферный хутун: хороший выбор ради кафе и небольших магазинов, особенно вместе с Гоцзыцзянем.",
+        "reasons": [
+          "Много кафе и небольших современных магазинов на коротком маршруте.",
+          "Выразительная атмосфера хутуна и дворов.",
+          "Сам по себе короткий; масштаб растёт при прогулке по соседним улицам.",
+          "Удобно сочетать кафе, храмовый район и наблюдение за городской жизнью."
+        ],
+        "checked": "2026-11-01",
+        "kind": "Прогулочный район",
+        "duration": "45–90 минут"
+      }
+    },
+    {
+      "id": "B",
+      "name": "Gulou / Beiluoguxiang",
+      "zh": "北锣鼓巷",
+      "cat": 1,
+      "note": "Ориентир: Beiluoguxiang; Гулоу отмечен также точкой 6.",
+      "coord": [
+        116.3966484,
+        39.9434453
+      ],
+      "description": "Гулоу и Beiluoguxiang — переулки, небольшие бары, кафе и локальные магазины. Метка стоит на Beiluoguxiang, севернее оживлённой Nanluoguxiang. Район удобно соединить пешком с башнями и озёрами Шичахай.",
+      "photos": [
+        {
+          "title": "Beiluoguxiang Alley (20210928171014).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Beiluoguxiang_Alley_(20210928171014).jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/0/05/Beiluoguxiang_Alley_%2820210928171014%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Хутун Бэйлогусян",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 110523657,
+          "src": "./assets/places/b/01.webp",
+          "thumbnail": "./assets/places/b/01-thumb.webp",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "title": "Last evening in beijing (8441664144).jpg",
+          "author": "Fredrik Rubensson from Stockholm, Sweden",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Last_evening_in_beijing_(8441664144).jpg",
+          "originalSource": "https://www.flickr.com/photos/froderik/8441664144/",
+          "caption": "Вечер в районе Бэйлогусян",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 74558889,
+          "src": "./assets/places/b/02.webp",
+          "thumbnail": "./assets/places/b/02-thumb.webp",
+          "width": 1280,
+          "height": 851
+        },
+        {
+          "title": "No driving (8441660524).jpg",
+          "author": "Fredrik Rubensson from Stockholm, Sweden",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:No_driving_(8441660524).jpg",
+          "originalSource": "https://www.flickr.com/photos/froderik/8441660524/",
+          "caption": "Движение в хутуне Бэйлогусян",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 74558885,
+          "src": "./assets/places/b/03.webp",
+          "thumbnail": "./assets/places/b/03-thumb.webp",
+          "width": 1280,
+          "height": 851
+        },
+        {
+          "title": "Restaurant in Fangzhuanchang Hutong, Beijing.jpg",
+          "author": "Daniel Case",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Restaurant_in_Fangzhuanchang_Hutong,_Beijing.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/0/01/Restaurant_in_Fangzhuanchang_Hutong%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Ресторан в хутуне Фанчжуаньчан, район Гулоу",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 39785469,
+          "src": "./assets/places/b/04.webp",
+          "thumbnail": "./assets/places/b/04-thumb.webp",
+          "width": 1280,
+          "height": 880
+        },
+        {
+          "title": "Street cleaners driving home (11622113395).jpg",
+          "author": "Matt Ming from Beijing, China",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Street_cleaners_driving_home_(11622113395).jpg",
+          "originalSource": "https://www.flickr.com/photos/matianming/11622113395/",
+          "caption": "Хутуны к востоку от Гулоу",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 75794387,
+          "src": "./assets/places/b/05.webp",
+          "thumbnail": "./assets/places/b/05-thumb.webp",
+          "width": 920,
+          "height": 1280
+        }
+      ],
+      "walk": {
+        "scores": [
+          4.5,
+          4.5,
+          5,
+          4.5
+        ],
+        "verdict": "Один из самых насыщенных вариантов: сеть переулков позволяет гулять долго и менять маршрут.",
+        "reasons": [
+          "Кафе, небольшие бары и локальные магазины.",
+          "Сочетание старых переулков с современной городской жизнью.",
+          "Оценивается весь район Гулоу / Beiluoguxiang с продолжением к Шичахаю.",
+          "Много разных остановок: переулки, башни, озёра, еда и магазины."
+        ],
+        "checked": "2026-11-01",
+        "kind": "Прогулочный район",
+        "duration": "2–4 часа"
+      }
+    },
+    {
+      "id": "C",
+      "name": "Sanlitun / Саньлитунь",
+      "zh": "三里屯太古里",
+      "cat": 1,
+      "note": "Ориентир: южная часть Taikoo Li.",
+      "coord": [
+        116.4481984,
+        39.9335514
+      ],
+      "description": "Саньлитунь — современный торговый и ресторанный район вокруг Taikoo Li. Здесь стоит искать городскую моду, кофейни и оживлённую вечернюю атмосферу. Это совсем другой Пекин по сравнению с дворцами и хутунами.",
+      "photos": [
+        {
+          "title": "Sanlitun Village South Building View5.jpg",
+          "author": "WiNG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Sanlitun_Village_South_Building_View5.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Sanlitun_Village_South_Building_View5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Южная часть Taikoo Li Sanlitun",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 12206180,
+          "src": "./assets/places/c/01.webp",
+          "thumbnail": "./assets/places/c/01-thumb.webp",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "title": "Sanlitun Village Fountain Night View.jpg",
+          "author": "WiNG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Sanlitun_Village_Fountain_Night_View.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/4/42/Sanlitun_Village_Fountain_Night_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Фонтан Саньлитуня вечером",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 12206178,
+          "src": "./assets/places/c/02.webp",
+          "thumbnail": "./assets/places/c/02-thumb.webp",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "title": "Sanlitun Village North.jpg",
+          "author": "WiNG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Sanlitun_Village_North.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Sanlitun_Village_North.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Северная часть Taikoo Li Sanlitun",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 12206181,
+          "src": "./assets/places/c/03.webp",
+          "thumbnail": "./assets/places/c/03-thumb.webp",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "title": "Sanlitun Village South Building View2.jpg",
+          "author": "WiNG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Sanlitun_Village_South_Building_View2.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Sanlitun_Village_South_Building_View2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Здания южной части Taikoo Li Sanlitun",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 12206177,
+          "src": "./assets/places/c/04.webp",
+          "thumbnail": "./assets/places/c/04-thumb.webp",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "title": "West Zone of Taikoo Li Sanlitun Beijing.jpg",
+          "author": "Charlie fong",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:West_Zone_of_Taikoo_Li_Sanlitun_Beijing.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/9/96/West_Zone_of_Taikoo_Li_Sanlitun_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Западная часть Taikoo Li Sanlitun",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 117553031,
+          "src": "./assets/places/c/05.webp",
+          "thumbnail": "./assets/places/c/05-thumb.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "walk": {
+        "scores": [
+          5,
+          4.5,
+          4.5,
+          4
+        ],
+        "verdict": "Лучший вариант ради современной моды и городской энергии; исторической атмосферы здесь меньше.",
+        "reasons": [
+          "Ориентир для современной моды и торговых пространств.",
+          "Современная архитектура, рестораны и вечерняя городская атмосфера.",
+          "Большой торгово-ресторанный район с несколькими маршрутами.",
+          "Интереснее ради дизайна, еды и наблюдения за городом, чем ради истории."
+        ],
+        "checked": "2026-11-01",
+        "kind": "Прогулочный район",
+        "duration": "2–3 часа"
+      }
+    },
+    {
+      "id": "D",
+      "name": "Longfusi / Лунфусы",
+      "zh": "隆福寺",
+      "cat": 1,
+      "note": "Ориентир: улица Longfusi рядом с Dongsi.",
+      "coord": [
+        116.4058719,
+        39.9238942
+      ],
+      "description": "Лунфусы — район вокруг исторического храмового места и обновлённых городских пространств. Подходит для прогулки между кафе, культурными площадками и старыми переулками рядом с Dongsi. Фотографии показывают праздничное оформление февраля 2026 года, а не ноябрьскую обстановку.",
+      "photos": [
+        {
+          "title": "Longfu Building (20240720105318).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Longfu_Building_(20240720105318).jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/1/14/Longfu_Building_%2820240720105318%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Здание Longfu Building",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 150599282,
+          "src": "./assets/places/d/01.webp",
+          "thumbnail": "./assets/places/d/01-thumb.webp",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "title": "Longfu Plaza (20230318142246).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Longfu_Plaza_(20230318142246).jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Longfu_Plaza_%2820230318142246%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Площадь Longfu Plaza",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 129792798,
+          "src": "./assets/places/d/02.webp",
+          "thumbnail": "./assets/places/d/02-thumb.webp",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "title": "Longfu Temple 2008.jpg",
+          "author": "Shizhao",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Longfu_Temple_2008.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Longfu_Temple_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Лунфусы в 2008 году",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 28193567,
+          "src": "./assets/places/d/03.webp",
+          "thumbnail": "./assets/places/d/03-thumb.webp",
+          "width": 1280,
+          "height": 809
+        },
+        {
+          "title": "Beijing Daoxiangcun No. 0 Treasure Emporium (20240726150132).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Beijing_Daoxiangcun_No._0_Treasure_Emporium_(20240726150132).jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Beijing_Daoxiangcun_No._0_Treasure_Emporium_%2820240726150132%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Магазин Daoxiangcun в районе Лунфусы",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 150853010,
+          "src": "./assets/places/d/04.webp",
+          "thumbnail": "./assets/places/d/04-thumb.webp",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "title": "Hanting Hotel Beijing Longfu Temple & Dongsi Subway Station (20260924132721).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Hanting_Hotel_Beijing_Longfu_Temple_%26_Dongsi_Subway_Station_(20260924132721).jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/8/89/Hanting_Hotel_Beijing_Longfu_Temple_%26_Dongsi_Subway_Station_%2820260924132721%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Улица у Лунфусы и станции Дунсы",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 200154036,
+          "src": "./assets/places/d/05.webp",
+          "thumbnail": "./assets/places/d/05-thumb.webp",
+          "width": 1280,
+          "height": 853
+        }
+      ],
+      "walk": {
+        "scores": [
+          4.5,
+          4.5,
+          3.5,
+          4.5
+        ],
+        "verdict": "Удачное сочетание обновлённых культурных пространств и старых улиц Dongsi.",
+        "reasons": [
+          "Обновлённые пространства, кафе и культурные площадки.",
+          "Выразительный контраст современной среды и старого города.",
+          "Кластер сравнительно компактен; продолжение — соседние переулки Dongsi.",
+          "Архитектура, культурные площадки и кафе дают разнообразие остановок."
+        ],
+        "checked": "2026-11-01",
+        "kind": "Прогулочный район",
+        "duration": "1–2 часа"
+      }
+    },
+    {
+      "id": "E",
+      "name": "Набережная Лянмахэ",
+      "zh": "亮马桥",
+      "cat": 1,
+      "note": "Ориентир: мост Liangmaqiao; прогулка вдоль реки.",
+      "coord": [
+        116.4555954,
+        39.946189
+      ],
+      "description": "Набережная Лянмахэ — маршрут вдоль воды в восточной части города, с мостами и современными зданиями. Хороша для вечерней прогулки и смены впечатлений после старого центра. Метка — ориентир у Liangmaqiao; гулять можно дальше вдоль реки.",
+      "photos": [
+        {
+          "title": "Liangma River at Xinyuan St (20200808164518).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Liangma_River_at_Xinyuan_St_(20200808164518).jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Liangma_River_at_Xinyuan_St_%2820200808164518%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Лянмахэ у улицы Синьюань",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 92970672,
+          "src": "./assets/places/e/01.webp",
+          "thumbnail": "./assets/places/e/01-thumb.webp",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "title": "Liangma River eastward view from East 3rd Ring Road 20250123164000.jpg",
+          "author": "XiaYZ2023",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Liangma_River_eastward_view_from_East_3rd_Ring_Road_20250123164000.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Liangma_River_eastward_view_from_East_3rd_Ring_Road_20250123164000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Вид на Лянмахэ с Третьего кольца",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 163685933,
+          "src": "./assets/places/e/02.webp",
+          "thumbnail": "./assets/places/e/02-thumb.webp",
+          "width": 1280,
+          "height": 959
+        },
+        {
+          "title": "Liangma River eastward view from Youyi Bridge 20250123163624.jpg",
+          "author": "XiaYZ2023",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Liangma_River_eastward_view_from_Youyi_Bridge_20250123163624.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Liangma_River_eastward_view_from_Youyi_Bridge_20250123163624.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Лянмахэ у моста Юи",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 163686482,
+          "src": "./assets/places/e/03.webp",
+          "thumbnail": "./assets/places/e/03-thumb.webp",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "title": "Liangma River in 2026.jpg",
+          "author": "Renek78",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Liangma_River_in_2026.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Liangma_River_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Лянмахэ в 2026 году",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 199744184,
+          "src": "./assets/places/e/04.webp",
+          "thumbnail": "./assets/places/e/04-thumb.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "title": "2016-09-11 Evening Liangmaqiao anagoria.jpg",
+          "author": "Anagoria",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:2016-09-11_Evening_Liangmaqiao_anagoria.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/c/cb/2016-09-11_Evening_Liangmaqiao_anagoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Вечер у Лянмацяо",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 51692788,
+          "src": "./assets/places/e/05.webp",
+          "thumbnail": "./assets/places/e/05-thumb.webp",
+          "width": 1280,
+          "height": 782
+        }
+      ],
+      "walk": {
+        "scores": [
+          4,
+          4.5,
+          4.5,
+          4
+        ],
+        "verdict": "Сильный вариант для прогулки вдоль воды, особенно к вечеру; магазины здесь не главный повод.",
+        "reasons": [
+          "Современные кафе и городские пространства вдоль воды.",
+          "Мосты, вода и виды на современные здания.",
+          "Можно пройти длинный маршрут по набережной.",
+          "Хорошая смена впечатлений после старого центра, но меньше культурных остановок."
+        ],
+        "checked": "2026-11-01",
+        "kind": "Прогулочный район",
+        "duration": "1–2,5 часа"
+      }
+    },
+    {
+      "id": "F",
+      "name": "Langyuan Station",
+      "zh": "郎园Station",
+      "cat": 1,
+      "note": "Творческий квартал в бывших складах.",
+      "coord": [
+        116.5095427,
+        39.9668529
+      ],
+      "description": "Langyuan Station — творческий кластер в бывших промышленных и складских зданиях. Его выбирают ради архитектуры, фотопрогулки, кафе и культурных событий. Это отдельная поездка на северо-восток города; программа мероприятий меняется.",
+      "photos": [
+        {
+          "title": "首创 郎园station 产业园区",
+          "author": "xiaomaju / 小马驹",
+          "license": "Условия GTTuku: бесплатно с указанием источника",
+          "licenseUrl": "https://www.gttuku.com/30301.html",
+          "sourcePage": "https://www.gttuku.com/30301.html",
+          "originalSource": "https://tuku-cdn.yemacaijing.com/wmm/2022/09/6d680d6f5945aa6.jpg",
+          "caption": "Вход в Langyuan Station, 2022",
+          "changes": "Без изменений.",
+          "creditExact": "来源：罐头图库",
+          "provider": "GTTuku",
+          "date": "2022-09-30",
+          "sha256": "bb7f661f8641633c77d92a9cff6cf65f0a607e76b19722b36cbd9561dde8e86d",
+          "preserveOriginal": true,
+          "sourceProvider": "GTTuku / 罐头图库",
+          "src": "./assets/places/f/01.jpg",
+          "thumbnail": "./assets/places/f/01.jpg",
+          "width": 1600,
+          "height": 1089
+        },
+        {
+          "title": "首创 郎园station 产业园区",
+          "author": "xiaomaju / 小马驹",
+          "license": "Условия GTTuku: бесплатно с указанием источника",
+          "licenseUrl": "https://www.gttuku.com/30303.html",
+          "sourcePage": "https://www.gttuku.com/30303.html",
+          "originalSource": "https://tuku-cdn.yemacaijing.com/wmm/2022/09/a127652909b4a01.jpg",
+          "caption": "Вывеска и вход в Langyuan Station, 2022",
+          "changes": "Без изменений.",
+          "creditExact": "来源：罐头图库",
+          "provider": "GTTuku",
+          "date": "2022-09-30",
+          "sha256": "2db71332cb779f692b5128aa88de30b4cb3dc7ab24644d2e4c0b4930fe625099",
+          "preserveOriginal": true,
+          "sourceProvider": "GTTuku / 罐头图库",
+          "src": "./assets/places/f/02.jpg",
+          "thumbnail": "./assets/places/f/02.jpg",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "title": "国际美食节 首创 郎园station 产业园区",
+          "author": "xiaomaju / 小马驹",
+          "license": "Условия GTTuku: бесплатно с указанием источника",
+          "licenseUrl": "https://www.gttuku.com/30309.html",
+          "sourcePage": "https://www.gttuku.com/30309.html",
+          "originalSource": "https://tuku-cdn.yemacaijing.com/wmm/2022/09/2afd371043e8891.jpg",
+          "caption": "Гастрономический фестиваль в Langyuan Station, 2022",
+          "changes": "Без изменений.",
+          "creditExact": "来源：罐头图库",
+          "provider": "GTTuku",
+          "date": "2022-09-30",
+          "sha256": "c5795c1dca62c3b78873d2163d765b8d53e58459701e633baaa9891ecafc4440",
+          "preserveOriginal": true,
+          "sourceProvider": "GTTuku / 罐头图库",
+          "src": "./assets/places/f/03.jpg",
+          "thumbnail": "./assets/places/f/03.jpg",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "title": "国际美食节 首创 郎园station 产业园区",
+          "author": "xiaomaju / 小马驹",
+          "license": "Условия GTTuku: бесплатно с указанием источника",
+          "licenseUrl": "https://www.gttuku.com/30307.html",
+          "sourcePage": "https://www.gttuku.com/30307.html",
+          "originalSource": "https://tuku-cdn.yemacaijing.com/wmm/2022/09/f7ba62476e86d19.jpg",
+          "caption": "Фестиваль еды в Langyuan Station, 2022",
+          "changes": "Без изменений.",
+          "creditExact": "来源：罐头图库",
+          "provider": "GTTuku",
+          "date": "2022-09-30",
+          "sha256": "a3e9c27b948a0fe194987b880184597aa8c466a35c5469f630581222d8a12631",
+          "preserveOriginal": true,
+          "sourceProvider": "GTTuku / 罐头图库",
+          "src": "./assets/places/f/04.jpg",
+          "thumbnail": "./assets/places/f/04.jpg",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "title": "国际美食嘉年华 首创 郎园station 产业园区",
+          "author": "xiaomaju / 小马驹",
+          "license": "Условия GTTuku: бесплатно с указанием источника",
+          "licenseUrl": "https://www.gttuku.com/30311.html",
+          "sourcePage": "https://www.gttuku.com/30311.html",
+          "originalSource": "https://tuku-cdn.yemacaijing.com/wmm/2022/09/f0d4ea4254c058d.jpg",
+          "caption": "Международная гастрономическая ярмарка в Langyuan Station, 2022",
+          "changes": "Без изменений.",
+          "creditExact": "来源：罐头图库",
+          "provider": "GTTuku",
+          "date": "2022-09-30",
+          "sha256": "e3c7233f1f99e0b39d73cb2eefe2e8b1de33ee4c49aa07b7f4213fae6e832e41",
+          "preserveOriginal": true,
+          "sourceProvider": "GTTuku / 罐头图库",
+          "src": "./assets/places/f/05.jpg",
+          "thumbnail": "./assets/places/f/05.jpg",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "walk": {
+        "scores": [
+          4.5,
+          4.5,
+          4,
+          4.5
+        ],
+        "verdict": "Выразительный творческий кластер; лучше приезжать с интересом к архитектуре и работающим площадкам.",
+        "reasons": [
+          "Кафе, дизайн и культурные события в творческом кластере.",
+          "Промышленные и складские здания создают характерное окружение.",
+          "Территория для самостоятельной прогулки; это не только одно кафе.",
+          "Архитектура и культурные площадки; программа событий меняется."
+        ],
+        "checked": "2026-11-01",
+        "kind": "Прогулочный район",
+        "duration": "1,5–3 часа"
+      }
+    },
+    {
+      "id": "G",
+      "name": "Baitasi / Байтаcы",
+      "zh": "白塔寺",
+      "cat": 1,
+      "note": "Белая пагода и окружающие переулки с кафе.",
+      "coord": [
+        116.3570374,
+        39.9235561
+      ],
+      "description": "Байтасы — район вокруг белой пагоды храма Мяоин. Здесь можно совместить храмовую архитектуру с прогулкой по хутунам и остановками в небольших кафе. Метка обозначает храм как главный ориентир района.",
+      "photos": [
+        {
+          "title": "Miaoying Temple 1.jpg",
+          "author": "EditQ",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Miaoying_Temple_1.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Miaoying_Temple_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Храм Мяоин и Белая пагода",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 145294252,
+          "src": "./assets/places/g/01.webp",
+          "thumbnail": "./assets/places/g/01-thumb.webp",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "title": "Miaoying Temple 2.jpg",
+          "author": "EditQ",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Miaoying_Temple_2.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/5/59/Miaoying_Temple_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Территория храма Мяоин",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 145294253,
+          "src": "./assets/places/g/02.webp",
+          "thumbnail": "./assets/places/g/02-thumb.webp",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "title": "Miaoying Temple 3.jpg",
+          "author": "EditQ",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Miaoying_Temple_3.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Miaoying_Temple_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Двор храма Мяоин",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 145294254,
+          "src": "./assets/places/g/03.webp",
+          "thumbnail": "./assets/places/g/03-thumb.webp",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "title": "Miaoying Temple 4.jpg",
+          "author": "EditQ",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Miaoying_Temple_4.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/4/42/Miaoying_Temple_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Архитектура комплекса Мяоин",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 145294257,
+          "src": "./assets/places/g/04.webp",
+          "thumbnail": "./assets/places/g/04-thumb.webp",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "title": "Miaoying Temple 5.jpg",
+          "author": "EditQ",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Miaoying_Temple_5.jpg",
+          "originalSource": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Miaoying_Temple_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "caption": "Белая пагода Байтаcы",
+          "changes": "Уменьшенная копия без кадрирования.",
+          "commonsPageId": 145294258,
+          "src": "./assets/places/g/05.webp",
+          "thumbnail": "./assets/places/g/05-thumb.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "walk": {
+        "scores": [
+          4,
+          4.5,
+          3.5,
+          4.5
+        ],
+        "verdict": "Спокойный район с сильным визуальным ориентиром: белая пагода, хутуны и небольшие кафе.",
+        "reasons": [
+          "Кафе и небольшие современные места в исторической среде.",
+          "Белая пагода и виды из хутунов создают узнаваемую атмосферу.",
+          "Компактная сеть переулков вокруг храма.",
+          "Сочетание архитектуры, старого города и кафе."
+        ],
+        "checked": "2026-11-01",
+        "kind": "Прогулочный район",
+        "duration": "1–2 часа"
+      }
+    },
+    {
+      "id": "H",
+      "name": "Янмэйчжу и соседние хутуны",
+      "zh": "杨梅竹斜街",
+      "coord": [
+        116.392053,
+        39.8956048
+      ],
+      "cat": 1,
+      "note": "Метка — ориентир, а не граница района. Вход и часы работы уточняйте в AMap.",
+      "description": "Книжные, небольшие кафе, винтажные и дизайнерские магазины среди старых хутунов. Основная улица короткая — около 500 м; продолжить прогулку можно по Tieshu Xiejie и Yingtao Xiejie, затем выйти к Дашиланю.",
+      "photos": [],
+      "walk": {
+        "kind": "Улица и переулки",
+        "duration": "1–2,5 часа",
+        "sources": [
+          "https://www.visitbeijing.com.cn/article/4PQ2YR76lkR"
+        ],
+        "coordinateSource": "https://zh.wikipedia.org/wiki/杨梅竹斜街",
+        "scores": [
+          4.5,
+          4.5,
+          3.5,
+          4.5
+        ],
+        "verdict": "Мой первый выбор среди новых южных точек ради кафе, книжных и прогулки по хутунам.",
+        "reasons": [
+          "Независимые кафе, книжные, дизайн и винтаж.",
+          "Старые дворы и небольшие витрины создают цельную атмосферу.",
+          "Основная улица около 500 м; оценка учитывает соседние переулки.",
+          "Разнообразные магазины, ремёсла, архитектура и еда."
+        ],
+        "checked": "2026-11-01"
+      }
+    },
+    {
+      "id": "I",
+      "name": "Саньлихэ · прогулка у воды",
+      "zh": "三里河公园",
+      "coord": [
+        116.39733,
+        39.89379
+      ],
+      "cat": 1,
+      "note": "Метка — ориентир, а не граница района. Вход и часы работы уточняйте в AMap.",
+      "description": "Камерная прогулка вдоль воды и мостиков среди хутунов к востоку от Цяньмэня. Есть кафе у воды; район удобно соединить с Сяньюйкоу и Янмэйчжу. Это Саньлихэ возле Цяньмэня, не одноимённый район на западе Пекина.",
+      "photos": [],
+      "walk": {
+        "kind": "Парк и хутуны у воды",
+        "duration": "45–90 минут",
+        "sources": [
+          "https://www.beijing.gov.cn/fwcj/chang/094ba075819d97194f353fad1f81c4e5.html"
+        ],
+        "coordinateSource": "https://mapcarta.com/W859951315",
+        "scores": [
+          4,
+          4.5,
+          3,
+          4
+        ],
+        "verdict": "Красивая камерная прогулка у воды; лучше объединить с Сяньюйкоу и Цяньмэнем.",
+        "reasons": [
+          "Кафе у воды и современное использование старых улиц.",
+          "Мостики, вода и хутуны создают выразительное окружение.",
+          "Небольшой маршрут; соседние районы позволяют его продлить.",
+          "Интереснее ради атмосферы и прогулки, чем ради большого числа магазинов."
+        ],
+        "checked": "2026-11-01"
+      }
+    },
+    {
+      "id": "J",
+      "name": "Лунтань · центральное озеро",
+      "zh": "龙潭中湖公园",
+      "coord": [
+        116.42623,
+        39.87608
+      ],
+      "cat": 1,
+      "note": "Метка — ориентир, а не граница района. Вход и часы работы уточняйте в AMap.",
+      "description": "Парк на месте бывшего Пекинского парка развлечений: озеро, прогулочные петли и сохранённое колесо обозрения как исторический ориентир. Лучше подходит для спокойной прогулки с кофе, чем для поиска модных магазинов. Набережная юго-восточного второго кольца — возможное продолжение, а не часть одной маленькой площадки.",
+      "photos": [],
+      "walk": {
+        "kind": "Озёрный парк",
+        "duration": "1–2 часа",
+        "sources": [
+          "https://yllhj.beijing.gov.cn/ggfw/bjsggml/zhgy/dcq/202206/t20220614_2740267.shtml"
+        ],
+        "coordinateSource": "https://zh.wikipedia.org/wiki/北京游乐园",
+        "scores": [
+          3,
+          4,
+          4,
+          3.5
+        ],
+        "verdict": "Для спокойной прогулки у озера; невысокая «модность» не означает плохой парк.",
+        "reasons": [
+          "Кофейные и досуговые точки есть, но это прежде всего парк.",
+          "Озеро, зелень и следы бывшего парка развлечений.",
+          "Около 40 га и несколько прогулочных петель.",
+          "Природа и местная жизнь; меньше магазинов и культурных остановок."
+        ],
+        "checked": "2026-11-01"
+      }
+    },
+    {
+      "id": "K",
+      "name": "Юнъюань · ремёсла и дизайн",
+      "zh": "首创咏园",
+      "coord": [
+        116.42241435,
+        39.88789864
+      ],
+      "cat": 1,
+      "note": "Ориентир у 永生巷4号. Координаты приблизительно пересчитаны из официальной карты; вход уточняйте в AMap.",
+      "description": "Культурное пространство в бывших фабричных зданиях по адресу 永生巷4号, с мастерскими, ремёслами, дизайном и выставочными проектами. Хорошо как отдельная остановка; насыщенность визита зависит от работающих площадок и программы. Мастер-классы и выставки проверяйте перед посещением.",
+      "photos": [],
+      "walk": {
+        "kind": "Культурный кластер",
+        "duration": "30–90 минут",
+        "sources": [
+          "https://r1.visitbeijing.com.cn/vbj-s/pdf/BaseManual/BaseManual_50.pdf"
+        ],
+        "coordinateSource": "https://map.beijing.gov.cn/correction/655342a74817df6f8d6f7d6a?categoryId=whlvtyjd",
+        "scores": [
+          3.5,
+          4,
+          2.5,
+          4
+        ],
+        "verdict": "Небольшой культурный кластер для интересующихся дизайном и ремёслами; проверяйте программу.",
+        "reasons": [
+          "Современная подача традиционных ремёсел и дизайна.",
+          "Бывшая фабрика и мастерские дают месту характер.",
+          "Отдельный небольшой кластер, а не длинная прогулочная улица.",
+          "Ремёсла, выставки и мастерские; впечатление зависит от доступных площадок."
+        ],
+        "checked": "2026-11-01",
+        "coordinateMethod": "Приблизительный WGS84: официальный BD-09 пин [116.435136,39.895315] преобразован BD09→GCJ02→WGS84; метка-ориентир, не проверка входа."
+      }
+    },
+    {
+      "id": "L",
+      "name": "Гуаньтань · терраса у Храма Неба",
+      "zh": "观坛艺术空间",
+      "coord": [
+        116.414558,
+        39.884831
+      ],
+      "cat": 1,
+      "note": "Метка — ориентир, а не граница района. Вход и часы работы уточняйте в AMap.",
+      "description": "Отдельное арт-пространство на пятом этаже рынка Хунцяо (天坛路9号): терраса с видом на Храм Неба, чтение и кафе. Это короткая остановка после храма, а не большой прогулочный район. Доступ на террасу, часы работы и условия посещения уточняйте у площадки.",
+      "photos": [],
+      "walk": {
+        "kind": "Арт-пространство и терраса",
+        "duration": "20–60 минут",
+        "sources": [
+          "https://www.beijing.gov.cn/fwcj/chang/094ba075819d97194f353fad1f81c4e5.html"
+        ],
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Entrance_lobby_of_Hongqiao_Market_(20200803132932).jpg",
+        "scores": [
+          4,
+          4.5,
+          1,
+          4
+        ],
+        "verdict": "Выразительная короткая остановка с видом на Храм Неба; низкий балл масштаба отражает формат террасы.",
+        "reasons": [
+          "Современное арт-пространство с кафе и террасой.",
+          "Необычный верхний ракурс на Храм Неба.",
+          "Одна площадка: полноценную прогулку по району не заменяет.",
+          "Вид, чтение и культурные функции; доступность программы меняется."
+        ],
+        "checked": "2026-11-01"
+      }
+    },
+    {
+      "id": "M",
+      "name": "Фанчжуан · гастрономическая прогулка",
+      "zh": "方庄活力街区",
+      "coord": [
+        116.4223656,
+        39.8638893
+      ],
+      "cat": 1,
+      "note": "Метка — ориентир, а не граница района. Вход и часы работы уточняйте в AMap.",
+      "description": "Местная прогулка ради ужина и городской повседневности вдоль Pufang Road и Fanggu Road. Район обновляется; ориентиры — Fangzhuang Shopping Centre и Fangzhuang Sports Park. Летний гастрономический фестиваль не включён в ноябрьскую оценку: постоянная улица и сезонный маркет — разные впечатления.",
+      "photos": [],
+      "walk": {
+        "kind": "Ресторанная улица и местный район",
+        "duration": "45–90 минут",
+        "sources": [
+          "https://www.bjft.gov.cn/ftq/jxdt/202404/079392334f234d59b49cfd90c11dfafe.shtml"
+        ],
+        "coordinateSource": "https://www.openstreetmap.org/way/256696822",
+        "scores": [
+          3,
+          3.5,
+          3.5,
+          3.5
+        ],
+        "verdict": "Для ужина возле H7/H8 и знакомства с местной жизнью; не ради плотности дизайнерских мест.",
+        "reasons": [
+          "Обновлённая ресторанная улица; без добавочных баллов за летний фестиваль.",
+          "Живая местная среда и разнообразие еды.",
+          "Прогулочная зона вдоль Pufang Road и Fanggu Road.",
+          "Еда и городская повседневность; меньше самостоятельных культурных точек."
+        ],
+        "checked": "2026-11-01",
+        "coordinateMethod": "WGS84: центр bbox здания 方庄购物中心, ориентир прогулочной улицы, не вход."
+      }
+    }
+  ]
+}

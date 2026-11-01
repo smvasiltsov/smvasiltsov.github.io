@@ -2,8 +2,11 @@
 
 // Photos are local files. Attribution and source links are retained per photograph.
 function renderPlacePhoto(place, index, onSelect) {
-  const photo = place.photos[index];
+  const photo = place.photos?.[index];
   const image = document.getElementById('photo');
+  const figure = image.closest('figure');
+  figure.hidden = !photo;
+  if (!photo) return;
   const credit = document.getElementById('credit');
   const caption = document.getElementById('photo-caption');
   const strip = document.getElementById('photo-thumbnails');

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "city": "beijing",
-  "version": "a31785f6b68ba6eb4257f7b0",
-  "createdAt": "2026-11-02T12:57:27.000Z",
-  "bytes": 130368735,
+  "version": "eb11bedf6ba9da5e1b16824b",
+  "createdAt": "2026-11-02T13:07:27.615Z",
+  "bytes": 130370541,
   "map": {
     "style": "./offline/map-20261102/style.json",
     "bounds": [
@@ -7293,6 +7293,11 @@
       "sha256": "334a44bda12740d753915dbba14a47bad6834b043fda0fd1a6dc4cf5fafb74b0"
     },
     {
+      "url": "/travel-map/emoji-marker.js",
+      "bytes": 1298,
+      "sha256": "236cc5c3ae466cfc9f0ed7847f4c18299751bb032c0d009305ab476345a0645f"
+    },
+    {
       "url": "/travel-map/filters-ui.js",
       "bytes": 4612,
       "sha256": "13a5ba5b2dd55937fb4eb15b2bd1bd9ebf655c79c779762390a7579a500b233f"
@@ -7324,8 +7329,8 @@
     },
     {
       "url": "/travel-map/map-view.js",
-      "bytes": 7871,
-      "sha256": "93de6d2a502437ba2bf3e1d31e9648a24d619593fcf81fbb48ba125c883a9372"
+      "bytes": 8209,
+      "sha256": "c45f229b70c4ee00642c4f04beac524b8879bd00d71bc2a03678917469981b27"
     },
     {
       "url": "/travel-map/navigation.js",
@@ -7344,8 +7349,8 @@
     },
     {
       "url": "/travel-map/offline-store.js",
-      "bytes": 2747,
-      "sha256": "742e0e9fb9742052af3be180807c95320581996752002897576d280decf59bd1"
+      "bytes": 3144,
+      "sha256": "7d3e1d71ef4b6378f6f01f3675242d53d3d9efdffb07a27151f0096e79c9202b"
     },
     {
       "url": "/travel-map/offline-ui.js",
@@ -7354,8 +7359,8 @@
     },
     {
       "url": "/travel-map/offline-worker.js",
-      "bytes": 1410,
-      "sha256": "214185e5c925130657b81ccdacfe7b8bcac4574f2e888c00d1febf619909f556"
+      "bytes": 1521,
+      "sha256": "7bc0f78c02b8a87ac3bfcaa4333fa4ae69ea90c0e14029b2b12f6e42d345306b"
     },
     {
       "url": "/travel-map/photo-gallery.js",
@@ -7389,8 +7394,8 @@
     },
     {
       "url": "/travel-map/styles/map-page.css",
-      "bytes": 6082,
-      "sha256": "10057b0a79f1368b677b84184232063d536480465a8504d9e7467d05e29439cb"
+      "bytes": 5744,
+      "sha256": "468ea95118389855591bf01f01fa570dea1cdc7da6c0e29358e707662d51b843"
     },
     {
       "url": "/travel-map/styles/offline.css",

@@ -45,3 +45,8 @@ export function validateManifest(manifest, scope) {
 export async function digest(bytes) {
   return [...new Uint8Array(await crypto.subtle.digest('SHA-256', bytes))].map(x => x.toString(16).padStart(2, '0')).join('');
 }
+
+// Unsaved online pages must revalidate app code together, rather than mixing browser-cached releases.
+export function isRuntimeResource(url,scope,navigation=false) {
+ const target=new URL(url),base=new URL(scope);return target.origin===base.origin&&(navigation||((target.pathname.startsWith('/travel-map/')||target.pathname.startsWith(base.pathname))&&/\.(?:js|css)$/.test(target.pathname)));
+}

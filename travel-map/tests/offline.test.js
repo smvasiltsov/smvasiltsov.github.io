@@ -2,7 +2,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile,stat} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-import {cityStorage,canonicalRequest,validateManifest} from '../offline-store.js';
+import {cityStorage,canonicalRequest,validateManifest,isRuntimeResource} from '../offline-store.js';
 import {downloadCity} from '../offline-download.js';
 class MemoryCaches {
  constructor(){this.data=new Map();}
@@ -51,4 +51,11 @@ test('published manifest covers all photos, runtime files and every place in map
  for(const file of manifest.files){const path=file.url==='/beijing/'?'beijing/index.html':decodeURIComponent(file.url.slice(1)),bytes=await readFile(new URL(path,base));assert.equal(bytes.length,file.bytes,path);assert.equal(sha(bytes),file.sha256,path);}
  const style=JSON.parse(await readFile(new URL('beijing/'+manifest.map.style,base),'utf8'));
  for(const source of Object.values(style.sources)){assert.ok(!source.url);assert.ok(source.tiles.every(url=>!url.includes('https:')));}assert.ok(!style.glyphs.includes('https:'));assert.ok(!style.sprite.includes('https:'));
+});
+
+test('online app updates revalidate scripts and styles without affecting map/photo caching',()=>{
+ assert.equal(isRuntimeResource('https://example.com/travel-map/map-view.js',scope),true);
+ assert.equal(isRuntimeResource('https://example.com/travel-map/styles/map-page.css',scope),true);
+ assert.equal(isRuntimeResource(scope,scope,true),true);
+ for(const url of ['https://example.com/beijing/assets/photo.jpg','https://example.com/beijing/offline/tiles/1.pbf','https://tiles.openfreemap.org/style.js','https://example.com/other/script.js'])assert.equal(isRuntimeResource(url,scope),false,url);
 });

@@ -1,4 +1,4 @@
-import {categoryEmoji} from './category-icons.js';
+import {emojiMarker} from './emoji-marker.js';
 import {pointBadge} from './point-labels.js';
 import {savedMap} from './offline-map.js';
 import {walkScore} from './assessment.js';
@@ -14,6 +14,7 @@ function loadLibrary(){
 export class MapView {
   constructor(context,{container,status,retry,onSelect,onMove}){
     Object.assign(this,{context,container,status,retry,onSelect,onMove});this.filteredPoints=context.points;this.nodes=new Map();this.selected=null;this.map=null;this.overlay=null;this.timer=null;this.generation=0;
+    this.markerMedia=matchMedia('(max-width:650px), (pointer:coarse)');this.markerMedia.addEventListener('change',()=>{for(const node of this.nodes.values())node.remove();this.nodes.clear();this.render();});
     this.resizeObserver=new ResizeObserver(()=>{if(this.map){this.map.resize();this.render();}});this.resizeObserver.observe(container);retry.onclick=()=>this.start();
   }
   async start(){
@@ -45,10 +46,11 @@ export class MapView {
   marker(point){
     const category=this.context.categoryMap.get(point.categoryId),group=svg('g',{class:'point',role:'button',tabindex:0,'data-point-id':point.id});
     group.style.setProperty('--marker-color',category.color);group.style.setProperty('--marker-dark-color',category.darkColor);
-    group.append(svg('title'),svg('rect',{x:-25,y:-25,width:56,height:52,rx:12,fill:'transparent'}),svg('rect',{x:-25,y:-25,width:56,height:48,rx:16,class:'active-ring'}));
-    const emoji=svg('text',{x:0,y:0,class:'marker-emoji','aria-hidden':'true'});emoji.textContent=categoryEmoji(category.icon);group.append(emoji);
-    const label=svg('text',{x:18,y:14,class:'marker-label'});label.textContent=point.categoryNumber;group.append(label);
-    if(point.walk){const badge=svg('g',{class:'walk-map-rating'});badge.append(svg('rect',{x:-22,y:26,width:44,height:18,rx:9}));const score=svg('text',{y:38});score.textContent='★ '+number(walkScore(point,this.context),this.context.city.locale);badge.append(score);group.append(badge);}
+    const hit=svg('rect',{x:-22,y:-22,width:48,height:44,rx:12});hit.style.fill='transparent';
+    const ring=svg('rect',{x:-22,y:-22,width:48,height:44,rx:12,class:'active-ring'});ring.style.fill='none';ring.style.stroke='#284e3e';ring.style.strokeWidth='2px';
+    group.append(svg('title'),hit,ring);
+    const content=svg('foreignObject',{x:-18,y:-18,width:48,height:42,'aria-hidden':'true'});content.style.overflow='visible';content.style.pointerEvents='none';content.append(emojiMarker(category.icon,point.categoryNumber,this.markerMedia.matches));group.append(content);
+    if(point.walk){const badge=svg('g',{class:'walk-map-rating'});badge.append(svg('rect',{x:-22,y:25,width:44,height:18,rx:9}));const score=svg('text',{y:37});score.textContent='★ '+number(walkScore(point,this.context),this.context.city.locale);badge.append(score);group.append(badge);}
     const rating=point.walk?' · оценка прогулки '+number(walkScore(point,this.context),this.context.city.locale)+' из 5':'';group.setAttribute('aria-label',pointBadge(point,this.context)+' · '+category.label+' · '+point.name+rating);group.querySelector('title').textContent=point.name+rating;
     const activate=event=>{event.preventDefault();event.stopPropagation();const q=this.map.project(point.coord),nearby=this.visible.filter(p=>Math.hypot(p.screenX-q.x,p.screenY-q.y)<36);this.onSelect(point,nearby);};
     group.addEventListener('click',activate);group.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' ')activate(event);});return group;

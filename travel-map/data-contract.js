@@ -5,7 +5,7 @@ const validDate = x => { try { return /^\d{4}-\d{2}-\d{2}$/.test(x) && new Date(
 export function validateData({city, trip, categories, points} = {}) {
   const errors = [], check = (ok, path, message) => { if (!ok) errors.push(`${path}: ${message}`); };
   if (!city || !trip || !Array.isArray(categories) || !Array.isArray(points)) return ['Expected city, trip, categories[] and points[]'];
-  check(city.schemaVersion === 1, 'city.schemaVersion', 'unsupported version');
+  check(city.schemaVersion === 2, 'city.schemaVersion', 'unsupported version');
   for (const key of ['id','name','locale','timezone','assetBase','points','categories','trip']) check(text(city[key]), `city.${key}`, 'required string');
   try { new Intl.DateTimeFormat(city.locale, {timeZone: city.timezone}); } catch { errors.push('city: invalid locale/timezone'); }
   check(text(city.pages?.map) && text(city.pages?.compare), 'city.pages', 'map and compare URLs required');
@@ -18,15 +18,25 @@ export function validateData({city, trip, categories, points} = {}) {
   check(Number.isInteger(trip.adults) && trip.adults > 0 && Number.isInteger(trip.rooms) && trip.rooms > 0, 'trip.guests', 'positive adults and rooms');
   check(/^[A-Z]{3}$/.test(trip.currency), 'trip.currency', 'ISO currency required');
   check(validDate(trip.pricesCheckedAt), 'trip.pricesCheckedAt', 'valid date required');
+  const taxonomy=city.taxonomy||{}, groups=Array.isArray(taxonomy.groups)?taxonomy.groups:[], groupMap=new Map();
+  check(groups.length>0,'city.taxonomy.groups','groups required');
+  for(const group of groups){
+    if(!group){errors.push('taxonomy group: object required');continue;}
+    check(text(group.id)&&text(group.label)&&!groupMap.has(group.id),'taxonomy.groups','unique ID and label required');groupMap.set(group.id,group);
+    for(const key of ['color','darkColor'])check(/^#[\da-f]{6}$/i.test(group[key]),'taxonomy.groups.'+key,'hex color required');
+    check(['circle','square','diamond'].includes(group.shape),'taxonomy.groups.shape','unknown marker shape');
+    check(Array.isArray(group.tagIds)&&group.tagIds.every(tag=>text(taxonomy.tags?.[tag])),'taxonomy.groups.tagIds','known tags required');
+  }
+  check(taxonomy.subtypes&&Object.values(taxonomy.subtypes).every(text),'taxonomy.subtypes','labels required');
+  check(taxonomy.tags&&Object.values(taxonomy.tags).every(text),'taxonomy.tags','labels required');
   const categoryMap = new Map();
   for (const [i, category] of categories.entries()) {
     const path = `categories[${i}]`;
-    if (!category || typeof category !== "object") { errors.push(path+": object required"); continue; }
-    for (const key of ['id','label','listLabel','legend']) check(text(category[key]), `${path}.${key}`, 'required');
+    if (!category || typeof category !== 'object') { errors.push(path+': object required'); continue; }
+    for (const key of ['id','label','listLabel','icon']) check(text(category[key]), `${path}.${key}`, 'required');
     check(!categoryMap.has(category.id), `${path}.id`, 'duplicate category'); categoryMap.set(category.id, category);
-    for (const key of ['color','darkColor']) check(/^#[\da-f]{6}$/i.test(category[key]), `${path}.${key}`, 'six-digit hex color required');
-    check(['circle','square','diamond'].includes(category.shape), `${path}.shape`, 'unknown marker shape');
-    check(['place','hotel','walk'].includes(category.card), `${path}.card`, 'unknown card renderer');
+    check(groupMap.has(category.groupId),path+'.groupId','unknown group');
+    check(!Object.hasOwn(category,'card'),path+'.card','card renderer belongs to the point, not its category');
   }
   const pointMap = new Map();
   for (const [i, point] of points.entries()) {
@@ -34,6 +44,11 @@ export function validateData({city, trip, categories, points} = {}) {
     if (!point || typeof point !== "object") { errors.push(path+": object required"); continue; }
     check(text(point.id) && !pointMap.has(point.id), path+'.id', 'missing or duplicate ID'); pointMap.set(point.id, point);
     check(categoryMap.has(point.categoryId), path+'.categoryId', 'unknown category');
+    check(['place','hotel'].includes(point.cardType),path+'.cardType','unknown card renderer');
+    check((point.cardType==='hotel')===Boolean(point.hotel),path+'.hotel','hotel data and renderer must agree');
+    check(text(taxonomy.subtypes?.[point.subtype]),path+'.subtype','unknown subtype');
+    check(Array.isArray(point.tags)&&new Set(point.tags).size===point.tags.length&&point.tags.every(tag=>text(taxonomy.tags?.[tag])),path+'.tags','unique known tags required');
+    check(Array.isArray(point.aliases)&&point.aliases.every(text),path+'.aliases','search aliases required');
     check(text(point.name) && text(point.description), path, 'name and description required'); coords(point.coord, path+'.coord');
     check(Array.isArray(point.photos), path+'.photos', 'array required (may be empty)');
     for (const [n, photo] of (Array.isArray(point.photos) ? point.photos : []).entries()) {
@@ -41,16 +56,22 @@ export function validateData({city, trip, categories, points} = {}) {
       if (!photo || typeof photo !== "object") { errors.push(pp+": object required"); continue; }
       check(text(photo.src), pp+'.src', 'image path required');
       check(finite(photo.width) && photo.width > 0 && finite(photo.height) && photo.height > 0, pp, 'positive image dimensions required');
-      if (categoryMap.get(point.categoryId)?.card === 'hotel') check(text(photo.credit) && text(photo.source), pp, 'hotel source and credit required');
+      if (point.cardType === 'hotel') check(text(photo.credit) && text(photo.source), pp, 'hotel source and credit required');
       else for (const key of ['author','license','licenseUrl','sourcePage']) check(text(photo[key]), pp+'.'+key, 'photo attribution required');
     }
+  }
+  for(const point of points){
+    if(!point)continue;
+    check(point.parentId===null||(text(point.parentId)&&pointMap.has(point.parentId)&&point.parentId!==point.id),'point '+point.id+'.parentId','known parent or null required');
+    const visited=new Set([point.id]);let parent=pointMap.get(point.parentId);
+    while(parent){if(visited.has(parent.id)){errors.push('point '+point.id+'.parentId: cycle');break;}visited.add(parent.id);parent=pointMap.get(parent.parentId);}
   }
   const destinationIds = (city.hotelDestinations || []).map(d => d.pointId);
   check(new Set(destinationIds).size === destinationIds.length, 'city.hotelDestinations', 'duplicate destinations');
   for (const d of city.hotelDestinations || []) check(pointMap.has(d.pointId) && text(d.label), 'city.hotelDestinations', 'unknown destination or missing label');
   const hotelRules = city.assessment?.hotel, walkRules = city.assessment?.walk;
   const weights = (values, path) => check(values.length > 0 && values.every(x => finite(x) && x >= 0) && Math.abs(values.reduce((a,b)=>a+b,0)-1) < 1e-8, path, 'weights must be non-negative and sum to 1');
-  if (categories.some(c=>c?.card === 'hotel')) {
+  if (points.some(p=>p?.cardType === 'hotel')) {
     check(hotelRules && ['location','comfort','value','reviews'].every(k=>finite(hotelRules.weights?.[k])), 'assessment.hotel', 'four hotel weights required');
     weights(Object.values(hotelRules?.weights || {}), 'assessment.hotel.weights');
     check(hotelRules?.price?.currency === trip.currency, 'assessment.hotel.price.currency', 'must match trip currency');
@@ -60,7 +81,7 @@ export function validateData({city, trip, categories, points} = {}) {
     const anchors = hotelRules?.areaAnchors;
     check(Array.isArray(anchors) && anchors.length > 1 && anchors.every((v,i)=>Array.isArray(v)&&v.length===2&&v.every(finite)&&v[0]>=0&&v[1]>=0&&v[1]<=10&&(!i||v[0]>anchors[i-1][0])), 'assessment.hotel.areaAnchors', 'ascending area anchors required');
   }
-  if (categories.some(c=>c?.card === 'walk')) {
+  if (points.some(p=>p?.walk)) {
     check(Array.isArray(walkRules?.criteria), 'assessment.walk.criteria', 'required');
     for (const criterion of walkRules?.criteria || []) for (const key of ['id','label','description']) check(text(criterion[key]), 'assessment.walk.criteria.'+key, 'required string');
     weights((walkRules?.criteria || []).map(c=>c.weight), 'assessment.walk.weights');
@@ -68,8 +89,8 @@ export function validateData({city, trip, categories, points} = {}) {
   }
   for (const point of points) {
     if (!point || typeof point !== "object") continue;
-    const path = `point ${point.id}`, card = categoryMap.get(point.categoryId)?.card;
-    if (card === 'walk') {
+    const path = `point ${point.id}`, card = point.cardType;
+    if (point.walk) {
       check(!!point.walk, path+'.walk', 'walk data required');
       check(validDate(point.walk?.checked), path+'.walk.checked', 'date required');
       for (const c of walkRules?.criteria || []) { const value = point.walk?.scores?.[c.id]; check(finite(value) && value >= 1 && value <= 5, path+'.walk.scores.'+c.id, 'score must be 1–5'); check(text(point.walk?.reasons?.[c.id]), path+'.walk.reasons.'+c.id, 'explanation required'); }

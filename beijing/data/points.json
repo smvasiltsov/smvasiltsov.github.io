@@ -106,9 +106,22 @@
         "height": 1280
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "history",
     "localName": "故宫博物院",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "palace",
+    "tags": [
+      "historical",
+      "architecture",
+      "walk",
+      "long-walk"
+    ],
+    "aliases": [
+      "Forbidden City",
+      "Palace Museum"
+    ]
   },
   {
     "id": "2",
@@ -217,9 +230,21 @@
         "height": 960
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "nature",
     "localName": "景山公园",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "park",
+    "tags": [
+      "historical",
+      "park",
+      "walk",
+      "panorama"
+    ],
+    "aliases": [
+      "Jingshan Park"
+    ]
   },
   {
     "id": "3",
@@ -328,9 +353,23 @@
         "height": 950
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "history",
     "localName": "天坛公园",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "temple",
+    "tags": [
+      "historical",
+      "sacred",
+      "park",
+      "walk",
+      "architecture"
+    ],
+    "aliases": [
+      "Temple of Heaven",
+      "Tiantan"
+    ]
   },
   {
     "id": "4",
@@ -439,9 +478,23 @@
         "height": 960
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "history",
     "localName": "颐和园",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "palace",
+    "tags": [
+      "historical",
+      "park",
+      "water",
+      "walk",
+      "long-walk"
+    ],
+    "aliases": [
+      "Summer Palace",
+      "Yiheyuan"
+    ]
   },
   {
     "id": "5",
@@ -550,9 +603,22 @@
         "height": 1280
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "nature",
     "localName": "什刹海",
-    "locationNote": "Метка — ориентир для прогулки, а не граница района."
+    "locationNote": "Метка — ориентир для прогулки, а не граница района.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "lake-area",
+    "tags": [
+      "historical",
+      "water",
+      "walk",
+      "evening"
+    ],
+    "aliases": [
+      "Shichahai",
+      "Houhai"
+    ]
   },
   {
     "id": "6",
@@ -661,9 +727,21 @@
         "height": 1280
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "history",
     "localName": "鼓楼",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "tower",
+    "tags": [
+      "historical",
+      "architecture",
+      "panorama"
+    ],
+    "aliases": [
+      "Drum Tower",
+      "Gulou"
+    ]
   },
   {
     "id": "7",
@@ -772,9 +850,21 @@
         "height": 987
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "history",
     "localName": "雍和宫",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "temple",
+    "tags": [
+      "historical",
+      "sacred",
+      "architecture"
+    ],
+    "aliases": [
+      "Lama Temple",
+      "Yonghegong"
+    ]
   },
   {
     "id": "8",
@@ -883,9 +973,20 @@
         "height": 853
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "history",
     "localName": "北京孔庙",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "temple",
+    "tags": [
+      "historical",
+      "sacred",
+      "architecture"
+    ],
+    "aliases": [
+      "Confucius Temple"
+    ]
   },
   {
     "id": "9",
@@ -1000,9 +1101,20 @@
         "height": 853
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "history",
     "localName": "国子监",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "academy",
+    "tags": [
+      "historical",
+      "architecture"
+    ],
+    "aliases": [
+      "Imperial Academy",
+      "Guozijian"
+    ]
   },
   {
     "id": "10",
@@ -1117,9 +1229,21 @@
         "height": 800
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "urban",
     "localName": "前门大街",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "historic-street",
+    "tags": [
+      "historical",
+      "walk",
+      "shopping",
+      "food"
+    ],
+    "aliases": [
+      "Qianmen Street"
+    ]
   },
   {
     "id": "11",
@@ -1234,9 +1358,22 @@
         "height": 800
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "urban",
     "localName": "大栅栏",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "historic-street",
+    "tags": [
+      "historical",
+      "walk",
+      "shopping",
+      "food"
+    ],
+    "aliases": [
+      "Dashilan",
+      "Dashilar"
+    ]
   },
   {
     "id": "12",
@@ -1334,9 +1471,20 @@
         "height": 853
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "urban",
     "localName": "鲜鱼口",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "food-street",
+    "tags": [
+      "historical",
+      "walk",
+      "food"
+    ],
+    "aliases": [
+      "Xianyukou"
+    ]
   },
   {
     "id": "13",
@@ -1434,9 +1582,19 @@
         "height": 1280
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "history",
     "localName": "天安门广场",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "square",
+    "tags": [
+      "historical",
+      "architecture"
+    ],
+    "aliases": [
+      "Tiananmen Square"
+    ]
   },
   {
     "id": "14",
@@ -1534,9 +1692,20 @@
         "height": 852
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "museum",
     "localName": "中国国家博物馆",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "national-museum",
+    "tags": [
+      "historical",
+      "indoors",
+      "art"
+    ],
+    "aliases": [
+      "National Museum of China"
+    ]
   },
   {
     "id": "15",
@@ -1651,9 +1820,23 @@
         "height": 853
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "art",
     "localName": "798艺术区",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "art-district",
+    "tags": [
+      "modern",
+      "art",
+      "design",
+      "walk",
+      "coffee",
+      "industrial"
+    ],
+    "aliases": [
+      "798 Art District"
+    ]
   },
   {
     "id": "16",
@@ -1768,9 +1951,23 @@
         "height": 853
       }
     ],
-    "categoryId": "sight",
+    "categoryId": "history",
     "localName": "慕田峪长城",
-    "locationNote": "Метка обозначает район Мутяньюй. Для поездки уточните нужный вход."
+    "locationNote": "Метка обозначает район Мутяньюй. Для поездки уточните нужный вход.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "fortification",
+    "tags": [
+      "historical",
+      "suburban",
+      "panorama",
+      "walk",
+      "long-walk"
+    ],
+    "aliases": [
+      "Mutianyu",
+      "Great Wall"
+    ]
   },
   {
     "id": "A",
@@ -1876,9 +2073,22 @@
       "kind": "Прогулочный район",
       "duration": "45–90 минут"
     },
-    "categoryId": "walk",
+    "categoryId": "urban",
     "localName": "五道营胡同",
-    "locationNote": "Метка — ориентир для прогулки, а не граница района."
+    "locationNote": "Метка — ориентир для прогулки, а не граница района.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "hutong",
+    "tags": [
+      "historical",
+      "walk",
+      "coffee",
+      "shopping",
+      "design"
+    ],
+    "aliases": [
+      "Wudaoying Hutong"
+    ]
   },
   {
     "id": "B",
@@ -1984,9 +2194,23 @@
       "kind": "Прогулочный район",
       "duration": "2–4 часа"
     },
-    "categoryId": "walk",
+    "categoryId": "urban",
     "localName": "北锣鼓巷",
-    "locationNote": "Метка — ориентир для прогулки, а не граница района."
+    "locationNote": "Метка — ориентир для прогулки, а не граница района.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "hutong",
+    "tags": [
+      "historical",
+      "walk",
+      "coffee",
+      "shopping",
+      "evening"
+    ],
+    "aliases": [
+      "Gulou",
+      "Beiluoguxiang"
+    ]
   },
   {
     "id": "C",
@@ -2092,9 +2316,22 @@
       "kind": "Прогулочный район",
       "duration": "2–3 часа"
     },
-    "categoryId": "walk",
+    "categoryId": "urban",
     "localName": "三里屯太古里",
-    "locationNote": "Метка — ориентир для прогулки, а не граница района."
+    "locationNote": "Метка — ориентир для прогулки, а не граница района.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "modern-district",
+    "tags": [
+      "modern",
+      "walk",
+      "shopping",
+      "coffee",
+      "evening"
+    ],
+    "aliases": [
+      "Sanlitun"
+    ]
   },
   {
     "id": "D",
@@ -2200,9 +2437,22 @@
       "kind": "Прогулочный район",
       "duration": "1–2 часа"
     },
-    "categoryId": "walk",
+    "categoryId": "urban",
     "localName": "隆福寺",
-    "locationNote": "Метка — ориентир для прогулки, а не граница района."
+    "locationNote": "Метка — ориентир для прогулки, а не граница района.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "cultural-district",
+    "tags": [
+      "modern",
+      "art",
+      "walk",
+      "coffee",
+      "shopping"
+    ],
+    "aliases": [
+      "Longfusi"
+    ]
   },
   {
     "id": "E",
@@ -2308,9 +2558,23 @@
       "kind": "Прогулочный район",
       "duration": "1–2,5 часа"
     },
-    "categoryId": "walk",
+    "categoryId": "nature",
     "localName": "亮马桥",
-    "locationNote": "Метка — ориентир для прогулки, а не граница района."
+    "locationNote": "Метка — ориентир для прогулки, а не граница района.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "waterfront",
+    "tags": [
+      "modern",
+      "water",
+      "walk",
+      "evening"
+    ],
+    "aliases": [
+      "Liangma River Waterfront",
+      "Liangmahe",
+      "亮马河"
+    ]
   },
   {
     "id": "F",
@@ -2441,9 +2705,23 @@
       "kind": "Прогулочный район",
       "duration": "1,5–3 часа"
     },
-    "categoryId": "walk",
+    "categoryId": "art",
     "localName": "郎园Station",
-    "locationNote": "Метка — ориентир для прогулки, а не граница района."
+    "locationNote": "Метка — ориентир для прогулки, а не граница района.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "creative-cluster",
+    "tags": [
+      "modern",
+      "art",
+      "design",
+      "industrial",
+      "walk",
+      "coffee"
+    ],
+    "aliases": [
+      "Langyuan Station"
+    ]
   },
   {
     "id": "G",
@@ -2549,9 +2827,22 @@
       "kind": "Прогулочный район",
       "duration": "1–2 часа"
     },
-    "categoryId": "walk",
+    "categoryId": "urban",
     "localName": "白塔寺",
-    "locationNote": "Метка — ориентир для прогулки, а не граница района."
+    "locationNote": "Метка — ориентир для прогулки, а не граница района.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "hutong",
+    "tags": [
+      "historical",
+      "walk",
+      "coffee",
+      "design"
+    ],
+    "aliases": [
+      "Baitasi",
+      "White Pagoda"
+    ]
   },
   {
     "id": "H",
@@ -2667,9 +2958,22 @@
       "checked": "2026-11-01",
       "coordinateMethod": "WGS84, ориентир на улице 杨梅竹斜街; подтверждён OSM way30749235 и координатами Commons."
     },
-    "categoryId": "walk",
+    "categoryId": "urban",
     "localName": "杨梅竹斜街",
-    "locationNote": "Метка — ориентир для прогулки, а не граница района."
+    "locationNote": "Метка — ориентир для прогулки, а не граница района.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "hutong",
+    "tags": [
+      "historical",
+      "walk",
+      "coffee",
+      "design",
+      "shopping"
+    ],
+    "aliases": [
+      "Yangmeizhu Xiejie"
+    ]
   },
   {
     "id": "I",
@@ -2806,9 +3110,22 @@
       "checked": "2026-11-01",
       "photoNote": "Весенние виды Саньлихэ, снятые в 2024–2026 годах; цветение на фотографиях не относится к ноябрю."
     },
-    "categoryId": "walk",
+    "categoryId": "nature",
     "localName": "三里河公园",
-    "locationNote": "Метка — ориентир для прогулки, а не граница района."
+    "locationNote": "Метка — ориентир для прогулки, а не граница района.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "waterfront",
+    "tags": [
+      "water",
+      "walk",
+      "historical",
+      "coffee"
+    ],
+    "aliases": [
+      "Sanlihe Park",
+      "Sanli River"
+    ]
   },
   {
     "id": "J",
@@ -2896,9 +3213,21 @@
       "checked": "2026-11-01",
       "photoNote": "Найдены 4 подтверждённых свободных снимка: два современных вида парка (2021 и 2024) и два архивных кадра колеса обозрения Beijing Amusement Park (2008). Архивные снимки не отражают нынешний вид всей территории."
     },
-    "categoryId": "walk",
+    "categoryId": "nature",
     "localName": "龙潭中湖公园",
-    "locationNote": "Метка — ориентир для прогулки, а не граница района."
+    "locationNote": "Метка — ориентир для прогулки, а не граница района.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "park",
+    "tags": [
+      "park",
+      "water",
+      "walk"
+    ],
+    "aliases": [
+      "Longtan Zhonghu Park",
+      "Longtan Central Lake Park"
+    ]
   },
   {
     "id": "K",
@@ -2935,9 +3264,20 @@
       "photoGalleryUrl": "https://r.visitbeijing.com.cn/leisure/485",
       "photoGalleryLabel": "Фотографии Юнъюаня на туристическом портале Пекина ↗"
     },
-    "categoryId": "walk",
+    "categoryId": "art",
     "localName": "首创咏园",
-    "locationNote": "Положение метки приблизительное; точный вход уточняйте в AMap."
+    "locationNote": "Положение метки приблизительное; точный вход уточняйте в AMap.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "creative-cluster",
+    "tags": [
+      "art",
+      "design",
+      "walk"
+    ],
+    "aliases": [
+      "Yongyuan"
+    ]
   },
   {
     "id": "L",
@@ -3037,9 +3377,20 @@
       "checked": "2026-11-01",
       "photoNote": "Фотографии террасы и здания рынка Хунцяо. Подписи отделяют вид самой площадки от архивных видов здания и входа."
     },
-    "categoryId": "walk",
+    "categoryId": "urban",
     "localName": "观坛艺术空间",
-    "locationNote": "Метка — ориентир для прогулки, а не граница района."
+    "locationNote": "Метка — ориентир для прогулки, а не граница района.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "viewpoint",
+    "tags": [
+      "panorama",
+      "coffee",
+      "walk"
+    ],
+    "aliases": [
+      "Guantan Terrace"
+    ]
   },
   {
     "id": "M",
@@ -3156,9 +3507,20 @@
       "coordinateMethod": "WGS84: центр bbox здания 方庄购物中心, ориентир прогулочной улицы, не вход.",
       "photoNote": "Снимки района разных лет, включая архивные. Они не показывают гарантированный текущий вид проекта благоустройства или работу летнего фестиваля."
     },
-    "categoryId": "walk",
+    "categoryId": "urban",
     "localName": "方庄活力街区",
-    "locationNote": "Метка — ориентир для прогулки, а не граница района."
+    "locationNote": "Метка — ориентир для прогулки, а не граница района.",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "food-district",
+    "tags": [
+      "food",
+      "walk",
+      "evening"
+    ],
+    "aliases": [
+      "Fangzhuang"
+    ]
   },
   {
     "id": "H1",
@@ -3286,7 +3648,14 @@
     },
     "categoryId": "hotel",
     "localName": "和家宾馆（北京后海鼓楼店）",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "hotel",
+    "parentId": null,
+    "subtype": "hotel",
+    "tags": [],
+    "aliases": [
+      "Hejia Houhai"
+    ]
   },
   {
     "id": "H2",
@@ -3413,7 +3782,14 @@
     },
     "categoryId": "hotel",
     "localName": "和家宾馆（北京安贞医院店）",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "hotel",
+    "parentId": null,
+    "subtype": "hotel",
+    "tags": [],
+    "aliases": [
+      "Hejia Anzhen"
+    ]
   },
   {
     "id": "H3",
@@ -3541,7 +3917,14 @@
     },
     "categoryId": "hotel",
     "localName": "日禾行政酒店(北京大兴龙湖天街生物医药基地地铁站店)",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "hotel",
+    "parentId": null,
+    "subtype": "hotel",
+    "tags": [],
+    "aliases": [
+      "Rihe · Дасин"
+    ]
   },
   {
     "id": "H4",
@@ -3668,7 +4051,14 @@
     },
     "categoryId": "hotel",
     "localName": "京奇欧居酒店(北京天坛医院丰台火车站店)",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "hotel",
+    "parentId": null,
+    "subtype": "hotel",
+    "tags": [],
+    "aliases": [
+      "Jingqi Ouju · Фэнтай"
+    ]
   },
   {
     "id": "H5",
@@ -3795,7 +4185,14 @@
     },
     "categoryId": "hotel",
     "localName": "仟同酒店(北京环球影城度假区九棵树地铁站店)",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "hotel",
+    "parentId": null,
+    "subtype": "hotel",
+    "tags": [],
+    "aliases": [
+      "Yutong · Тунчжоу"
+    ]
   },
   {
     "id": "H6",
@@ -3922,7 +4319,14 @@
     ],
     "categoryId": "hotel",
     "localName": "雁栖舍酒店(北京中日友好医院安贞店)",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "hotel",
+    "parentId": null,
+    "subtype": "hotel",
+    "tags": [],
+    "aliases": [
+      "Yanqishe · Hepingxiqiao"
+    ]
   },
   {
     "id": "H7",
@@ -4049,7 +4453,14 @@
     ],
     "categoryId": "hotel",
     "localName": "怡馨精选酒店(东方医院刘家窑地铁站店)",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "hotel",
+    "parentId": null,
+    "subtype": "hotel",
+    "tags": [],
+    "aliases": [
+      "YIXIN Select"
+    ]
   },
   {
     "id": "H8",
@@ -4176,7 +4587,14 @@
     ],
     "categoryId": "hotel",
     "localName": "卓恺宾馆(北京中医药大学东方医院方庄院区方庄地铁站店)",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "hotel",
+    "parentId": null,
+    "subtype": "hotel",
+    "tags": [],
+    "aliases": [
+      "Zhuokai · Фанчжуан"
+    ]
   },
   {
     "id": "H9",
@@ -4303,7 +4721,14 @@
     ],
     "categoryId": "hotel",
     "localName": "康福瑞酒店(北京南站天坛南门店)",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "hotel",
+    "parentId": null,
+    "subtype": "hotel",
+    "tags": [],
+    "aliases": [
+      "Comfort · юг Храма Неба"
+    ]
   },
   {
     "id": "H10",
@@ -4430,7 +4855,14 @@
     ],
     "categoryId": "hotel",
     "localName": "北京楠树公寓(南三环外宋家庄地铁站店)",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "hotel",
+    "parentId": null,
+    "subtype": "hotel",
+    "tags": [],
+    "aliases": [
+      "Nanshu · Songjiazhuang"
+    ]
   },
   {
     "id": "H11",
@@ -4557,6 +4989,13 @@
     ],
     "categoryId": "hotel",
     "localName": "锦江之星风尚酒店(北京东直门三里屯店)",
-    "locationNote": ""
+    "locationNote": "",
+    "cardType": "hotel",
+    "parentId": null,
+    "subtype": "hotel",
+    "tags": [],
+    "aliases": [
+      "Jinjiang · Dongzhimen"
+    ]
   }
 ]

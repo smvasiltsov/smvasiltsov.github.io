@@ -1,3 +1,5 @@
+import {el} from './dom.js';
+import {categoryIcon} from './category-icons.js';
 import {$} from './dom.js';
 import {renderHotel} from './hotel-card.js';
 import {renderWalk} from './walk-card.js';
@@ -18,15 +20,24 @@ export class Cards {
     $('category').textContent=category.label;$('point-id').textContent='Точка '+point.id;$('place-title').textContent=point.name;
     $('place-local-name').textContent=point.localName||'';$('place-local-name').hidden=!point.localName;$('description').textContent=point.description;
     for(const id of ['hotel-summary','hotel-details','walk-summary']){$(id).replaceChildren();$(id).hidden=true;}
-    const renderers={place:()=>{},hotel:()=>{ $('hotel-summary').hidden=$('hotel-details').hidden=false;renderHotel(point,context,this.onChoose,$('hotel-summary'),$('hotel-details')); },walk:()=>{ $('walk-summary').hidden=false;renderWalk(point,context,$('walk-summary')); }};
-    (renderers[category.card]||renderers.place)();
+    if (point.cardType === 'hotel') { $('hotel-summary').hidden=$('hotel-details').hidden=false;renderHotel(point,context,this.onChoose,$('hotel-summary'),$('hotel-details')); }
+    if (point.walk) { $('walk-summary').hidden=false;renderWalk(point,context,$('walk-summary')); }
+    const metadata=$('place-metadata');metadata.replaceChildren();
+    const type=el('span',context.city.taxonomy.subtypes[point.subtype],'place-type');type.prepend(categoryIcon(category.icon));metadata.append(type);
+    for(const tag of point.tags)metadata.append(el('span',context.city.taxonomy.tags[tag],'place-tag'));
+    const relatives=$('place-relations');relatives.replaceChildren();
+    const related=[];
+    if(point.parentId)related.push(['Часть комплекса',context.pointMap.get(point.parentId)]);
+    for(const child of context.points.filter(p=>p.parentId===point.id))related.push(['В этом районе',child]);
+    for(const [label,target]of related){const button=el('button',label+': '+target.name);button.type='button';button.onclick=()=>this.onChoose(target);relatives.append(button);}
+    relatives.hidden=!related.length;
     const isIOS=ios(),mobile=isIOS||/Android/.test(navigator.userAgent),nav=navigationLinks(point,context,{mobile,ios:isIOS});
     $('navigation').textContent=`Открыть в ${nav.label} ↗`;$('navigation').href=mobile&&nav.native?nav.native:nav.web;$('navigation').target=mobile?'_self':'_blank';
     $('navigation-web').textContent=`${nav.label} в браузере ↗`;$('navigation-web').href=nav.web;$('navigation-web').hidden=!(mobile&&nav.native);
     $('source').hidden=!point.url;
-    if(point.url){const url=new URL(point.url);if(mobile&&category.card==='hotel')url.searchParams.set('wkp','1');$('source').href=url.href;$('source').textContent=category.card==='hotel'?'Отель на Trip.com ↗':'Подробнее ↗';$('source').target=mobile?'_self':'_blank';}
+    if(point.url){const url=new URL(point.url);if(mobile&&point.cardType==='hotel')url.searchParams.set('wkp','1');$('source').href=url.href;$('source').textContent=point.cardType==='hotel'?'Отель на Trip.com ↗':'Подробнее ↗';$('source').target=mobile?'_self':'_blank';}
     else $('source').removeAttribute('href');
-    $('note').textContent=category.card==='hotel'?`${tripLabel(context)}. Цены проверены ${date(context.trip.pricesCheckedAt,context.city.locale)} и не обновляются автоматически.`:point.locationNote||'';
+    $('note').textContent=point.cardType==='hotel'?`${tripLabel(context)}. Цены проверены ${date(context.trip.pricesCheckedAt,context.city.locale)} и не обновляются автоматически.`:point.locationNote||'';
     this.showPhoto();$('drawer').scrollTop=0;$('close').focus({preventScroll:true});
   }
   showPhoto(){if(!this.selected)return;renderPlacePhoto(this.selected,this.photoIndex,index=>{this.photoIndex=index;this.showPhoto();});}

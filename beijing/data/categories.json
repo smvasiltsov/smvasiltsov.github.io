@@ -1,32 +1,79 @@
 [
   {
-    "id": "sight",
-    "label": "Достопримечательность",
-    "listLabel": "Достопримечательности",
-    "legend": "Смотреть",
-    "color": "#315a8b",
-    "darkColor": "#8db9ee",
-    "shape": "circle",
-    "card": "place"
+    "id": "history",
+    "label": "История и наследие",
+    "listLabel": "История и наследие",
+    "groupId": "see",
+    "icon": "history"
   },
   {
-    "id": "walk",
-    "label": "Прогулки и кафе",
-    "listLabel": "Прогулки и кафе",
-    "legend": "Гулять · ★ /5",
-    "color": "#975429",
-    "darkColor": "#e6ac79",
-    "shape": "square",
-    "card": "walk"
+    "id": "architecture",
+    "label": "Современная архитектура",
+    "listLabel": "Современная архитектура",
+    "groupId": "see",
+    "icon": "architecture"
+  },
+  {
+    "id": "museum",
+    "label": "Музеи",
+    "listLabel": "Музеи",
+    "groupId": "see",
+    "icon": "museum"
+  },
+  {
+    "id": "culture",
+    "label": "Культурные пространства",
+    "listLabel": "Культурные пространства",
+    "groupId": "see",
+    "icon": "culture"
+  },
+  {
+    "id": "art",
+    "label": "Арт-кварталы и кластеры",
+    "listLabel": "Арт-кварталы и кластеры",
+    "groupId": "see",
+    "icon": "art"
+  },
+  {
+    "id": "urban",
+    "label": "Городские прогулки",
+    "listLabel": "Городские прогулки",
+    "groupId": "walk",
+    "icon": "walk"
+  },
+  {
+    "id": "nature",
+    "label": "Парки и набережные",
+    "listLabel": "Парки и набережные",
+    "groupId": "walk",
+    "icon": "nature"
+  },
+  {
+    "id": "shopping",
+    "label": "Шопинг",
+    "listLabel": "Шопинг",
+    "groupId": "shop",
+    "icon": "shopping"
+  },
+  {
+    "id": "food",
+    "label": "Еда и кофе",
+    "listLabel": "Еда и кофе",
+    "groupId": "food",
+    "icon": "food"
+  },
+  {
+    "id": "spa",
+    "label": "Бани и спа",
+    "listLabel": "Бани и спа",
+    "groupId": "relax",
+    "icon": "spa"
   },
   {
     "id": "hotel",
-    "label": "Отель",
+    "label": "Отели",
     "listLabel": "Отели",
-    "legend": "Жить",
-    "color": "#286d50",
-    "darkColor": "#91d7b4",
-    "shape": "diamond",
-    "card": "hotel"
+    "groupId": "stay",
+    "icon": "hotel"
   }
 ]

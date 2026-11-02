@@ -19,7 +19,7 @@ const cases=[
  ['duplicate point',c=>c.points.push(structuredClone(c.points[0]))],
  ['unknown category',c=>c.points[0].categoryId='missing'],
  ['invalid coordinates',c=>c.points[0].coord=[39,116]],
- ['missing photo attribution',c=>delete c.points.find(p=>p.categoryId==='sight'&&p.photos.length).photos[0].license],
+ ['missing photo attribution',c=>delete c.points.find(p=>p.cardType==='place'&&p.photos.length).photos[0].license],
  ['wrong photo collection',c=>c.points[0].photos={}],
  ['null point',c=>c.points.push(null)],
  ['null category',c=>c.categories.push(null)],
@@ -34,8 +34,8 @@ const cases=[
 ];
 for(const [name,mutate]of cases)test('rejects '+name,()=>{const c=copy();mutate(c);assert.ok(validateData(c).length);});
 test('new generic category and point require data changes only',()=>{
- const c=copy();c.categories.push({id:'food',label:'Рынок',listLabel:'Рынки',legend:'Поесть',color:'#112233',darkColor:'#aabbcc',shape:'square',card:'place'});
- c.points.push({id:'F1',categoryId:'food',name:'Рынок',description:'Описание',coord:[116.4,39.9],photos:[]});assert.deepEqual(validateData(c),[]);
+ const c=copy();c.categories.push({id:'market',label:'Рынок',listLabel:'Рынки',groupId:'shop',icon:'shopping'});
+ c.points.push({id:'F1',categoryId:'market',name:'Рынок',description:'Описание',coord:[116.4,39.9],photos:[],cardType:'place',subtype:'historic-street',tags:['shopping'],aliases:['Market'],parentId:null});assert.deepEqual(validateData(c),[]);
 });
 test('trip length, currency and score rules come from configuration',()=>{
  const c=copy();c.trip.checkOut='2026-11-10';c.trip.currency='USD';c.city.assessment.hotel.price.currency='USD';

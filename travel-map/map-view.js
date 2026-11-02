@@ -1,3 +1,4 @@
+import {hybridStyle,mapResourceLoader} from './hybrid-map.js';
 import {addLocationControl} from './location-control.js';
 import {emojiMarker} from './emoji-marker.js';
 import {pointBadge} from './point-labels.js';
@@ -14,27 +15,32 @@ export class MapView {
   constructor(context,{container,status,retry,onSelect,onMove}){
     Object.assign(this,{context,container,status,retry,onSelect,onMove});this.filteredPoints=context.points;this.nodes=new Map();this.selected=null;this.map=null;this.overlay=null;this.timer=null;this.generation=0;
     this.markerMedia=matchMedia('(max-width:650px), (pointer:coarse)');this.markerMedia.addEventListener('change',()=>{for(const node of this.nodes.values())node.remove();this.nodes.clear();this.render();});
-    this.resizeObserver=new ResizeObserver(()=>{if(this.map){this.map.resize();this.render();}});this.resizeObserver.observe(container);retry.onclick=()=>this.start();
+    this.resizeObserver=new ResizeObserver(()=>{if(this.map){this.map.resize({resize:true});this.render();}});this.resizeObserver.observe(container);retry.onclick=()=>this.map?this.reloadStyle():this.start();
+    window.addEventListener('online',()=>{if(this.map&&this.tileError)this.reloadStyle();});
   }
   async start(){
+    const previousView=this.map?{center:this.map.getCenter().toArray(),zoom:this.map.getZoom()}:null;
     this.ready=false;this.tileError=false;const generation=++this.generation;clearTimeout(this.timer);this.map?.remove();this.map=null;this.overlay=null;this.nodes.clear();this.container.replaceChildren();this.setStatus('Загружаю карту…');const locationStatus=document.getElementById('location-status');if(locationStatus){locationStatus.hidden=true;locationStatus.textContent='';}
     this.timer=setTimeout(()=>{if(generation===this.generation)this.setStatus('Карта пока не загрузилась. Проверьте подключение.',true);},20000);
     try{
       const [library,offline]=await Promise.all([loadLibrary(),savedMap(this.context)]);if(generation!==this.generation)return;this.offline=offline;
-      const config=this.context.city.map;
-      this.map=new library.Map({container:this.container,style:offline?.style||config.style,center:config.defaultView.center,zoom:config.defaultView.zoom,locale:{'GeolocateControl.FindMyLocation':'Моё местоположение','GeolocateControl.LocationNotAvailable':'Местоположение недоступно'},...(offline?{minZoom:offline.minZoom,maxZoom:offline.maxZoom,maxBounds:[offline.bounds[0]-1,offline.bounds[1]-.4,offline.bounds[2]+1,offline.bounds[3]+.4],localIdeographFontFamily:false}:{})});
+      const config=this.context.city.map;this.onlineMapAvailable=false;
+      if(offline?.tiles&&offline?.glyphs){library.addProtocol('travelmap',mapResourceLoader({...offline,onNetwork:available=>{if(generation!==this.generation)return;this.onlineMapAvailable=available;if(this.ready&&!this.tileError)this.setStatus(this.normalStatus());}}));offline.style=hybridStyle(offline,this.context.city.id);}
+      this.map=new library.Map({container:this.container,style:offline?.style||config.style,center:previousView?.center||config.defaultView.center,zoom:previousView?.zoom??config.defaultView.zoom,locale:{'GeolocateControl.FindMyLocation':'Моё местоположение','GeolocateControl.LocationNotAvailable':'Местоположение недоступно'},...(offline?{minZoom:0,maxZoom:offline.maxZoom,localIdeographFontFamily:false}:{})});
       this.locationControl=addLocationControl(this.map,library,{status:locationStatus,offline});
       this.map.addControl(new library.ScaleControl({unit:'metric'}),'bottom-right');this.map.addControl(new library.NavigationControl({showZoom:false}),'top-right');
       this.overlay=document.createElement('div');this.overlay.id='live-markers';this.overlay.setAttribute('role','group');this.overlay.setAttribute('aria-label','Места на карте');this.container.append(this.overlay);
       this.map.on('move',()=>this.render());
       this.map.on('movestart',()=>{this.onMove();this.tileError=false;if(this.ready)this.setStatus('Подгружаю карту…');});
       this.map.on('load',()=>{clearTimeout(this.timer);this.ready=true;this.setStatus(this.normalStatus());this.render();});
-      this.map.on('idle',()=>{if(this.ready)this.setStatus(this.tileError?'Часть карты не загрузилась':(this.normalStatus()),!!this.tileError);});
-      this.map.on('error',()=>{this.tileError=true;this.setStatus('Часть карты не загрузилась. Проверьте подключение.',true);});
-      if(this.selected)this.focus(this.selected);this.render();
+      this.map.on('idle',()=>{if(this.ready)this.setStatus(this.tileError?this.mapErrorStatus():this.normalStatus(),!!this.tileError);});
+      this.map.on('error',()=>{this.tileError=true;this.setStatus(this.mapErrorStatus(),true);});
+      if(this.selected&&!previousView)this.focus(this.selected);this.render();
     }catch(error){clearTimeout(this.timer);this.ready=false;this.setStatus('Карта недоступна. Список мест и карточки доступны.',true);console.warn('Map initialization failed',error);}
   }
-  normalStatus(){if(!this.offline)return 'Онлайн-карта · OpenFreeMap';const center=this.map.getCenter(),[w,s,e,n]=this.offline.bounds;return center.lng<w||center.lng>e||center.lat<s||center.lat>n?'За пределами сохранённой области':'Сохранённая карта · OpenFreeMap';}
+  normalStatus(){if(!this.offline)return 'Онлайн-карта · OpenFreeMap';const center=this.map.getCenter(),[w,s,e,n]=this.offline.bounds;return center.lng<w||center.lng>e||center.lat<s||center.lat>n?(this.onlineMapAvailable?'Онлайн-карта · вне сохранённого города':'Вне сохранённого города · подгружаю онлайн-карту'):'Сохранённая карта · OpenFreeMap';}
+  reloadStyle(){this.tileError=false;this.setStatus('Подгружаю карту…');this.map.setStyle(this.offline?.style||this.context.city.map.style,{diff:false});}
+  mapErrorStatus(){return this.offline&&!this.onlineMapAvailable?'Здесь карта не сохранена или нет связи с провайдером. Для подгрузки нужен интернет.':'Часть карты не загрузилась. Проверьте подключение.';}
   setStatus(message,retry=false){this.status.textContent=message;this.retry.hidden=!retry;}
   focus(point){this.selected=point;if(this.map){this.map.resize();this.map.easeTo({center:point.coord,zoom:Math.max(this.map.getZoom(),this.context.city.map.selectedZoom),duration:this.duration()});this.render();}}
   setPoints(points){this.filteredPoints=points;this.render();}

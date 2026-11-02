@@ -1,23 +1,12 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {addLocationControl,locationErrorMessage} from '../location-control.js';
-class Geolocate {
- constructor(options){this.options=options;this.events={};}
- on(name,callback){this.events[name]=callback;return this;}
- emit(name,event){this.events[name](event);}
-}
-function setup(offline){const status={hidden:true,textContent:''},map={addControl(control,position){this.control=control;this.position=position;}};const control=addLocationControl(map,{GeolocateControl:Geolocate},{status,offline});return {status,map,control};}
-test('location control waits for a user action and uses native tracking and accuracy rendering',()=>{
- const {control,map,status}=setup();assert.equal(map.position,'top-left');assert.equal(status.hidden,true);
- assert.equal(control.options.trackUserLocation,true);assert.equal(control.options.showAccuracyCircle,true);assert.equal(control.options.showUserLocation,true);assert.equal(control.options.positionOptions.enableHighAccuracy,true);assert.equal(control.options.positionOptions.timeout,15000);
- control.emit('geolocate',{coords:{latitude:39.9,longitude:116.4,accuracy:24.2}});assert.match(status.textContent,/±25 м/);assert.equal(status.hidden,false);
- control.emit('trackuserlocationend');assert.match(status.textContent,/чтобы вернуться/);control.emit('trackuserlocationstart');assert.match(status.textContent,/включено/);
-});
-test('offline bounds are reported without treating another city as Beijing',()=>{
- const {control,status}=setup({bounds:[116.1,39.6,116.85,40.5]});control.emit('geolocate',{coords:{latitude:39.9,longitude:117,accuracy:50}});assert.match(status.textContent,/за пределами/);
- control.emit('outofmaxbounds');assert.match(status.textContent,/не скачана/);
- control.emit('geolocate',{coords:{latitude:39.9,longitude:116.4,accuracy:12}});assert.match(status.textContent,/Ваше местоположение/);
-});
-test('permission, missing signal and timeout errors are actionable',()=>{
- for(const [code,pattern]of [[1,/Разрешите/],[2,/открытом месте/],[3,/ещё раз/],[99,/настройки/]]){const {control,status}=setup();control.emit('error',{code});assert.match(status.textContent,pattern);assert.equal(status.textContent,locationErrorMessage({code}));}
-});
+import {LocationSession,locationErrorMessage,locationContext,accuracyDiameter} from '../location-control.js';
+const point=(longitude=116.4,latitude=39.9)=>({coords:{longitude,latitude,accuracy:24.2}});
+function fixture(extra={}){const calls=[],messages=[],positions=[];let first,watched,fail;const geo={getCurrentPosition(ok,error,options){calls.push(['request',options]);first=ok;fail=error;},watchPosition(ok,error,options){calls.push(['watch',options]);watched=ok;fail=error;return 7;},clearWatch(id){calls.push(['clear',id]);}};const environment={isSecureContext:true,navigator:{geolocation:geo},...extra},session=new LocationSession({environment,onMessage:s=>messages.push(s),onPosition:(p,follow)=>positions.push([p,follow])});return {session,calls,messages,positions,success:p=>first(p),update:p=>watched(p),error:e=>fail(e)};}
+test('first coordinate request happens on click, before starting a watch',()=>{const f=fixture();assert.deepEqual(f.calls,[]);f.session.toggle();assert.equal(f.calls[0][0],'request');assert.equal(f.calls.length,1);assert.equal(f.calls[0][1].maximumAge,0);f.success(point());assert.equal(f.calls[1][0],'watch');assert.match(f.messages.at(-1),/±25 м/);assert.equal(f.positions[0][1],true);});
+test('drag releases following, updates still move the dot, next click recenters, next click stops',()=>{const f=fixture();f.session.toggle();f.success(point());f.session.release();f.update(point(116.5));assert.equal(f.positions.at(-1)[1],false);f.session.toggle();assert.equal(f.positions.at(-1)[1],true);assert.equal(f.calls.filter(c=>c[0]==='request').length,1);f.session.toggle();assert.deepEqual(f.calls.at(-1),['clear',7]);assert.equal(f.session.position,null);});
+test('coordinates outside Beijing are accepted and late callbacks after stopping are ignored',()=>{const f=fixture();f.session.toggle();f.success(point(126.978,37.566));assert.equal(f.positions.length,1);f.session.stop();f.update(point());assert.equal(f.positions.length,1);const g=fixture();g.session.toggle();g.session.toggle();g.success(point());assert.equal(g.positions.length,0);assert.equal(g.calls.length,1);});
+test('a policy block is distinguished from browser/system permission errors',async()=>{const f=fixture({document:{permissionsPolicy:{allowsFeature:()=>false}}});f.session.toggle();assert.deepEqual(f.calls,[]);assert.match(f.messages[0],/политикой/);const g=fixture({navigator:{permissions:{query:async()=>({state:'granted'})},geolocation:{getCurrentPosition(ok,error){error({code:1});}}}});g.session.toggle();await new Promise(resolve=>setImmediate(resolve));assert.match(g.messages.at(-1),/Разрешение сайта есть/);assert.equal(g.session.running,false);assert.equal(locationContext({isSecureContext:false}).secure,false);});
+test('timeouts and unavailable fixes allow retry, do not claim site permission was denied',()=>{for(const code of [2,3]){const f=fixture();f.session.toggle();f.error({code});assert.equal(f.session.running,false);assert.doesNotMatch(f.messages.at(-1),/отказ/);f.session.toggle();assert.equal(f.calls.length,2);}assert.match(locationErrorMessage({code:1}),/системные Службы/);});
+test('lost fixes retain a visibly stale last position and permission revocation removes it',async()=>{const f=fixture();f.session.toggle();f.success(point());f.error({code:2});assert.equal(f.session.stale,true);assert.match(f.messages.at(-1),/последняя/);f.update(point());assert.equal(f.session.stale,false);f.error({code:1});await new Promise(resolve=>setImmediate(resolve));assert.equal(f.session.position,null);assert.equal(f.session.running,false);});
+test('accuracy circle scales with zoom and rejects invalid accuracy values',()=>{const a=accuracyDiameter(25,39.9,14);assert.ok(a>0);assert.equal(accuracyDiameter(25,39.9,15),a*2);assert.equal(accuracyDiameter(undefined,39.9,14),0);});

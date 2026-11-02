@@ -3,8 +3,6 @@ import {pointBadge} from './point-labels.js';
 import {savedMap} from './offline-map.js';
 import {walkScore} from './assessment.js';
 import {number} from './format.js';
-const SVG='http://www.w3.org/2000/svg';
-const svg=(tag,attrs={})=>{const node=document.createElementNS(SVG,tag);for(const [k,v]of Object.entries(attrs))node.setAttribute(k,v);return node;};
 let libraryPromise;
 function loadLibrary(){
   if(globalThis.maplibregl)return Promise.resolve(globalThis.maplibregl);
@@ -25,7 +23,7 @@ export class MapView {
       const config=this.context.city.map;
       this.map=new library.Map({container:this.container,style:offline?.style||config.style,center:config.defaultView.center,zoom:config.defaultView.zoom,...(offline?{minZoom:offline.minZoom,maxZoom:offline.maxZoom,maxBounds:[offline.bounds[0]-1,offline.bounds[1]-.4,offline.bounds[2]+1,offline.bounds[3]+.4],localIdeographFontFamily:false}:{})});
       this.map.addControl(new library.ScaleControl({unit:'metric'}),'bottom-right');this.map.addControl(new library.NavigationControl({showZoom:false}),'top-right');
-      this.overlay=svg('svg',{id:'live-markers','aria-label':'Места на карте'});this.container.append(this.overlay);
+      this.overlay=document.createElement('div');this.overlay.id='live-markers';this.overlay.setAttribute('role','group');this.overlay.setAttribute('aria-label','Места на карте');this.container.append(this.overlay);
       this.map.on('move',()=>this.render());
       this.map.on('movestart',()=>{this.onMove();this.tileError=false;if(this.ready)this.setStatus('Подгружаю карту…');});
       this.map.on('load',()=>{clearTimeout(this.timer);this.ready=true;this.setStatus(this.normalStatus());this.render();});
@@ -44,23 +42,21 @@ export class MapView {
   fitAll(){if(!this.map)return;const bounds=new globalThis.maplibregl.LngLatBounds();for(const p of this.filteredPoints)bounds.extend(p.coord);if(bounds.isEmpty())return;this.map.fitBounds(bounds,{padding:{top:80,bottom:65,left:45,right:45},maxZoom:this.context.city.map.maxFitZoom,duration:this.duration()});}
   zoom(delta){if(this.map)this.map.zoomTo(this.map.getZoom()+delta,{duration:this.duration()});}
   marker(point){
-    const category=this.context.categoryMap.get(point.categoryId),group=svg('g',{class:'point',role:'button',tabindex:0,'data-point-id':point.id});
-    group.style.setProperty('--marker-color',category.color);group.style.setProperty('--marker-dark-color',category.darkColor);
-    const hit=svg('rect',{x:-22,y:-22,width:48,height:44,rx:12});hit.style.fill='transparent';
-    const ring=svg('rect',{x:-22,y:-22,width:48,height:44,rx:12,class:'active-ring'});ring.style.fill='none';ring.style.stroke='#284e3e';ring.style.strokeWidth='2px';
-    group.append(svg('title'),hit,ring);
-    const content=svg('foreignObject',{x:-18,y:-18,width:48,height:42,'aria-hidden':'true'});content.style.overflow='visible';content.style.pointerEvents='none';content.append(emojiMarker(category.icon,point.categoryNumber,this.markerMedia.matches));group.append(content);
-    if(point.walk){const badge=svg('g',{class:'walk-map-rating'});badge.append(svg('rect',{x:-22,y:25,width:44,height:18,rx:9}));const score=svg('text',{y:37});score.textContent='★ '+number(walkScore(point,this.context),this.context.city.locale);badge.append(score);group.append(badge);}
-    const rating=point.walk?' · оценка прогулки '+number(walkScore(point,this.context),this.context.city.locale)+' из 5':'';group.setAttribute('aria-label',pointBadge(point,this.context)+' · '+category.label+' · '+point.name+rating);group.querySelector('title').textContent=point.name+rating;
+    const category=this.context.categoryMap.get(point.categoryId),group=document.createElement('button');
+    group.type='button';group.className='point';group.setAttribute('data-point-id',point.id);
+    group.setAttribute('style','position:absolute;left:0;top:0;width:48px;height:44px;margin:-18px 0 0 -18px;padding:0;border:0;border-radius:10px;background:transparent;overflow:visible;pointer-events:auto;box-shadow:none;transition:none');
+    group.append(emojiMarker(category.icon,point.categoryNumber,this.markerMedia.matches));
+    if(point.walk){const badge=document.createElement('span');badge.className='place-marker-rating';badge.setAttribute('aria-hidden','true');badge.setAttribute('style','position:absolute;left:-4px;top:43px;width:44px;height:18px;border-radius:9px;border:1.2px solid var(--walk);background:var(--panel);color:var(--walk);font:650 10px/16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:center;white-space:nowrap;pointer-events:none');badge.textContent='★ '+number(walkScore(point,this.context),this.context.city.locale);group.append(badge);}
+    const rating=point.walk?' · оценка прогулки '+number(walkScore(point,this.context),this.context.city.locale)+' из 5':'';group.setAttribute('aria-label',pointBadge(point,this.context)+' · '+category.label+' · '+point.name+rating);group.title=point.name+rating;
     const activate=event=>{event.preventDefault();event.stopPropagation();const q=this.map.project(point.coord),nearby=this.visible.filter(p=>Math.hypot(p.screenX-q.x,p.screenY-q.y)<36);this.onSelect(point,nearby);};
-    group.addEventListener('click',activate);group.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' ')activate(event);});return group;
+    group.addEventListener('click',activate);return group;
   }
   render(){
     if(!this.map||!this.overlay)return;
-    const width=this.container.clientWidth,height=this.container.clientHeight;this.overlay.setAttribute('viewBox',`0 0 ${width} ${height}`);
+    const width=this.container.clientWidth,height=this.container.clientHeight;
     this.visible=this.filteredPoints.map(p=>{const q=this.map.project(p.coord);return {...p,screenX:q.x,screenY:q.y};}).filter(p=>p.screenX>-45&&p.screenX<width+45&&p.screenY>-45&&p.screenY<height+45);
     const visibleIds=new Set(this.visible.map(p=>p.id));for(const [id,node]of this.nodes)if(!visibleIds.has(id)){node.remove();this.nodes.delete(id);}
-    for(const point of this.visible){let node=this.nodes.get(point.id);if(!node){node=this.marker(this.context.pointMap.get(point.id));this.nodes.set(point.id,node);this.overlay.append(node);}node.setAttribute('transform',`translate(${point.screenX},${point.screenY})`);const active=point.id===this.selected?.id;node.setAttribute('aria-pressed',String(active));node.querySelector('.active-ring').setAttribute('display',active?'inline':'none');}
+    for(const point of this.visible){let node=this.nodes.get(point.id);if(!node){node=this.marker(this.context.pointMap.get(point.id));this.nodes.set(point.id,node);this.overlay.append(node);}node.style.transform=`translate3d(${point.screenX}px,${point.screenY}px,0)`;const active=point.id===this.selected?.id;node.setAttribute('aria-pressed',String(active));node.style.outline=active?'2px solid var(--ink)':'';}
     const active=this.nodes.get(this.selected?.id);if(active&&this.overlay.lastElementChild!==active)this.overlay.append(active);
   }
 }

@@ -7,13 +7,13 @@ const data=await readCity(new URL('../../beijing/data/city.json',import.meta.url
 const ctx={...data,categoryMap:new Map(data.categories.map(c=>[c.id,c])),pointMap:new Map(data.points.map(p=>[p.id,p]))};
 const empty={group:'',category:'',subtype:'',tag:'',query:''},ids=filters=>filterPoints(ctx.points,{...empty,...filters},ctx).map(p=>p.id);
 test('all current places have one category, while planned categories may be empty',()=>{
- assert.equal(ctx.categories.length,11);assert.equal(ctx.points.length,40);
- assert.equal(ids({category:'history'}).length,9);assert.equal(ids({category:'nature'}).length,5);assert.equal(ids({category:'urban'}).length,11);assert.equal(ids({category:'art'}).length,3);assert.equal(ids({category:'hotel'}).length,11);assert.equal(ids({category:'museum'}).length,1);
- assert.deepEqual(ids({category:'architecture'}),[]);
+ assert.equal(ctx.categories.length,11);assert.equal(ctx.points.length,75);
+ assert.equal(ids({category:'history'}).length,9);assert.equal(ids({category:'nature'}).length,8);assert.equal(ids({category:'urban'}).length,13);assert.equal(ids({category:'art'}).length,6);assert.equal(ids({category:'hotel'}).length,11);assert.equal(ids({category:'museum'}).length,6);
+ assert.equal(ids({category:'architecture'}).length,9);assert.equal(ids({category:'shopping'}).length,8);assert.equal(ids({category:'culture'}).length,4);assert.equal(ids({category:'spa'}).length,1);
 });
 test('walk filter spans categories and preserves all existing walk assessments',()=>{
  const walks=ids({group:'walk'});for(const id of ['3','4','15','E','F','K','H'])assert.ok(walks.includes(id),id);
- assert.equal(ctx.points.filter(p=>p.walk).length,13);assert.equal(ctx.pointMap.get('K').categoryId,'art');assert.ok(ctx.pointMap.get('K').walk);
+ assert.equal(ctx.points.filter(p=>p.walk).length,31);assert.equal(ctx.pointMap.get('K').categoryId,'art');assert.ok(ctx.pointMap.get('K').walk);
 });
 test('group, category, subtype, feature and multilingual search combine',()=>{
  assert.deepEqual(ids({group:'walk',category:'nature',tag:'water',query:'Liangma'}),['E']);

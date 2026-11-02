@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "city": "beijing",
-  "version": "6829eca584dd288c687a7310",
-  "createdAt": "2026-11-02T11:07:27.853Z",
-  "bytes": 82360663,
+  "version": "75b527d4bff20332ac2540d5",
+  "createdAt": "2026-11-02T12:31:10.613Z",
+  "bytes": 130368072,
   "map": {
     "style": "./offline/map-20261102/style.json",
     "bounds": [
-      116.15,
+      116.1,
       39.6,
       116.85,
       40.5
@@ -19,8 +19,8 @@
   "files": [
     {
       "url": "/beijing/",
-      "bytes": 5856,
-      "sha256": "a6ae1de890f064ed5ceea0440b0c1e1d73ecb6dca567761e39d38e0f3c52344b"
+      "bytes": 5954,
+      "sha256": "fcabbb8dea6804d1c5db6cb340a142b9d10b12f3cac36550d363a55cb1b150d2"
     },
     {
       "url": "/beijing/app-icons/apple-touch-icon.png",
@@ -1528,6 +1528,1416 @@
       "sha256": "3251ee04b3940e55102a3e29e6123a6f2951ee7ea2e3e6178be357dad318d7b0"
     },
     {
+      "url": "/beijing/assets/places/new-architecture/beijing-cbd/01-thumb.jpg",
+      "bytes": 16416,
+      "sha256": "80233695cfe26d7e5e47688708e79d86a11faafde2460836538e2a58cb613230"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/beijing-cbd/01.jpg",
+      "bytes": 473692,
+      "sha256": "8d97145212d4ef3e16fec03ff77d54d383523f2b7d4f83eb38e93b297a516dc1"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/beijing-cbd/02-thumb.jpg",
+      "bytes": 13895,
+      "sha256": "5fda4f46d046ba42601d4d6c892e3bfce30f7a32237904404a454a38ba27b91e"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/beijing-cbd/02.jpg",
+      "bytes": 275179,
+      "sha256": "1903a234fbe34e371fec6e1aae6423d7a2386e94f3205da5382e6ec027736e91"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/beijing-cbd/03-thumb.jpg",
+      "bytes": 15820,
+      "sha256": "6bd02f7697404705b8c4bb60f63f042c499dc0fd7ba9739e97d2e6141baa1882"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/beijing-cbd/03.jpg",
+      "bytes": 399544,
+      "sha256": "ddd9fd0478b159ad50c4720dd3d81d897641008b46e3bb520ffbb2d4333cb493"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/beijing-cbd/04-thumb.jpg",
+      "bytes": 22846,
+      "sha256": "308dc6d0ff82487113cdcab0bb4efe68264f0102808b3b23a9008d9548709c57"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/beijing-cbd/04.jpg",
+      "bytes": 511467,
+      "sha256": "64fcae7cc8ba52df47589637c1ae137de95c4911da326601f37574c69c123d6e"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/beijing-cbd/05-thumb.jpg",
+      "bytes": 21824,
+      "sha256": "b7253fc23f713c463fa6f24e2c132e4c242457562116b167a213deb9249f6b15"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/beijing-cbd/05.jpg",
+      "bytes": 599148,
+      "sha256": "5a33296a70e8df4207ea4e67a0ed98ad861b8e15be2217848ba1886d2d133c90"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/cctv-headquarters/01-thumb.jpg",
+      "bytes": 12022,
+      "sha256": "a6bf01dec75874ab5142f8e355df95497c2ad00865024796a590526c30200b3b"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/cctv-headquarters/01.jpg",
+      "bytes": 278825,
+      "sha256": "cc0d0133f0d018ef44b9941ee04caaaf0aa8bba1bd213a3791239e570dcf86b1"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/cctv-headquarters/02-thumb.jpg",
+      "bytes": 18255,
+      "sha256": "fb3f9956dd59949d792718bf19b34fea4418dd1874bac13e95af5273d2296d36"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/cctv-headquarters/02.jpg",
+      "bytes": 326877,
+      "sha256": "491b71c13807f46d2b0e3f8442bd50979533e99fc5b1c3206b3605357be20d99"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/cctv-headquarters/03-thumb.jpg",
+      "bytes": 22655,
+      "sha256": "86acb280fc53835ce8063e683edcde7ed71c79a23eaccf75c19e9920905cbf4f"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/cctv-headquarters/03.jpg",
+      "bytes": 511977,
+      "sha256": "3ba16824faf64dec128379fce11c2273e33f299616539792080082dfa6528ae1"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/cctv-headquarters/04-thumb.jpg",
+      "bytes": 18072,
+      "sha256": "02604a91cd09414ad13494ee28e93e0ab1640c119c0c41c173501490ccea928e"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/cctv-headquarters/04.jpg",
+      "bytes": 496748,
+      "sha256": "485f0f32bc7ca58b30a3abd26d8ba278a260f875a0ee13d129ae5302156ce67a"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/cctv-headquarters/05-thumb.jpg",
+      "bytes": 9359,
+      "sha256": "af950c6f5b88e543dfaf55c9c2963eacd35c5052810ff3b8c85cfee84e0afcb6"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/cctv-headquarters/05.jpg",
+      "bytes": 307556,
+      "sha256": "027a2f74c8f75728a78e067c8d105c6e8f46a665bc50b125e70c5c06db746b28"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/china-zun/01-thumb.jpg",
+      "bytes": 13296,
+      "sha256": "989bdda0e6b051f7609e4922b79b772c2d022fe34addf5d9f1c8b435debd9b0a"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/china-zun/01.jpg",
+      "bytes": 290664,
+      "sha256": "44a6471a5a7e6aa0af62b7cf39498d5c2fbe2fdc2f5d3b425295fb901d57ca78"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/china-zun/02-thumb.jpg",
+      "bytes": 13014,
+      "sha256": "91c61aedc968fbf9b5ee2a4196c303b3f717e701cd5edefbd96cd8e462735369"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/china-zun/02.jpg",
+      "bytes": 249157,
+      "sha256": "31bfe0a2538cefbddd87ee7c88f5318cd3fafda2120e8de2d71f26477976a255"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/china-zun/03-thumb.jpg",
+      "bytes": 14115,
+      "sha256": "f10646be3baa512d541d7dbec452df6f959670060240a999bb88494b0ce8abb3"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/china-zun/03.jpg",
+      "bytes": 380769,
+      "sha256": "6c0ea915504c6b45e858e006dc8e7762cb9dcf3739bd606800c0b709e9fd8245"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/china-zun/04-thumb.jpg",
+      "bytes": 8116,
+      "sha256": "9b9065b5cb953d3b0b25012f70e27fdc514d4f7e7dfaf060b604cb489ad2a71d"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/china-zun/04.jpg",
+      "bytes": 140616,
+      "sha256": "05012a1facecf8e7bc40b0e18e6ee7b2e144ee5f5c30a1c7dbbc35f0a84d3dee"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/china-zun/05-thumb.jpg",
+      "bytes": 12649,
+      "sha256": "ad4fb0e63c29d15dd2cc54c2758280ba970d5f0a457c6a257f14002a8bb32104"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/china-zun/05.jpg",
+      "bytes": 234310,
+      "sha256": "6cf5c599c6fd6b5e5de0c9153ec903a7a291e4563507721e6513a07da36e437f"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/galaxy-soho/01-thumb.jpg",
+      "bytes": 13153,
+      "sha256": "c3c512e2a43e490ee1961b913616dca02d8da2c16d1d440d0bd9dc2328de6a7e"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/galaxy-soho/01.jpg",
+      "bytes": 241079,
+      "sha256": "ce33045107e03f0d91c3784b40ec3c334acfcf87a0886f4bcf32ae5c5ab9585f"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/galaxy-soho/02-thumb.jpg",
+      "bytes": 16639,
+      "sha256": "c04df3f350224e52eb4cc20a958f497a8c3259d9766f3aca848fb18926ec9ada"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/galaxy-soho/02.jpg",
+      "bytes": 301209,
+      "sha256": "459fb2aad511c69b4ff10338b066d3efefb86a33d6f457a3357bee9be49f2f1e"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/galaxy-soho/03-thumb.jpg",
+      "bytes": 11968,
+      "sha256": "6927047d1bd4b57f67667fdc800e2458fa86e5bd07111fb74a7075e5b76c68cc"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/galaxy-soho/03.jpg",
+      "bytes": 233098,
+      "sha256": "182afe1bd66c3503d4986a2f27cf83ed3092bd4b6073abceaff3915acc71abd8"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/galaxy-soho/04-thumb.jpg",
+      "bytes": 18579,
+      "sha256": "af8a96b142c1af715658118cd81c8c2a21c36c1e510f576959500d5b14f02734"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/galaxy-soho/04.jpg",
+      "bytes": 282341,
+      "sha256": "ace02024d01ebc596b5f0ad41a365e2fe669ba82e4339ee1df1dee3a5c15b10c"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/galaxy-soho/05-thumb.jpg",
+      "bytes": 16741,
+      "sha256": "d98e5e12363ddc7c7aa8d66d644f60d44866954dfba692d720e2a2b1275b88cc"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/galaxy-soho/05.jpg",
+      "bytes": 246635,
+      "sha256": "971bdae78de9ed134af8f05bbe681d3b987e82f34bcbf0589da3793fae95e20d"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/leeza-soho/01-thumb.jpg",
+      "bytes": 14591,
+      "sha256": "8457a8fde8e48c4f7cee3aca0bfa00d308cd1ab6194ac49ccf2d75c23157859f"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/leeza-soho/01.jpg",
+      "bytes": 347202,
+      "sha256": "31f065ef054320b7a2fc943cdb83e0ff15bbf9797e5ba181d0cd31de68e42a50"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/leeza-soho/02-thumb.jpg",
+      "bytes": 16187,
+      "sha256": "9ccec20bfff6de34b60d82ca12a8e5f0d7c948dcd8dd1b966fa38b612bf3d671"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/leeza-soho/02.jpg",
+      "bytes": 338548,
+      "sha256": "cab876c27fd6b40d8498c95eba01622f7ad599d6df60b9db75d5d9b865007f93"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/leeza-soho/03-thumb.jpg",
+      "bytes": 20373,
+      "sha256": "54a404de07a9d93523d4dd4bae72df604f224c3c42b3cfe2751be5868b9d2c24"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/leeza-soho/03.jpg",
+      "bytes": 334018,
+      "sha256": "3a2bffc8494ce6546030e25021105a705bc2e671800fab5589e7bc8896ada64d"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/leeza-soho/04-thumb.jpg",
+      "bytes": 21094,
+      "sha256": "cbafdb6a0e8ff346bbde0e2c701f8ff1638f3855076c4be9cd0a0121e156e4f9"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/leeza-soho/04.jpg",
+      "bytes": 467668,
+      "sha256": "97d700a473c6d65cd4efd5d8c9d3c6bb1380d323ecca4927bafec1aac5b87d7e"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/leeza-soho/05-thumb.jpg",
+      "bytes": 23495,
+      "sha256": "1c6a1ae0f1d6a6f4d2c988d4f1e00c9b55b115367505dfb7e99b6d0434ac2b38"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/leeza-soho/05.jpg",
+      "bytes": 409276,
+      "sha256": "927f4773d1823a3fa7ad1441f469d03c92448b7b51bac90844b776da90ec7ec0"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/ncpa/01-thumb.jpg",
+      "bytes": 13635,
+      "sha256": "4f4fc07b2168ceccb7d060b69a35be53bafedc4c8222865af62e3e7d3abdc122"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/ncpa/01.jpg",
+      "bytes": 252127,
+      "sha256": "0c914241a1f438135311c4d61989862c1038f64c1fdf2634c6041bcfb4bbf361"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/ncpa/02-thumb.jpg",
+      "bytes": 7485,
+      "sha256": "5c2e1eb27a68d160f0913a89ea6762b284004b449e5ff8390fd082a2682f6509"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/ncpa/02.jpg",
+      "bytes": 155739,
+      "sha256": "469fe74690ebc86b89afdf58c774f882e92163bdcaba940848531d6cd317fcb6"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/ncpa/03-thumb.jpg",
+      "bytes": 8449,
+      "sha256": "2e20b176ac086f4393547179d8fa562044d64895649eaf5203de4c7a9e0d943b"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/ncpa/03.jpg",
+      "bytes": 219470,
+      "sha256": "3a3b6318f6495249cafe5293124d72124391f1426cfe0c2e787ce557a7e24f73"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/ncpa/04-thumb.jpg",
+      "bytes": 13559,
+      "sha256": "89c19d94b2ca3174d79cc67a11573a07f5ccfaa51a38cc008f4771c6a06081ab"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/ncpa/04.jpg",
+      "bytes": 306842,
+      "sha256": "e45f80f3b7fd98c6d33873586744542ced7b6785a11d9a5b03c80b7c41f0a9ae"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/ncpa/05-thumb.jpg",
+      "bytes": 16120,
+      "sha256": "4084714835cab2dbe0ae27cd242a804d36bc0a195219195fafcdd2b801809088"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/ncpa/05.jpg",
+      "bytes": 293164,
+      "sha256": "3566ba34ed8df68d2e618f90e4918b1a84128802bfff5c180853d49c10a0a1d4"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/phoenix-center/01-thumb.jpg",
+      "bytes": 19157,
+      "sha256": "a2d51bd4ed71de07dec599e1bf1d4ddeec903fad77546af48c1280e3be2f3140"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/phoenix-center/01.jpg",
+      "bytes": 422358,
+      "sha256": "e1d61773123decd8f48d0db6026512d3284784698cb8c9c4715493e03e172324"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/phoenix-center/02-thumb.jpg",
+      "bytes": 15077,
+      "sha256": "97fc7ea644e05ead157ff954321aac9b1acd7c98005200f66c6faf1e8b7af832"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/phoenix-center/02.jpg",
+      "bytes": 296753,
+      "sha256": "adeb2bfb68d8230a27f7f186167fe4cc1c9e4d4bc95a7b1b66c86528116bd8e7"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/phoenix-center/03-thumb.jpg",
+      "bytes": 20131,
+      "sha256": "7cfdbe6e70647b60f56e960be51db76c2227b6f974dab6964b9072eadab4276f"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/phoenix-center/03.jpg",
+      "bytes": 436293,
+      "sha256": "3d2fdbf18cfa3e4e64182f5ab90d36d8fa01ea50decec7f10df102eed9b99a88"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/phoenix-center/04-thumb.jpg",
+      "bytes": 22466,
+      "sha256": "d68d8cfb8a5f07d4b519957a10749d475f5bdcc2f3734f92cff1470295d4acf2"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/phoenix-center/04.jpg",
+      "bytes": 488969,
+      "sha256": "b7c1e8d6bd4749ececa8d016db45f84e423024e8eebf6bd8831b3244442f6cd6"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/phoenix-center/05-thumb.jpg",
+      "bytes": 11950,
+      "sha256": "2d99e31f8f08af505fe2cb761bc99167cab32a55dd5f31e55c9481da51861838"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/phoenix-center/05.jpg",
+      "bytes": 259941,
+      "sha256": "9d3826b4f3b200e582a6750fcad3e9565ed622c5ce6f251c7c246105afc40b3e"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/wangjing-soho/01-thumb.jpg",
+      "bytes": 14540,
+      "sha256": "ee7e67bd0115bcdfb9be45b109b5b7e965185356744948292611f12ad8437872"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/wangjing-soho/01.jpg",
+      "bytes": 424463,
+      "sha256": "52145be0894eeab544cdb0ef8a24043fa0f99159568c922e3740da054babc92d"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/wangjing-soho/02-thumb.jpg",
+      "bytes": 19279,
+      "sha256": "724923b0982d022fa9775c4f6948e030659e4614342f47f5310569bbd4d48e5d"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/wangjing-soho/02.jpg",
+      "bytes": 502686,
+      "sha256": "b9e1c85db5952bf20aff76fb31f778696ddd00f4a17739385bd3632c5c36d2ec"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/wangjing-soho/03-thumb.jpg",
+      "bytes": 16866,
+      "sha256": "dab37c50ee4f9ae3858306c719572c69d62a9c9a84f5b1debd902147464770a8"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/wangjing-soho/03.jpg",
+      "bytes": 436769,
+      "sha256": "e3f133d7ce0136d977aae7e4b5709ffc09cc4768cd0b7d8aa99c142fc14593d4"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/wangjing-soho/04-thumb.jpg",
+      "bytes": 11736,
+      "sha256": "ddd4f01f56b1fbbdbac7fb81949e1d6df3440156848926c6faa5d5dda613115d"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/wangjing-soho/04.jpg",
+      "bytes": 168302,
+      "sha256": "06772f566169f6490dd31f046dbef59a8e8b8af1995e9032fb4f61ffc145178a"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/wangjing-soho/05-thumb.jpg",
+      "bytes": 12891,
+      "sha256": "ed0a7a75470ecc66a475d802e40b0907fcfc550f242d52d3434c1cf9911596ba"
+    },
+    {
+      "url": "/beijing/assets/places/new-architecture/wangjing-soho/05.jpg",
+      "bytes": 282217,
+      "sha256": "7a6cd86cb57b1232994cf9279264c632a6a5cbfdcc748b7e0a6e39e04d2f6c6d"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-art-center/01-thumb.jpg",
+      "bytes": 27371,
+      "sha256": "7ee81e5a0b6d5d79d7a4a5044a2b0c3ecf8750fbbcd9be43a809d9ae47ccce22"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-art-center/01.jpg",
+      "bytes": 341484,
+      "sha256": "9a5f5bb8b0cd22c97b6376ed85c1819792aea0fd310cbb103a7acd18daf168eb"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-art-center/02-thumb.jpg",
+      "bytes": 34305,
+      "sha256": "c2ea2c598a1051f773b770ddfe8393a3427eed91a754c1875d1cb7fb2c11b628"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-art-center/02.jpg",
+      "bytes": 325839,
+      "sha256": "4e21f9a9b79b5e5942efb9362e4cf199f106501dd431017e980e2cd4483823f0"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-art-center/03-thumb.jpg",
+      "bytes": 23913,
+      "sha256": "574bc498aa32aad88c2af12156367ee5759ed298da013e0568ab9b8bfc544b35"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-art-center/03.jpg",
+      "bytes": 304114,
+      "sha256": "b4c1c5799f6eb5c43f01df0b78608f23b494f19ba5700ef9708b964b62805173"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-art-center/04-thumb.jpg",
+      "bytes": 22086,
+      "sha256": "cae80f39527643b162828b11ddf06878c75afca7bfc522a9861ec6034e691005"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-art-center/04.jpg",
+      "bytes": 296561,
+      "sha256": "6bbdac22db708f01a41f35b461043de830282211f4f8a7dc81a4f95a791559b9"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-art-center/05-thumb.jpg",
+      "bytes": 19908,
+      "sha256": "3a05cc1034efb06f8326c9e7deee57c88bc8823cde19431639563702f510e5d8"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-art-center/05.jpg",
+      "bytes": 244118,
+      "sha256": "78af0eb9317dda115367d0483cf288e017fb64e95a88fdb4371ca4557fcdf54c"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-library/01-thumb.jpg",
+      "bytes": 27028,
+      "sha256": "9d74a2d07bcd49f58c886638a254c9686dcc2909423979c643e7612d6a78464a"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-library/01.jpg",
+      "bytes": 338517,
+      "sha256": "f3b956331649520664f548a0c3ac53945c78c787ccf882068c667f7fa0c1d40b"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-library/02-thumb.jpg",
+      "bytes": 46465,
+      "sha256": "2afa62bcdf69b5c6ec30c1759b01aaf88014ffe6a42530bbb5d8573a4fc96921"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-library/02.jpg",
+      "bytes": 498404,
+      "sha256": "5d19cba2f4b02d5d0c58ae6d4d340851a371e1a364fcec587b875fec82627924"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-library/03-thumb.jpg",
+      "bytes": 36256,
+      "sha256": "821b3dd84f4fd7419a5bdb92f2b84f1a2040e366f4b2a86263c25827839f3d45"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-library/03.jpg",
+      "bytes": 379759,
+      "sha256": "f9c541ca1cba40755f23f1568c54a715ddb3b6ab849f0ac506514e705a318492"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-library/04-thumb.jpg",
+      "bytes": 32226,
+      "sha256": "bba84866a0dae86a793e488d88c8c5a18c0ac0aff0e5cb9b1d1c3709db917bdb"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-library/04.jpg",
+      "bytes": 310400,
+      "sha256": "0a76264fa30b9bcb2e7b345bb9b2b053b7bf4adcf90074ed1745375530de1d32"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-library/05-thumb.jpg",
+      "bytes": 33723,
+      "sha256": "d5773ba31cd44229c42ea8c260d08cbaa81dd9f883d2ff7de01d213889680702"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/beijing-library/05.jpg",
+      "bytes": 314242,
+      "sha256": "cc63fee95e2ca3f9490cea793347675f45d5f46ef6b3a6a6f7c6fb3fa169b691"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/big-air-shougang/01-thumb.jpg",
+      "bytes": 32520,
+      "sha256": "f6063619c2f954df58f8f9ebfa309bacaccd3ac44cd2c5559336462d583a15da"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/big-air-shougang/01.jpg",
+      "bytes": 385414,
+      "sha256": "9ba7a7afdac88e1f1c95a1c8e6401bcaf2c3f880ece69b32ce7ce4344d674b74"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/big-air-shougang/02-thumb.jpg",
+      "bytes": 28359,
+      "sha256": "26b4683178814b5aa0c9bb2be18387cb0d51f74c52122ac075ec289a905a3440"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/big-air-shougang/02.jpg",
+      "bytes": 393818,
+      "sha256": "cc01eb474be070a9471af36c8ecc64afc41d1740042a2aa65afaf9b85b423b38"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/caochangdi/01-thumb.jpg",
+      "bytes": 29937,
+      "sha256": "f28c9a346f2c83526dea9ebbc12c20fba46833c3af538c00d645856b3c532e4c"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/caochangdi/01.jpg",
+      "bytes": 587067,
+      "sha256": "09b6f3381dad589b55e7103ddddca74a28459c76e80e9fcbb1badf9545c3900d"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/caochangdi/02-thumb.jpg",
+      "bytes": 23946,
+      "sha256": "8298c35097fb1929efedf32df76b612b3dc1d87f2d12b30fc932726a6aae09f2"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/caochangdi/02.jpg",
+      "bytes": 289160,
+      "sha256": "009e331dcdd64da9fee4ae65f624a4d5ede3f40e0e1f204bb2146300ddb07ac5"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/caochangdi/03-thumb.jpg",
+      "bytes": 28362,
+      "sha256": "741bb8970a59ee7305795699bcdf58cd6e4c6e1efd8808e5122fefd89afa612f"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/caochangdi/03.jpg",
+      "bytes": 333308,
+      "sha256": "753ad97b3f661e4ff2de93140116857c4f65dc5b3001a663d0a4cdcc895d1d80"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/grand-canal-museum/01-thumb.jpg",
+      "bytes": 30968,
+      "sha256": "7de15c41a26b57a49e4d76f985073f8c874dc9ac5ea91865976e634743ae866f"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/grand-canal-museum/01.jpg",
+      "bytes": 429364,
+      "sha256": "1d3f8addb7c72e0cf8de55d505b549ba6eec05f196483d0ac47c373d5cee84e0"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/grand-canal-museum/02-thumb.jpg",
+      "bytes": 35935,
+      "sha256": "f29173486703499a0425907fdda835b3635ae000660facc5005f5eec53a73c2d"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/grand-canal-museum/02.jpg",
+      "bytes": 385583,
+      "sha256": "c74e1654239aed86cc0a25937b9837a59c09a04899bea1391dca7b02d0de4fc8"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/grand-canal-museum/03-thumb.jpg",
+      "bytes": 38309,
+      "sha256": "02bf9b1b03f7a22453b5289d36ad6474cb691d99fc210e0a8c898703f7767d13"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/grand-canal-museum/03.jpg",
+      "bytes": 442540,
+      "sha256": "53a58b36262f887a67e1f6211bb77dcb75a9250464c92f312fbc272d8a0ad0c9"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/grand-canal-museum/04-thumb.jpg",
+      "bytes": 20665,
+      "sha256": "7f84f8780ab2e96b420ac685589d3fe19d28b92c91392a25b205fdeb830e75ec"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/grand-canal-museum/04.jpg",
+      "bytes": 256042,
+      "sha256": "9712767aa712bff2400ed6c905fd1626898ee890adb25b5ccb32c5efcaceed5e"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/grand-canal-museum/05-thumb.jpg",
+      "bytes": 41000,
+      "sha256": "4f58ba5ed39e66a684a9fd592133b23b35d8cdad2d56b4e9dea5d01903c2ab53"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/grand-canal-museum/05.jpg",
+      "bytes": 488176,
+      "sha256": "936adf00eb88d3317a7bb68c370464a4027152ec365480e108a3c0e90e177321"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/shougang-no3-furnace/01-thumb.jpg",
+      "bytes": 26049,
+      "sha256": "7d7a78c9ef5d8e4f136801e98caf5b711c4305f6bd568b47310d53042a44a6f4"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/shougang-no3-furnace/01.jpg",
+      "bytes": 289677,
+      "sha256": "6b4b1b49322648f14d591a69dd2bc080b48d92548ade0d42bc7ed6ce1e08a903"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/shougang-park/01-thumb.jpg",
+      "bytes": 20374,
+      "sha256": "a6bcc5d80e9b66b68af3ddc417194e3ed8a337d64154603b1b7856dd41a00d6c"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/shougang-park/01.jpg",
+      "bytes": 221782,
+      "sha256": "c51995f189a165a252b4b1a643840b8b829291035db39530e597deb224245094"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/shougang-park/02-thumb.jpg",
+      "bytes": 25331,
+      "sha256": "d6134952c2e6922d08ffa31ad16f2967a4b87889db672a7387980ff4d593b144"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/shougang-park/02.jpg",
+      "bytes": 294231,
+      "sha256": "65bf36fd897e7daf7f8c2a312bf65c9f408018053ac427726609ed741b6428c3"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/shougang-park/03-thumb.jpg",
+      "bytes": 34171,
+      "sha256": "d383128fc21031fd39f9aa6ecc3f424b6177cb41ed55a675f41e2c0bb87eee04"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/shougang-park/03.jpg",
+      "bytes": 389955,
+      "sha256": "b931669408935b1a4daaef9fa7776e2146f5e9872fa94a23826da49df0bbf994"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/shougang-park/04-thumb.jpg",
+      "bytes": 32052,
+      "sha256": "9867904b9249126b0dc12c2c7c248f353a6201d8783fd62b1d2e91ed2dbff95b"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/shougang-park/04.jpg",
+      "bytes": 344467,
+      "sha256": "6c21268e6fbec766999d4fbb86888b54d75a9e4d1901043d3f36879884db88dc"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/shougang-park/05-thumb.jpg",
+      "bytes": 28927,
+      "sha256": "4c9461a517a21825a1cd04ab7ffce19acb8743148df432b1587acacb2f50f14f"
+    },
+    {
+      "url": "/beijing/assets/places/new-culture/shougang-park/05.jpg",
+      "bytes": 301262,
+      "sha256": "34773e2fa810c033ed1deebce0c9b28485489e2d3213baa57f3061664d5d15d7"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/birds-nest/01-thumb.webp",
+      "bytes": 3444,
+      "sha256": "15b918b2a18e7222268f437fef40d619ecd078bc83ee8d1d74855bb136c3c8cc"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/birds-nest/01.webp",
+      "bytes": 44066,
+      "sha256": "df111a92b09bddc1e8643333bfc0a66ae52f4107528710ba1f370a68d6fd429f"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/birds-nest/02-thumb.webp",
+      "bytes": 4626,
+      "sha256": "474a9cd50ab0ac0d3f389ea54dbcbf580ec8ac44b2f09a0ed55e48e77d631631"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/birds-nest/02.webp",
+      "bytes": 129942,
+      "sha256": "4261c8a9b7aadaf9e1f8dd70947809e1243dea22e47b9b4f669930697602f275"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/birds-nest/03-thumb.webp",
+      "bytes": 4512,
+      "sha256": "8287eb3414fdc0b473de9ab512285164b6f12533a7a187fb88bf02d7d8375f56"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/birds-nest/03.webp",
+      "bytes": 109872,
+      "sha256": "6aa67abbfac08486034cd0462bb8b9ccab9555669f415ee91b1ed428afbbc693"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/birds-nest/04-thumb.webp",
+      "bytes": 2744,
+      "sha256": "8d37de79e0c7e0810be7bc8c09f145c03c537b0014cd4f5dab24fc9f9535f10e"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/birds-nest/04.webp",
+      "bytes": 133644,
+      "sha256": "8d38012c00ee25397b3bd8a906f5aa82f03dbc94d7a4813180d332d1ff630475"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/birds-nest/05-thumb.webp",
+      "bytes": 5334,
+      "sha256": "7bc76accf55955ae6ee334c85f86c637d74f1e0a01279241b34b6dd62116ec3e"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/birds-nest/05.webp",
+      "bytes": 188152,
+      "sha256": "08f1c5a765a7b725bf87a4b151dcf672007f893a873ca492f2bd528b7e2e0827"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/film-museum/01-thumb.webp",
+      "bytes": 4188,
+      "sha256": "e0c9633bb1defe4a2cbb0f2dbd9104f31d04ec1fd60ffa24e246cb18fa0ebb9c"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/film-museum/01.webp",
+      "bytes": 199594,
+      "sha256": "617bf3949b77ff3a6f7f1e874e12a187ff778553e0127245faa74a4c051277bb"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/film-museum/02-thumb.webp",
+      "bytes": 5498,
+      "sha256": "91112c9dd4444c1ee6f391d35332ddca17396eb0930ebd43b93003b87e5b4a4e"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/film-museum/02.webp",
+      "bytes": 313210,
+      "sha256": "9a60add0242e15c983c772ce96cb6c48e5c3f09c153b60614986027198ee21cd"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/film-museum/03-thumb.webp",
+      "bytes": 7268,
+      "sha256": "f2325a2c0d806aef90a7ae1e250df9d911d7a7fa86a660b62b8d2d8af264b44e"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/film-museum/03.webp",
+      "bytes": 250788,
+      "sha256": "dd294ea8f0a56a47ef9df3cb9b14e8f0b22695a1b2a0b77ace50f5b8e8146bfb"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/film-museum/04-thumb.webp",
+      "bytes": 2048,
+      "sha256": "ad78d0f88a22a2aeac6b134ac7af905532c3d6c2c6726e704b4ca492caccceef"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/film-museum/04.webp",
+      "bytes": 172026,
+      "sha256": "2ed521c47adb0f1173923472ec85fdf62196e911d2b7cf8ec26af457af2c90f2"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/film-museum/05-thumb.webp",
+      "bytes": 4870,
+      "sha256": "1ddde4c28a7a367b05e18153d778a19b7418bd652a5aac94849adc4fc4ad8541"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/film-museum/05.webp",
+      "bytes": 114374,
+      "sha256": "73e683d78b654d948bafc8b3bb608dd1dddac1f0aadd8cae68cc1d3187446308"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/green-heart/01-thumb.webp",
+      "bytes": 5936,
+      "sha256": "690e31475f01111746511111d256162f587f3531e50b21b3a08f2b626724a5b0"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/green-heart/01.webp",
+      "bytes": 406550,
+      "sha256": "1c40479063b3c0ecce89fa39c47bd4a910a9b1f7712bbfd6c25f4dff8df6a3b4"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/green-heart/02-thumb.webp",
+      "bytes": 3722,
+      "sha256": "7328d02bd214b59536f46ef10038062266eb1e892fc2f32fed6cf8b793e06fe1"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/green-heart/02.webp",
+      "bytes": 202188,
+      "sha256": "060ea53ff020203caa9aa6557e0b97a4ea046a19b8edfb3836f71db62ac40563"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/green-heart/03-thumb.webp",
+      "bytes": 6950,
+      "sha256": "211e0a1ccc0328b94982072a94a313c0939d97e6a0f887aee63fc5a5807fddb1"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/green-heart/03.webp",
+      "bytes": 302244,
+      "sha256": "5e446038b62b5ad901be5d7eac2da1f726fc3f399317bde7384bc040317448fe"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/green-heart/04-thumb.webp",
+      "bytes": 9144,
+      "sha256": "d424658e766ab195686f7a1227918fc311d608ec6a370fab90754068bfb3f8ce"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/green-heart/04.webp",
+      "bytes": 644394,
+      "sha256": "dbd60d0702bd349f914a025bb4c2049d083ade9dd35ada4ccbb124254f3c775a"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/green-heart/05-thumb.webp",
+      "bytes": 4536,
+      "sha256": "b08b8517f6c9ad46bd6aa6f5cdb486d3023b0017b2b5e0deb13c53e8a4b06d9e"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/green-heart/05.webp",
+      "bytes": 187652,
+      "sha256": "94e52446646b279c1896048c7e54888c3852a598c771c848bf280e715a32df11"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-forest/01-thumb.webp",
+      "bytes": 7648,
+      "sha256": "f87659337255eb2bb3ce2c581dd6dd3c246d5553909b2c02418815d98a6206b8"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-forest/01.webp",
+      "bytes": 479056,
+      "sha256": "de42544fdcd2a62b73e85f7f8262c8172d4660296be70baa58cf4ed159c8a4e8"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-forest/02-thumb.webp",
+      "bytes": 3116,
+      "sha256": "b3a956a905757809588d913962889ed75724514db79a3b3ae9de6d447eb2e008"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-forest/02.webp",
+      "bytes": 106402,
+      "sha256": "182c6f53c691558dc776992267bf5f8094ee8a93c3c15275c78b05f04429f149"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-forest/03-thumb.webp",
+      "bytes": 8120,
+      "sha256": "de57a34fd4c5802705131e991213863a3d0aba1eea7116dae7efb8dc181c8032"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-forest/03.webp",
+      "bytes": 249110,
+      "sha256": "f0c138c37bd73201eb2e781629a9aa9e3422f897e5736da11426b5f7d195d2e2"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-forest/04-thumb.webp",
+      "bytes": 4092,
+      "sha256": "a37bab55216937bbc9fdd7fbab6bfe9bc30226f9235cba226edb6bc2ffcd1960"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-forest/04.webp",
+      "bytes": 193744,
+      "sha256": "4004f84510e96d2489e44fffe7f24d71cf56c85db15a6f53243fb03ceb35eb07"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-forest/05-thumb.webp",
+      "bytes": 2036,
+      "sha256": "1d844cccd3f87d38cb9b4a77d6e6e8ca8610779ec2a6b4acafffe1622809cd57"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-forest/05.webp",
+      "bytes": 106042,
+      "sha256": "ee7e6b29e8b04d3e913a14a622fb5f2e8916311ae49c8317ca38e43b9c32676b"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-green/01-thumb.webp",
+      "bytes": 5236,
+      "sha256": "b2a8f8a71c5449969b8971049418c90c292b861a4d383caf4f7e808ed1109960"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-green/01.webp",
+      "bytes": 238406,
+      "sha256": "56719d84354b075cc10ef5f98c6db841cb110f331406266e3a17818d8b0cd387"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-green/02-thumb.webp",
+      "bytes": 4408,
+      "sha256": "b24b5aa74b4394b16aa9d943dc3d9f601125c53ffb1e86359735fd5a2b889fbb"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-green/02.webp",
+      "bytes": 218604,
+      "sha256": "2f25ac4ae382c0cfdd32a515671bec47228d933fe01a7c67d2c347bb1369b895"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-green/03-thumb.webp",
+      "bytes": 2142,
+      "sha256": "2fd6cb16fc6deb921671bb5686c7e1e772baf6f143ed4ee3ae1ffe0b09319f9b"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-green/03.webp",
+      "bytes": 134738,
+      "sha256": "7f53f0bf3f95cbafd76d0eab46810c76390eca662d89ab2bf09102df6968df4c"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-green/04-thumb.webp",
+      "bytes": 2390,
+      "sha256": "adc75d4b6f7b69249115b71a34a823b0b24a373987cecaec213c6de90016632a"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-green/04.webp",
+      "bytes": 90902,
+      "sha256": "b5f05462932f30ca6c2be3d6b1d4f95555bf4c5001d81204d83bde935eae985a"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-green/05-thumb.webp",
+      "bytes": 2028,
+      "sha256": "90f93f6c7f2e325731e99d8612c6e0b0ab2e1e20bfb99b5fcb65b969c73385bf"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/olympic-green/05.webp",
+      "bytes": 59208,
+      "sha256": "e563fc1c078245c6d98f2d8bfe0d7be82e864c7e7483d9d27429b15a7475e509"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/planetarium/01-thumb.webp",
+      "bytes": 3908,
+      "sha256": "8e8b01e137e4884b7fe99380ebd790e3aaa7f1b4c7acbc59aa622e8e248a24a1"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/planetarium/01.webp",
+      "bytes": 218480,
+      "sha256": "513f9984e7693e8b2bd2ecaa526c9f397d52c468208490ba2192498d37d9fa24"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/planetarium/02-thumb.webp",
+      "bytes": 5508,
+      "sha256": "a122e1a99e1ffbc5aaebe16398add92b41a5660d0f2100672ef974d83aa3e4e9"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/planetarium/02.webp",
+      "bytes": 252784,
+      "sha256": "29dbb171d6092603457445c7b8ab178ac1baa41adcfa425322e98b1d569ba320"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/planetarium/03-thumb.webp",
+      "bytes": 4016,
+      "sha256": "9561a5c252c374444619e4ed9413b7050a82ce4879f76eb5ac42a18b302fb3e1"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/planetarium/03.webp",
+      "bytes": 204308,
+      "sha256": "3caf59020caf96269f037d2467a23eccd7ba17af8950c2ff18cbc9f81384e4ce"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/planetarium/04-thumb.webp",
+      "bytes": 7238,
+      "sha256": "88f2d9c27afde1038c3dade8170335a21be73a05d4dc5d909708b69b74e487c5"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/planetarium/04.webp",
+      "bytes": 520406,
+      "sha256": "ddf5ae3ead4d53f4abff189e0f30e2a94a8eda0c852dd76c86d90e80bdd9166f"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/planetarium/05-thumb.webp",
+      "bytes": 8050,
+      "sha256": "2ee9eaa089dcde08b22e95dacb27a427ea038e518647a8ae88a1355a4fd17100"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/planetarium/05.webp",
+      "bytes": 252744,
+      "sha256": "7f4b24fe72809cebf89a762ac4e44e69328eed885bc5b7467324a5b2448e213e"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/science-museum/01-thumb.webp",
+      "bytes": 5352,
+      "sha256": "db9c90d45bbbdccc47f1a06f685ed938575049ea7582497ed90859eb3b2f1022"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/science-museum/01.webp",
+      "bytes": 181166,
+      "sha256": "ce1c13beeff1433278468bbf20cc5946cae76ca1f42733d61be712e1e8c52467"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/science-museum/02-thumb.webp",
+      "bytes": 5252,
+      "sha256": "b38f081509b57300e30d7692d18e26000432afbe872cd98c6ea14be7f11fc355"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/science-museum/02.webp",
+      "bytes": 149014,
+      "sha256": "5b0fab32e7325b8f53d91caf4a3e65479ec2d15b2dde0c506c30d4a732822871"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/science-museum/03-thumb.webp",
+      "bytes": 8790,
+      "sha256": "7661469cd61d4c379f2c903bececd973c8285a4f8aa3010db83be298f5415789"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/science-museum/03.webp",
+      "bytes": 227874,
+      "sha256": "4bcf1045521506008345f6802c54b717d8d76bf03c923c072ed8205b28d08f50"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/science-museum/04-thumb.webp",
+      "bytes": 4508,
+      "sha256": "0bc639b0cd3fff6f3d58b3a27855f2f5fab90ae213f716e5192dbf5f2d2d6726"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/science-museum/04.webp",
+      "bytes": 228454,
+      "sha256": "64826ba3498f397000dc1fe34b3ce46cccfcab65adfc856ff1449fc279eb7866"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/science-museum/05-thumb.webp",
+      "bytes": 5904,
+      "sha256": "99386956da1eb303b7e48bf869f167606f4622b061bf35ccb0489ffead787635"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/science-museum/05.webp",
+      "bytes": 117676,
+      "sha256": "4ffd0f4ffc3a8f5966a4b5b898ded0bf8e60e3b44047d505307e854432ac7e82"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/water-cube/01-thumb.webp",
+      "bytes": 4490,
+      "sha256": "74548ce660bc38fc3f3f0a3d287d5bdf67a77d73a99d007b97b8076e1ffc1234"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/water-cube/01.webp",
+      "bytes": 130154,
+      "sha256": "d032e8fe4166e709ef22ecfa99535d359ed58b284291d3e399032a6b37737434"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/water-cube/02-thumb.webp",
+      "bytes": 4314,
+      "sha256": "08703b22d5b652b7b73658395fe7648ad91f2e8375a85d75db9b39f343800569"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/water-cube/02.webp",
+      "bytes": 264272,
+      "sha256": "aa21779d8dc951afdb7fb2f95992fea1586b8dc9dd5b34bb259018fb68e720f5"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/water-cube/03-thumb.webp",
+      "bytes": 2354,
+      "sha256": "9d2988690da4bc7fec56f1d9557f993f4974dd2462c4f6ed7568171ec3d6df84"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/water-cube/03.webp",
+      "bytes": 66976,
+      "sha256": "2481cd1d7ce235b3f3fbbc4389df4aa94683eeb3006e57d5f8575ba8f4a0cedc"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/water-cube/04-thumb.webp",
+      "bytes": 2796,
+      "sha256": "8ef5ac079820ecdf13e4d48f77b87bfbf412e430bbab06deaa68f351a091205c"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/water-cube/04.webp",
+      "bytes": 146848,
+      "sha256": "16798ffaf6969672db783044c414f2911cda987b0790ec89bca56fe4effab55b"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/water-cube/05-thumb.webp",
+      "bytes": 4412,
+      "sha256": "b4212b4b019e5f8024486d8359ce55d903f89b8863c0cc368caa2fbfb9a056ab"
+    },
+    {
+      "url": "/beijing/assets/places/new-parks/water-cube/05.webp",
+      "bytes": 116632,
+      "sha256": "3f0d5668f08931d498480f0462c8ae0f4d7fce9dee7c817cce5d066fb1b14801"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/beijing-fun/01-thumb.jpg",
+      "bytes": 17252,
+      "sha256": "7fe2ad2da6b76a90689794b4b979d76f54ac96c9dd9c10e36e28d2cf8432d88c"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/beijing-fun/01.jpg",
+      "bytes": 345486,
+      "sha256": "c3cfde05b9593d4f8b316df777a3592042eb640f6da4652c562161a892f5da5d"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/beijing-fun/02-thumb.jpg",
+      "bytes": 21443,
+      "sha256": "f2f4b81968bb22c021a3b8ea5a9d6495a74b1844c5f00d787877d2caba77818c"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/beijing-fun/02.jpg",
+      "bytes": 406727,
+      "sha256": "541a51d7c7da7ad2c21bd09da15f1423db42996135d62ef56066897cd9dbdac0"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/china-world/01-thumb.jpg",
+      "bytes": 15372,
+      "sha256": "ee1e6bea98a46abccf3b3fc700631de52d86a87d8a5225423d6f470ce6df714c"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/china-world/01.jpg",
+      "bytes": 244254,
+      "sha256": "130734f631c8694732efcd8f006379c321a4a4592c7cdb19ab19cb41fa71acca"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/china-world/02-thumb.jpg",
+      "bytes": 15034,
+      "sha256": "7c402e950c64ebacef5b4d0bdd90597a9f1464d6d8ca93279eda8ce1d14542a1"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/china-world/02.jpg",
+      "bytes": 206319,
+      "sha256": "dadf15dc6d42cdca41d3161c663d7b55fff25cbf6660209ea9562eca1e469f01"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/china-world/03-thumb.jpg",
+      "bytes": 17496,
+      "sha256": "2d7d913469daa2f23783cde42153945a663771d8362ce47626b6423db25a7ca9"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/china-world/03.jpg",
+      "bytes": 276387,
+      "sha256": "55253c9d547c1fa4e9a76255e7b1e95fc790734b183127fd1452f924f0076388"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/china-world/04-thumb.jpg",
+      "bytes": 17900,
+      "sha256": "0ee5c5d829285924a8489cba587fd32a27c4c8d62a7a8ae175fcb0a91765ab6d"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/china-world/04.jpg",
+      "bytes": 262439,
+      "sha256": "0a0eacf605f9ac1914fe64d7c988bfa72fcdeb23008b5b21fe9d070f6f0640f5"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/china-world/05-thumb.jpg",
+      "bytes": 22905,
+      "sha256": "26b8ff034cde8b252ad401ec69dd38f8f5fecc06c9b4ccd7d49e2e17e28b6f1c"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/china-world/05.jpg",
+      "bytes": 270509,
+      "sha256": "fecc15cb22850585f2e1954cce2a1b81495262f2c412ebde60a85e413d38077f"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/daji/01-thumb.jpg",
+      "bytes": 25261,
+      "sha256": "e5da0b4e3f2eeddf82693c6702dfcb8aa8d2c15dfdcdf2d3505d1b4833dfc7db"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/daji/01.jpg",
+      "bytes": 550689,
+      "sha256": "36c487fb95ef2eb2590292d8b42774ce061f9c2a98b8d8e8100e742f619aaef9"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/daji/02-thumb.jpg",
+      "bytes": 21701,
+      "sha256": "873295cf2dbaae5e2128299034b2c520683e41c6aa05994eeebcd2d6591e4b89"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/daji/02.jpg",
+      "bytes": 376791,
+      "sha256": "8c1e61079fe211ec084cb8f942036f0fac11c1b8ee66891da17893702e1a541f"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/daji/03-thumb.jpg",
+      "bytes": 19230,
+      "sha256": "c3e0f517c9452e4953df8e0619341c75b084abca2916b77a0fc7a0071ed79ef2"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/daji/03.jpg",
+      "bytes": 347527,
+      "sha256": "e21f7bfaf478dff5039cb4678aa676f88e5e0965d21015b7c802b7694e993fc7"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/parkview/01-thumb.jpg",
+      "bytes": 22671,
+      "sha256": "fa89ebe07c05641cecc3aed9b16514a0e189c2c6aca03fb786d6bdef58522785"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/parkview/01.jpg",
+      "bytes": 455566,
+      "sha256": "26bc11e5d2fb4f400d9a5131426e81344ef711fc809d36961cb999b47dda917d"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/parkview/02-thumb.jpg",
+      "bytes": 24765,
+      "sha256": "4b4551930d4059ff40fc681caf3cd9504259a670302c6b83c50e09c2889e4381"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/parkview/02.jpg",
+      "bytes": 536559,
+      "sha256": "78eceaa5931a4a53cbf5c2df103b820a51b77892ad15260fdce180d1c5523333"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/parkview/03-thumb.jpg",
+      "bytes": 23332,
+      "sha256": "77d2fed4df4ff66b805c619db1e7f9783c6f9c0146aa6ac89e4f8c6335d7f7bf"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/parkview/03.jpg",
+      "bytes": 398400,
+      "sha256": "3450f112baad5a7dbec11446fbb4e887f58bfe241081878f6d232336b9156ee7"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/parkview/04-thumb.jpg",
+      "bytes": 21960,
+      "sha256": "25d4a51870bf8941a59174280c3a305ff766411951849e219ccf633c5038ef19"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/parkview/04.jpg",
+      "bytes": 364414,
+      "sha256": "93955e0b2830dabcf15c906ab62461a73dd0573ca39390a4e58bf0967154cf1c"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/parkview/05-thumb.jpg",
+      "bytes": 24715,
+      "sha256": "325670b9595cf307083b44ec5330883ece0d6d1c39d10f0019f0597bf7b39c10"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/parkview/05.jpg",
+      "bytes": 392484,
+      "sha256": "6ed2f78ec1916e5c02e4d1d5c537e21460032163807854ff99305765684e57da"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/solana/01-thumb.jpg",
+      "bytes": 22945,
+      "sha256": "6d1bff6743e7926d32cd132ab9ad3a7352c5cb4b93afb5d119fef0dbf52f3352"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/solana/01.jpg",
+      "bytes": 412739,
+      "sha256": "d7caae684fcf57981f691b16bca737bdefe38e47505065ffbcd45122f2ce0d5a"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/solana/02-thumb.jpg",
+      "bytes": 14984,
+      "sha256": "8221384759d329033136c7747815e22394b7d4a1e7925f4745d0d6aa2a81b340"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/solana/02.jpg",
+      "bytes": 247101,
+      "sha256": "3dc3dd8e0e8d9b96e3721282529362be7f78d89b40f21339a2c98314c6956f69"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/solana/03-thumb.jpg",
+      "bytes": 17156,
+      "sha256": "b4c64f27632743fc912ddc0416b3374260dfc29c62a9200a5c1dba100c6fd571"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/solana/03.jpg",
+      "bytes": 246738,
+      "sha256": "e482859a7dee4a7a1f8abd02ce0c0938dc499e7e2c2420c1615244bc7317faf6"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/solana/04-thumb.jpg",
+      "bytes": 21840,
+      "sha256": "2db2dde960481529320bcc6b7053770dfb4534a1b3035a7824b89e7c4b246790"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/solana/04.jpg",
+      "bytes": 248992,
+      "sha256": "2100ada5bddb7b65a9594e68275c0bcf9b2cd9722e39e8b2ef006c9039405a44"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/solana/05-thumb.jpg",
+      "bytes": 11078,
+      "sha256": "d7b392d3eedae002acf79b126286d88a822e0ca15fe0d3a4333ee2d0148c1649"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/solana/05.jpg",
+      "bytes": 188991,
+      "sha256": "a02cfff0a64d66b735060f91ac550cbf66ba356fe7c4fbe801d2ed100ff69c2c"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/taikoo/01-thumb.jpg",
+      "bytes": 22390,
+      "sha256": "3ae66855a6d526a1b2d314e02775f8fa6f97a53f106eb0e80bbf3900e0d2485a"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/taikoo/01.jpg",
+      "bytes": 412560,
+      "sha256": "9fcc52914ad226989ac290e04db0b2c789815ae319aac900c27f8a8d44a007e4"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/taikoo/02-thumb.jpg",
+      "bytes": 22629,
+      "sha256": "5730343032428ba46f3db65d690b57b78d77c5e15725b10dd2175246d6e54c9d"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/taikoo/02.jpg",
+      "bytes": 398581,
+      "sha256": "d82b93f4cd86913bf2871433d34afbb540814bb552499d56366117f4deff6c22"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/taikoo/03-thumb.jpg",
+      "bytes": 20678,
+      "sha256": "003980310195e7996d457369b536d2134de59fb469f7bbf68c3e09852515361f"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/taikoo/03.jpg",
+      "bytes": 621946,
+      "sha256": "7da8132dfe2f34ed0ee2a496e1525833fa39fe1f394063871bcdaab9574031d5"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/taikoo/04-thumb.jpg",
+      "bytes": 14292,
+      "sha256": "067fba400a277227e28bb0a70ac005ec90fa595ff87d7818275c520e1b861b56"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/taikoo/04.jpg",
+      "bytes": 235307,
+      "sha256": "4ad4c452a5bee2ae86d3963ae52c1787cefd1689b4c865ac9cfa8be65e81c312"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/taikoo/05-thumb.jpg",
+      "bytes": 26901,
+      "sha256": "caef3c73f3942b4dd37ec577217bb027a785e38b7bc580958abcc2e39dc11bfb"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/taikoo/05.jpg",
+      "bytes": 420382,
+      "sha256": "49be0e1674686178a1f06324e8f4076ac593d38f33e1154c7f58eef78fa8829d"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/the-box/01-thumb.jpg",
+      "bytes": 21041,
+      "sha256": "fb3aa55bc81fda73f793a8fd9c5cc91bce39ac41fa771e30dfac66604459e5f6"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/the-box/01.jpg",
+      "bytes": 372733,
+      "sha256": "f32d36b5f48b914559ac30af15e56922d4f7ba5cd1088fbe8029f2ad946e06f9"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/the-box/02-thumb.jpg",
+      "bytes": 21097,
+      "sha256": "bdc56a706012132a32fbd55d0baecd094689f21a1ff8df857aa906e74f7852e1"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/the-box/02.jpg",
+      "bytes": 400448,
+      "sha256": "fdd0e90a689a8d15f3619982eb28d618c3b3e1fd69f4b72d04533339397d95b8"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/the-box/03-thumb.jpg",
+      "bytes": 24142,
+      "sha256": "f3b81c910cfc2f1a844df55a401765a0fbaf09126f351050459aa71c1b3a25e8"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/the-box/03.jpg",
+      "bytes": 461032,
+      "sha256": "6244ff2f33d259ca44afe5660597fcc27605cdcbbe349c292aab50f7db53f5df"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/the-box/04-thumb.jpg",
+      "bytes": 22200,
+      "sha256": "681ab6e4c8dc42e24e24b6c0736a17c60dcf696b6bdfe380c59605f0c53188f0"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/the-box/04.jpg",
+      "bytes": 365085,
+      "sha256": "c6ce2ddb06165314d349e65d4fb1c28ab8f79135a814fd94fd99bcbd42b93683"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/the-box/05-thumb.jpg",
+      "bytes": 24215,
+      "sha256": "4ecf1a3c2c75d27f4470995a9d3857c9697007223c08eda31bdb530dad426174"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/the-box/05.jpg",
+      "bytes": 457290,
+      "sha256": "cb6af31185e721018c11d4c24307a8b3afadc720d72ad7c4d2e29a1dbe077eab"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/wangfujing/01-thumb.jpg",
+      "bytes": 16638,
+      "sha256": "49b6a5ef0386ffbb36bd6b302a72eea664f881e192b65e0a614acd0f0d9384df"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/wangfujing/01.jpg",
+      "bytes": 305984,
+      "sha256": "f04222a47720c15edeeeab04556443d02c7927d9334d3768e4ac789a5e44e2f2"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/wangfujing/02-thumb.jpg",
+      "bytes": 21751,
+      "sha256": "4053533080418a7ec8b6aec24865ea39bd592719577de88a7dc042886db7272e"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/wangfujing/02.jpg",
+      "bytes": 408240,
+      "sha256": "e498cb8238a53a4b45235d870a4fda86c78039e3e7e8002f04f210c41afff2cb"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/wangfujing/03-thumb.jpg",
+      "bytes": 19339,
+      "sha256": "09abbae452f2ea1a8364ee52a592690a1024d79a3d92d68b7c6a1285c727e4c4"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/wangfujing/03.jpg",
+      "bytes": 352527,
+      "sha256": "50dd009bca723351664365040194a580947c343784849cb8992c841a7a1e0e39"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/wangfujing/04-thumb.jpg",
+      "bytes": 19417,
+      "sha256": "169965db134825b614b5e3c09e83b545f8f8ce13aa822c3089873a426ccd86b7"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/wangfujing/04.jpg",
+      "bytes": 320211,
+      "sha256": "9da00a79a0e0228a75a74565d48d800de954b075be7e9b7dc37160a56012c07f"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/wangfujing/05-thumb.jpg",
+      "bytes": 14399,
+      "sha256": "1d532f42ffaeeb4e349c25a636f46fd16c2c71410b53cf79a5b39f1b6e3aabd6"
+    },
+    {
+      "url": "/beijing/assets/places/new-shopping/wangfujing/05.jpg",
+      "bytes": 197268,
+      "sha256": "ed511202adde4a7676a3741e0459814722a550d23c33612585bfeef9fd370943"
+    },
+    {
       "url": "/beijing/assets/rooms/h1-1.webp",
       "bytes": 42500,
       "sha256": "52f342539de1d0ae074471ea8fbe13d7c15622e6b9686c7f06c3738a8a4137fc"
@@ -1759,13 +3169,13 @@
     },
     {
       "url": "/beijing/data/city.json",
-      "bytes": 7455,
-      "sha256": "5a163df3168678b4c0e78476795ab2385d437e700eb5dbb703997cf29fed4c05"
+      "bytes": 9174,
+      "sha256": "8b09af5e58fa6887d3d5ee002fe6a38591b494c63162118d62e39b1685a99c17"
     },
     {
       "url": "/beijing/data/points.json",
-      "bytes": 257731,
-      "sha256": "6b20a93a80622383e3d83a90739f128d8e22c51af9fa038ab7431ba53dcf7af7"
+      "bytes": 506226,
+      "sha256": "d844ef4f31cbf78523af8eb2f0bd64cdd086ac5f7ba2a652b1254f1c6745dfce"
     },
     {
       "url": "/beijing/data/trip.json",
@@ -1774,8 +3184,8 @@
     },
     {
       "url": "/beijing/index.html",
-      "bytes": 5856,
-      "sha256": "a6ae1de890f064ed5ceea0440b0c1e1d73ecb6dca567761e39d38e0f3c52344b"
+      "bytes": 5954,
+      "sha256": "fcabbb8dea6804d1c5db6cb340a142b9d10b12f3cac36550d363a55cb1b150d2"
     },
     {
       "url": "/beijing/offline/map-20261102/FONT-CJK-LICENSE.txt",
@@ -2249,8 +3659,8 @@
     },
     {
       "url": "/beijing/offline/map-20261102/snapshot.json",
-      "bytes": 626,
-      "sha256": "e309c282c1583c38afec7da3024876d852428c61ddb4e69737f1374b482fbf0a"
+      "bytes": 625,
+      "sha256": "45721fa4e8c8f1f4f8326f345be20d08c54d53ec1f1396a7c775fa2a895a90d5"
     },
     {
       "url": "/beijing/offline/map-20261102/sprite/ofm.json",
@@ -2274,8 +3684,8 @@
     },
     {
       "url": "/beijing/offline/map-20261102/style.json",
-      "bytes": 43291,
-      "sha256": "2f65f0e8372a6be52a8838c06a94f3f0e7a2b5c8a9cc6550dff15bdc6698df08"
+      "bytes": 43290,
+      "sha256": "a8038c37e887b563692fdff730dbe0355b957752b3e19916b1399c5215a394c7"
     },
     {
       "url": "/beijing/offline/map-20261102/tiles/10/842/385.pbf",
@@ -2551,6 +3961,76 @@
       "url": "/beijing/offline/map-20261102/tiles/11/1688/778.pbf",
       "bytes": 55055,
       "sha256": "5c2423683c0c3990b9b6444adca81e6c431f9bab2f6d9a9f98ea0718d69ff14f"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/12/3368/1543.pbf",
+      "bytes": 41377,
+      "sha256": "59f8133fef09678fdeacf8468fb531d23006c0668116ff900247a60222a47491"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/12/3368/1544.pbf",
+      "bytes": 40376,
+      "sha256": "b253eb7337f9596711104e56c88012dd1182e802c2a2cfdeb7fef0167a24930d"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/12/3368/1545.pbf",
+      "bytes": 26597,
+      "sha256": "288e8fce7ead3130e8ff4cc1d3aef12e8ed28e500c58431814f9f4ce87c589ba"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/12/3368/1546.pbf",
+      "bytes": 25527,
+      "sha256": "deaf112abe09d015c0555668efb172bcb95cc5d05cd802bee7bcd30a63905ead"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/12/3368/1547.pbf",
+      "bytes": 34088,
+      "sha256": "905bf34169fe31f3448691402e1a93670ce509662b5230a94b647f4f36b514d5"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/12/3368/1548.pbf",
+      "bytes": 29858,
+      "sha256": "454f4f87ab4376ae2c83a0f832e47d6361dd20b55fc8aaa483d583cdbb2bae6e"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/12/3368/1549.pbf",
+      "bytes": 31933,
+      "sha256": "3ec29e5193dc7bf62c6fa79aaa1bd22b1d129291338ed7b231262c42d20121fc"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/12/3368/1550.pbf",
+      "bytes": 42605,
+      "sha256": "71f5b93c6ba9b41314525cec574b45e2ae51b90499df5c22abe95e4c1157a850"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/12/3368/1551.pbf",
+      "bytes": 56401,
+      "sha256": "5aee51d30a197176eece63ce44b233d12e9f51a1901fc58d6c7ad98fcd52b19b"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/12/3368/1552.pbf",
+      "bytes": 48920,
+      "sha256": "bff59510fa6d24ab5254b6ad7ef0beae097479518b8796d31f123c5e4a2467f8"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/12/3368/1553.pbf",
+      "bytes": 44691,
+      "sha256": "137fae91fff9043a7a4d02128535cfa4134823725e09031268d646eb8a7c42a5"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/12/3368/1554.pbf",
+      "bytes": 59119,
+      "sha256": "08846dce67212225cd498cd6fe4d62b326c0cec0c1fce9af697b9bb480221f4d"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/12/3368/1555.pbf",
+      "bytes": 50216,
+      "sha256": "2aa1d35d8ec01890dee6cb9b4ea4d4d463b37a15cf32829e7f39904f35461443"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/12/3368/1556.pbf",
+      "bytes": 46320,
+      "sha256": "135c45755322be144b4c827cd8519d714dc265fda77ce9ae13d4f1b91f344764"
     },
     {
       "url": "/beijing/offline/map-20261102/tiles/12/3369/1543.pbf",
@@ -3181,6 +4661,286 @@
       "url": "/beijing/offline/map-20261102/tiles/12/3377/1556.pbf",
       "bytes": 32028,
       "sha256": "afc74e6cfc0b32f6036a6edd2684147cae710d32e6792c65ad69abe213451216"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3086.pbf",
+      "bytes": 16255,
+      "sha256": "440404dc28a8a2a59b0b020ad15e0425e41b46fd2a075711c0d73ace7010611b"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3087.pbf",
+      "bytes": 17999,
+      "sha256": "b287fa1fbcb57b47b69452b73c67688bba93f8fe34197792c01a7959970888e3"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3088.pbf",
+      "bytes": 18600,
+      "sha256": "9703edf69867e65b115a18fa2b1eea1d802bc035799b5828f5c40c02a077b243"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3089.pbf",
+      "bytes": 15365,
+      "sha256": "1a722dd1a17c18a0eee69c971654f247583e4d9e99767f8f88b740d66475e2e7"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3090.pbf",
+      "bytes": 16509,
+      "sha256": "c06ccadcfb2f781f9da879e57f4acbb9fc71891865b0fc1b9979e970431297ed"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3091.pbf",
+      "bytes": 9870,
+      "sha256": "809e5e5ffa21efd65697bd568c666a06f08774256ea611bbdc07c54f6c194c3c"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3092.pbf",
+      "bytes": 18951,
+      "sha256": "f6e3508c9e1fbffa75e722aec4283375d96a98728e288a08c262d026cd060ce8"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3093.pbf",
+      "bytes": 19090,
+      "sha256": "10077d2375f68f4a03484058cfad15d7f566a2c3f33149a5b34269f147278032"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3094.pbf",
+      "bytes": 16588,
+      "sha256": "983565dd41f07efd83bb1159ad2729954d032a2dd85303a3dcbf7c77eda207bd"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3095.pbf",
+      "bytes": 14286,
+      "sha256": "82243c7aa68999e41c4775ced95346ebe3e1cf513910c4c52579dbb681e22eb1"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3096.pbf",
+      "bytes": 12596,
+      "sha256": "f68be31b9e77b60d5cd93e962dee6b90c91957937b5b94d5b358f2664a1f2d71"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3097.pbf",
+      "bytes": 20859,
+      "sha256": "8f947971c98f0e88fc0f26882c3275fe09338fcdc7277d83db046aa4b5165893"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3098.pbf",
+      "bytes": 39658,
+      "sha256": "2b638337bdaee8e4928c65dea327a699d548823890b49f223dccb3904e8a9502"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3099.pbf",
+      "bytes": 29960,
+      "sha256": "c5784c3a96c8a23581354bfa961e5f76c86e9496bbaeebdbba9361f6691e456f"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3100.pbf",
+      "bytes": 26615,
+      "sha256": "f180242cdc8e2beaa3411c3675ae9851787a63d23ad2fa8ed9a2b0446089e950"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3101.pbf",
+      "bytes": 33199,
+      "sha256": "98025bf866c743809fb58ff109aea5f8df2c90a55dfd498cd60196eb763bcd7b"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3102.pbf",
+      "bytes": 35730,
+      "sha256": "6d24896fc066bc28cbfbe444062545549efbd402b401094e05d0d62c959df170"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3103.pbf",
+      "bytes": 35868,
+      "sha256": "952fa41d9b24e37549e5f4ad3c736b5cfe64da4dac55b1c1eac570a451e49d2b"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3104.pbf",
+      "bytes": 31278,
+      "sha256": "b5e103c6155bb73e8f67e684647fc3c510d0adeeaacceb4b7657ae4b4e40c98e"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3105.pbf",
+      "bytes": 27126,
+      "sha256": "8692387f99b69fbae113b6dee1f6202f952b26149594624a3044c5f48845534c"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3106.pbf",
+      "bytes": 22058,
+      "sha256": "d67cecefaaac0f71e3f3dbf7ab3e5aee7c9824ced64f88e869b3f0cff7692ed6"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3107.pbf",
+      "bytes": 21243,
+      "sha256": "bc103db9b3ad86a372fbd31cbeae4736be18ba7b1210f67bfb375ac24180fffb"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3108.pbf",
+      "bytes": 21925,
+      "sha256": "311b9cc2ccf197afbc253c9929bfd804602a5b4540a04b51a1d56ef23c84f669"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3109.pbf",
+      "bytes": 24692,
+      "sha256": "b39cea84582b0c0fa7e34cdef5aad474df896575e009904ab96ba70a6cdd0f05"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3110.pbf",
+      "bytes": 20124,
+      "sha256": "1544ec384dac7f2f1e5e2d2691c5cd149367e9ae329ebad6c35b6d66618f5db3"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3111.pbf",
+      "bytes": 20404,
+      "sha256": "cafbfcba40e5062222be76f5d73aa7afedf041aaa61e987019d537db9b59bed2"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3112.pbf",
+      "bytes": 14170,
+      "sha256": "6bbba2dc09bda7c48ec679928c8cda10b7d4ced03408fa0ac07283f8ca2d7e13"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6737/3113.pbf",
+      "bytes": 14934,
+      "sha256": "bd690ba0cc994ef440945009a139a5612f7a53890134f8961fdce850bb84d2d5"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3086.pbf",
+      "bytes": 14860,
+      "sha256": "c5836b76152e7bc12da4bd137ff495bbf33866a8d579736cb9c559a940b69a6c"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3087.pbf",
+      "bytes": 15674,
+      "sha256": "e87580446c9fa1f78aaa30cf55626757e0a1250ed2e4183c51873f4d79e7b72d"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3088.pbf",
+      "bytes": 11348,
+      "sha256": "85fda9c46e3cf99a136ed82964dc6c8befb28e521bb05848fb1f579431ddbca4"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3089.pbf",
+      "bytes": 12541,
+      "sha256": "c17f48a3f1ef9dfe255d3dbbd3d47845ea758356ef31b39148f64295d8f32361"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3090.pbf",
+      "bytes": 15753,
+      "sha256": "e0fee726b3d2267b33593582a5ae10bd4035a839d4ba3ca9685fbacd15ffa7fe"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3091.pbf",
+      "bytes": 11749,
+      "sha256": "24cefa1f41d4f8f6e70f15057f3fb14c46ecff8b743d960e472133f54bf2351c"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3092.pbf",
+      "bytes": 11946,
+      "sha256": "a45743b9c731c8baab7b620b0841ddf127a0cb172215d7a2b98819300beae7ce"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3093.pbf",
+      "bytes": 27139,
+      "sha256": "121f247d27d811ae0192448271f7d936ed43e0de006d4142b08c8107f0fa777d"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3094.pbf",
+      "bytes": 28827,
+      "sha256": "2adef134efcfe807d26cf1578c2515b2927f37f8d4000abd145e9d69ca912290"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3095.pbf",
+      "bytes": 15079,
+      "sha256": "2355d6c039c6a1417bbf861a0668ef337981768068953a80a24a0b9f347af591"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3096.pbf",
+      "bytes": 16115,
+      "sha256": "3582257a18a0edee0872a8138a35801d304576df4677e61882cee654fe503395"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3097.pbf",
+      "bytes": 20200,
+      "sha256": "0ce0197deac9af32105e02a739a127d412180a8a8c2958502274737d4b03b3a9"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3098.pbf",
+      "bytes": 23975,
+      "sha256": "86eab653f3ca3e56fece027745e297d800664ace88d3e55e573afe2f5ce21aa0"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3099.pbf",
+      "bytes": 29312,
+      "sha256": "996e762d7d7f15f4ee6d289c63876ab703c4d8ae3d1f3e52727f5dd6a58858dc"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3100.pbf",
+      "bytes": 18596,
+      "sha256": "4ce65ba21b523c44efa8964241c8f599824ea57f23b13a95901ebc0eb9825f05"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3101.pbf",
+      "bytes": 18587,
+      "sha256": "242e7ddb1b8680fb0d79f9bb7087edaf3e70cdf12a9a24b7ae64991e4d984bff"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3102.pbf",
+      "bytes": 30566,
+      "sha256": "476abd4f1c0c3e6b4b14d19ffa40378f7700f0ca2e4d327c4519cd31345165b7"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3103.pbf",
+      "bytes": 42048,
+      "sha256": "5fd509a1f7277a71757bfa48f35e9c6155dafc6da3a518d4a732a01f8ff2ddbb"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3104.pbf",
+      "bytes": 38722,
+      "sha256": "424951557e8f29c488fd2fed4e0045b1e13beb49f1f6c16afd5fea24e04497c6"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3105.pbf",
+      "bytes": 19094,
+      "sha256": "bf187370cd8c50fde88ab754a5754176f99fce4378a8f33d2b5d02ee161e4fa2"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3106.pbf",
+      "bytes": 19533,
+      "sha256": "206de9e871600caf3ea4c18119e8fa9b066a3db54f6cb2143996b66dda45d166"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3107.pbf",
+      "bytes": 21903,
+      "sha256": "413a813270e80db3e89feca8264ad21c4572efb96321a98ca69c81e14849fc5b"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3108.pbf",
+      "bytes": 23912,
+      "sha256": "566a48c25cbe218e370d46dd7c2733f0b13c1be49d0df34e69cfe75c17023277"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3109.pbf",
+      "bytes": 35845,
+      "sha256": "dbaff06a4a1b3c57e8d5bc308b52a32548fcee06483ca1d6e0340c50d70b7ae1"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3110.pbf",
+      "bytes": 18209,
+      "sha256": "030d45a88b831f542f14e92c164f100b7c59ddec888398507ff7f912df8c47f9"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3111.pbf",
+      "bytes": 14714,
+      "sha256": "cb2d5876b9c448660f7551b3c88d7b92d368c26b1e2f16494590fd2e6bab7d01"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3112.pbf",
+      "bytes": 10905,
+      "sha256": "24e517462a369fbc780764d35e44e8fae1fd182df944f57d499139d53365744b"
+    },
+    {
+      "url": "/beijing/offline/map-20261102/tiles/13/6738/3113.pbf",
+      "bytes": 12063,
+      "sha256": "b5e239c6c4b5a7a277d5dc59de8e5eb0ede3aa51d439a106067478c55239eaab"
     },
     {
       "url": "/beijing/offline/map-20261102/tiles/13/6739/3086.pbf",
@@ -5504,8 +7264,8 @@
     },
     {
       "url": "/travel-map/cards.js",
-      "bytes": 4563,
-      "sha256": "c34027eeb6a6b640682c07295178837ee0377968b04362452beafabe76f5ba30"
+      "bytes": 5574,
+      "sha256": "525dc61c0b0d576239de0d0c05b9db0bca806dde2eb440af9901ff91dc3d141e"
     },
     {
       "url": "/travel-map/category-icons.js",
@@ -5519,8 +7279,8 @@
     },
     {
       "url": "/travel-map/data-contract.js",
-      "bytes": 11258,
-      "sha256": "1d469973339301cce75c3c7d3535e398f7065449fe6f86bedbb2b2b3a871f0c1"
+      "bytes": 11873,
+      "sha256": "4ad11b95fcb3a616ec1520aa040e8a0c542f789e45ac96ee70322484fee8b987"
     },
     {
       "url": "/travel-map/data.js",

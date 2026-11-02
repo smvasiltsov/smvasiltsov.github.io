@@ -149,7 +149,7 @@
   "offline": {
     "mapFolder": "offline/map-20261102",
     "bounds": [
-      116.15,
+      116.1,
       39.6,
       116.85,
       40.5
@@ -238,7 +238,31 @@
       "cafe": "Кафе",
       "restaurant": "Ресторан",
       "bar": "Бар",
-      "bakery": "Пекарня"
+      "bakery": "Пекарня",
+      "office-tower": "Офисная башня",
+      "mixed-use-complex": "Многофункциональный комплекс",
+      "media-center": "Медиацентр",
+      "performing-arts-center": "Центр исполнительских искусств",
+      "open-air-mall": "Торговый комплекс под открытым небом",
+      "shopping-street": "Торговая улица",
+      "shopping-district": "Торговый район",
+      "creative-mall": "Креативный торговый центр",
+      "art-mall": "Торговый центр с искусством",
+      "mall": "Торговый центр",
+      "library": "Библиотека",
+      "bookstore": "Книжный магазин",
+      "history-museum": "Исторический музей",
+      "industrial-park": "Индустриальный парк",
+      "industrial-museum": "Индустриальный музей",
+      "sports-architecture": "Спортивная архитектура",
+      "olympic-park": "Олимпийский комплекс",
+      "stadium": "Стадион",
+      "sports-center": "Спортивный центр",
+      "forest-park": "Лесопарк",
+      "science-museum": "Музей науки",
+      "planetarium": "Планетарий",
+      "film-museum": "Музей кино",
+      "bath-complex": "Банный комплекс"
     },
     "tags": {
       "historical": "Историческое",
@@ -258,7 +282,15 @@
       "industrial": "Индустриальное наследие",
       "sacred": "Религия",
       "suburban": "За городом",
-      "architecture": "Архитектура"
+      "architecture": "Архитектура",
+      "books": "Книги",
+      "theatre": "Театр",
+      "technology": "Технологии",
+      "olympics": "Олимпиада",
+      "photography": "Фотография",
+      "family": "С детьми",
+      "cinema": "Кино",
+      "relax": "Отдых"
     }
   }
 }

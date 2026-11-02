@@ -50,6 +50,11 @@ export function validateData({city, trip, categories, points} = {}) {
     check(Array.isArray(point.tags)&&new Set(point.tags).size===point.tags.length&&point.tags.every(tag=>text(taxonomy.tags?.[tag])),path+'.tags','unique known tags required');
     check(Array.isArray(point.aliases)&&point.aliases.every(text),path+'.aliases','search aliases required');
     check(text(point.name) && text(point.description), path, 'name and description required'); coords(point.coord, path+'.coord');
+    if(point.checkedAt!==undefined)check(validDate(point.checkedAt),path+'.checkedAt','valid date required');
+    if(point.visitNote!==undefined)check(text(point.visitNote),path+'.visitNote','nonempty text required');
+    const webUrl=value=>{try{return ['https:','http:'].includes(new URL(value).protocol);}catch{return false;}};
+    if(point.sources!==undefined)check(Array.isArray(point.sources)&&point.sources.length>0&&point.sources.every(webUrl),path+'.sources','source URLs required');
+    if(point.photoGalleryUrl!==undefined)check(webUrl(point.photoGalleryUrl),path+'.photoGalleryUrl','web URL required');
     check(Array.isArray(point.photos), path+'.photos', 'array required (may be empty)');
     for (const [n, photo] of (Array.isArray(point.photos) ? point.photos : []).entries()) {
       const pp = `${path}.photos[${n}]`;

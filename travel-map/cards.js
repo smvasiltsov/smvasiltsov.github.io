@@ -1,4 +1,4 @@
-import {el} from './dom.js';
+import {el,link} from './dom.js';
 import {categoryIcon} from './category-icons.js';
 import {$} from './dom.js';
 import {renderHotel} from './hotel-card.js';
@@ -22,6 +22,11 @@ export class Cards {
     for(const id of ['hotel-summary','hotel-details','walk-summary']){$(id).replaceChildren();$(id).hidden=true;}
     if (point.cardType === 'hotel') { $('hotel-summary').hidden=$('hotel-details').hidden=false;renderHotel(point,context,this.onChoose,$('hotel-summary'),$('hotel-details')); }
     if (point.walk) { $('walk-summary').hidden=false;renderWalk(point,context,$('walk-summary')); }
+    const visit=$('visit-info');visit.replaceChildren();visit.hidden=!(point.visitNote||point.photoGalleryUrl);
+    if(point.visitNote){visit.append(el('h3','Перед посещением'),el('p',point.visitNote));}
+    if(point.photoGalleryUrl){visit.append(link(point.photoGalleryLabel||'Фотографии на сайте источника ↗',point.photoGalleryUrl,'',true),el('p','Эта внешняя галерея доступна только с интернетом.','footnote'));}
+    if(point.checkedAt){visit.append(el('p','Информация проверена '+date(point.checkedAt,context.city.locale).replace(/\.$/,'')+'. Условия посещения могут меняться.','footnote'));}
+    if(point.sources?.length){const sources=el('p',undefined,'footnote');sources.append('Источники: ');point.sources.forEach((url,i)=>{if(i)sources.append(' · ');sources.append(link(new URL(url).hostname.replace(/^www\./,''),url,'',true));});visit.append(sources);}
     const metadata=$('place-metadata');metadata.replaceChildren();
     const type=el('span',context.city.taxonomy.subtypes[point.subtype],'place-type');type.prepend(categoryIcon(category.icon));metadata.append(type);
     for(const tag of point.tags)metadata.append(el('span',context.city.taxonomy.tags[tag],'place-tag'));

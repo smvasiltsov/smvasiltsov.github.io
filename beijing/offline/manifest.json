@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "city": "beijing",
-  "version": "1ae230666abf3c00cdf84df6",
-  "createdAt": "2026-11-02T15:26:58.733Z",
-  "bytes": 130372165,
+  "version": "e8c0898453c98bbb4f72f604",
+  "createdAt": "2026-11-02T15:41:32.104Z",
+  "bytes": 130375858,
   "map": {
     "style": "./offline/map-20261102/style.json",
     "bounds": [
@@ -19,8 +19,8 @@
   "files": [
     {
       "url": "/beijing/",
-      "bytes": 6375,
-      "sha256": "c14875589bf73f791901cfdc74ee99ca5e1df42d5f1b5f10b193ca5f532eef1e"
+      "bytes": 6449,
+      "sha256": "6a6a0526972f6b56867434c405f90a2e4452619876e44fb3803fd46f4b2a9fc2"
     },
     {
       "url": "/beijing/app-icons/apple-touch-icon.png",
@@ -3184,8 +3184,8 @@
     },
     {
       "url": "/beijing/index.html",
-      "bytes": 6375,
-      "sha256": "c14875589bf73f791901cfdc74ee99ca5e1df42d5f1b5f10b193ca5f532eef1e"
+      "bytes": 6449,
+      "sha256": "6a6a0526972f6b56867434c405f90a2e4452619876e44fb3803fd46f4b2a9fc2"
     },
     {
       "url": "/beijing/offline/map-20261102/FONT-CJK-LICENSE.txt",
@@ -7323,14 +7323,19 @@
       "sha256": "5e449b28e2773a45d8b8f162617abf08cced209fb19789eb4dd28187798db5d3"
     },
     {
+      "url": "/travel-map/location-control.js",
+      "bytes": 2271,
+      "sha256": "5d839aeac6bd46111b530aa03592384623127640559e81e5aa88819a8166bd4d"
+    },
+    {
       "url": "/travel-map/map-page.js",
       "bytes": 4058,
       "sha256": "57dafa188bf629e51a79df827361e8eb789c3f2eb818d1adda906f4d89feb75c"
     },
     {
       "url": "/travel-map/map-view.js",
-      "bytes": 7850,
-      "sha256": "e3ef76332c2e71c82bc429072f92c6fa2847a1f708e4d791ff4b72fc85181d47"
+      "bytes": 8319,
+      "sha256": "2011a499d8b5b39d41bcb8ff22cd7c3bd7f76cfacceae6944ed9f5f42f8ddeb3"
     },
     {
       "url": "/travel-map/navigation.js",
@@ -7394,8 +7399,8 @@
     },
     {
       "url": "/travel-map/styles/map-page.css",
-      "bytes": 6604,
-      "sha256": "dd6c781efa58b904aa98ddfc84b75d3169593650689c41237161497b86cfb844"
+      "bytes": 7409,
+      "sha256": "d874cc1e818eb0254b562bd1d674222d7f89591b18388300150247b8aae315b5"
     },
     {
       "url": "/travel-map/styles/offline.css",

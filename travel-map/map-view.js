@@ -1,3 +1,4 @@
+import {addLocationControl} from './location-control.js';
 import {emojiMarker} from './emoji-marker.js';
 import {pointBadge} from './point-labels.js';
 import {savedMap} from './offline-map.js';
@@ -16,12 +17,13 @@ export class MapView {
     this.resizeObserver=new ResizeObserver(()=>{if(this.map){this.map.resize();this.render();}});this.resizeObserver.observe(container);retry.onclick=()=>this.start();
   }
   async start(){
-    this.ready=false;this.tileError=false;const generation=++this.generation;clearTimeout(this.timer);this.map?.remove();this.map=null;this.overlay=null;this.nodes.clear();this.container.replaceChildren();this.setStatus('Загружаю карту…');
+    this.ready=false;this.tileError=false;const generation=++this.generation;clearTimeout(this.timer);this.map?.remove();this.map=null;this.overlay=null;this.nodes.clear();this.container.replaceChildren();this.setStatus('Загружаю карту…');const locationStatus=document.getElementById('location-status');if(locationStatus){locationStatus.hidden=true;locationStatus.textContent='';}
     this.timer=setTimeout(()=>{if(generation===this.generation)this.setStatus('Карта пока не загрузилась. Проверьте подключение.',true);},20000);
     try{
       const [library,offline]=await Promise.all([loadLibrary(),savedMap(this.context)]);if(generation!==this.generation)return;this.offline=offline;
       const config=this.context.city.map;
-      this.map=new library.Map({container:this.container,style:offline?.style||config.style,center:config.defaultView.center,zoom:config.defaultView.zoom,...(offline?{minZoom:offline.minZoom,maxZoom:offline.maxZoom,maxBounds:[offline.bounds[0]-1,offline.bounds[1]-.4,offline.bounds[2]+1,offline.bounds[3]+.4],localIdeographFontFamily:false}:{})});
+      this.map=new library.Map({container:this.container,style:offline?.style||config.style,center:config.defaultView.center,zoom:config.defaultView.zoom,locale:{'GeolocateControl.FindMyLocation':'Моё местоположение','GeolocateControl.LocationNotAvailable':'Местоположение недоступно'},...(offline?{minZoom:offline.minZoom,maxZoom:offline.maxZoom,maxBounds:[offline.bounds[0]-1,offline.bounds[1]-.4,offline.bounds[2]+1,offline.bounds[3]+.4],localIdeographFontFamily:false}:{})});
+      this.locationControl=addLocationControl(this.map,library,{status:locationStatus,offline});
       this.map.addControl(new library.ScaleControl({unit:'metric'}),'bottom-right');this.map.addControl(new library.NavigationControl({showZoom:false}),'top-right');
       this.overlay=document.createElement('div');this.overlay.id='live-markers';this.overlay.setAttribute('role','group');this.overlay.setAttribute('aria-label','Места на карте');this.container.append(this.overlay);
       this.map.on('move',()=>this.render());

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "city": "beijing",
-  "version": "3f91f5c923a24bb0b9e69901",
-  "createdAt": "2026-11-02T13:13:58.081Z",
-  "bytes": 130370228,
+  "version": "80b69db0f309378dcaf4b987",
+  "createdAt": "2026-11-02T13:23:59.896Z",
+  "bytes": 130372163,
   "map": {
     "style": "./offline/map-20261102/style.json",
     "bounds": [
@@ -19,8 +19,8 @@
   "files": [
     {
       "url": "/beijing/",
-      "bytes": 5954,
-      "sha256": "fcabbb8dea6804d1c5db6cb340a142b9d10b12f3cac36550d363a55cb1b150d2"
+      "bytes": 6375,
+      "sha256": "c14875589bf73f791901cfdc74ee99ca5e1df42d5f1b5f10b193ca5f532eef1e"
     },
     {
       "url": "/beijing/app-icons/apple-touch-icon.png",
@@ -3184,8 +3184,8 @@
     },
     {
       "url": "/beijing/index.html",
-      "bytes": 5954,
-      "sha256": "fcabbb8dea6804d1c5db6cb340a142b9d10b12f3cac36550d363a55cb1b150d2"
+      "bytes": 6375,
+      "sha256": "c14875589bf73f791901cfdc74ee99ca5e1df42d5f1b5f10b193ca5f532eef1e"
     },
     {
       "url": "/beijing/offline/map-20261102/FONT-CJK-LICENSE.txt",
@@ -7324,8 +7324,8 @@
     },
     {
       "url": "/travel-map/map-page.js",
-      "bytes": 3730,
-      "sha256": "756830194b172c51c090f5f9e8f07a54c49184015709edcef19a9b6581f6c1b4"
+      "bytes": 4058,
+      "sha256": "57dafa188bf629e51a79df827361e8eb789c3f2eb818d1adda906f4d89feb75c"
     },
     {
       "url": "/travel-map/map-view.js",
@@ -7394,8 +7394,8 @@
     },
     {
       "url": "/travel-map/styles/map-page.css",
-      "bytes": 5839,
-      "sha256": "b5b39efac7bef0232cdb0c2653b344a322b43335d6926e5cda27acf8301700e1"
+      "bytes": 6604,
+      "sha256": "dd6c781efa58b904aa98ddfc84b75d3169593650689c41237161497b86cfb844"
     },
     {
       "url": "/travel-map/styles/offline.css",

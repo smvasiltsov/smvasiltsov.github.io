@@ -45,11 +45,10 @@ export class MapView {
   marker(point){
     const category=this.context.categoryMap.get(point.categoryId),group=svg('g',{class:'point',role:'button',tabindex:0,'data-point-id':point.id});
     group.style.setProperty('--marker-color',category.color);group.style.setProperty('--marker-dark-color',category.darkColor);
-    group.append(svg('title'),svg('rect',{x:-29,y:-21,width:58,height:44,rx:15,fill:'transparent'}),svg('rect',{x:-29,y:-19,width:58,height:38,rx:15,class:'active-ring'}));
-    group.append(svg('rect',{x:-25,y:-15,width:50,height:30,rx:11,class:'marker'}));
-    const emoji=svg('text',{x:-11,y:1,class:'marker-emoji','aria-hidden':'true'});emoji.textContent=categoryEmoji(category.icon);group.append(emoji);
-    const label=svg('text',{x:11,class:'marker-label'});label.textContent=point.categoryNumber;group.append(label);
-    if(point.walk){const badge=svg('g',{class:'walk-map-rating'});badge.append(svg('rect',{x:-22,y:17,width:44,height:18,rx:9}));const score=svg('text',{y:29});score.textContent='★ '+number(walkScore(point,this.context),this.context.city.locale);badge.append(score);group.append(badge);}
+    group.append(svg('title'),svg('rect',{x:-25,y:-25,width:56,height:52,rx:12,fill:'transparent'}),svg('rect',{x:-25,y:-25,width:56,height:48,rx:16,class:'active-ring'}));
+    const emoji=svg('text',{x:0,y:0,class:'marker-emoji','aria-hidden':'true'});emoji.textContent=categoryEmoji(category.icon);group.append(emoji);
+    const label=svg('text',{x:18,y:14,class:'marker-label'});label.textContent=point.categoryNumber;group.append(label);
+    if(point.walk){const badge=svg('g',{class:'walk-map-rating'});badge.append(svg('rect',{x:-22,y:26,width:44,height:18,rx:9}));const score=svg('text',{y:38});score.textContent='★ '+number(walkScore(point,this.context),this.context.city.locale);badge.append(score);group.append(badge);}
     const rating=point.walk?' · оценка прогулки '+number(walkScore(point,this.context),this.context.city.locale)+' из 5':'';group.setAttribute('aria-label',pointBadge(point,this.context)+' · '+category.label+' · '+point.name+rating);group.querySelector('title').textContent=point.name+rating;
     const activate=event=>{event.preventDefault();event.stopPropagation();const q=this.map.project(point.coord),nearby=this.visible.filter(p=>Math.hypot(p.screenX-q.x,p.screenY-q.y)<36);this.onSelect(point,nearby);};
     group.addEventListener('click',activate);group.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' ')activate(event);});return group;

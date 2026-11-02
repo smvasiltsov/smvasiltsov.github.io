@@ -1,3 +1,4 @@
+import {categoryEmoji} from './category-icons.js';
 import {el} from './dom.js';
 import {filterPoints,inGroup,matchesPoint} from './taxonomy.js';
 export class Filters {
@@ -27,14 +28,14 @@ export class Filters {
   render(){
     const {context,state}=this,points=filterPoints(context.points,state,context);
     this.groups.querySelectorAll('button').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.group===state.group)));
-    this.populate(this.category,'Все категории',context.categories.map(category=>{const members=context.points.filter(p=>p.categoryId===category.id&&inGroup(p,state.group,context));return {id:category.id,label:`${category.label} · ${members.length}`,disabled:!members.length};}),state.category);
+    this.populate(this.category,'Все категории',context.categories.map(category=>{const members=context.points.filter(p=>p.categoryId===category.id&&inGroup(p,state.group,context));return {id:category.id,label:`${categoryEmoji(category.icon)} ${category.label} · ${members.length}`,disabled:!members.length};}),state.category);
     const base=context.points.filter(p=>inGroup(p,state.group,context)&&(!state.category||p.categoryId===state.category));
     const subtypes=new Set(base.map(p=>p.subtype)),tags=new Set(base.flatMap(p=>p.tags));
     this.populate(this.subtype,'Все типы мест',Object.entries(context.city.taxonomy.subtypes).filter(([id])=>subtypes.has(id)).map(([id,label])=>({id,label})),state.subtype);this.subtype.disabled=!subtypes.size;
     this.populate(this.tag,'Все особенности',Object.entries(context.city.taxonomy.tags).filter(([id])=>tags.has(id)).map(([id,label])=>({id,label})),state.tag);
     const selected=document.getElementById('places').value,placeholder=el('option',points.length?'Выберите место на карте или в списке':'Нет мест — измените фильтры');placeholder.value='';
     const select=document.getElementById('places');select.replaceChildren(placeholder);
-    for(const category of context.categories){const members=points.filter(p=>p.categoryId===category.id);if(!members.length)continue;const group=el('optgroup');group.label=category.listLabel;for(const p of members){const option=el('option',this.label(p));option.value=p.id;group.append(option);}select.append(group);}
+    for(const category of context.categories){const members=points.filter(p=>p.categoryId===category.id);if(!members.length)continue;const group=el('optgroup');group.label=categoryEmoji(category.icon)+' '+category.listLabel;for(const p of members){const option=el('option',this.label(p));option.value=p.id;group.append(option);}select.append(group);}
     if(points.some(p=>p.id===selected))select.value=selected;select.disabled=!points.length;
     const active=Object.values(state).filter(Boolean).length;this.toggle.textContent=active?`Фильтры · ${active}`:'Фильтры';
     document.getElementById('filter-count').textContent=`Показано ${points.length} из ${context.points.length}`;

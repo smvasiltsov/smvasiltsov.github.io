@@ -1,3 +1,4 @@
+import {pointBadge} from './point-labels.js';
 import {Filters} from './filters-ui.js';
 import {setupInstall} from './install-ui.js';
 import {loadCity,hotels} from './data.js';
@@ -12,7 +13,7 @@ async function start(){
   const context=await loadCity();document.title=`${context.city.name} · личная карта путешествия`;$('city-name').textContent=context.city.name;
   const hotelCount=hotels(context).length;$('city-counts').textContent=`${context.points.length} ${plural(context.points.length,['место','места','мест'])}${hotelCount?' · '+hotelCount+' '+plural(hotelCount,['отель','отеля','отелей']):''}`;
   $('comparison-link').href=context.pages.compare;$('comparison-link').hidden=!hotelCount;$('online-map').setAttribute('aria-label',context.city.map.label||'Карта '+context.city.name);
-  const label=p=>p.id+' · '+p.name+(p.walk?' · ★ '+number(walkScore(p,context),context.city.locale):'');
+  const label=p=>pointBadge(p,context)+' · '+p.name+(p.walk?' · ★ '+number(walkScore(p,context),context.city.locale):'');
   for(const group of context.city.taxonomy.groups){
     if(!context.points.some(p=>context.categoryMap.get(p.categoryId).groupId===group.id))continue;
     const legend=el('span'),symbol=el('i',undefined,'symbol '+group.shape);symbol.style.setProperty('--marker-color',group.color);symbol.style.setProperty('--marker-dark-color',group.darkColor);legend.append(symbol,document.createTextNode(group.label));$('legend').append(legend);

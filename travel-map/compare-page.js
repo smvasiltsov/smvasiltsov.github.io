@@ -1,3 +1,4 @@
+import {pointBadge} from './point-labels.js';
 import {loadCity,hotels} from './data.js';
 import {$,el,link,list} from './dom.js';
 import {hotelScore,meanTravel} from './assessment.js';
@@ -21,7 +22,7 @@ async function start(){
   const h=p.hotel,assessment=hotelScore(h,context),tr=el('tr');tr.dataset.hotel=p.id;const hotel=el('td');
   if(p.photos.length){const imageLink=link(undefined,pointUrl(p,context));imageLink.setAttribute('aria-label',`Карточка ${h.shortName}`);const image=el('img',undefined,'hotel-image');Object.assign(image,{src:p.photos[0].src,alt:`${h.shortName} · ${h.room}`,width:p.photos[0].width,height:p.photos[0].height,loading:'lazy',decoding:'async'});imageLink.append(image);hotel.append(imageLink);}
   else hotel.append(el('p','Фотографии пока не добавлены','hotel-meta'));
-  hotel.append(el('span',p.id,'hotel-id'),link(h.shortName,pointUrl(p,context),'hotel-name'),el('p',h.room,'hotel-room'),el('p',`${h.area} · ${h.bed}`,'hotel-meta'),el('p',`${h.window} · минимум ${h.assessmentFacts.minArea} м²`,'hotel-meta'));
+  hotel.append(el('span',pointBadge(p,context),'hotel-id'),link(h.shortName,pointUrl(p,context),'hotel-name'),el('p',h.room,'hotel-room'),el('p',`${h.area} · ${h.bed}`,'hotel-meta'),el('p',`${h.window} · минимум ${h.assessmentFacts.minArea} м²`,'hotel-meta'));
   if(p.photos.length)hotel.append(link('Фото категории · Trip.com ↗',p.url,'source-link',true));
   const price=el('td');price.append(el('div',rub(h.total/count),'numeric'),el('p',`${rub(h.total)} / ${stayLabel(context)}`,'hotel-meta'),el('p',h.breakfastCount?`Завтраки включены: ${h.breakfastCount}`:'Без завтрака','hotel-meta'),el('p',h.discount,'hotel-meta'));
   const travel=el('td');travel.append(el('div',`≈ ${meanTravel(h,context)} мин`,'numeric'),el('p','Метро + пешком · в одну сторону','hotel-meta'),el('p',`Среднее по ${h.routes.length} городским точкам`,'hotel-meta'));

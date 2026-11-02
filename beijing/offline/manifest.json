@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "city": "beijing",
-  "version": "75b527d4bff20332ac2540d5",
-  "createdAt": "2026-11-02T12:31:10.613Z",
-  "bytes": 130368072,
+  "version": "0f7a0c44be0af118e6743b52",
+  "createdAt": "2026-11-02T12:47:32.230Z",
+  "bytes": 130368866,
   "map": {
     "style": "./offline/map-20261102/style.json",
     "bounds": [
@@ -3174,8 +3174,8 @@
     },
     {
       "url": "/beijing/data/points.json",
-      "bytes": 506226,
-      "sha256": "d844ef4f31cbf78523af8eb2f0bd64cdd086ac5f7ba2a652b1254f1c6745dfce"
+      "bytes": 506246,
+      "sha256": "bc66faa4e6009ab719d001628d963044ea87c72dc9d951c997a7a871c93f1151"
     },
     {
       "url": "/beijing/data/trip.json",
@@ -7264,18 +7264,18 @@
     },
     {
       "url": "/travel-map/cards.js",
-      "bytes": 5574,
-      "sha256": "525dc61c0b0d576239de0d0c05b9db0bca806dde2eb440af9901ff91dc3d141e"
+      "bytes": 5754,
+      "sha256": "23ce9d27c9b8caaa0ba03bcf5138269b671e704d1c8561507008b66b1e6f02fa"
     },
     {
       "url": "/travel-map/category-icons.js",
-      "bytes": 1278,
-      "sha256": "ca5704ae3e9072548583bcbd3113a37556193bc57ea7bfe4d57741131f662004"
+      "bytes": 900,
+      "sha256": "a06705d499b111602e278384445aaebfc459626cd17819a3a7d737794e06760e"
     },
     {
       "url": "/travel-map/compare-page.js",
-      "bytes": 9060,
-      "sha256": "c863c7d6898a929a75ea1f64f96c1f5ddb0275101701372db8db1e7f288d2870"
+      "bytes": 9123,
+      "sha256": "354b3d3c540d7be7d69529696ffeb4811ad9c06b97d44b641f1c000e302df105"
     },
     {
       "url": "/travel-map/data-contract.js",
@@ -7284,8 +7284,8 @@
     },
     {
       "url": "/travel-map/data.js",
-      "bytes": 1284,
-      "sha256": "367409ca26b5b06188e2cf8cbf99dcf82f4c221d23081412d5b45a23e8f39708"
+      "bytes": 1399,
+      "sha256": "3cbd6f5da6a47dfe812ef259c243d369df17c72953dbf65295e1f3a9c9f12e9f"
     },
     {
       "url": "/travel-map/dom.js",
@@ -7294,8 +7294,8 @@
     },
     {
       "url": "/travel-map/filters-ui.js",
-      "bytes": 4496,
-      "sha256": "df9e88156c64dc4d1cd9b4efeaac1bd22b54c8d5fc46173b5287a44414b7b9b2"
+      "bytes": 4612,
+      "sha256": "13a5ba5b2dd55937fb4eb15b2bd1bd9ebf655c79c779762390a7579a500b233f"
     },
     {
       "url": "/travel-map/format.js",
@@ -7304,8 +7304,8 @@
     },
     {
       "url": "/travel-map/hotel-card.js",
-      "bytes": 7005,
-      "sha256": "0e1185d3240af2b9655d0424ed96baa5273e675f0e4f22c6483817b5ceec607d"
+      "bytes": 7068,
+      "sha256": "29da62e76965fc31c3266a5f869c21383e5fc7c7aececcdc4ca6bab770a9bbf8"
     },
     {
       "url": "/travel-map/install-prompt.js",
@@ -7319,13 +7319,13 @@
     },
     {
       "url": "/travel-map/map-page.js",
-      "bytes": 3667,
-      "sha256": "a1aae7d562c09fd57aff4f5104e55f8daa64dc0bf080c5266f34141f7fb5902b"
+      "bytes": 3730,
+      "sha256": "756830194b172c51c090f5f9e8f07a54c49184015709edcef19a9b6581f6c1b4"
     },
     {
       "url": "/travel-map/map-view.js",
-      "bytes": 8145,
-      "sha256": "644a8281e30512cf8d8a9c05d669e58e82c0bc5cacc50ab66fef79d5721a0712"
+      "bytes": 7953,
+      "sha256": "fc0a74aaa041226d0b852a2741998f1490c58cb31a06be37f98967ebc065b110"
     },
     {
       "url": "/travel-map/navigation.js",
@@ -7363,6 +7363,11 @@
       "sha256": "6a688348bf6f0fcd513d7568f69eaeb941fbe0d45b17262fbaa0d664a60b348a"
     },
     {
+      "url": "/travel-map/point-labels.js",
+      "bytes": 505,
+      "sha256": "ac595e049db69f447f2d89aaddc62ded9aa90552764eac0b2dc1804259ade54e"
+    },
+    {
       "url": "/travel-map/point-picker.js",
       "bytes": 1202,
       "sha256": "12921d078f7db627dd56e7ac9eb9dfaa81c118fd14ddb5332316bdae4b21f889"
@@ -7384,8 +7389,8 @@
     },
     {
       "url": "/travel-map/styles/map-page.css",
-      "bytes": 5914,
-      "sha256": "83b938e1269a54274d01f16e47c7e4359a7db64f16552bd369b83bfcf3fd6c3d"
+      "bytes": 6131,
+      "sha256": "5bcf2a78d355ab55e482da60b4986b9b27e5f0809d7aa961840980f878952ae2"
     },
     {
       "url": "/travel-map/styles/offline.css",
@@ -7400,7 +7405,7 @@
     {
       "url": "/travel-map/styles/taxonomy.css",
       "bytes": 2273,
-      "sha256": "fdd8bce9541c1e1de2b9e5a58e89cd425cdac444238b05708f000f933abb584b"
+      "sha256": "584ff2b09313a53efbd1e7fbb147e126694aaf2c0cdcfef0b0388f19dcb2a6f5"
     },
     {
       "url": "/travel-map/styles/theme.css",
@@ -7414,8 +7419,8 @@
     },
     {
       "url": "/travel-map/taxonomy.js",
-      "bytes": 1263,
-      "sha256": "e2a09b31e6d1c09c3cea3e15524fcee408c50b6f5cd27d1543c3c87a39793d81"
+      "bytes": 1285,
+      "sha256": "b8518fcfa8610976bf3529b3588ec5e96a8b9587e2023ee74c2035022ccdd74e"
     },
     {
       "url": "/travel-map/vendor/maplibre-5.6.1/LICENSE.txt",

@@ -1,4 +1,6 @@
 import {el,link} from './dom.js';
+import {pointBadge} from './point-labels.js';
+import {categoryEmoji} from './category-icons.js';
 import {categoryIcon} from './category-icons.js';
 import {$} from './dom.js';
 import {renderHotel} from './hotel-card.js';
@@ -17,7 +19,7 @@ export class Cards {
     const context=this.context,category=context.categoryMap.get(point.categoryId);
     if (!$('drawer').contains(document.activeElement)) this.previousFocus=document.activeElement;this.selected=point;this.photoIndex=0;
     $('drawer').hidden=false;document.body.classList.add('has-panel');$('places').value=point.id;
-    $('category').textContent=category.label;$('point-id').textContent='Точка '+point.id;$('place-title').textContent=point.name;
+    $('category').textContent=categoryEmoji(category.icon)+' '+category.label;$('point-id').textContent='Место № '+point.categoryNumber;$('place-title').textContent=point.name;
     $('place-local-name').textContent=point.localName||'';$('place-local-name').hidden=!point.localName;$('description').textContent=point.description;
     for(const id of ['hotel-summary','hotel-details','walk-summary']){$(id).replaceChildren();$(id).hidden=true;}
     if (point.cardType === 'hotel') { $('hotel-summary').hidden=$('hotel-details').hidden=false;renderHotel(point,context,this.onChoose,$('hotel-summary'),$('hotel-details')); }
@@ -34,7 +36,7 @@ export class Cards {
     const related=[];
     if(point.parentId)related.push(['Часть комплекса',context.pointMap.get(point.parentId)]);
     for(const child of context.points.filter(p=>p.parentId===point.id))related.push(['В этом районе',child]);
-    for(const [label,target]of related){const button=el('button',label+': '+target.name);button.type='button';button.onclick=()=>this.onChoose(target);relatives.append(button);}
+    for(const [label,target]of related){const button=el('button',label+': '+pointBadge(target,context)+' · '+target.name);button.type='button';button.onclick=()=>this.onChoose(target);relatives.append(button);}
     relatives.hidden=!related.length;
     const isIOS=ios(),mobile=isIOS||/Android/.test(navigator.userAgent),nav=navigationLinks(point,context,{mobile,ios:isIOS});
     $('navigation').textContent=`Открыть в ${nav.label} ↗`;$('navigation').href=mobile&&nav.native?nav.native:nav.web;$('navigation').target=mobile?'_self':'_blank';

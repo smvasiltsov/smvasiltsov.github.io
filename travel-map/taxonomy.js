@@ -9,7 +9,7 @@ export function matchesPoint(point, filters, context) {
   if (filters.subtype && point.subtype !== filters.subtype) return false;
   if (filters.tag && !point.tags.includes(filters.tag)) return false;
   const query = normalize(filters.query).trim().split(/\s+/).filter(Boolean);
-  const terms = normalize([point.id, point.name, point.localName, ...(point.aliases || []), context.categoryMap.get(point.categoryId).label, context.city.taxonomy.subtypes[point.subtype], ...point.tags.map(tag => context.city.taxonomy.tags[tag])].join(' '));
+  const terms = normalize([point.id, point.categoryNumber, point.name, point.localName, ...(point.aliases || []), context.categoryMap.get(point.categoryId).label, context.city.taxonomy.subtypes[point.subtype], ...point.tags.map(tag => context.city.taxonomy.tags[tag])].join(' '));
   return query.every(term => terms.includes(term));
 }
 export function filterPoints(points, filters, context) { return points.filter(point => matchesPoint(point, filters, context)); }

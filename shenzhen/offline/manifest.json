@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "city": "shenzhen",
-  "version": "9ca93e17a3a5b379ff4a6323",
-  "createdAt": "2026-11-06T11:14:05.578Z",
-  "bytes": 42387474,
+  "version": "546973a7944cdb2d97daeeea",
+  "createdAt": "2026-11-06T11:31:37.201Z",
+  "bytes": 42387311,
   "map": {
     "style": "./offline/map-20261106/style.json",
     "bounds": [
@@ -324,13 +324,13 @@
     },
     {
       "url": "/shenzhen/data/city.json",
-      "bytes": 8306,
-      "sha256": "372dde64b8b26826e0fc2f50c144ed46a18c8414f695aba1b7ad19a00a17107e"
+      "bytes": 8271,
+      "sha256": "435ed0377afceffd8a46812b4953cd4260729bb1ba1c88d6169a40cf5448f1a3"
     },
     {
       "url": "/shenzhen/data/points.json",
-      "bytes": 199867,
-      "sha256": "ccda895cf87d193bf6dbf2f2158143ff8d369e0497c19b7c3b9f278cd0c93cc0"
+      "bytes": 199739,
+      "sha256": "a81c3db5caaa07dc28fe64fc783949b2f10acbd39fb085b1a225e6740afda41b"
     },
     {
       "url": "/shenzhen/data/trip.json",

@@ -485,8 +485,7 @@
       "water",
       "evening",
       "panorama",
-      "walk",
-      "family"
+      "walk"
     ],
     "aliases": [
       "Happy Harbour OH Bay Bay Glory",
@@ -992,8 +991,7 @@
     "subtype": "history-museum",
     "tags": [
       "historical",
-      "indoors",
-      "family"
+      "indoors"
     ],
     "aliases": [
       "Shenzhen Museum History Folk Culture Jintian Road",
@@ -1111,7 +1109,6 @@
     "subtype": "science-museum",
     "tags": [
       "technology",
-      "family",
       "indoors",
       "modern",
       "architecture"
@@ -1628,8 +1625,7 @@
       "historical",
       "walk",
       "food",
-      "evening",
-      "family"
+      "evening"
     ],
     "aliases": [
       "Gankeng Hakka Town",
@@ -1973,7 +1969,6 @@
     "parentId": null,
     "subtype": "theme-park",
     "tags": [
-      "family",
       "walk",
       "architecture",
       "evening"
@@ -2092,7 +2087,6 @@
     "subtype": "theme-park",
     "tags": [
       "historical",
-      "family",
       "walk",
       "evening"
     ],
@@ -2211,7 +2205,6 @@
     "parentId": null,
     "subtype": "theme-park",
     "tags": [
-      "family",
       "walk",
       "evening"
     ],
@@ -2332,8 +2325,7 @@
     "tags": [
       "water",
       "relax",
-      "walk",
-      "family"
+      "walk"
     ],
     "aliases": [
       "Dameisha Beach Seaside Park",

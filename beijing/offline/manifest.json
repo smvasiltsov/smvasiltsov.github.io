@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "city": "beijing",
-  "version": "1219bcfdc7071695dfa4907d",
-  "createdAt": "2026-11-06T11:14:05.272Z",
-  "bytes": 131009896,
+  "version": "493830cedfa33deafaa2bf7d",
+  "createdAt": "2026-11-06T11:31:36.719Z",
+  "bytes": 131009797,
   "map": {
     "style": "./offline/map-20261102/style.json",
     "bounds": [
@@ -3199,13 +3199,13 @@
     },
     {
       "url": "/beijing/data/city.json",
-      "bytes": 9300,
-      "sha256": "b37ed848a4ee16b567d37272718b3f0cfe051c91fad4c56bde444c48d7350dfe"
+      "bytes": 9265,
+      "sha256": "06989766e130548832ce9d1446d9e7a26f821df1af42fcf2b3cd06a145b20578"
     },
     {
       "url": "/beijing/data/points.json",
-      "bytes": 774907,
-      "sha256": "04f5c45f997ad9611e56ced643a4b76a8575b16b7598180bcbf1fc7f80d1fb3a"
+      "bytes": 774843,
+      "sha256": "d85e7b2a803d1f725c7d881bb6d8df2d0a38aa28f50f60e59294dd6737a65d6e"
     },
     {
       "url": "/beijing/data/trip.json",

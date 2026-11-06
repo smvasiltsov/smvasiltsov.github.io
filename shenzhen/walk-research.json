@@ -1,0 +1,250 @@
+{
+  "checkedAt": "2026-11-06",
+  "basis": "curated-source-review",
+  "method": "Авторская оценка прогулки, четыре критерия по 25%; не рейтинг посетителей и не личная инспекция.",
+  "localUseMeaning": "Подтверждённая городская среда с повседневными заведениями и событиями; статистика доли местных посетителей не заявляется.",
+  "places": [
+    {
+      "id": "21",
+      "name": "Nanhai E-Cool · кафе и дизайн",
+      "scores": {
+        "fashion": 4.5,
+        "atmosphere": 4.5,
+        "scale": 3,
+        "interest": 4.5
+      },
+      "score": 4.1,
+      "kind": "Креативный кластер",
+      "duration": "1–2 часа",
+      "verdict": "Лучше всего для спокойного кофе и дизайна; соединяйте с соседним Шэкоу, если хочется долго гулять.",
+      "sources": [
+        "https://www.eyeshenzhen.com/content/2025-09/18/content_31656817.htm",
+        "https://www.eyeshenzhen.com/content/2025-05/29/content_31584434.htm",
+        "https://zjj.sz.gov.cn/xxgk/gzdt/content/post_13037560.html"
+      ],
+      "new": true
+    },
+    {
+      "id": "22",
+      "name": "G&G Creative Community · Лиюаньлу",
+      "scores": {
+        "fashion": 4.5,
+        "atmosphere": 4.5,
+        "scale": 2.5,
+        "interest": 4
+      },
+      "score": 3.9,
+      "kind": "Креативный двор и улица",
+      "duration": "1–1,5 часа",
+      "verdict": "Хорош для кофе и небольшого события; самостоятельный длинный маршрут лучше строить вместе с Лиюаньлу.",
+      "sources": [
+        "https://nowshenzhen.com/directory/gg-community/",
+        "https://zjj.sz.gov.cn/xxgk/gzdt/content/post_13037560.html",
+        "https://www.sznews.com/content/mb/2021-08/06/content_24462037.htm",
+        "https://m.bendibao.com/show809614.html"
+      ],
+      "new": true
+    },
+    {
+      "id": "23",
+      "name": "Shuiwei 1368 · вечерние улицы",
+      "scores": {
+        "fashion": 4,
+        "atmosphere": 4.5,
+        "scale": 3.5,
+        "interest": 4.5
+      },
+      "score": 4.1,
+      "kind": "Жилой и гастрономический квартал",
+      "duration": "1,5–2,5 часа",
+      "verdict": "Один из лучших вариантов на вечер ради еды и городской жизни; выбирайте его по настроению, учитывая шум.",
+      "sources": [
+        "https://www.szft.gov.cn/xxgk/ztbd/zzzq/gzdt/content/post_12743261.html",
+        "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/mpost_12836344.html"
+      ],
+      "new": true
+    },
+    {
+      "id": "24",
+      "name": "UpperHills · улицы LOFT Town",
+      "scores": {
+        "fashion": 4.5,
+        "atmosphere": 4,
+        "scale": 4,
+        "interest": 4
+      },
+      "score": 4.1,
+      "kind": "Современный открытый торговый квартал",
+      "duration": "1,5–3 часа",
+      "verdict": "Лучший современный сценарий в Футяне: L3, кофе и продолжение к паркам.",
+      "sources": [
+        "https://www.eyeshenzhen.com/content/2023-05/29/content_30246685.htm",
+        "https://danielfooddiary.com/2026/09/07/kuddocoffee/",
+        "https://m.bendibao.com/wangdian/dian/5776600.shtm"
+      ],
+      "new": true
+    },
+    {
+      "id": "25",
+      "name": "OCT Harbour · вечер у воды",
+      "scores": {
+        "fashion": 3.5,
+        "atmosphere": 4,
+        "scale": 4.5,
+        "interest": 4
+      },
+      "score": 4.0,
+      "kind": "Ресторанный и прогулочный район у воды",
+      "duration": "2–3 часа",
+      "verdict": "Надёжный выбор для длинного вечера и ужина у воды; особенно удобен после прогулки по заливу.",
+      "sources": [
+        "https://you.ctrip.com/sight/shenzhen26/1408300.html",
+        "https://m.bendibao.com/jingdian/shenhuanlehaian/",
+        "https://es.eyeshenzhen.com/content/2023-05/15/content_30222139.htm"
+      ],
+      "new": true
+    },
+    {
+      "id": "26",
+      "name": "K11 ECOAST · искусство и набережная",
+      "scores": {
+        "fashion": 4.5,
+        "atmosphere": 4,
+        "scale": 3.5,
+        "interest": 4
+      },
+      "score": 4.0,
+      "kind": "Современный арт-торговый комплекс",
+      "duration": "1,5–3 часа",
+      "verdict": "Выбирайте ради новой архитектуры и заката у воды; выставочный билет проверяйте отдельно.",
+      "sources": [
+        "https://qh.sz.gov.cn/en/news/content/post_12155044.html",
+        "https://you.ctrip.com/sight/shenzhen26/151080909.html"
+      ],
+      "new": true
+    },
+    {
+      "id": "27",
+      "name": "MixC World · открытые улицы и дизайн",
+      "scores": {
+        "fashion": 4.5,
+        "atmosphere": 3.5,
+        "scale": 3.5,
+        "interest": 4
+      },
+      "score": 3.9,
+      "kind": "Открытый торговый квартал",
+      "duration": "1,5–2,5 часа",
+      "verdict": "Хорош ради актуального дизайна и шопинга; для исторической или тихой жилой среды выбирайте другой характер прогулки.",
+      "sources": [
+        "https://www.szns.gov.cn/english/travel/shopping/content/post_9573542.html",
+        "https://www.bjnews.com.cn/detail/1770190030129496.html",
+        "https://www.sznews.com/news/content/2026-02/05/content_31936170.htm"
+      ],
+      "new": true
+    },
+    {
+      "id": "28",
+      "name": "Hongshan 6979 · кафе и культурный квартал",
+      "scores": {
+        "fashion": 3.5,
+        "atmosphere": 3.5,
+        "scale": 3.5,
+        "interest": 4
+      },
+      "score": 3.6,
+      "kind": "Современный жилой и торговый район",
+      "duration": "1,5–2,5 часа",
+      "verdict": "Хороший выбор по пути в Лунхуа и культурный кластер; ради одного кофе через весь город ехать необязательно.",
+      "sources": [
+        "https://www.eyeshenzhen.com/content/2023-05/30/content_30248810.htm",
+        "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_11188550.html",
+        "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12644022.html"
+      ],
+      "new": true
+    },
+    {
+      "id": "29",
+      "name": "Yuanling & Bagualing · кофейные улицы",
+      "scores": {
+        "fashion": 4,
+        "atmosphere": 4.5,
+        "scale": 4.5,
+        "interest": 4.5
+      },
+      "score": 4.4,
+      "kind": "Жилой район и кофейные улицы",
+      "duration": "2–4 часа",
+      "verdict": "Один из главных вариантов ради независимого кофе и повседневного города; оставьте время на переходы и ужин.",
+      "sources": [
+        "https://www.szft.gov.cn/xxgk/ztbd/zzzq/gzdt/content/post_12661260.html",
+        "https://www.szft.gov.cn/bmxx/qyljdbsc/gzdt/content/post_13001939.html",
+        "https://static.nfnews.com/content/202604/22/c12362795.html"
+      ],
+      "new": true
+    },
+    {
+      "id": "11",
+      "name": "OCT-LOFT Creative Culture Park",
+      "scores": {
+        "fashion": 4.5,
+        "atmosphere": 4.5,
+        "scale": 4,
+        "interest": 4.5
+      },
+      "score": 4.4,
+      "kind": "Креативный квартал",
+      "duration": "2–3 часа",
+      "verdict": "Один из первых выборов ради дизайна, галерей и кафе; конкретные выставки и концерты проверяйте по афише.",
+      "sources": [
+        "https://sz.bendibao.com/tour/201564/ly702265.html",
+        "https://zjj.sz.gov.cn/xxgk/gzdt/content/post_13037560.html",
+        "https://www.eyeshenzhen.com/content/2023-08/08/content_30391245.htm"
+      ],
+      "new": false
+    },
+    {
+      "id": "13",
+      "name": "Nantou Ancient City",
+      "scores": {
+        "fashion": 4.5,
+        "atmosphere": 4.5,
+        "scale": 4,
+        "interest": 4.5
+      },
+      "score": 4.4,
+      "kind": "Исторический и творческий квартал",
+      "duration": "2–3 часа",
+      "verdict": "Один из самых универсальных вариантов: старая городская ткань, современный дизайн и кафе на одном маршруте.",
+      "sources": [
+        "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+        "https://zjj.sz.gov.cn/xxgk/gzdt/content/post_13037560.html"
+      ],
+      "new": false
+    },
+    {
+      "id": "7",
+      "name": "Sea World Shekou & Culture and Arts Center",
+      "scores": {
+        "fashion": 3.5,
+        "atmosphere": 4,
+        "scale": 4.5,
+        "interest": 4.5
+      },
+      "score": 4.1,
+      "kind": "Приморский культурный и ресторанный район",
+      "duration": "2–4 часа",
+      "verdict": "Хорош для длинной прогулки и ужина у моря; ради небольших кафе добавьте соседний Nanhai E-Cool.",
+      "sources": [
+        "https://www.sz.gov.cn/szzt2010/szwtt/wtcg/whcg/content/post_11131232.html",
+        "https://www.eyeshenzhen.com/content/2023-08/08/content_30391245.htm"
+      ],
+      "new": false
+    }
+  ],
+  "coordinateNotes": {
+    "22": "Trip.com обозначает исходную координату [113.918617,22.492035] как GCJ-02. Выполнено итерационное обратное преобразование в WGS84; метка комплекса ориентировочная.",
+    "23": "Метка квартала Шуйвэй по OSM, не отдельный вход 1368.",
+    "29": "Метка административного района Юаньлин по OSM; маршрут также захватывает Багуалин."
+  }
+}

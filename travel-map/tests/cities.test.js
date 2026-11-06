@@ -20,10 +20,12 @@ test('city registry resolves independent, deployable pages and data',async()=>{
     assert.equal(app.id,`/${item.id}/`);assert.equal(app.scope,'./');
   }
 });
-test('Shenzhen has the requested 20 researched places without invented hotel dates',async()=>{
+test('Shenzhen preserves the original 20 places and includes the neighbourhood selection',async()=>{
   const {points,trip}=await readCity(new URL('shenzhen/data/city.json',base));
-  assert.deepEqual(points.map(p=>p.id),Array.from({length:20},(_,i)=>String(i+1)));
-  assert.ok(points.every(p=>p.cardType==='place'&&p.photos.length&&p.localName));
+  assert.deepEqual(points.slice(0,20).map(p=>p.id),Array.from({length:20},(_,i)=>String(i+1)));
+  assert.equal(points.length,29);
+  assert.ok(points.slice(0,20).every(p=>p.photos.length));
+  assert.ok(points.every(p=>p.cardType==='place'&&p.localName));
   assert.equal(trip.checkIn,undefined);
   for(const p of points){
     assert.equal(p.visit.provenance.basis,'source-review');

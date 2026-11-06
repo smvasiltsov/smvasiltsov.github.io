@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "city": "shenzhen",
-  "version": "838d1aa5b626b4ac62f7b6f4",
-  "createdAt": "2026-11-06T08:49:30.906Z",
-  "bytes": 41613617,
+  "version": "cae66f0de3a6e5466de58c35",
+  "createdAt": "2026-11-06T09:29:51.773Z",
+  "bytes": 42386271,
   "map": {
     "style": "./offline/map-20261106/style.json",
     "bounds": [
@@ -49,8 +49,8 @@
     },
     {
       "url": "/shenzhen/app.webmanifest",
-      "bytes": 876,
-      "sha256": "c4413895f2e4cd2baff21f86dc2155152f2293793d7ebae66e5c53d39ae2c63d"
+      "bytes": 899,
+      "sha256": "58162cf8a53feb81c4c3305a585227ba3f87f2c7b1989eb7e99802fe3c710aa3"
     },
     {
       "url": "/shenzhen/assets/photos/14613993-thumb.jpg",
@@ -253,9 +253,69 @@
       "sha256": "fd389f9e5b29a780c83754ae08638e86a0362014a63f86cff302f4551ec943e2"
     },
     {
+      "url": "/shenzhen/assets/photos/walk-21-thumb.jpg",
+      "bytes": 16745,
+      "sha256": "c2031cb73d17a52caf03fb67d8a39be9e7ea023e77f56915f211a101a56daf3a"
+    },
+    {
+      "url": "/shenzhen/assets/photos/walk-21.jpg",
+      "bytes": 121154,
+      "sha256": "a76c12dd796743133068d03c8564bea7d803abcfd8deea7371007305e986cd4c"
+    },
+    {
+      "url": "/shenzhen/assets/photos/walk-24-thumb.jpg",
+      "bytes": 9290,
+      "sha256": "be73cb885f855fe4e49e77aa32b8c08180a8fd5d516f53991545923d78703bf3"
+    },
+    {
+      "url": "/shenzhen/assets/photos/walk-24.jpg",
+      "bytes": 15683,
+      "sha256": "5e2ddfdfa2ff6d10565fc341c3b9fb91673b67ad9967181a56ae1ae6a65348ba"
+    },
+    {
+      "url": "/shenzhen/assets/photos/walk-25-thumb.jpg",
+      "bytes": 14249,
+      "sha256": "688971eafa56bb27bb5a5013b973952c196890766bb852e915c585ef7ab9ccfe"
+    },
+    {
+      "url": "/shenzhen/assets/photos/walk-25.jpg",
+      "bytes": 137190,
+      "sha256": "0b63bd28e0b03a8f0796ca71489ac6cd3a312add5af255cf10f13a400fa43d0f"
+    },
+    {
+      "url": "/shenzhen/assets/photos/walk-26-thumb.jpg",
+      "bytes": 11439,
+      "sha256": "291c79a939665da96135dab82bb88d1afdeee3205c3ec568e75376a5f5bc60cd"
+    },
+    {
+      "url": "/shenzhen/assets/photos/walk-26.jpg",
+      "bytes": 85306,
+      "sha256": "e0859ba60d892783002a25981df7924d425e59aad3c078074de938f1c556f4a4"
+    },
+    {
+      "url": "/shenzhen/assets/photos/walk-27-thumb.jpg",
+      "bytes": 13611,
+      "sha256": "f77ed4fd8f4a8adb3adf5d4afc4af2139e7fc65df5e611fedeb58abf6ad4f65d"
+    },
+    {
+      "url": "/shenzhen/assets/photos/walk-27.jpg",
+      "bytes": 112091,
+      "sha256": "fc5f8dddaaeceb5ab5b679463743f95007ada5e7e5f1a4af6a8a8fb2e2f93117"
+    },
+    {
+      "url": "/shenzhen/assets/photos/walk-28-thumb.jpg",
+      "bytes": 14813,
+      "sha256": "1810c967448b4c96ca653a654330b3332c5d45f8e5431bfa6569cbb9ecf58831"
+    },
+    {
+      "url": "/shenzhen/assets/photos/walk-28.jpg",
+      "bytes": 143297,
+      "sha256": "3167c232d085259f1004d837a08cc90890c7559d0bf8be6407cd71061abc38a8"
+    },
+    {
       "url": "/shenzhen/compare.html",
       "bytes": 557,
-      "sha256": "919f0a5189aae9171750265de0a592401efd2037439675bf6ee6db4e73b148c0"
+      "sha256": "1a9ef17b774a25ded4d84ed613d15bf76485237b920661cfc1c2dc855f23baed"
     },
     {
       "url": "/shenzhen/data/categories.json",
@@ -264,13 +324,13 @@
     },
     {
       "url": "/shenzhen/data/city.json",
-      "bytes": 8022,
-      "sha256": "5198f8109ec6ff67417bd5e4b8ff4894c4947bce7628ac2096198dc482dcd3d4"
+      "bytes": 8306,
+      "sha256": "372dde64b8b26826e0fc2f50c144ed46a18c8414f695aba1b7ad19a00a17107e"
     },
     {
       "url": "/shenzhen/data/points.json",
-      "bytes": 122388,
-      "sha256": "8dddad5fae33e0e367d8ee65a0a436c86ec38b22a040ce5d2ca382087945a511"
+      "bytes": 199867,
+      "sha256": "ccda895cf87d193bf6dbf2f2158143ff8d369e0497c19b7c3b9f278cd0c93cc0"
     },
     {
       "url": "/shenzhen/data/trip.json",

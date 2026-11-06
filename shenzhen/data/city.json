@@ -100,6 +100,16 @@
         ]
       },
       {
+        "id": "hangouts",
+        "label": "Модные районы",
+        "color": "#75563f",
+        "darkColor": "#e4b78f",
+        "shape": "square",
+        "tagIds": [
+          "local-hangout"
+        ]
+      },
+      {
         "id": "shop",
         "label": "Шопинг",
         "color": "#8b5276",
@@ -214,7 +224,8 @@
       "photography": "Фотография",
       "family": "С детьми",
       "cinema": "Кино",
-      "relax": "Отдых"
+      "relax": "Отдых",
+      "local-hangout": "Модные районы"
     }
   }
 }

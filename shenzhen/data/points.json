@@ -222,7 +222,8 @@
       "combineWith": [
         "1",
         "8",
-        "9"
+        "9",
+        "24"
       ],
       "provenance": {
         "sources": [
@@ -727,11 +728,14 @@
       "art",
       "food",
       "walk",
-      "evening"
+      "evening",
+      "local-hangout"
     ],
     "aliases": [
       "Sea World Shekou Culture Arts Center Design Society",
-      "海上世界 / 海上世界文化艺术中心"
+      "海上世界 / 海上世界文化艺术中心",
+      "Шэкоу",
+      "Морской мир"
     ],
     "description": "Sea World — городской район Шэкоу с ресторанами и площадью вокруг корабля «Минхуа», а не океанариум. Южнее, у берега, расположен Sea World Culture and Arts Center: выставочные пространства, театр, террасы и виды на воду. Между двумя точками удобно идти пешком.",
     "url": "https://www.sz.gov.cn/szzt2010/szwtt/wtcg/whcg/content/post_11131232.html",
@@ -758,7 +762,7 @@
       ],
       "duration": {
         "status": "estimate",
-        "value": "2–4 часа с выставкой или ужином",
+        "value": "2–4 часа",
         "sources": [],
         "checkedAt": null
       },
@@ -813,13 +817,17 @@
       },
       "combineWith": [
         "3",
-        "6"
+        "6",
+        "21",
+        "22",
+        "26"
       ],
       "provenance": {
         "sources": [
           "https://www.sz.gov.cn/szzt2010/szwtt/wtcg/whcg/content/post_11131232.html",
           "https://m.bendibao.com/jingdian/haishangshijiewenhuayishuzhongxin/",
-          "https://www.amazingshenzhen.com.cn/content/2023-05/12/content_30192680.htm"
+          "https://www.amazingshenzhen.com.cn/content/2023-05/12/content_30192680.htm",
+          "https://www.eyeshenzhen.com/content/2023-08/08/content_30391245.htm"
         ],
         "checkedAt": "2026-11-06",
         "basis": "source-review"
@@ -827,7 +835,30 @@
       "scope": "Две связанные пешком площадки: район Sea World и отдельный культурный центр у берега."
     },
     "photoGalleryUrl": "https://www.sz.gov.cn/szzt2010/szwtt/wtcg/whcg/content/post_11131232.html",
-    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗",
+    "walk": {
+      "scores": {
+        "fashion": 3.5,
+        "atmosphere": 4,
+        "scale": 4.5,
+        "interest": 4.5
+      },
+      "verdict": "Хорош для длинной прогулки и ужина у моря; ради небольших кафе добавьте соседний Nanhai E-Cool.",
+      "reasons": {
+        "fashion": "Сильная ресторанная среда, но меньше камерных независимых магазинов, чем в соседних креативных кластерах.",
+        "atmosphere": "Корабль, площади и морской берег задают узнаваемую атмосферу Шэкоу.",
+        "scale": "Площади, улицы и путь к культурному центру и воде дают длинную связанную прогулку.",
+        "interest": "Еда, архитектура, выставки и морской променад позволяют менять сценарий визита."
+      },
+      "checked": "2026-11-06",
+      "kind": "Приморский культурный и ресторанный район",
+      "duration": "2–4 часа",
+      "sources": [
+        "https://www.sz.gov.cn/szzt2010/szwtt/wtcg/whcg/content/post_11131232.html",
+        "https://www.eyeshenzhen.com/content/2023-08/08/content_30391245.htm"
+      ],
+      "photoNote": "Фотографии иллюстрируют среду; состав магазинов, кафе и временных экспозиций меняется."
+    }
   },
   {
     "id": "8",
@@ -1200,11 +1231,14 @@
       "design",
       "coffee",
       "walk",
-      "industrial"
+      "industrial",
+      "local-hangout"
     ],
     "aliases": [
       "OCT-LOFT Creative Culture Park",
-      "华侨城创意文化园"
+      "华侨城创意文化园",
+      "ОКТ Лофт",
+      "Хуацяочэн"
     ],
     "description": "OCT-LOFT занимает переустроенные заводские кварталы восточной части OCT. Его лучше смотреть как живой район: переходить между дворами, заглядывать в открытые пространства и оставлять время на кофе. Галереи, концерты и T-Street Market имеют собственную программу; творческий рынок проходит в определённые даты.",
     "url": "https://sz.bendibao.com/tour/201564/ly702265.html",
@@ -1285,12 +1319,16 @@
       "combineWith": [
         "17",
         "18",
-        "19"
+        "19",
+        "25",
+        "27"
       ],
       "provenance": {
         "sources": [
           "https://sz.bendibao.com/tour/201564/ly702265.html",
-          "https://m.bendibao.com/tour/jingdianbao/detail.php?id=91476"
+          "https://m.bendibao.com/tour/jingdianbao/detail.php?id=91476",
+          "https://zjj.sz.gov.cn/xxgk/gzdt/content/post_13037560.html",
+          "https://www.eyeshenzhen.com/content/2023-08/08/content_30391245.htm"
         ],
         "checkedAt": "2026-11-06",
         "basis": "source-review"
@@ -1298,7 +1336,31 @@
       "scope": "Прогулка по креативному кварталу; вход в отдельные выставки и концертные залы учитывается отдельно."
     },
     "photoGalleryUrl": "https://sz.bendibao.com/tour/201564/ly702265.html",
-    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗",
+    "walk": {
+      "scores": {
+        "fashion": 4.5,
+        "atmosphere": 4.5,
+        "scale": 4,
+        "interest": 4.5
+      },
+      "verdict": "Один из первых выборов ради дизайна, галерей и кафе; конкретные выставки и концерты проверяйте по афише.",
+      "reasons": {
+        "fashion": "Сильное сочетание дизайна, книжных, галерей и современных кафе.",
+        "atmosphere": "Бывшие фабричные дворы и творческие арендаторы дают устойчивый характер места.",
+        "scale": "Несколько частей и улиц позволяют гулять с остановками пару часов.",
+        "interest": "Искусство, музыка, книжные, дизайн и кафе дают много независимых причин для визита."
+      },
+      "checked": "2026-11-06",
+      "kind": "Креативный квартал",
+      "duration": "2–3 часа",
+      "sources": [
+        "https://sz.bendibao.com/tour/201564/ly702265.html",
+        "https://zjj.sz.gov.cn/xxgk/gzdt/content/post_13037560.html",
+        "https://www.eyeshenzhen.com/content/2023-08/08/content_30391245.htm"
+      ],
+      "photoNote": "Фотографии иллюстрируют среду; состав магазинов, кафе и временных экспозиций меняется."
+    }
   },
   {
     "id": "12",
@@ -1427,11 +1489,13 @@
       "design",
       "art",
       "food",
-      "walk"
+      "walk",
+      "local-hangout"
     ],
     "aliases": [
       "Nantou Ancient City Xin’an",
-      "南头古城"
+      "南头古城",
+      "Наньтоу"
     ],
     "description": "Наньтоу напоминает, что история региона началась задолго до специальной экономической зоны. В компактной сети улиц сохранились исторические ориентиры, а часть зданий приспособлена под магазины и культурные пространства. Это жилой и коммерческий квартал после обновления, а не полностью нетронутый древний город.",
     "url": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
@@ -1509,19 +1573,44 @@
         "coordinateSource": "https://en.wikipedia.org/wiki/Nantou_%28historic_town%29"
       },
       "combineWith": [
-        "5"
+        "5",
+        "27"
       ],
       "provenance": {
         "sources": [
           "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
-          "https://www.sznews.com/news/content/2021-01/22/content_23911222_0.htm"
+          "https://www.sznews.com/news/content/2021-01/22/content_23911222_0.htm",
+          "https://zjj.sz.gov.cn/xxgk/gzdt/content/post_13037560.html"
         ],
         "checkedAt": "2026-11-06",
         "basis": "source-review"
       }
     },
     "photoGalleryUrl": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
-    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗",
+    "walk": {
+      "scores": {
+        "fashion": 4.5,
+        "atmosphere": 4.5,
+        "scale": 4,
+        "interest": 4.5
+      },
+      "verdict": "Один из самых универсальных вариантов: старая городская ткань, современный дизайн и кафе на одном маршруте.",
+      "reasons": {
+        "fashion": "Независимые заведения, дизайн и обновлённые первые этажи дают насыщенную современную сцену.",
+        "atmosphere": "Исторические ворота, тесные улицы и новые архитектурные вставки создают выразительный контраст.",
+        "scale": "Есть сеть переулков и несколько культурных остановок для пары часов.",
+        "interest": "Можно совместить историю, небольшие выставки, кафе, еду и наблюдение за жилым городом."
+      },
+      "checked": "2026-11-06",
+      "kind": "Исторический и творческий квартал",
+      "duration": "2–3 часа",
+      "sources": [
+        "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+        "https://zjj.sz.gov.cn/xxgk/gzdt/content/post_13037560.html"
+      ],
+      "photoNote": "Фотографии иллюстрируют среду; состав магазинов, кафе и временных экспозиций меняется."
+    }
   },
   {
     "id": "14",
@@ -2343,5 +2432,1262 @@
     },
     "photoGalleryUrl": "https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_10986843.html",
     "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "21",
+    "name": "Nanhai E-Cool · кафе и дизайн",
+    "localName": "南海意库",
+    "coord": [
+      113.912876,
+      22.4897345
+    ],
+    "categoryId": "art",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "creative-cluster",
+    "tags": [
+      "coffee",
+      "design",
+      "shopping",
+      "industrial",
+      "walk",
+      "local-hangout"
+    ],
+    "aliases": [
+      "Nanhai E-Cool Nanhai Yiku",
+      "南海意库",
+      "Наньхай Ику",
+      "Наньхай И-Кул"
+    ],
+    "description": "В бывших корпусах Sanyo сохранился невысокий масштаб застройки, а между ними появились кафе, небольшие магазины и студии. Здесь приятно выбирать заведение по ходу прогулки: заглянуть в витрины, посидеть в тени и продолжить путь по Шэкоу. Район компактный, поэтому его лучше сочетать с соседними улицами.",
+    "url": "https://www.eyeshenzhen.com/content/2025-09/18/content_31656817.htm",
+    "photos": [
+      {
+        "src": "assets/photos/walk-21.jpg",
+        "thumbnail": "assets/photos/walk-21-thumb.jpg",
+        "width": 960,
+        "height": 720,
+        "author": "Senkaku Islands",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E6%B5%B7%E6%84%8F%E5%BA%AB%E3%81%AE%E3%82%B7%E3%83%B3%E3%83%9C%E3%83%AB%E3%83%9E%E3%83%BC%E3%82%AF.jpg",
+        "caption": "Nanhai E-Cool · кафе и дизайн · 南海意庫のシンボルマーク.jpg"
+      }
+    ],
+    "photoGalleryUrl": "https://www.eyeshenzhen.com/content/2025-09/18/content_31656817.htm",
+    "photoGalleryLabel": "Фотографии и сведения о районе ↗",
+    "visit": {
+      "version": 1,
+      "summary": "Тенистые бывшие фабричные кварталы Шэкоу с небольшими кофейнями и дизайнерскими магазинами. Хорошая спокойная остановка на пути к Sea World.",
+      "scope": "Прогулка по общедоступной части бывшего промышленного квартала; не посещение офисного комплекса целиком.",
+      "activities": [
+        "Пройти тенистые проходы между старыми корпусами и посмотреть на озеленённые фасады.",
+        "Выбрать независимую кофейню или небольшой магазин дизайна; у части заведений смешанный формат.",
+        "Продолжить маршрут по Лиюаньлу к G&G либо к площади Sea World."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "После 11:00 в будний день для спокойной прогулки; выходной — ради более оживлённой среды.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "У офисно-творческого квартала нет одного времени открытия всех заведений. Для выбранного кафе, магазина или небольшой выставки проверьте его собственные часы.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Обычная прогулка по общим проходам не является платной музейной программой. Кофе, покупки, мастер-классы и отдельные выставки оплачиваются отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Для прогулки нет общего слота. Встречи в студиях, мастер-классы и столики оформляются у конкретного заведения.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Открытые дворы и клиентские помещения доступны по их режиму; рабочие студии, офисы и лестницы в служебные зоны не входят в маршрут.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Плотность заведений и состав арендаторов меняются; приезжайте ради квартала, а не одного старого названия из подборки.",
+        "Для длинной прогулки соедините Nanhai E-Cool, Лиюаньлу и Sea World; один кластер не занимает полдня."
+      ],
+      "arrival": {
+        "address": "Шэкоу, Xinghua Road 6 / 蛇口兴华路6号.",
+        "metro": "Sea World / 海上世界, линии 2 и 12; официальный городской гид указывает подход от выхода B.",
+        "start": "Входы со стороны Xinghua Road; затем пройти внутреннюю сетку дворов.",
+        "note": "Метка — ориентир прогулки. Начинайте с открытых общественных проходов; входы отдельных заведений могут находиться с другой стороны.",
+        "coordinateSource": "https://www.openstreetmap.org/way/539914042"
+      },
+      "combineWith": [
+        "7",
+        "22",
+        "26"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.eyeshenzhen.com/content/2025-09/18/content_31656817.htm",
+          "https://www.eyeshenzhen.com/content/2025-05/29/content_31584434.htm",
+          "https://zjj.sz.gov.cn/xxgk/gzdt/content/post_13037560.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "walk": {
+      "scores": {
+        "fashion": 4.5,
+        "atmosphere": 4.5,
+        "scale": 3,
+        "interest": 4.5
+      },
+      "verdict": "Лучше всего для спокойного кофе и дизайна; соединяйте с соседним Шэкоу, если хочется долго гулять.",
+      "reasons": {
+        "fashion": "Кофейни, смешанные форматы магазинов и дизайн дают высокую плотность современных остановок.",
+        "atmosphere": "Невысокие корпуса и зелёные проходы сохраняют камерность Шэкоу.",
+        "scale": "Компактная сетка дворов; длинный маршрут получается только с соседними улицами.",
+        "interest": "Есть индустриальная среда, витрины, небольшие творческие пространства и места для отдыха."
+      },
+      "checked": "2026-11-06",
+      "kind": "Креативный кластер",
+      "duration": "1–2 часа",
+      "sources": [
+        "https://www.eyeshenzhen.com/content/2025-09/18/content_31656817.htm",
+        "https://www.eyeshenzhen.com/content/2025-05/29/content_31584434.htm",
+        "https://zjj.sz.gov.cn/xxgk/gzdt/content/post_13037560.html"
+      ],
+      "photoNote": "Фотографии иллюстрируют среду; состав магазинов, кафе и временных экспозиций меняется."
+    }
+  },
+  {
+    "id": "22",
+    "name": "G&G Creative Community · Лиюаньлу",
+    "localName": "风火G&G创意社区",
+    "coord": [
+      113.9137598,
+      22.4950869
+    ],
+    "categoryId": "art",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "creative-cluster",
+    "tags": [
+      "coffee",
+      "design",
+      "art",
+      "food",
+      "industrial",
+      "walk",
+      "local-hangout"
+    ],
+    "aliases": [
+      "G&G Creative Community G and G",
+      "风火G&G创意社区",
+      "Джи энд Джи",
+      "Лиюаньлу"
+    ],
+    "description": "G&G вырос на месте старой фабрики и сочетает рабочие пространства с местами для встреч. Днём сюда можно прийти на кофе и посмотреть на переделанные корпуса; в дни событий среда становится заметно оживлённее. Продолжение вдоль Лиюаньлу показывает более повседневную сторону Шэкоу — жилые улицы и соседние парки.",
+    "url": "https://nowshenzhen.com/directory/gg-community/",
+    "photos": [],
+    "photoGalleryUrl": "https://nowshenzhen.com/directory/gg-community/",
+    "photoGalleryLabel": "Фотографии и сведения о районе ↗",
+    "visit": {
+      "version": 1,
+      "summary": "Небольшой кластер в бывшей стекольной фабрике: кофе, еда, творческие пространства и общественные события. Удобен как часть прогулки по Шэкоу.",
+      "scope": "Общие зоны G&G и прилегающая Лиюаньлу; рабочие помещения и событийные залы имеют отдельные условия.",
+      "activities": [
+        "Обойти открытые пространства бывшей фабрики и посмотреть на новые вставки в старые корпуса.",
+        "Зайти в открытое кафе или творческое пространство и проверить афишу текущих событий.",
+        "Продолжить прогулку по Лиюаньлу, соединив G&G и Nanhai E-Cool."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–1,5 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "После полудня; ради маркета или выступления выбирайте дату по свежей афише.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "У разных арендаторов и событий собственные часы. Старые общие расписания не гарантируют работу выбранного кафе, галереи или маркета сегодня.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Обычный осмотр общественных зон описан как бесплатный. Платные выставки, события, еда и напитки — по отдельным условиям.",
+        "sources": [
+          "https://m.bendibao.com/show809614.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Общая прогулка не требует билетного сеанса; на выступление, мастер-класс или специальное событие может понадобиться отдельная запись.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Адрес — Liyuan Road 9 в Шэкоу. Посещайте открытые общественные зоны; вход в коворкинги и рабочие студии согласуйте отдельно.",
+        "sources": [
+          "https://nowshenzhen.com/directory/gg-community/"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Маркет и фестиваль не проходят непрерывно: проверяйте именно выбранную дату.",
+        "Это компактная остановка; соседние жилые улицы и Nanhai E-Cool заметно расширяют маршрут."
+      ],
+      "arrival": {
+        "address": "Наньшань, Shekou Liyuan Road 9 / 蛇口荔园路9号.",
+        "metro": "Shuiwan / 水湾, линия 2; далее пешком к Лиюаньлу. Для выбора выхода сверяйте текущую схему станции.",
+        "start": "Общественные входы с Лиюаньлу, далее — открытые дворы комплекса.",
+        "note": "Метка — ориентир прогулки. Начинайте с открытых общественных проходов; входы отдельных заведений могут находиться с другой стороны.",
+        "coordinateSource": "https://hk.trip.com/travel-guide/attraction/shenzhen/city-154076007/"
+      },
+      "combineWith": [
+        "21",
+        "7"
+      ],
+      "provenance": {
+        "sources": [
+          "https://nowshenzhen.com/directory/gg-community/",
+          "https://zjj.sz.gov.cn/xxgk/gzdt/content/post_13037560.html",
+          "https://www.sznews.com/content/mb/2021-08/06/content_24462037.htm",
+          "https://m.bendibao.com/show809614.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "walk": {
+      "scores": {
+        "fashion": 4.5,
+        "atmosphere": 4.5,
+        "scale": 2.5,
+        "interest": 4
+      },
+      "verdict": "Хорош для кофе и небольшого события; самостоятельный длинный маршрут лучше строить вместе с Лиюаньлу.",
+      "reasons": {
+        "fashion": "Современные кафе, творческие арендаторы и событийные форматы делают кластер заметной точкой Шэкоу.",
+        "atmosphere": "Перестроенная фабрика, двор и люди создают узнаваемую камерную среду.",
+        "scale": "Внутри мало пространства для длинной прогулки; основное время уходит на остановки.",
+        "interest": "Кофе, еда и события разнообразят визит, но программа зависит от конкретного дня."
+      },
+      "checked": "2026-11-06",
+      "kind": "Креативный двор и улица",
+      "duration": "1–1,5 часа",
+      "sources": [
+        "https://nowshenzhen.com/directory/gg-community/",
+        "https://zjj.sz.gov.cn/xxgk/gzdt/content/post_13037560.html",
+        "https://www.sznews.com/content/mb/2021-08/06/content_24462037.htm",
+        "https://m.bendibao.com/show809614.html"
+      ],
+      "photoNote": "Фотографии иллюстрируют среду; состав магазинов, кафе и временных экспозиций меняется."
+    }
+  },
+  {
+    "id": "23",
+    "name": "Shuiwei 1368 · вечерние улицы",
+    "localName": "水围1368文化街区 / 水围村",
+    "coord": [
+      114.0586053,
+      22.5224618
+    ],
+    "categoryId": "urban",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "cultural-district",
+    "tags": [
+      "food",
+      "coffee",
+      "evening",
+      "historical",
+      "walk",
+      "local-hangout"
+    ],
+    "aliases": [
+      "Shuiwei 1368 Cultural Block",
+      "水围1368文化街区 / 水围村",
+      "Шуйвэй",
+      "Шуйвэй 1368"
+    ],
+    "description": "Улицы Шуйвэя сохраняют масштаб городской деревни: рядом с жилыми домами работают рестораны, небольшие кафе и вечерние заведения. Обновлённая часть 1368 стала одной из точек городской молодёжной жизни. Здесь стоит выбирать переулки и остановки по ходу прогулки, оставляя место для случайного ужина.",
+    "url": "https://www.szft.gov.cn/xxgk/ztbd/zzzq/gzdt/content/post_12743261.html",
+    "photos": [],
+    "photoGalleryUrl": "https://www.eyeshenzhen.com/content/2024-08/09/content_31138283.htm",
+    "photoGalleryLabel": "Фотография квартала 1368 у городского источника ↗",
+    "visit": {
+      "version": 1,
+      "summary": "Жилой квартал Футяня с плотной ресторанной жизнью, небольшими кафе и барами. Особенно подходит для вечерней прогулки и ужина.",
+      "scope": "Открытые улицы 1368 и соседнего Шуйвэя. Это живой городской квартал с отдельными заведениями.",
+      "activities": [
+        "Пройти переулки квартала 1368 и посмотреть, как коммерческие первые этажи соседствуют с жильём.",
+        "Выбрать кафе или небольшое заведение для ужина, сравнив меню на месте.",
+        "Продолжить вечернюю прогулку по соседним улицам Шуйвэя."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1,5–2,5 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "С 17:00 до позднего вечера для еды и оживлённой улицы; днём спокойнее.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "У жилых улиц нет единого времени работы. Кафе, рестораны и бары имеют собственный график; поздняя работа одного бара не означает, что открыто всё.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "За обычную уличную прогулку нет общего входного билета. Еда, напитки, покупки и платные события оплачиваются отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Для прогулки запись не оформляется. Бронь столика и условия входа в конкретное заведение уточняйте у него.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Публичные переулки и открытые заведения соседствуют с жильём. Подъезды, жилые этажи и частные дворы не входят в маршрут.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Вечером бывает шумно и тесно; это одновременно район проживания людей.",
+        "Метка обозначает квартал Шуйвэй, а не границу 1368 или конкретный вход в ресторан."
+      ],
+      "arrival": {
+        "address": "Футянь, Shuiwei Village / 水围村, квартал 水围1368.",
+        "metro": "Fumin / 福民, линии 4, 7 и 10; далее пешком в квартал.",
+        "start": "Шуйвэй: от стороны Fumin к общественным переулкам и вывескам 1368.",
+        "note": "Метка — ориентир прогулки. Начинайте с открытых общественных проходов; входы отдельных заведений могут находиться с другой стороны.",
+        "coordinateSource": "https://www.openstreetmap.org/relation/15599661"
+      },
+      "combineWith": [
+        "1"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.szft.gov.cn/xxgk/ztbd/zzzq/gzdt/content/post_12743261.html",
+          "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/mpost_12836344.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "walk": {
+      "scores": {
+        "fashion": 4,
+        "atmosphere": 4.5,
+        "scale": 3.5,
+        "interest": 4.5
+      },
+      "verdict": "Один из лучших вариантов на вечер ради еды и городской жизни; выбирайте его по настроению, учитывая шум.",
+      "reasons": {
+        "fashion": "Небольшие современные кафе и бары вплетены в обычную ресторанную жизнь квартала.",
+        "atmosphere": "Тесные улицы, вывески и жилой фон дают яркую повседневную городскую атмосферу.",
+        "scale": "Несколько переулков с остановками на ужин; масштаб меньше большого прогулочного района.",
+        "interest": "Разные кухни, бары, уличная среда и старая застройка дают много причин задержаться."
+      },
+      "checked": "2026-11-06",
+      "kind": "Жилой и гастрономический квартал",
+      "duration": "1,5–2,5 часа",
+      "sources": [
+        "https://www.szft.gov.cn/xxgk/ztbd/zzzq/gzdt/content/post_12743261.html",
+        "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/mpost_12836344.html"
+      ],
+      "photoNote": "Фотографии иллюстрируют среду; состав магазинов, кафе и временных экспозиций меняется."
+    }
+  },
+  {
+    "id": "24",
+    "name": "UpperHills · улицы LOFT Town",
+    "localName": "深业上城 / L3小镇",
+    "coord": [
+      114.0651169,
+      22.5601574
+    ],
+    "categoryId": "shopping",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "creative-mall",
+    "tags": [
+      "coffee",
+      "shopping",
+      "design",
+      "architecture",
+      "modern",
+      "walk",
+      "local-hangout"
+    ],
+    "aliases": [
+      "UpperHills Loft Town Shum Yip",
+      "深业上城 / L3小镇",
+      "АпперХиллс",
+      "Шэнье Шанчэн"
+    ],
+    "description": "Главная прогулочная часть UpperHills — не только внутренние торговые этажи, но и L3 LOFT Town наверху. Небольшие цветные корпуса формируют сеть пешеходных проходов с кафе и магазинами. Переходы в сторону Ляньхуашаня и Бицзяшаня позволяют добавить зелени и сделать из посещения длинный городской маршрут.",
+    "url": "https://www.eyeshenzhen.com/content/2023-05/29/content_30246685.htm",
+    "photos": [
+      {
+        "src": "assets/photos/walk-24.jpg",
+        "thumbnail": "assets/photos/walk-24-thumb.jpg",
+        "width": 219,
+        "height": 390,
+        "author": "K3liu",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Shum_Yip_Upperhills_Towers2020.jpg",
+        "caption": "UpperHills · улицы LOFT Town · Shum Yip Upperhills Towers2020.jpg"
+      }
+    ],
+    "photoGalleryUrl": "https://www.eyeshenzhen.com/content/2023-05/29/content_30246685.htm",
+    "photoGalleryLabel": "Фотографии и сведения о районе ↗",
+    "visit": {
+      "version": 1,
+      "summary": "Современный квартал над торговым комплексом: цветные малоэтажные улицы, террасы и кофе. Можно связать с двумя городскими парками.",
+      "scope": "Торговые и общественные уровни UpperHills с акцентом на L3; парки по соседству — продолжение по желанию.",
+      "activities": [
+        "Подняться к L3 LOFT Town и пройти по открытым улицам между цветными корпусами.",
+        "Выбрать террасу или кофейню; KUDDO — один из опубликованных примеров местной кофейной сцены.",
+        "Продолжить по открытым парковым связям в сторону Ляньхуашаня или Бицзяшаня."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1,5–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "После полудня в мягкую погоду; закат хорошо подходит для открытых уровней.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "По справочнику Bendibao: вс–чт 10:00–22:00, пт–сб до 22:30. Отдельные кафе, террасы и парковочные переходы могут работать иначе.",
+        "sources": [
+          "https://m.bendibao.com/wangdian/dian/5776600.shtm"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Обычный осмотр торговых и общественных уровней не является платной экскурсией. Покупки, еда, кино и специальные выставки оплачиваются отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Для обычной прогулки слот не нужен. Столики, отдельные события и выставки бронируются у их организаторов.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Главный прогулочный ориентир — открытые улицы L3 LOFT Town. Donggualing, линия 10; городской гид указывает выход E.",
+        "sources": [
+          "https://www.eyeshenzhen.com/content/2023-05/29/content_30246685.htm",
+          "https://danielfooddiary.com/2026/09/07/kuddocoffee/"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Уровни и корпуса легко перепутать: ищите L3 小镇, если нужны именно прогулочные улицы.",
+        "Переходы в парки могут временно ограничиваться; сами парки имеют отдельные часы."
+      ],
+      "arrival": {
+        "address": "Футянь, Huanggang Road 5001 / 皇岗路5001号.",
+        "metro": "Donggualing / 冬瓜岭, линия 10; выход E по городскому гиду.",
+        "start": "Через торговый комплекс подняться на L3, затем выбрать открытые улицы LOFT Town.",
+        "note": "Метка — ориентир прогулки. Начинайте с открытых общественных проходов; входы отдельных заведений могут находиться с другой стороны.",
+        "coordinateSource": "https://www.openstreetmap.org/way/674566923"
+      },
+      "combineWith": [
+        "2",
+        "29"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.eyeshenzhen.com/content/2023-05/29/content_30246685.htm",
+          "https://danielfooddiary.com/2026/09/07/kuddocoffee/",
+          "https://m.bendibao.com/wangdian/dian/5776600.shtm"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "walk": {
+      "scores": {
+        "fashion": 4.5,
+        "atmosphere": 4,
+        "scale": 4,
+        "interest": 4
+      },
+      "verdict": "Лучший современный сценарий в Футяне: L3, кофе и продолжение к паркам.",
+      "reasons": {
+        "fashion": "Высокая концентрация современных брендов, кафе и дизайнерских форматов.",
+        "atmosphere": "Цветные малоэтажные корпуса и открытые террасы создают выразительную, тщательно спроектированную среду.",
+        "scale": "Несколько уровней и улиц, дополненные парковыми связями, дают маршрут длиннее одного торгового зала.",
+        "interest": "Архитектура, кафе, витрины и возможность прогулки к паркам разнообразят посещение."
+      },
+      "checked": "2026-11-06",
+      "kind": "Современный открытый торговый квартал",
+      "duration": "1,5–3 часа",
+      "sources": [
+        "https://www.eyeshenzhen.com/content/2023-05/29/content_30246685.htm",
+        "https://danielfooddiary.com/2026/09/07/kuddocoffee/",
+        "https://m.bendibao.com/wangdian/dian/5776600.shtm"
+      ],
+      "photoNote": "Фотографии иллюстрируют среду; состав магазинов, кафе и временных экспозиций меняется."
+    }
+  },
+  {
+    "id": "25",
+    "name": "OCT Harbour · вечер у воды",
+    "localName": "欢乐海岸 / 曲水湾",
+    "coord": [
+      113.9830035,
+      22.5259532
+    ],
+    "categoryId": "urban",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "waterfront",
+    "tags": [
+      "water",
+      "food",
+      "evening",
+      "shopping",
+      "modern",
+      "walk",
+      "local-hangout"
+    ],
+    "aliases": [
+      "OCT Harbour Qushui Bay",
+      "欢乐海岸 / 曲水湾",
+      "Хуаньлэ Хайань",
+      "ОСТ Харбор"
+    ],
+    "description": "OCT Harbour сочетает водные пространства, торговые площадки и ресторанную часть Qushui Bay. Здесь приятно гулять с остановками на еду и смотреть на отражения вечернего света. Это хорошо организованная коммерческая среда; поездка ради конкретного шоу требует отдельной проверки программы и билетов.",
+    "url": "https://you.ctrip.com/sight/shenzhen26/1408300.html",
+    "photos": [
+      {
+        "src": "assets/photos/walk-25.jpg",
+        "thumbnail": "assets/photos/walk-25-thumb.jpg",
+        "width": 960,
+        "height": 643,
+        "author": "wanghongliu",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%AC%A2%E4%B9%90%E6%B5%B7%E5%B2%B8_OCT_Harbour_-_panoramio.jpg",
+        "caption": "OCT Harbour · вечер у воды · 欢乐海岸 OCT Harbour - panoramio.jpg"
+      }
+    ],
+    "photoGalleryUrl": "https://you.ctrip.com/sight/shenzhen26/1408300.html",
+    "photoGalleryLabel": "Фотографии и сведения о районе ↗",
+    "visit": {
+      "version": 1,
+      "summary": "Прогулочный комплекс у озера с ресторанами, кафе и вечерними огнями. Удобен для ужина после Shenzhen Bay Park.",
+      "scope": "Общественные дорожки и ресторанные улицы OCT Harbour; платные развлекательные площадки описываются отдельно.",
+      "activities": [
+        "Пройти вокруг доступных водных пространств и ресторанных улиц Qushui Bay.",
+        "Выбрать кафе или ужин у воды и сравнить разные открытые площадки.",
+        "Соединить прогулку с Shenzhen Bay Park через разрешённые пешеходные переходы."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Во второй половине дня с продолжением до ужина и подсветки.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Открытая территория описана как общедоступная в течение суток; торговые залы, рестораны и площадки шоу имеют свои часы.",
+        "sources": [
+          "https://you.ctrip.com/sight/shenzhen26/1408300.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Основная прогулка бесплатна. Аквариум, водные представления и другие билетные площадки оплачиваются отдельно.",
+        "sources": [
+          "https://you.ctrip.com/sight/shenzhen26/1408300.html",
+          "https://m.bendibao.com/jingdian/shenhuanlehaian/"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "У открытого маршрута нет общего слота; для ресторана и конкретного шоу оформляйте отдельную бронь или билет.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Подход от Shenzhen Bay Park, линия 9, выход E. Не путайте 欢乐海岸 с 欢乐港湾 в Баоане и с OCT Harbour PLUS в Шуньдэ.",
+        "sources": [
+          "https://es.eyeshenzhen.com/content/2023-05/15/content_30222139.htm"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "OCT Harbour — отдельное место; колесо Bay Glory находится в другом комплексе Happy Harbour.",
+        "Водные и световые шоу зависят от даты; обычная прогулка не гарантирует представления."
+      ],
+      "arrival": {
+        "address": "Наньшань, Baishi Road East 8 / 白石路东8号欢乐海岸.",
+        "metro": "Shenzhen Bay Park / 深圳湾公园, линия 9, выход E — для OCT Harbour.",
+        "start": "От входов со стороны станции к Qushui Bay и открытым дорожкам у воды.",
+        "note": "Метка — ориентир прогулки. Начинайте с открытых общественных проходов; входы отдельных заведений могут находиться с другой стороны.",
+        "coordinateSource": "https://www.openstreetmap.org/way/322631274"
+      },
+      "combineWith": [
+        "3",
+        "11"
+      ],
+      "provenance": {
+        "sources": [
+          "https://you.ctrip.com/sight/shenzhen26/1408300.html",
+          "https://m.bendibao.com/jingdian/shenhuanlehaian/",
+          "https://es.eyeshenzhen.com/content/2023-05/15/content_30222139.htm"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "walk": {
+      "scores": {
+        "fashion": 3.5,
+        "atmosphere": 4,
+        "scale": 4.5,
+        "interest": 4
+      },
+      "verdict": "Надёжный выбор для длинного вечера и ужина у воды; особенно удобен после прогулки по заливу.",
+      "reasons": {
+        "fashion": "Больше крупных ресторанных и развлекательных форматов, чем независимых творческих магазинов.",
+        "atmosphere": "Вода, отражения и вечерний свет делают среду приятной для неторопливого отдыха.",
+        "scale": "Протяжённые водные пространства и несколько зон позволяют построить довольно длинную прогулку.",
+        "interest": "Можно сочетать берег, еду, витрины и отдельную программу, если купить нужный билет."
+      },
+      "checked": "2026-11-06",
+      "kind": "Ресторанный и прогулочный район у воды",
+      "duration": "2–3 часа",
+      "sources": [
+        "https://you.ctrip.com/sight/shenzhen26/1408300.html",
+        "https://m.bendibao.com/jingdian/shenhuanlehaian/",
+        "https://es.eyeshenzhen.com/content/2023-05/15/content_30222139.htm"
+      ],
+      "photoNote": "Фотографии иллюстрируют среду; состав магазинов, кафе и временных экспозиций меняется."
+    }
+  },
+  {
+    "id": "26",
+    "name": "K11 ECOAST · искусство и набережная",
+    "localName": "K11 ECOAST / 太子湾",
+    "coord": [
+      113.9102482,
+      22.4743248
+    ],
+    "categoryId": "shopping",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "art-mall",
+    "tags": [
+      "art",
+      "design",
+      "architecture",
+      "water",
+      "coffee",
+      "shopping",
+      "modern",
+      "walk",
+      "local-hangout"
+    ],
+    "aliases": [
+      "K11 ECOAST Prince Bay Taiziwan",
+      "K11 ECOAST / 太子湾",
+      "К11 Экоуст",
+      "Кей 11"
+    ],
+    "description": "Открытый в 2025 году K11 ECOAST объединяет торговые корпуса, искусство и ландшафтный променад у воды. Маршрут стоит строить через открытые уровни и доступные арт-объекты, делая остановки на кофе. HACC и временные проекты имеют собственную программу; коммерческий комплекс не означает свободного доступа во все выставочные помещения.",
+    "url": "https://qh.sz.gov.cn/en/news/content/post_12155044.html",
+    "photos": [
+      {
+        "src": "assets/photos/walk-26.jpg",
+        "thumbnail": "assets/photos/walk-26-thumb.jpg",
+        "width": 960,
+        "height": 720,
+        "author": "NAN LIU",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:K11_Shenzhen.jpg",
+        "caption": "K11 ECOAST · искусство и набережная · K11 Shenzhen.jpg"
+      }
+    ],
+    "photoGalleryUrl": "https://qh.sz.gov.cn/en/news/content/post_12155044.html",
+    "photoGalleryLabel": "Фотографии и сведения о районе ↗",
+    "visit": {
+      "version": 1,
+      "summary": "Новый прибрежный комплекс Шэкоу, где магазины сочетаются с публичным искусством и архитектурой. Хорош для прогулки к закату.",
+      "scope": "Общественные пространства K11 ECOAST и променад; HACC, офисы и мероприятия имеют отдельный режим.",
+      "activities": [
+        "Пройти открытые уровни и найти доступные публичные арт-объекты.",
+        "Посмотреть на стык архитектуры, озеленения и воды на прибрежном променаде.",
+        "Выбрать кофейню либо текущую программу HACC, отдельно проверив её условия."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1,5–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "После полудня до заката; выставки планируйте по их собственным часам.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Trip.com указывает 10:00–22:00 для комплекса. HACC и отдельные арендаторы имеют собственные сеансы и последний вход.",
+        "sources": [
+          "https://you.ctrip.com/sight/shenzhen26/151080909.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Прогулка по общественным и торговым зонам не является выставочным билетом. Кофе, покупки и платные арт-программы оплачиваются отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Для обычного торгового визита общего слота нет. На выбранную выставку HACC или мероприятие оформляйте его билет.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Taiziwan, линия 12, выход C; альтернативно Shekou Port, линия 2, выход C. Общественная набережная и выставочные залы имеют разные условия.",
+        "sources": [
+          "https://qh.sz.gov.cn/en/news/content/post_12155044.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Проверяйте афишу HACC: состав экспозиций и правила покупки меняются.",
+        "На открытом берегу бывает ветрено; в дождь впечатление от прогулки заметно меняется."
+      ],
+      "arrival": {
+        "address": "Наньшань, Prince Bay / 太子湾, комплекс K11 ECOAST.",
+        "metro": "Taiziwan / 太子湾, линия 12, выход C; Shekou Port / 蛇口港, линия 2, выход C.",
+        "start": "От торговых входов пройти по публичным уровням к прибрежному променаду.",
+        "note": "Метка — ориентир прогулки. Начинайте с открытых общественных проходов; входы отдельных заведений могут находиться с другой стороны.",
+        "coordinateSource": "https://www.openstreetmap.org/relation/19056602"
+      },
+      "combineWith": [
+        "7",
+        "21"
+      ],
+      "provenance": {
+        "sources": [
+          "https://qh.sz.gov.cn/en/news/content/post_12155044.html",
+          "https://you.ctrip.com/sight/shenzhen26/151080909.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "walk": {
+      "scores": {
+        "fashion": 4.5,
+        "atmosphere": 4,
+        "scale": 3.5,
+        "interest": 4
+      },
+      "verdict": "Выбирайте ради новой архитектуры и заката у воды; выставочный билет проверяйте отдельно.",
+      "reasons": {
+        "fashion": "Новая архитектура, арт-программы и современные бренды дают высокую актуальность городской среды.",
+        "atmosphere": "Прибрежные уровни и выразительные корпуса интереснее обычного закрытого торгового зала.",
+        "scale": "Несколько корпусов и променад дают среднюю прогулку; это один комплекс, а не большой городской район.",
+        "interest": "Можно менять сценарий между архитектурой, искусством, кофе и видом на воду."
+      },
+      "checked": "2026-11-06",
+      "kind": "Современный арт-торговый комплекс",
+      "duration": "1,5–3 часа",
+      "sources": [
+        "https://qh.sz.gov.cn/en/news/content/post_12155044.html",
+        "https://you.ctrip.com/sight/shenzhen26/151080909.html"
+      ],
+      "photoNote": "Фотографии иллюстрируют среду; состав магазинов, кафе и временных экспозиций меняется."
+    }
+  },
+  {
+    "id": "27",
+    "name": "MixC World · открытые улицы и дизайн",
+    "localName": "华润万象天地",
+    "coord": [
+      113.9511274,
+      22.5449333
+    ],
+    "categoryId": "shopping",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "open-air-mall",
+    "tags": [
+      "coffee",
+      "design",
+      "shopping",
+      "art",
+      "modern",
+      "walk",
+      "local-hangout"
+    ],
+    "aliases": [
+      "MixC World Shenzhen Wanxiang Tiandi",
+      "华润万象天地",
+      "Ваньсян Тяньди",
+      "МиксСи Уорлд"
+    ],
+    "description": "MixC World устроен как несколько торговых кварталов с пешеходными проходами и внутренними уровнями. Здесь удобно сочетать витрины, кофе и культурные временные проекты; в 2026 году городские публикации отдельно отмечали программу MIXTURE и современное прочтение ремёсел. Среда ориентирована на потребление, поэтому лучше приезжать с интересом к дизайну, магазинам и гастрономии.",
+    "url": "https://www.szns.gov.cn/english/travel/shopping/content/post_9573542.html",
+    "photos": [
+      {
+        "src": "assets/photos/walk-27.jpg",
+        "thumbnail": "assets/photos/walk-27-thumb.jpg",
+        "width": 960,
+        "height": 720,
+        "author": "Charlie fong",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Huarun_Wanxiang_World_in_Nanshan2021.jpg",
+        "caption": "MixC World · открытые улицы и дизайн · Huarun Wanxiang World in Nanshan2021.jpg"
+      }
+    ],
+    "photoGalleryUrl": "https://www.szns.gov.cn/english/travel/shopping/content/post_9573542.html",
+    "photoGalleryLabel": "Фотографии и сведения о районе ↗",
+    "visit": {
+      "version": 1,
+      "summary": "Открытые торговые улицы Наньшаня с кафе, современными брендами и меняющимися дизайнерскими проектами. Подходит для неспешного шопинга и еды.",
+      "scope": "Торговые и общественные пространства MixC World; не свободный доступ во все выставочные и служебные помещения.",
+      "activities": [
+        "Пройти открытые улицы между торговыми корпусами, выбирая витрины по интересам.",
+        "Остановиться на кофе или еду и найти открытые культурные пространства.",
+        "Проверить свежую программу MIXTURE и временные дизайнерские проекты."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1,5–2,5 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "После 14:00 в будний день; выходной лучше для оживлённой торговой среды.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Вс–чт 10:00–22:00, пт–сб 10:00–22:30 по публикации февраля 2026. У отдельных ресторанов и событий часы отличаются.",
+        "sources": [
+          "https://www.bjnews.com.cn/detail/1770190030129496.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Обычный визит в торговые и общественные зоны не требует общего музейного билета. Покупки, питание и отдельные программы оплачиваются по их тарифам.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Для просмотра витрин общего сеанса нет. На событийную программу, выставку или популярный ресторан может понадобиться отдельная запись.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "High-Tech Park / 高新园, линия 1, выход A. Это MixC World в Наньшане, а не одноимённый MixC в Лоху.",
+        "sources": [
+          "https://www.szns.gov.cn/english/travel/shopping/content/post_9573542.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Временные инсталляции и состав брендов меняются; старый обзор не гарантирует конкретной витрины.",
+        "Платные программы и публичное искусство различаются по условиям доступа."
+      ],
+      "arrival": {
+        "address": "Наньшань, пересечение Shennan Boulevard и Shahe West Road / 深南大道与沙河西路交汇处.",
+        "metro": "High-Tech Park / 高新园, линия 1, выход A.",
+        "start": "От станции к открытым торговым улицам, затем выбирать внутренние уровни по интересам.",
+        "note": "Метка — ориентир прогулки. Начинайте с открытых общественных проходов; входы отдельных заведений могут находиться с другой стороны.",
+        "coordinateSource": "https://www.openstreetmap.org/way/586124738"
+      },
+      "combineWith": [
+        "13",
+        "11"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.szns.gov.cn/english/travel/shopping/content/post_9573542.html",
+          "https://www.bjnews.com.cn/detail/1770190030129496.html",
+          "https://www.sznews.com/news/content/2026-02/05/content_31936170.htm"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "walk": {
+      "scores": {
+        "fashion": 4.5,
+        "atmosphere": 3.5,
+        "scale": 3.5,
+        "interest": 4
+      },
+      "verdict": "Хорош ради актуального дизайна и шопинга; для исторической или тихой жилой среды выбирайте другой характер прогулки.",
+      "reasons": {
+        "fashion": "Сильная концентрация актуальных брендов, кафе и дизайнерских форматов.",
+        "atmosphere": "Аккуратная современная среда, но больше коммерческой постановки, чем характера старой улицы.",
+        "scale": "Есть несколько кварталов и уровней; без остановок маршрут сравнительно короткий.",
+        "interest": "Витрины, еда и сменные культурные проекты дают несколько сценариев визита."
+      },
+      "checked": "2026-11-06",
+      "kind": "Открытый торговый квартал",
+      "duration": "1,5–2,5 часа",
+      "sources": [
+        "https://www.szns.gov.cn/english/travel/shopping/content/post_9573542.html",
+        "https://www.bjnews.com.cn/detail/1770190030129496.html",
+        "https://www.sznews.com/news/content/2026-02/05/content_31936170.htm"
+      ],
+      "photoNote": "Фотографии иллюстрируют среду; состав магазинов, кафе и временных экспозиций меняется."
+    }
+  },
+  {
+    "id": "28",
+    "name": "Hongshan 6979 · кафе и культурный квартал",
+    "localName": "红山6979 / 红山文化片区",
+    "coord": [
+      114.0201898,
+      22.6247575
+    ],
+    "categoryId": "urban",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "modern-district",
+    "tags": [
+      "coffee",
+      "food",
+      "shopping",
+      "modern",
+      "walk",
+      "local-hangout"
+    ],
+    "aliases": [
+      "Hongshan 6979",
+      "红山6979 / 红山文化片区",
+      "Хуншань 6979"
+    ],
+    "description": "Hongshan 6979 обслуживает большой жилой район и удобен для прогулки с кофе и ужином. Между торговыми корпусами можно менять маршрут и заходить в открытые заведения; севернее развивается культурная зона с музеем и парком. Отдельная поездка через весь город нужна прежде всего тем, кому интересен и этот культурный маршрут.",
+    "url": "https://www.eyeshenzhen.com/content/2023-05/30/content_30248810.htm",
+    "photos": [
+      {
+        "src": "assets/photos/walk-28.jpg",
+        "thumbnail": "assets/photos/walk-28-thumb.jpg",
+        "width": 960,
+        "height": 720,
+        "author": "FMooezc Harmz",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:SZ_Shenzhen_Longhua_District_6979_Hongshan_zone_mall_March_2025_R12S_03.jpg",
+        "caption": "Hongshan 6979 · кафе и культурный квартал · SZ Shenzhen Longhua District 6979 Hongshan zone mall March 2025 R12S 03.jpg"
+      }
+    ],
+    "photoGalleryUrl": "https://www.eyeshenzhen.com/content/2023-05/30/content_30248810.htm",
+    "photoGalleryLabel": "Фотографии и сведения о районе ↗",
+    "visit": {
+      "version": 1,
+      "summary": "Открытые кварталы у станции Hongshan: кафе, рестораны и повседневная жизнь Лунхуа. Особенно уместны вместе с соседним культурным кластером.",
+      "scope": "Открытый коммерческий квартал и пеший подход к культурной зоне. Музей и театр не включены в обычную прогулку.",
+      "activities": [
+        "Пройти открытые пешеходные пространства между корпусами 6979.",
+        "Выбрать кофейню или ресторан и посмотреть на повседневную жизнь района.",
+        "Продолжить к культурной зоне севернее, заранее выбрав отдельную музейную остановку."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1,5–2,5 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Во второй половине дня или вечером; музейную часть планируйте на её часы работы.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "У открытого квартала нет единого времени всех заведений. Режим торговых корпусов, кафе, театра и соседнего музея нужно проверять отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Обычная прогулка не является общим музейным билетом. Еда, покупки, спектакли и отдельные программы оплачиваются по своим тарифам.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Для прогулки общего слота нет. Билеты театра, запись в музей и столики оформляются отдельно у соответствующей площадки.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Ориентир — Hongshan Station и торговые кварталы 6979. Соседний художественный музей — самостоятельное учреждение со своими правилами.",
+        "sources": [
+          "https://www.eyeshenzhen.com/content/2023-05/30/content_30248810.htm",
+          "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12644022.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Для жителей и поездки по северной части города место удобнее, чем как единственная цель из Шэкоу.",
+        "Не считайте часы магазина часами всего квартала или соседнего музея."
+      ],
+      "arrival": {
+        "address": "Лунхуа, Hongshan 6979 / 红山6979, улицы Minfan, Minbao и Tenglong рядом со станцией Hongshan.",
+        "metro": "Hongshan / 红山, линии 4 и 6.",
+        "start": "От станции пройти торговые улицы; при желании продолжить на север к культурной зоне.",
+        "note": "Метка — ориентир прогулки. Начинайте с открытых общественных проходов; входы отдельных заведений могут находиться с другой стороны.",
+        "coordinateSource": "https://www.openstreetmap.org/way/708821961"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://www.eyeshenzhen.com/content/2023-05/30/content_30248810.htm",
+          "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_11188550.html",
+          "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12644022.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "walk": {
+      "scores": {
+        "fashion": 3.5,
+        "atmosphere": 3.5,
+        "scale": 3.5,
+        "interest": 4
+      },
+      "verdict": "Хороший выбор по пути в Лунхуа и культурный кластер; ради одного кофе через весь город ехать необязательно.",
+      "reasons": {
+        "fashion": "Есть кафе и современные заведения, но меньше самостоятельных арт-пространств, чем в ведущих креативных кластерах.",
+        "atmosphere": "Комфортная повседневная среда, выразительность зависит от конкретной улицы и времени дня.",
+        "scale": "Несколько торговых блоков дают прогулку среднего масштаба; культурная зона расширяет её отдельно.",
+        "interest": "Можно сочетать еду, магазины и дополнительный культурный визит, что усиливает район."
+      },
+      "checked": "2026-11-06",
+      "kind": "Современный жилой и торговый район",
+      "duration": "1,5–2,5 часа",
+      "sources": [
+        "https://www.eyeshenzhen.com/content/2023-05/30/content_30248810.htm",
+        "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_11188550.html",
+        "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12644022.html"
+      ],
+      "photoNote": "Фотографии иллюстрируют среду; состав магазинов, кафе и временных экспозиций меняется."
+    }
+  },
+  {
+    "id": "29",
+    "name": "Yuanling & Bagualing · кофейные улицы",
+    "localName": "园岭 / 八卦岭 / 八卦一路",
+    "coord": [
+      114.0916812,
+      22.5594517
+    ],
+    "categoryId": "urban",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "modern-district",
+    "tags": [
+      "coffee",
+      "food",
+      "evening",
+      "walk",
+      "local-hangout"
+    ],
+    "aliases": [
+      "Yuanling Bagualing coffee village",
+      "园岭 / 八卦岭 / 八卦一路",
+      "Юаньлин",
+      "Багуалин",
+      "Кофейная деревня"
+    ],
+    "description": "Юаньлин объединяет жилые кварталы, небольшие кофейни и гастрономические улицы Багуалина. Районная администрация в 2026 году описывает сложившуюся концентрацию кафе, а местный путеводитель связывает их с вечерней жизнью и спортивным центром. Здесь важен сам переход между дворами, кофейными остановками и ресторанными улицами, а не один обязательный объект.",
+    "url": "https://www.szft.gov.cn/xxgk/ztbd/zzzq/gzdt/content/post_12661260.html",
+    "photos": [],
+    "photoGalleryUrl": "https://www.szft.gov.cn/xxgk/ztbd/zzzq/gzdt/content/post_12661260.html",
+    "photoGalleryLabel": "Фотографии и сведения о районе ↗",
+    "visit": {
+      "version": 1,
+      "summary": "Старые жилые улицы, независимый кофе и вечерняя еда на Багуа-Илу. Сильный выбор ради повседневного Шэньчжэня.",
+      "scope": "Авторский городской маршрут по Юаньлину и Багуалину. Метка показывает район, а не конкретную кофейню или границу прогулки.",
+      "activities": [
+        "Пройти жилые улицы Юаньлина, выбирая независимые кафе по пути.",
+        "Зайти в Багуалин и сравнить кофейные пространства с более шумной ресторанной средой.",
+        "К вечеру выйти на Багуа-Илу и выбрать место для ужина."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–4 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "После обеда для кафе, затем до раннего вечера ради Багуа-Илу; в жару делайте больше остановок.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "У жилого района и ресторанных улиц нет единого времени открытия. Кофейни, пекарни и вечерние заведения работают по собственным часам.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "За прогулку по общественным улицам нет общего входного билета. Напитки, еда и покупки оплачиваются отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Общий маршрут не бронируется. Для конкретного события, дегустации или столика уточняйте условия выбранного заведения.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Гуляйте по публичным улицам и открытым клиентским помещениям. Жилые подъезды, школьные дворы и закрытые производственные участки не входят в маршрут.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Это большой жилой район: выберите несколько остановок заранее, а не пытайтесь обойти всё.",
+        "Переходы через крупные дороги добавляют времени; не стройте маршрут по прямой между вывесками."
+      ],
+      "arrival": {
+        "address": "Футянь, Yuanling / 园岭 и Bagualing / 八卦岭; ресторанная ось — Bagua 1st Road / 八卦一路.",
+        "metro": "Yuanling / 园岭, линия 9; Bagualing / 八卦岭, линии 6 и 7.",
+        "start": "Начать в жилых улицах Юаньлина, затем идти к кофейным остановкам Багуалина и Багуа-Илу.",
+        "note": "Метка — ориентир прогулки. Начинайте с открытых общественных проходов; входы отдельных заведений могут находиться с другой стороны.",
+        "coordinateSource": "https://www.openstreetmap.org/relation/12341738"
+      },
+      "combineWith": [
+        "24"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.szft.gov.cn/xxgk/ztbd/zzzq/gzdt/content/post_12661260.html",
+          "https://www.szft.gov.cn/bmxx/qyljdbsc/gzdt/content/post_13001939.html",
+          "https://static.nfnews.com/content/202604/22/c12362795.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "walk": {
+      "scores": {
+        "fashion": 4,
+        "atmosphere": 4.5,
+        "scale": 4.5,
+        "interest": 4.5
+      },
+      "verdict": "Один из главных вариантов ради независимого кофе и повседневного города; оставьте время на переходы и ужин.",
+      "reasons": {
+        "fashion": "Независимые кофейни и пекарни формируют плотную районную сцену без единого торгового оператора.",
+        "atmosphere": "Смешение жилых домов, небольших заведений и вечерней улицы даёт сильный повседневный характер.",
+        "scale": "Можно строить несколько связок улиц и менять маршрут в течение пары часов и дольше.",
+        "interest": "Кофе, пекарни, жилой город и гастрономическая Багуа-Илу дают разнообразие без обязательного билета."
+      },
+      "checked": "2026-11-06",
+      "kind": "Жилой район и кофейные улицы",
+      "duration": "2–4 часа",
+      "sources": [
+        "https://www.szft.gov.cn/xxgk/ztbd/zzzq/gzdt/content/post_12661260.html",
+        "https://www.szft.gov.cn/bmxx/qyljdbsc/gzdt/content/post_13001939.html",
+        "https://static.nfnews.com/content/202604/22/c12362795.html"
+      ],
+      "photoNote": "Фотографии иллюстрируют среду; состав магазинов, кафе и временных экспозиций меняется."
+    }
   }
 ]

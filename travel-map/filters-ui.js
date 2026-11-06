@@ -15,13 +15,33 @@ export class Filters {
         this.state.tags=this.state.tags.includes(tag.id)?this.state.tags.filter(id=>id!==tag.id):[...this.state.tags,tag.id];this.render();
       };this.quick.append(button);
     }
+    this.quickExpanded=false;this.quickToggle=document.getElementById('quick-tags-toggle');
+    this.quickToggle.onclick=()=>{this.quickExpanded=!this.quickExpanded;this.layoutQuickTags();};
+    document.getElementById('quick-tags').addEventListener('keydown',event=>{
+      if(event.key==='Escape'&&this.quickExpanded){event.stopPropagation();this.quickToggle.focus();this.quickExpanded=false;this.layoutQuickTags();}
+    });
+    this.quickResize=new ResizeObserver(([entry])=>{
+      if(entry.contentRect.width===this.quickWidth)return;
+      this.quickWidth=entry.contentRect.width;cancelAnimationFrame(this.quickFrame);
+      this.quickFrame=requestAnimationFrame(()=>this.layoutQuickTags());
+    });this.quickResize.observe(this.quick);
+    document.fonts?.ready.then(()=>this.layoutQuickTags());
     this.toggle.onclick=()=>{const open=this.details.hidden;this.details.hidden=!open;this.toggle.setAttribute('aria-expanded',String(open));};
     this.search.oninput=()=>{this.state.query=this.search.value;this.render();};
     this.group.onchange=()=>{this.state.group=this.group.value;this.state.category=this.state.subtype='';this.render();};
     this.category.onchange=()=>{this.state.category=this.category.value;this.state.subtype='';this.render();};
     this.subtype.onchange=()=>{this.state.subtype=this.subtype.value;this.render();};
     document.getElementById('filter-clear').onclick=()=>{this.reset();this.search.focus();};
-    document.getElementById('filters').hidden=false;this.render();
+    document.getElementById('filters').hidden=false;this.render();this.layoutQuickTags();
+  }
+  layoutQuickTags(){
+    const buttons=[...this.quick.children];buttons.forEach(button=>button.hidden=false);
+    const firstTop=buttons[0]?.offsetTop,remaining=buttons.filter(button=>button.offsetTop>firstTop+1);
+    this.quickToggle.hidden=!remaining.length;
+    this.quickToggle.setAttribute('aria-expanded',String(this.quickExpanded));
+    const label=this.quickExpanded?'Свернуть теги':'Показать все теги';
+    this.quickToggle.setAttribute('aria-label',label);this.quickToggle.title=label;
+    if(!this.quickExpanded){this.quick.scrollTop=0;remaining.forEach(button=>button.hidden=true);}
   }
   reset(){this.state={group:'',category:'',subtype:'',tags:[],query:''};this.search.value='';this.render();}
   includes(point){return matchesPoint(point,this.state,this.context);}

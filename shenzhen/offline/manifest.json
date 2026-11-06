@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "city": "shenzhen",
-  "version": "546973a7944cdb2d97daeeea",
-  "createdAt": "2026-11-06T11:31:37.201Z",
-  "bytes": 42387311,
+  "version": "bd22c13e7a019efc13a83066",
+  "createdAt": "2026-11-06T14:23:14.445Z",
+  "bytes": 42389912,
   "map": {
     "style": "./offline/map-20261106/style.json",
     "bounds": [
@@ -19,8 +19,8 @@
   "files": [
     {
       "url": "/shenzhen/",
-      "bytes": 6696,
-      "sha256": "1ef5b6a75e2214721008200b912d861e3e8a0d8ce5999763eea2d3b7a4996b49"
+      "bytes": 7068,
+      "sha256": "6248d2dc0c900763098b59f36f2b116693383c11a3c2eb21d850d40208f43311"
     },
     {
       "url": "/shenzhen/app-icons/apple-touch-icon.png",
@@ -339,8 +339,8 @@
     },
     {
       "url": "/shenzhen/index.html",
-      "bytes": 6696,
-      "sha256": "1ef5b6a75e2214721008200b912d861e3e8a0d8ce5999763eea2d3b7a4996b49"
+      "bytes": 7068,
+      "sha256": "6248d2dc0c900763098b59f36f2b116693383c11a3c2eb21d850d40208f43311"
     },
     {
       "url": "/shenzhen/offline/map-20261106/FONT-CJK-LICENSE.txt",
@@ -2694,8 +2694,8 @@
     },
     {
       "url": "/travel-map/filters-ui.js",
-      "bytes": 4801,
-      "sha256": "4096d77b96bdd963e8ae7639239be06a74e7e65b4772359a2d1c56fd7e1c8a93"
+      "bytes": 6252,
+      "sha256": "f1c453ea36ca42cd2721c8f8f0e479b3c29be830b167962567ac2b9913e5d7f6"
     },
     {
       "url": "/travel-map/format.js",
@@ -2824,8 +2824,8 @@
     },
     {
       "url": "/travel-map/styles/taxonomy.css",
-      "bytes": 2541,
-      "sha256": "bf4fa868b1fbd7c862b364f69f9580c8355e10285a862b0fe6ce1f7b8d3d75c0"
+      "bytes": 2947,
+      "sha256": "a1951a6c312cf694015d949320031ce777ad1d5b0032623ed07e89e9cd89151c"
     },
     {
       "url": "/travel-map/styles/theme.css",

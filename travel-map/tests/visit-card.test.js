@@ -17,7 +17,7 @@ test('all 64 places use the visit template without changing the hotel model',()=
     if(p.walk)assert.equal(p.visit.duration.value,p.walk.duration,p.id);
     if(p.visitNote)assert.ok(p.visit.considerations.includes(p.visitNote),p.id);
     for(const source of p.sources||[])assert.ok(p.visit.provenance.sources.includes(source),p.id);
-    assert.equal(p.visit.provenance.checkedAt,p.checkedAt||null,p.id);
+    if(p.visit.provenance.basis==='existing-project')assert.equal(p.visit.provenance.checkedAt,p.checkedAt||null,p.id);
   }
   assert.equal(context.points.filter(p=>p.cardType==='hotel').length,11);
   assert.ok(context.points.filter(p=>p.cardType==='hotel').every(p=>!p.visit));
@@ -29,7 +29,7 @@ test('missing, malformed and incomplete visit cards fail validation',()=>{
   }
 });
 test('unknown facts never display as free or unrestricted and cannot contain a hidden value',()=>{
-  const v=copy();assert.equal(visitFactText(v.cost),'Не проверено');
+  const v=copy();v.cost={status:'unknown',value:null,sources:[],checkedAt:null};assert.equal(visitFactText(v.cost),'Не проверено');
   v.cost.value='Бесплатно';assert.ok(errors(v).length);
   const fact={status:'not_applicable',value:null,sources:[],checkedAt:null};
   assert.equal(visitFactText(fact),'Не применимо');
@@ -44,5 +44,30 @@ test('documented conditions require evidence and estimates cannot invent ticket 
 });
 test('combined routes reference real other places and review dates are not invented',()=>{
   for(const combineWith of [['missing'],['1'],['2','2']]){const v=copy();v.combineWith=combineWith;assert.ok(errors(v).length);}
-  const v=copy();v.provenance.basis='source-review';assert.ok(errors(v).length);
+  const v=copy();v.provenance={basis:'source-review',sources:[],checkedAt:null};assert.ok(errors(v).length);
+});
+test('researched cards explain unresolved conditions and the scope of inapplicable fields',()=>{
+  for(const p of places)for(const key of practicalFields){
+    const fact=p.visit[key];
+    if(['unknown','not_applicable'].includes(fact.status)){
+      assert.ok(fact.note?.length>35,p.id+': '+key);
+      assert.notEqual(visitFactText(fact),'Не проверено');
+      assert.notEqual(visitFactText(fact),'Не применимо');
+    }
+  }
+  const v=copy();v.cost={status:'not_applicable',value:null,sources:[],checkedAt:null};
+  assert.ok(errors(v).length);
+  v.cost.note='Внешний осмотр с общественной улицы не является билетом в офис.';
+  assert.deepEqual(errors(v),[]);
+});
+test('free visits retain different booking rules and actual seasonal boundaries',()=>{
+  const get=id=>places.find(p=>p.id===id).visit;
+  assert.match(get('CU3').booking.value,/Нужна бесплатная именная запись/);
+  assert.match(get('CU4').booking.value,/запись не требуется/);
+  assert.match(get('PK4').hours.value,/16 ноября/);
+  assert.match(get('16').hours.value,/С 16 ноября/);
+  assert.match(get('AR5').scope,/снаружи/);
+  assert.equal(get('K').cost.status,'unknown');
+  assert.equal(get('K').cost.value,null);
+  assert.match(visitFactText(get('SP1').cost),/87799999/);
 });

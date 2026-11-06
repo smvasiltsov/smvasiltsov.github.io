@@ -9,6 +9,7 @@ export function validateVisit(visit,path,pointIds,ownId){
   if(!object(visit))return [path+': structured visit card required'];
   check(visit.version===1,'version','unsupported visit card version');
   check(text(visit.summary),'summary','short editorial summary required');
+  if(visit.scope!==undefined)check(text(visit.scope),'scope','nonempty visit scope required');
   check(Array.isArray(visit.activities)&&visit.activities.length>=3&&visit.activities.length<=5&&visit.activities.every(text)&&unique(visit.activities),'activities','3–5 distinct activities required');
   for(const key of practicalFields){
     const fact=visit[key];
@@ -17,6 +18,8 @@ export function validateVisit(visit,path,pointIds,ownId){
     check(['unknown','not_applicable'].includes(fact.status)?fact.value===null:text(fact.value),key+'.value','text for known values, null for unknown/not applicable');
     check(Array.isArray(fact.sources)&&fact.sources.every(web)&&unique(fact.sources),key+'.sources','unique source URLs required');
     check(fact.checkedAt===null||date(fact.checkedAt),key+'.checkedAt','date or null required');
+    if(fact.note!==undefined)check(text(fact.note),key+'.note','nonempty explanation required');
+    if(fact.status==='not_applicable')check(text(fact.note),key+'.note','explain why the field is not applicable');
     if(fact.status==='documented'){
       check(fact.sources?.length>0,key+'.sources','documented fact needs evidence');
       check(date(fact.checkedAt),key+'.checkedAt','documented fact needs its original check date');

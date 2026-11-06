@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "city": "beijing",
-  "version": "285ef6e04042a8adc27eac94",
-  "createdAt": "2026-11-06T06:39:53.314Z",
-  "bytes": 130531847,
+  "version": "6f45b6ed828abe30a9e7dd96",
+  "createdAt": "2026-11-06T07:31:18.008Z",
+  "bytes": 130637432,
   "map": {
     "style": "./offline/map-20261102/style.json",
     "bounds": [
@@ -3174,8 +3174,8 @@
     },
     {
       "url": "/beijing/data/points.json",
-      "bytes": 642664,
-      "sha256": "675982c88095f348fd86f2fd7b8818ca56f82e9f605499c71df1722a7461858c"
+      "bytes": 747485,
+      "sha256": "aebd8b30a1ffeeced63ac38a600d78aa8e419d78bf6625be6554a88e84d7852b"
     },
     {
       "url": "/beijing/data/trip.json",
@@ -7379,8 +7379,8 @@
     },
     {
       "url": "/travel-map/place-card.js",
-      "bytes": 5130,
-      "sha256": "bf237458893fe430a9b54501288af71e0d5e10226eb56baa26f6011ccbb67901"
+      "bytes": 5522,
+      "sha256": "31bc2ed8dc8ce7d176ddbcbe1f9a68336bee2d45c079dc00df394483fa36524c"
     },
     {
       "url": "/travel-map/point-labels.js",
@@ -7424,8 +7424,8 @@
     },
     {
       "url": "/travel-map/styles/place-card.css",
-      "bytes": 1436,
-      "sha256": "a4862b2d17237fa8d4b073eeb8ffda59fb83599afd2e7baeaac92cb8287cd44a"
+      "bytes": 1500,
+      "sha256": "d39805b761b4359e9c6e003190c2bfc9f9561a8453d30b12b3f9d2062f94a1a2"
     },
     {
       "url": "/travel-map/styles/taxonomy.css",
@@ -7464,8 +7464,8 @@
     },
     {
       "url": "/travel-map/visit-contract.js",
-      "bytes": 3629,
-      "sha256": "dfc9984d99808eec79b377dbce16b0c773a8d2238a5a326fe22138eac76b64d9"
+      "bytes": 3937,
+      "sha256": "06145b0c3cf09841861ce4b1f955330a5e0c83d4e82b0f4800fb563dc23f8b3d"
     },
     {
       "url": "/travel-map/walk-card.js",

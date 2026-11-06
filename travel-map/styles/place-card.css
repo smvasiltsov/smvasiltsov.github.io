@@ -17,4 +17,5 @@
 .place-combinations button{text-align:left;white-space:normal;min-height:42px;max-width:100%;font-size:13px}
 #place-sources{font-size:12px;color:var(--muted);border-top:1px solid var(--border);padding-top:20px}
 .place-photo-gap{padding:14px;border:1px dashed var(--border);border-radius:9px;font-size:13px;color:var(--muted)}
+.visit-scope{font-size:13px;color:var(--muted);margin:0 0 14px}
 @media(max-width:380px){.visit-facts{grid-template-columns:minmax(0,1fr)}}

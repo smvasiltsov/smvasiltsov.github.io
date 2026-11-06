@@ -8,8 +8,8 @@ export const visitFields = [
   ['booking','Бронирование'], ['access','Доступ'],
 ];
 export function visitFactText(fact) {
-  if (fact.status === 'unknown') return 'Не проверено';
-  if (fact.status === 'not_applicable') return 'Не применимо';
+  if (fact.status === 'unknown') return fact.note || 'Не проверено';
+  if (fact.status === 'not_applicable') return fact.note || 'Не применимо';
   return fact.value;
 }
 function section(title,id) {
@@ -21,11 +21,13 @@ export function renderPlaceCard(point,context,nodes,onChoose) {
   const v=point.visit;
   const intro=section('Зачем сюда идти','place-intro');intro.append(el('p',v.summary,'place-summary'));
   const facts=section('Кратко о посещении','place-facts'),grid=el('dl',undefined,'visit-facts');
+  if(v.scope)facts.append(el('p',v.scope,'visit-scope'));
   for(const [key,label] of visitFields){
     const fact=v[key],item=el('div',undefined,'visit-fact');item.dataset.status=fact.status;
     const term=el('dt',label),value=el('dd',visitFactText(fact));
     if(fact.status==='estimate')value.append(el('span','Авторский ориентир','visit-fact-note'));
-    if(fact.status==='documented')value.append(el('span','По сохранённым сведениям'+(fact.checkedAt?' · '+date(fact.checkedAt,context.city.locale):''),'visit-fact-note'));
+    if(fact.status==='documented')value.append(el('span','По источнику'+(fact.checkedAt?' · '+date(fact.checkedAt,context.city.locale):''),'visit-fact-note'));
+    if(fact.status==='unknown'&&fact.note)value.append(el('span','Требует уточнения у площадки','visit-fact-note'));
     if(fact.sources.length){
       const sources=el('span',undefined,'visit-fact-note');
       fact.sources.forEach((url,i)=>{if(i)sources.append(' · ');sources.append(link('Источник '+(i+1),url,undefined,true));});value.append(sources);
@@ -56,7 +58,7 @@ export function renderPlaceCard(point,context,nodes,onChoose) {
     logistics.append(combined);
   }
   const provenance=section('Источники и актуальность','place-sources');
-  provenance.append(el('p',v.provenance.checkedAt?`Практические сведения проверены ${date(v.provenance.checkedAt,context.city.locale)}. Перед поездкой уточните действующие условия.`:'Дата проверки практических сведений пока не указана.'));
+  provenance.append(el('p',v.provenance.checkedAt?`${v.provenance.basis==='source-review'?'Источники условий посещения просмотрены':'Сведения сохранены в проекте'} ${date(v.provenance.checkedAt,context.city.locale)}. Временные изменения указаны в карточке; перед поездкой проверьте объявления площадки.`:'Дата проверки практических сведений пока не указана.'));
   if(v.provenance.sources.length){const sources=list([]);for(const url of v.provenance.sources){const item=el('li');item.append(link(new URL(url).hostname.replace(/^www\./,''),url,undefined,true));sources.append(item);}provenance.append(sources);}
   else provenance.append(el('p','Источники сведений о посещении пока не указаны. Источники фотографий приведены в галерее.'));
   provenance.append(el('p','Рекомендации и длительность — авторские ориентиры для планирования.','footnote'));

@@ -137,34 +137,43 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "К открытию по своему билету: на основные дворы и боковые участки останется больше времени.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Ноябрь–март: вт–вс 08:30–16:30, вход до 15:30. Понедельник — выходной, кроме официальных праздников.",
+        "sources": [
+          "https://intl.dpm.org.cn/visit"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "В ноябре–марте взрослый билет 40 CNY; в апреле–октябре 60 CNY. Дополнительные экспозиции оплачиваются отдельно.",
+        "sources": [
+          "https://intl.dpm.org.cn/visit"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Именной билет заранее через официальный сайт или мини-программу; продажа за 7 дней в 20:00. Билетов день-в-день нет.",
+        "sources": [
+          "https://intl.dpm.org.cn/visit",
+          "https://ticket.dpm.org.cn/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход через южные ворота Умэнь; возьмите оригинал паспорта, использованного при покупке. Посещение площади Тяньаньмэнь — отдельный вопрос.",
+        "sources": [
+          "https://intl.dpm.org.cn/visit"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [],
       "arrival": {
@@ -178,9 +187,12 @@
         "2"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
+        "sources": [
+          "https://intl.dpm.org.cn/visit",
+          "https://ticket.dpm.org.cn/"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -321,34 +333,42 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "В светлое время ближе к закату ради панорамы; оставьте время на подъём и спуск до темноты.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Ноябрь–март: 06:30–20:00, последний вход 19:30. Апрель–октябрь: 06:00–21:00, вход до 20:30.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753324.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Обычный взрослый билет 2 CNY; в выставочные периоды может действовать билет 10 CNY. Сверяйте выбранную дату.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753324.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Есть кассы у парка; иностранцам доступна также именная покупка через «畅游公园» с паспортом.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753324.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Для панорамы нужно подняться по ступеням на холм. Южные ворота — напротив северного выхода из Запретного города.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753324.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [],
       "arrival": {
@@ -362,9 +382,11 @@
         "1"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
+        "sources": [
+          "https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753324.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -507,34 +529,42 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Утром в день работы памятников; в понедельник рассчитывайте только на парк.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Ноябрь–март: парк 06:30–22:00, вход до 21:00; основные памятники 08:00–17:00, вход до 16:30.",
+        "sources": [
+          "https://www.tiantanpark.cn/index.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "В ноябре–марте: парк 10 CNY, комбинированный билет с основными памятниками 28 CNY. Апрель–октябрь: 15 / 34 CNY.",
+        "sources": [
+          "https://yllhj.beijing.gov.cn/ztxx/kpjd/202312/t20231222_3508034.shtml"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Именные билеты доступны через официальный сервис 天坛 и «畅游公园». Для осмотра залов выбирайте комбинированный билет.",
+        "sources": [
+          "https://www.tiantanpark.cn/index.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Парк и памятники имеют разный режим: основные исторические комплексы закрыты по понедельникам, кроме праздников.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/parktours/informationvisitors/focus/202609/t20260904_4850656.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [],
       "arrival": {
@@ -546,9 +576,13 @@
       },
       "combineWith": [],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
+        "sources": [
+          "https://www.tiantanpark.cn/index.html",
+          "https://yllhj.beijing.gov.cn/ztxx/kpjd/202312/t20231222_3508034.shtml",
+          "https://english.beijing.gov.cn/specials/parktours/informationvisitors/focus/202609/t20260904_4850656.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -691,34 +725,42 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "В первой половине дня: территория большая, а внутренние объекты закрываются раньше парка.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Ноябрь–март: парк 06:30–19:00, вход до 18:00; внутренние объекты 08:30–17:00, вход до 16:30.",
+        "sources": [
+          "https://summerpalace.net.cn/visit.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Ноябрь–март: вход 20 CNY, комбинированный билет 50 CNY. Апрель–октябрь: 30 / 60 CNY. Лодки оплачиваются отдельно.",
+        "sources": [
+          "https://summerpalace.net.cn/visit.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Именная покупка через «颐和园» / «畅游公园»; нужен документ, указанный при покупке. Выбирайте обычный или комбинированный билет.",
+        "sources": [
+          "https://english.beijing.gov.cn/quickguideservices/purchaseparktickets/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Ряд внутренних музеев и павильонов закрыт по понедельникам, кроме основных праздников. Парк продолжает работать; судоходство сезонное.",
+        "sources": [
+          "https://summerpalace.net.cn/visit.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [],
       "arrival": {
@@ -730,9 +772,12 @@
       },
       "combineWith": [],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
+        "sources": [
+          "https://summerpalace.net.cn/visit.html",
+          "https://english.beijing.gov.cn/quickguideservices/purchaseparktickets/"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -880,28 +925,38 @@
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Открытая территория доступна в течение суток; кафе, магазины и другие площадки имеют собственные часы.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/12"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Прогулка по общей территории бесплатная; услуги и посещение отдельных объектов оплачиваются отдельно.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/12"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/12"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для уличного маршрута общий слот не оформляют. Столики, выставки и специальные площадки бронируются отдельно."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/12"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Гуляйте по открытым общественным проходам; жилые дворы, офисы и закрытые территории не входят в маршрут."
       },
       "considerations": [],
       "arrival": {
@@ -916,10 +971,13 @@
         "B"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/12"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описана прогулка по общедоступным улицам и пространствам. Вход в музеи, храмы, магазины и на мероприятия — по правилам каждой площадки."
     }
   },
   {
@@ -1059,34 +1117,42 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём до последнего входа; уличную прогулку можно продолжить после осмотра башни.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "26 октября–25 марта: 09:30–16:30; 26 марта–25 октября: 09:30–17:30.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/routes/202609/t20260914_4862923.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Гулоу 20 CNY; Колокольная башня 10 CNY; обе башни по комбинированному билету 30 CNY.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/routes/202609/t20260914_4862923.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Билет в башню продаётся отдельно от прогулки по площади. Льготные билеты — в кассе с подтверждающим документом.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/routes/202609/t20260914_4862923.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Экспозиция первого этажа Гулоу закрыта по понедельникам, кроме праздников. Уличный осмотр не равен входу в башню.",
+        "sources": [
+          "https://english.beijing.gov.cn/beijinginfo/culture/culturaltreasures/cityofmuseums/list/202604/t20260424_4608439.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [],
       "arrival": {
@@ -1101,9 +1167,12 @@
         "B"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/routes/202609/t20260914_4862923.html",
+          "https://english.beijing.gov.cn/beijinginfo/culture/culturaltreasures/cityofmuseums/list/202604/t20260424_4608439.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -1244,34 +1313,42 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Утром или в первой половине дня, чтобы не торопиться к зимнему окончанию входа в 16:00.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Ноябрь–март: 09:00–16:30, билеты и вход до 16:00. Апрель–октябрь: 09:00–17:00, вход до 16:30.",
+        "sources": [
+          "https://map.beijing.gov.cn/place?categoryId=wlqxdw&placeId=642fa0a1ac92757c1df22925"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Обычный взрослый билет 25 CNY. Льготы зависят от категории и подтверждающего документа.",
+        "sources": [
+          "https://s.visitbeijing.com.cn/attraction/117887"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Билеты через официальный WeChat «雍和宫游客信众服务»; иностранцам нужен паспорт. Перед покупкой проверьте дату и категорию билета.",
+        "sources": [
+          "https://www.yonghegong.cn/2021-03/13/content_77298987.htm"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Действующий храм: в залах запрещены фото, видео и возжигание благовоний; используйте отведённые места снаружи.",
+        "sources": [
+          "https://www.yonghegong.cn/2017-01/05/content_40043333.htm"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [],
       "arrival": {
@@ -1287,9 +1364,15 @@
         "A"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
+        "sources": [
+          "https://s.visitbeijing.com.cn/attraction/117887",
+          "https://map.beijing.gov.cn/place?categoryId=wlqxdw&placeId=642fa0a1ac92757c1df22925",
+          "https://www.yonghegong.cn/2021-03/13/content_77298987.htm",
+          "https://www.yonghegong.cn/",
+          "https://www.yonghegong.cn/2017-01/05/content_40043333.htm"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -1429,36 +1512,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "После 09:00 в день работы комплекса; объедините с академией и улицей Гоцзыцзянь.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Туристический портал указывает 09:00–17:00, вход до 16:30; понедельник — выходной, кроме праздников.",
+        "sources": [
+          "https://s.visitbeijing.com.cn/attraction/117801"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "30 CNY за взрослый билет в общий комплекс храма Конфуция и Императорской академии; не два отдельных билета.",
+        "sources": [
+          "https://s.visitbeijing.com.cn/attraction/117801"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Официальная именная запись через 孔庙和国子监博物馆. Проверьте доступные даты и время в системе перед визитом.",
+        "sources": [
+          "https://kmgzj.hdwbcloud.com/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Обе карточки относятся к одному музейному комплексу. Нужен документ, использованный для именной записи.",
+        "sources": [
+          "https://s.visitbeijing.com.cn/attraction/117801"
+        ],
+        "checkedAt": "2026-11-06"
       },
-      "considerations": [],
+      "considerations": [
+        "Источники расходятся по началу работы: портал Visit Beijing указывает 09:00, билетная страница — 08:30. Планируйте приезд после 09:00 и сверяйте слот в официальной системе."
+      ],
       "arrival": {
         "address": null,
         "metro": null,
@@ -1472,9 +1565,12 @@
         "A"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
+        "sources": [
+          "https://s.visitbeijing.com.cn/attraction/117801",
+          "https://kmgzj.hdwbcloud.com/"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -1620,36 +1716,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "После 09:00 в день работы комплекса; сначала храм Конфуция, затем академия.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Туристический портал указывает 09:00–17:00, вход до 16:30; понедельник — выходной, кроме праздников.",
+        "sources": [
+          "https://s.visitbeijing.com.cn/attraction/117801"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "30 CNY за взрослый билет в общий комплекс храма Конфуция и Императорской академии; не два отдельных билета.",
+        "sources": [
+          "https://s.visitbeijing.com.cn/attraction/117801"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Официальная именная запись через 孔庙和国子监博物馆. Проверьте доступные даты и время в системе перед визитом.",
+        "sources": [
+          "https://kmgzj.hdwbcloud.com/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Обе карточки относятся к одному музейному комплексу. Нужен документ, использованный для именной записи.",
+        "sources": [
+          "https://s.visitbeijing.com.cn/attraction/117801"
+        ],
+        "checkedAt": "2026-11-06"
       },
-      "considerations": [],
+      "considerations": [
+        "Источники расходятся по началу работы: портал Visit Beijing указывает 09:00, билетная страница — 08:30. Планируйте приезд после 09:00 и сверяйте слот в официальной системе."
+      ],
       "arrival": {
         "address": null,
         "metro": null,
@@ -1663,9 +1769,12 @@
         "A"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
+        "sources": [
+          "https://s.visitbeijing.com.cn/attraction/117801",
+          "https://kmgzj.hdwbcloud.com/"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -1812,34 +1921,44 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Ближе к открытию магазинов или во второй половине дня, если хотите совместить прогулку и ужин.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Открытая территория доступна в течение суток; кафе, магазины и другие площадки имеют собственные часы.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/81"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Прогулка по общей территории бесплатная; услуги и посещение отдельных объектов оплачиваются отдельно.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/81"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/81"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для уличного маршрута общий слот не оформляют. Столики, выставки и специальные площадки бронируются отдельно."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/81"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Гуляйте по открытым общественным проходам; жилые дворы, офисы и закрытые территории не входят в маршрут."
       },
       "considerations": [],
       "arrival": {
@@ -1855,10 +1974,13 @@
         "SH3"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/81"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описана прогулка по общедоступным улицам и пространствам. Вход в музеи, храмы, магазины и на мероприятия — по правилам каждой площадки."
     }
   },
   {
@@ -2005,34 +2127,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём, когда работают традиционные магазины; для камерной прогулки уходите с главного прохода.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/716"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "У городского маршрута нет единого времени открытия; часы заведений и внутренних площадок различаются."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/716"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Отдельного билета на прогулку по городским улицам нет; покупки, питание и внутренние площадки оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/716"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для уличного маршрута общий слот не оформляют. Столики, выставки и специальные площадки бронируются отдельно."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/716"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Гуляйте по открытым общественным проходам; жилые дворы, офисы и закрытые территории не входят в маршрут."
       },
       "considerations": [],
       "arrival": {
@@ -2048,10 +2182,13 @@
         "H"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/716"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описана прогулка по общедоступным улицам и пространствам. Вход в музеи, храмы, магазины и на мероприятия — по правилам каждой площадки."
     }
   },
   {
@@ -2179,34 +2316,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "К обеду или ужину; выбирать стоит конкретное работающее заведение.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/81"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "У городского маршрута нет единого времени открытия; часы заведений и внутренних площадок различаются."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/81"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Отдельного билета на прогулку по городским улицам нет; покупки, питание и внутренние площадки оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/81"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для уличного маршрута общий слот не оформляют. Столики, выставки и специальные площадки бронируются отдельно."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/81"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Гуляйте по открытым общественным проходам; жилые дворы, офисы и закрытые территории не входят в маршрут."
       },
       "considerations": [],
       "arrival": {
@@ -2222,10 +2371,13 @@
         "I"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/81"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описана прогулка по общедоступным улицам и пространствам. Вход в музеи, храмы, магазины и на мероприятия — по правилам каждой площадки."
     }
   },
   {
@@ -2352,34 +2504,42 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "По цели визита: отдельный ранний слот ради подъёма флага либо дневной слот для осмотра площади.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход по выбранному периоду записи: подъём флага, утро, день или спуск флага. Время церемоний зависит от даты.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260325_4566110.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Посещение площади бесплатное. Подъём на ворота и соседние музеи не входят в этот режим.",
+        "sources": [
+          "https://tamgw.beijing.gov.cn/zhengwugongkai/tzgg/202609/t20260924_4880476.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Нужна бесплатная именная запись за 1–7 дней через 天安门广场预约参观; иностранцы регистрируются по паспорту.",
+        "sources": [
+          "https://tamgw.beijing.gov.cn/zhengwugongkai/tzgg/202609/t20260924_4880476.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Оригинал паспорта и подтверждение записи; вход через назначенный пункт досмотра. Не путайте площадь с башней ворот Тяньаньмэнь.",
+        "sources": [
+          "https://tamgw.beijing.gov.cn/zhengwugongkai/tzgg/202609/t20260924_4880476.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Перед посещением проверьте условия доступа и предварительной регистрации."
@@ -2396,9 +2556,12 @@
         "1"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
+        "sources": [
+          "https://tamgw.beijing.gov.cn/zhengwugongkai/tzgg/202609/t20260924_4880476.html",
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260325_4566110.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -2527,34 +2690,42 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Утренний слот в день работы: на крупные экспозиции удобно оставить несколько часов.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "В ноябре–мае вт–вс 09:00–17:00, вход до 16:00. Понедельник — выходной, кроме праздников.",
+        "sources": [
+          "https://www.chnmuseum.cn/cg/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Основное посещение бесплатное, но требуется запись; отдельные специальные проекты могут иметь собственные условия.",
+        "sources": [
+          "https://www.chnmuseum.cn/cg/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Бесплатная именная запись на официальном сайте/в мини-программе за 7 дней; новые места в 17:00 по Пекину.",
+        "sources": [
+          "https://www.chnmuseum.cn/cg/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход с северной стороны по своему временному слоту. Обязательны оригинал документа и подтверждение записи.",
+        "sources": [
+          "https://www.chnmuseum.cn/cg/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Перед посещением проверьте выставки и порядок регистрации на официальном сайте."
@@ -2570,9 +2741,11 @@
         "13"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
+        "sources": [
+          "https://www.chnmuseum.cn/cg/"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -2721,34 +2894,42 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Поздним утром или днём под расписание выбранных галерей; не ориентируйтесь только на доступность улиц.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Общая территория — круглосуточно по городскому туристическому порталу; галереи и события работают по своим расписаниям.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563864.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход на общую территорию бесплатный; выставки, шоу и мероприятия могут требовать отдельного билета.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563864.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Для отдельных выставок и событий — запись/покупка через 798 Art Zone, Youzan, Damai или кассу площадки.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563864.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Открытый арт-квартал не означает, что все галереи открыты. Выбирайте конкретные выставки перед поездкой.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563864.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Программа отдельных галерей и выставочных пространств меняется."
@@ -2764,10 +2945,13 @@
         "CU5"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563864.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Условия общей территории 798·751; платные выставки и закрытые здания учитываются отдельно."
     }
   },
   {
@@ -2915,36 +3099,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Ранний выезд из города и прогулка при дневном свете; учитывайте дорогу и погоду в горах.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "До 15 ноября: пн–пт 07:30–18:00, сб–вс до 18:30. С 16 ноября: 08:00–17:30; кассы закрываются за час, вход — за 30 минут.",
+        "sources": [
+          "https://www.mutianyugreatwall.com/1"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Обычный взрослый входной билет 40 CNY. Автобус, канатная дорога, кресельный подъёмник и тобогган оплачиваются отдельно; итог зависит от выбранного пакета.",
+        "sources": [
+          "https://www.travelchinaguide.com/china_great_wall/scene/beijing/mutianyu.htm"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Именная покупка на официальном сайте, доступна за 30 дней; один билет на документ в день. Для иностранцев предусмотрен паспорт.",
+        "sources": [
+          "https://www.mutianyugreatwall.com/1"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход на стену, шаттл, канатная дорога/кресельный подъёмник и спуск — разные услуги. Следуйте открытому маршруту: возможны ремонт и погодные ограничения.",
+        "sources": [
+          "https://www.mutianyugreatwall.com/1"
+        ],
+        "checkedAt": "2026-11-06"
       },
-      "considerations": [],
+      "considerations": [
+        "Цена базового входа сверена по TravelChinaGuide. На китайской странице оператора указана продажа за 30 дней, в старой английской инструкции — за 15; ориентируйтесь на доступные даты официальной продажи."
+      ],
       "arrival": {
         "address": null,
         "metro": null,
@@ -2954,9 +3148,12 @@
       },
       "combineWith": [],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
+        "sources": [
+          "https://www.mutianyugreatwall.com/1",
+          "https://www.travelchinaguide.com/china_great_wall/scene/beijing/mutianyu.htm"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -3095,34 +3292,44 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Поздним утром или днём после храмов: удобно сделать паузу в кафе и небольших магазинах.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Открытая территория доступна в течение суток; кафе, магазины и другие площадки имеют собственные часы.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/leisure/373"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Прогулка по общей территории бесплатная; услуги и посещение отдельных объектов оплачиваются отдельно.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/leisure/373"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/leisure/373"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для уличного маршрута общий слот не оформляют. Столики, выставки и специальные площадки бронируются отдельно."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/leisure/373"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Гуляйте по открытым общественным проходам; жилые дворы, офисы и закрытые территории не входят в маршрут."
       },
       "considerations": [],
       "arrival": {
@@ -3138,10 +3345,13 @@
         "9"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "sources": [
+          "https://r.visitbeijing.com.cn/leisure/373"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описана прогулка по общедоступным улицам и пространствам. Вход в музеи, храмы, магазины и на мероприятия — по правилам каждой площадки."
     }
   },
   {
@@ -3280,34 +3490,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём с продолжением до вечера, если интересны кафе и бары; жилые переулки обходите спокойно.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/routes/202609/t20260914_4862923.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "У городского маршрута нет единого времени открытия; часы заведений и внутренних площадок различаются."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/routes/202609/t20260914_4862923.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Отдельного билета на прогулку по городским улицам нет; покупки, питание и внутренние площадки оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/routes/202609/t20260914_4862923.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для уличного маршрута общий слот не оформляют. Столики, выставки и специальные площадки бронируются отдельно."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/routes/202609/t20260914_4862923.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Гуляйте по открытым общественным проходам; жилые дворы, офисы и закрытые территории не входят в маршрут."
       },
       "considerations": [],
       "arrival": {
@@ -3322,10 +3544,13 @@
         "5"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/routes/202609/t20260914_4862923.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описана прогулка по общедоступным улицам и пространствам. Вход в музеи, храмы, магазины и на мероприятия — по правилам каждой площадки."
     }
   },
   {
@@ -3469,28 +3694,40 @@
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.swireproperties.com/en/portfolio/current-developments/taikoo-li-sanlitun/"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "У городского маршрута нет единого времени открытия; часы заведений и внутренних площадок различаются."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.swireproperties.com/en/portfolio/current-developments/taikoo-li-sanlitun/"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Отдельного билета на прогулку по городским улицам нет; покупки, питание и внутренние площадки оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.swireproperties.com/en/portfolio/current-developments/taikoo-li-sanlitun/"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для уличного маршрута общий слот не оформляют. Столики, выставки и специальные площадки бронируются отдельно."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.swireproperties.com/en/portfolio/current-developments/taikoo-li-sanlitun/"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Гуляйте по открытым общественным проходам; жилые дворы, офисы и закрытые территории не входят в маршрут."
       },
       "considerations": [],
       "arrival": {
@@ -3504,10 +3741,13 @@
         "SH1"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "sources": [
+          "https://www.swireproperties.com/en/portfolio/current-developments/taikoo-li-sanlitun/"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описана прогулка по общедоступным улицам и пространствам. Вход в музеи, храмы, магазины и на мероприятия — по правилам каждой площадки."
     }
   },
   {
@@ -3645,34 +3885,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём с продолжением к вечеру; выставку или террасу выбирайте по её отдельному расписанию.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.beijing.gov.cn/ywdt/gqrd/202603/t20260304_4549726.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Единого расписания всех улиц и заведений нет; выставки, магазины и террасы выбирайте по их собственному режиму."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.beijing.gov.cn/ywdt/gqrd/202603/t20260304_4549726.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Уличная прогулка не является билетом на экспозицию; еда, покупки и культурные программы оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.beijing.gov.cn/ywdt/gqrd/202603/t20260304_4549726.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для прогулки по улицам общий слот не нужен; террасы, спектакли и выставки могут требовать собственной записи."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.beijing.gov.cn/ywdt/gqrd/202603/t20260304_4549726.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Гуляйте по открытой пешеходной части. Крыши, террасы и внутренние помещения не считаются автоматически доступными."
       },
       "considerations": [
         "Фотографии показывают праздничное оформление февраля 2026 года, а не постоянную обстановку."
@@ -3686,10 +3938,13 @@
       },
       "combineWith": [],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "sources": [
+          "https://www.beijing.gov.cn/ywdt/gqrd/202603/t20260304_4549726.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описан коммерческий пешеходный квартал, а не единый действующий храм или музей. Доступ на террасы и в выставочные пространства отдельный."
     }
   },
   {
@@ -3834,28 +4089,40 @@
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.bjchy.gov.cn/24-bridges-liangma-river"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "У городского маршрута нет единого времени открытия; часы заведений и внутренних площадок различаются."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.bjchy.gov.cn/24-bridges-liangma-river"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Отдельного билета на прогулку по городским улицам нет; покупки, питание и внутренние площадки оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.bjchy.gov.cn/24-bridges-liangma-river"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для уличного маршрута общий слот не оформляют. Столики, выставки и специальные площадки бронируются отдельно."
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Речь о пешеходной набережной в Чаояне. Прогулочные суда — отдельная платная услуга с собственным расписанием.",
+        "sources": [
+          "https://english.bjchy.gov.cn/24-bridges-liangma-river",
+          "https://english.beijing.gov.cn/travellinginbeijing/events/202603/t20260320_4562560.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [],
       "arrival": {
@@ -3869,10 +4136,14 @@
         "SH6"
       ],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "sources": [
+          "https://english.bjchy.gov.cn/24-bridges-liangma-river",
+          "https://english.beijing.gov.cn/travellinginbeijing/events/202603/t20260320_4562560.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описана прогулка по общедоступным улицам и пространствам. Вход в музеи, храмы, магазины и на мероприятия — по правилам каждой площадки."
     }
   },
   {
@@ -4036,34 +4307,45 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём под работающие площадки; для отдельной поездки полезно выбрать конкретное событие.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://invest.beijing.gov.cn/english/Choose/Economic/202609/t20260904_4850976.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "У кластера нет единого музейного сеанса: магазины, кафе и мероприятия работают по собственным часам."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://invest.beijing.gov.cn/english/Choose/Economic/202609/t20260904_4850976.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Прогулка не включает билеты в событийные павильоны. Стоимость выставок, фестивалей и еды определяется их организаторами."
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Событийные павильоны имеют отдельные билеты и записи; проверяйте условия выбранного мероприятия, включая бесплатные.",
+        "sources": [
+          "https://english.beijing.gov.cn/latest/news/202601/t20260129_4474550.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://invest.beijing.gov.cn/english/Choose/Economic/202609/t20260904_4850976.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "В маршрут входят открытые общественные проходы. Складские, офисные и закрытые событийные зоны не включены."
       },
       "considerations": [
         "Программа культурных событий меняется."
@@ -4077,10 +4359,14 @@
       },
       "combineWith": [],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "sources": [
+          "https://invest.beijing.gov.cn/english/Choose/Economic/202609/t20260904_4850976.html",
+          "https://english.beijing.gov.cn/latest/news/202601/t20260129_4474550.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Прогулка по открытым общественным пространствам действующего культурно-коммерческого кластера. Фестивали и помещения — отдельные площадки."
     }
   },
   {
@@ -4218,34 +4504,45 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём; если хотите зайти в храм, учитывайте его выходной и вход до 16:30.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Улицы района — без общего расписания. Храм Мяоин: вт–вс 09:00–17:00, вход до 16:30; по понедельникам закрыт.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/parktours/informationvisitors/focus/202609/t20260904_4850656.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/specials/parktours/informationvisitors/focus/202609/t20260904_4850656.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Отдельного билета на прогулку по городским улицам нет; покупки, питание и внутренние площадки оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/specials/parktours/informationvisitors/focus/202609/t20260904_4850656.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для уличного маршрута общий слот не оформляют. Столики, выставки и специальные площадки бронируются отдельно."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/specials/parktours/informationvisitors/focus/202609/t20260904_4850656.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Гуляйте по открытым общественным проходам; жилые дворы, офисы и закрытые территории не входят в маршрут."
       },
       "considerations": [],
       "arrival": {
@@ -4257,10 +4554,13 @@
       },
       "combineWith": [],
       "provenance": {
-        "sources": [],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "sources": [
+          "https://english.beijing.gov.cn/specials/parktours/informationvisitors/focus/202609/t20260904_4850656.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описана прогулка по общедоступным улицам и пространствам. Вход в музеи, храмы, магазины и на мероприятия — по правилам каждой площадки."
     }
   },
   {
@@ -4408,34 +4708,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём и во второй половине дня, чтобы сочетать книжные, кафе и продолжение по хутунам.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.visitbeijing.com.cn/article/4PQ2YR76lkR"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "У городского маршрута нет единого времени открытия; часы заведений и внутренних площадок различаются."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.visitbeijing.com.cn/article/4PQ2YR76lkR"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Отдельного билета на прогулку по городским улицам нет; покупки, питание и внутренние площадки оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.visitbeijing.com.cn/article/4PQ2YR76lkR"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для уличного маршрута общий слот не оформляют. Столики, выставки и специальные площадки бронируются отдельно."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.visitbeijing.com.cn/article/4PQ2YR76lkR"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Гуляйте по открытым общественным проходам; жилые дворы, офисы и закрытые территории не входят в маршрут."
       },
       "considerations": [],
       "arrival": {
@@ -4454,9 +4766,10 @@
         "sources": [
           "https://www.visitbeijing.com.cn/article/4PQ2YR76lkR"
         ],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описана прогулка по общедоступным улицам и пространствам. Вход в музеи, храмы, магазины и на мероприятия — по правилам каждой площадки."
     }
   },
   {
@@ -4625,34 +4938,44 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "При дневном свете ради мостиков и воды; удобно совместить с обедом у Сяньюйкоу.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Круглогодичная прогулочная зона у воды; режим ближайших кафе и отдельных проходов проверяйте на месте.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/807"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Прогулка по парку бесплатная; кафе и другие услуги оплачиваются отдельно.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/807"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/807"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для прогулочного маршрута нет единого билетного сеанса; заведения и специальные события имеют свои условия."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/807"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Идите по открытым дорожкам вдоль воды. Это маршрут среди хутунов, жилые дворы не входят в публичный парк."
       },
       "considerations": [],
       "arrival": {
@@ -4669,11 +4992,13 @@
       ],
       "provenance": {
         "sources": [
-          "https://www.beijing.gov.cn/fwcj/chang/094ba075819d97194f353fad1f81c4e5.html"
+          "https://www.beijing.gov.cn/fwcj/chang/094ba075819d97194f353fad1f81c4e5.html",
+          "https://r.visitbeijing.com.cn/attraction/807"
         ],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Саньлихэ у Цяньмэня и Сяньюйкоу, не одноимённый парк в Яньцине и не район на западе города."
     }
   },
   {
@@ -4792,36 +5117,48 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём или ближе к вечеру ради прогулки вокруг озера; не планируйте катание на историческом колесе.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Ноябрь–март: 06:00–22:00, вход до 21:00 по расписанию Trip.com; апрель–октябрь — до 22:30.",
+        "sources": [
+          "https://you.ctrip.com/sight/beijing1/5718565.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход в парк бесплатный; отдельные сервисы оплачиваются отдельно.",
+        "sources": [
+          "https://yllhj.beijing.gov.cn/ggfw/bjsggml/zhgy/dcq/202206/t20220614_2740267.shtml"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
         "status": "unknown",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://yllhj.beijing.gov.cn/ggfw/bjsggml/zhgy/dcq/202206/t20220614_2740267.shtml",
+          "https://you.ctrip.com/sight/beijing1/5718565.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Городской реестр указывает необходимость записи, а туристические публикации — свободный вход. До поездки уточните по +86 10 67148205."
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Это Лунтань Чжунху на месте парка развлечений. Сохранённое колесо обозрения — памятный ориентир, а не действующий аттракцион.",
+        "sources": [
+          "https://you.ctrip.com/sight/beijing1/5718565.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
-      "considerations": [],
+      "considerations": [
+        "У реестра и туристических сервисов расходятся сведения о предварительной записи. Часы взяты из сезонного расписания Trip.com, а бесплатный вход подтверждён городским реестром."
+      ],
       "arrival": {
         "address": null,
         "metro": null,
@@ -4832,10 +5169,11 @@
       "combineWith": [],
       "provenance": {
         "sources": [
-          "https://yllhj.beijing.gov.cn/ggfw/bjsggml/zhgy/dcq/202206/t20220614_2740267.shtml"
+          "https://yllhj.beijing.gov.cn/ggfw/bjsggml/zhgy/dcq/202206/t20220614_2740267.shtml",
+          "https://you.ctrip.com/sight/beijing1/5718565.html"
         ],
-        "checkedAt": null,
-        "basis": "existing-project"
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -4903,34 +5241,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Под конкретную работающую выставку или мастерскую; отдельную поездку согласуйте заранее.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
         "status": "unknown",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r1.visitbeijing.com.cn/vbj-s/pdf/BaseManual/BaseManual_50.pdf"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Туристический буклет описывает экскурсионные программы, но не даёт текущего графика свободного посещения. Выбирайте время после согласования с площадкой."
       },
       "cost": {
         "status": "unknown",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r1.visitbeijing.com.cn/vbj-s/pdf/BaseManual/BaseManual_50.pdf"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "В буклете перечислены экскурсии и мастер-классы, но нет актуального общего тарифа. Стоимость нужна для конкретной программы."
       },
       "booking": {
         "status": "unknown",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r1.visitbeijing.com.cn/vbj-s/pdf/BaseManual/BaseManual_50.pdf"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Мастерские и показы проходят по программе, а не непрерывно. Подтвердите нужную экскурсию или мастер-класс у организатора до поездки."
       },
       "access": {
         "status": "unknown",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r1.visitbeijing.com.cn/vbj-s/pdf/BaseManual/BaseManual_50.pdf"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Свободный вход во все мастерские на текущую дату не подтверждён. Буклет описывает посещение с экскурсоводом, поэтому визит лучше согласовать."
       },
       "considerations": [
         "Перед отдельной поездкой проверьте работающие площадки, выставки и мастер-классы."
@@ -4947,9 +5297,10 @@
         "sources": [
           "https://r1.visitbeijing.com.cn/vbj-s/pdf/BaseManual/BaseManual_50.pdf"
         ],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Культурно-коммерческий кластер с отдельными мастерскими и программами; наличие туристического буклета не гарантирует свободный вход в любой день."
     }
   },
   {
@@ -5079,34 +5430,45 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Ближе к закату ради вида на Храм Неба, но только после подтверждения доступа к террасе.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
         "status": "unknown",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.beijing.gov.cn/fwcj/chang/094ba075819d97194f353fad1f81c4e5.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Пятый этаж рынка Хунцяо; открытие торговых этажей не подтверждает доступность террасы. Перед визитом уточните режим именно «观坛»."
       },
       "cost": {
         "status": "unknown",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.beijing.gov.cn/fwcj/chang/094ba075819d97194f353fad1f81c4e5.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Городской каталог подтверждает арт-пространство с кафе и мероприятиями, но не публикует тариф террасы. Уточните вход и возможный минимальный заказ."
       },
       "booking": {
         "status": "unknown",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.beijing.gov.cn/fwcj/chang/094ba075819d97194f353fad1f81c4e5.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Уточняйте доступ на террасу и бронь столика именно у «观坛»: здесь проводят встречи и события, а не только свободные прогулки."
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "«观坛» находится на пятом этаже рынка Хунцяо, 天坛路9号. Здесь совмещены выставки, чтение, питание и мероприятия; это не территория Храма Неба.",
+        "sources": [
+          "https://www.beijing.gov.cn/fwcj/chang/094ba075819d97194f353fad1f81c4e5.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Доступ на террасу, часы работы и условия посещения нужно уточнить у площадки."
@@ -5125,9 +5487,10 @@
         "sources": [
           "https://www.beijing.gov.cn/fwcj/chang/094ba075819d97194f353fad1f81c4e5.html"
         ],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Отдельное коммерческое арт-пространство и терраса на рынке Хунцяо. Билет в Храм Неба не даёт сюда входа."
     }
   },
   {
@@ -5274,34 +5637,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "К ужину ради ресторанов и повседневной жизни района; сезонный фестиваль не гарантирован.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.bjft.gov.cn/ftq/jxdt/202404/079392334f234d59b49cfd90c11dfafe.shtml"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "У городского маршрута нет единого времени открытия; часы заведений и внутренних площадок различаются."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.bjft.gov.cn/ftq/jxdt/202404/079392334f234d59b49cfd90c11dfafe.shtml"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Отдельного билета на прогулку по городским улицам нет; покупки, питание и внутренние площадки оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.bjft.gov.cn/ftq/jxdt/202404/079392334f234d59b49cfd90c11dfafe.shtml"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для уличного маршрута общий слот не оформляют. Столики, выставки и специальные площадки бронируются отдельно."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.bjft.gov.cn/ftq/jxdt/202404/079392334f234d59b49cfd90c11dfafe.shtml"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Гуляйте по открытым общественным проходам; жилые дворы, офисы и закрытые территории не входят в маршрут."
       },
       "considerations": [
         "Летний фестиваль не входит в описание постоянной гастрономической прогулки."
@@ -5318,9 +5693,10 @@
         "sources": [
           "https://www.bjft.gov.cn/ftq/jxdt/202404/079392334f234d59b49cfd90c11dfafe.shtml"
         ],
-        "checkedAt": null,
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описана прогулка по общедоступным улицам и пространствам. Вход в музеи, храмы, магазины и на мероприятия — по правилам каждой площадки."
     }
   },
   {
@@ -6930,37 +7306,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём для чтения формы фасада; интерьерный визит согласуйте отдельно.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://classic.sohochina.com/en/news-media/43515"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для внешнего осмотра нет музейного расписания. Режим внутренних зон определяется управляющим и мероприятиями."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://classic.sohochina.com/en/news-media/43515"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Указан осмотр фасада с общественных улиц, а не билет в здание. Интерьерные программы и события имеют отдельные условия."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://classic.sohochina.com/en/news-media/43515"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для осмотра с улицы запись не оформляется; посещение внутренних зон возможно только по правилам их оператора."
       },
       "access": {
-        "status": "documented",
-        "value": "Осмотр фасада и разрешённых общественных зон; доступ в атриум нужно уточнять.",
+        "status": "not_applicable",
+        "value": null,
         "sources": [
-          "https://classic.sohochina.com/en/news-media/43515",
-          "https://www.bollinger-grohmann.com/en.projects.leeza-soho.html"
+          "https://classic.sohochina.com/en/news-media/43515"
         ],
-        "checkedAt": "2026-11-02"
+        "checkedAt": "2026-11-06",
+        "note": "Оставайтесь в открытых общественных зонах. Эта карточка не подтверждает разрешение на вход в офисы или подъём на верхние этажи."
       },
       "considerations": [
         "Это действующий офисный комплекс. Осмотр фасада и разрешённых общественных зон; доступ в атриум и правила съёмки внутри уточняйте у охраны, не рассчитывайте на свободный подъём на офисные этажи."
@@ -6978,9 +7363,10 @@
           "https://classic.sohochina.com/en/news-media/43515",
           "https://www.bollinger-grohmann.com/en.projects.leeza-soho.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Основной сценарий — осмотр архитектуры снаружи, из разрешённых общественных мест. Вход в офисы и специальные интерьерные программы не включён."
     }
   },
   {
@@ -7137,37 +7523,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём для обхода объёмов и переходов; вечером можно дополнить прогулку подсветкой.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.zha.com/projects/architecture/galaxy-soho?disclaimer=true"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для внешнего осмотра нет музейного расписания. Режим внутренних зон определяется управляющим и мероприятиями."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.zha.com/projects/architecture/galaxy-soho?disclaimer=true"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Указан осмотр фасада с общественных улиц, а не билет в здание. Интерьерные программы и события имеют отдельные условия."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.zha.com/projects/architecture/galaxy-soho?disclaimer=true"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для осмотра с улицы запись не оформляется; посещение внутренних зон возможно только по правилам их оператора."
       },
       "access": {
-        "status": "documented",
-        "value": "Общественные дворы и торговые уровни; офисные зоны ограничены.",
+        "status": "not_applicable",
+        "value": null,
         "sources": [
-          "https://www.zha.com/projects/architecture/galaxy-soho?disclaimer=true",
-          "https://www.sohochinaoffice.com/?lang=en"
+          "https://www.zha.com/projects/architecture/galaxy-soho?disclaimer=true"
         ],
-        "checkedAt": "2026-11-02"
+        "checkedAt": "2026-11-06",
+        "note": "Оставайтесь в открытых общественных зонах. Эта карточка не подтверждает разрешение на вход в офисы или подъём на верхние этажи."
       },
       "considerations": [
         "Для прогулки ориентируйтесь на общественные дворы и торговые уровни. Офисные зоны не являются туристическим маршрутом; доступ к отдельным переходам может ограничиваться."
@@ -7185,9 +7580,10 @@
           "https://www.zha.com/projects/architecture/galaxy-soho?disclaimer=true",
           "https://www.sohochinaoffice.com/?lang=en"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Основной сценарий — осмотр архитектуры снаружи, из разрешённых общественных мест. Вход в офисы и специальные интерьерные программы не включён."
     }
   },
   {
@@ -7344,37 +7740,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "При дневном свете для силуэта башен и площадей между ними.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.zha.com/projects/architecture/wangjing-soho?disclaimer=true"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для внешнего осмотра нет музейного расписания. Режим внутренних зон определяется управляющим и мероприятиями."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.zha.com/projects/architecture/wangjing-soho?disclaimer=true"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Указан осмотр фасада с общественных улиц, а не билет в здание. Интерьерные программы и события имеют отдельные условия."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.zha.com/projects/architecture/wangjing-soho?disclaimer=true"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для осмотра с улицы запись не оформляется; посещение внутренних зон возможно только по правилам их оператора."
       },
       "access": {
-        "status": "documented",
-        "value": "Прогулка вокруг комплекса и в открытых общественных зонах; офисные этажи не включены.",
+        "status": "not_applicable",
+        "value": null,
         "sources": [
-          "https://www.zha.com/projects/architecture/wangjing-soho?disclaimer=true",
-          "https://www.sohochinaoffice.com/?lang=en"
+          "https://www.zha.com/projects/architecture/wangjing-soho?disclaimer=true"
         ],
-        "checkedAt": "2026-11-02"
+        "checkedAt": "2026-11-06",
+        "note": "Оставайтесь в открытых общественных зонах. Эта карточка не подтверждает разрешение на вход в офисы или подъём на верхние этажи."
       },
       "considerations": [
         "Рассчитывайте на прогулку вокруг комплекса и по открытым общественным зонам. Это офисно-торговой объект; посещение офисных этажей не включено."
@@ -7392,9 +7797,10 @@
           "https://www.zha.com/projects/architecture/wangjing-soho?disclaimer=true",
           "https://www.sohochinaoffice.com/?lang=en"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Основной сценарий — осмотр архитектуры снаружи, из разрешённых общественных мест. Вход в офисы и специальные интерьерные программы не включён."
     }
   },
   {
@@ -7554,34 +7960,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Во второй половине дня с продолжением к вечеру: дневная архитектура и подсветка дают разные впечатления.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/investinginbeijing/InvestmentSpecial/INV_BJ_CBD/"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "У городского маршрута нет единого времени открытия; часы заведений и внутренних площадок различаются."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/investinginbeijing/InvestmentSpecial/INV_BJ_CBD/"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Отдельного билета на прогулку по городским улицам нет; покупки, питание и внутренние площадки оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/investinginbeijing/InvestmentSpecial/INV_BJ_CBD/"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для уличного маршрута общий слот не оформляют. Столики, выставки и специальные площадки бронируются отдельно."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/investinginbeijing/InvestmentSpecial/INV_BJ_CBD/"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Гуляйте по открытым общественным проходам; жилые дворы, офисы и закрытые территории не входят в маршрут."
       },
       "considerations": [
         "Метка — ориентир района Гомао, а не вход в здание и не граница CBD. Смотровые площадки и доступ внутрь конкретных башен не подразумеваются: их нужно проверять отдельно."
@@ -7603,9 +8021,10 @@
           "https://english.beijing.gov.cn/investinginbeijing/InvestmentSpecial/INV_BJ_CBD/",
           "https://english.beijing.gov.cn/latest/news/202507/t20250723_4155973.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описана прогулка по общедоступным улицам и пространствам. Вход в музеи, храмы, магазины и на мероприятия — по правилам каждой площадки."
     }
   },
   {
@@ -7740,37 +8159,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём для сравнения консоли и наклонных башен с разных уличных ракурсов.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.oma.com/projects/cctv-headquarters"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для внешнего осмотра нет музейного расписания. Режим внутренних зон определяется управляющим и мероприятиями."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.oma.com/projects/cctv-headquarters"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Указан осмотр фасада с общественных улиц, а не билет в здание. Интерьерные программы и события имеют отдельные условия."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.oma.com/projects/cctv-headquarters"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для осмотра с улицы запись не оформляется; посещение внутренних зон возможно только по правилам их оператора."
       },
       "access": {
-        "status": "documented",
-        "value": "Основной сценарий — осмотр снаружи из разрешённых общественных мест.",
+        "status": "not_applicable",
+        "value": null,
         "sources": [
-          "https://www.oma.com/projects/cctv-headquarters",
-          "https://www.arup.com/projects/china-central-television-headquarters/"
+          "https://www.oma.com/projects/cctv-headquarters"
         ],
-        "checkedAt": "2026-11-02"
+        "checkedAt": "2026-11-06",
+        "note": "Оставайтесь в открытых общественных зонах. Эта карточка не подтверждает разрешение на вход в офисы или подъём на верхние этажи."
       },
       "considerations": [
         "Действующий телевизионный и офисный комплекс. Основной сценарий — осмотр снаружи из разрешённых общественных мест. Не путайте с отдельным TVCC и с Центральной телебашней на западе Пекина."
@@ -7791,9 +8219,10 @@
           "https://www.oma.com/projects/cctv-headquarters",
           "https://www.arup.com/projects/china-central-television-headquarters/"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Основной сценарий — осмотр архитектуры снаружи, из разрешённых общественных мест. Вход в офисы и специальные интерьерные программы не включён."
     }
   },
   {
@@ -7928,37 +8357,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "При дневном свете вместе с CCTV и общей прогулкой по Гомао.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.kpf.com/project/citic-tower-china-zun"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для внешнего осмотра нет музейного расписания. Режим внутренних зон определяется управляющим и мероприятиями."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.kpf.com/project/citic-tower-china-zun"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Указан осмотр фасада с общественных улиц, а не билет в здание. Интерьерные программы и события имеют отдельные условия."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.kpf.com/project/citic-tower-china-zun"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для осмотра с улицы запись не оформляется; посещение внутренних зон возможно только по правилам их оператора."
       },
       "access": {
-        "status": "documented",
-        "value": "Осмотр снаружи; туристический подъём на общедоступную смотровую не подтверждён.",
+        "status": "not_applicable",
+        "value": null,
         "sources": [
-          "https://www.kpf.com/project/citic-tower-china-zun",
-          "https://english.beijing.gov.cn/investinginbeijing/investment_transaction_promotion/commercial_facilities/202306/t20230621_3143048.html"
+          "https://www.kpf.com/project/citic-tower-china-zun"
         ],
-        "checkedAt": "2026-11-02"
+        "checkedAt": "2026-11-06",
+        "note": "Оставайтесь в открытых общественных зонах. Эта карточка не подтверждает разрешение на вход в офисы или подъём на верхние этажи."
       },
       "considerations": [
         "Основной сценарий — осмотр снаружи. Башня служит корпоративной штаб-квартирой; подтверждённого туристического подъёма на общедоступную смотровую площадку в этой карточке нет."
@@ -7979,9 +8417,10 @@
           "https://www.kpf.com/project/citic-tower-china-zun",
           "https://english.beijing.gov.cn/investinginbeijing/investment_transaction_promotion/commercial_facilities/202306/t20230621_3143048.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Основной сценарий — осмотр архитектуры снаружи, из разрешённых общественных мест. Вход в офисы и специальные интерьерные программы не включён."
     }
   },
   {
@@ -8117,34 +8556,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём для рисунка стальной оболочки; интерьер — только под подтверждённую программу.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.kone.cn/en/stories-and-references/references/phoenix-international-media-center.aspx"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для внешнего осмотра нет музейного расписания. Режим внутренних зон определяется управляющим и мероприятиями."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.kone.cn/en/stories-and-references/references/phoenix-international-media-center.aspx"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Указан осмотр фасада с общественных улиц, а не билет в здание. Интерьерные программы и события имеют отдельные условия."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.kone.cn/en/stories-and-references/references/phoenix-international-media-center.aspx"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для осмотра с улицы запись не оформляется; посещение внутренних зон возможно только по правилам их оператора."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.kone.cn/en/stories-and-references/references/phoenix-international-media-center.aspx"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Оставайтесь в открытых общественных зонах. Эта карточка не подтверждает разрешение на вход в офисы или подъём на верхние этажи."
       },
       "considerations": [
         "Это работающий медиакомплекс. Интерьер открывают по программам посещения и мероприятий; перед отдельной поездкой проверьте актуальный доступ. Наружная фотография не означает свободного входа внутрь."
@@ -8162,9 +8613,10 @@
           "https://www.kone.cn/en/stories-and-references/references/phoenix-international-media-center.aspx",
           "https://english.visitbeijing.com.cn/article/47OOVRxUQYU"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Основной сценарий — осмотр архитектуры снаружи, из разрешённых общественных мест. Вход в офисы и специальные интерьерные программы не включён."
     }
   },
   {
@@ -8302,37 +8754,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём по доступным залам выбранной даты; вечерний спектакль планируйте отдельным билетом.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Для экскурсионного посещения вт–вс 09:00–17:00; понедельник — выходной, кроме праздников. Состав доступных залов меняется ежедневно.",
+        "sources": [
+          "https://www.chncpa.org/cgyl_278/cggp/?kfType=1"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Взрослый экскурсионный билет 40 CNY, льготный 20 CNY. Спектакли оплачиваются отдельно по выбранным местам.",
+        "sources": [
+          "https://www.chncpa.org/cgyl_278/cggp/?kfType=1"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Именная покупка через сайт NCPA или официальный WeChat «国家大剧院智慧管家». Для спектакля нужен отдельный билет.",
+        "sources": [
+          "https://www.chncpa.org/cgyl_278/cggp/?kfType=1"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Открыты только залы из расписания дня. На 7 ноября опера доступна 09:00–12:00, на 8 ноября — 09:00–17:00; другие сценические залы могут быть закрыты.",
+        "sources": [
+          "https://www.chncpa.org/cgyl_278/cggp/?kfType=1"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
-        "Внешний осмотр и посещение интерьера — разные сценарии. Для экскурсионного посещения и спектакля проверяйте отдельные билеты, расписание и правила входа на официальном сайте; наличие фотографии зала не гарантирует доступ туда во время обычного визита."
+        "Внешний осмотр и посещение интерьера — разные сценарии. Для экскурсионного посещения и спектакля проверяйте отдельные билеты, расписание и правила входа на официальном сайте; наличие фотографии зала не гарантирует доступ туда во время обычного визита.",
+        "Расписание конкретных залов на 7–8 ноября 2026 проверено в таблице оператора; оно не является постоянным режимом на все даты."
       ],
       "arrival": {
         "address": null,
@@ -8345,10 +8806,11 @@
       "provenance": {
         "sources": [
           "https://en.chncpa.org/",
-          "https://en.chncpa.org/ddh/visitinfo/"
+          "https://en.chncpa.org/ddh/visitinfo/",
+          "https://www.chncpa.org/cgyl_278/cggp/?kfType=1"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -8507,37 +8969,48 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "После открытия торговых точек с продолжением к вечеру ради витрин и городской атмосферы.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "По каталогу Visit Beijing: пн–пт 11:00–22:00, сб–вс 10:00–22:00. У отдельных магазинов часы отличаются.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/96"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход в общие зоны бесплатный; товары, еда и отдельные программы оплачиваются по их тарифам.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/96"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/96"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Обычный визит не является сеансом с записью. Для мероприятий, спортивных занятий и ресторанов — свои правила."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/96"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Посещайте открытые торговые и общественные уровни; служебные зоны, офисы и закрытые террасы не входят в обычный визит."
       },
       "considerations": [
-        "Метка — южная часть комплекса. Северная часть и отдельные здания могут меняться из-за реконструкции; уточняйте доступ к нужному магазину."
+        "Метка — южная часть комплекса. Северная часть и отдельные здания могут меняться из-за реконструкции; уточняйте доступ к нужному магазину.",
+        "Например, Apple Sanlitun публикует собственный график 10:00–22:00: расписание магазина не означает одинакового режима всех корпусов комплекса."
       ],
       "arrival": {
         "address": null,
@@ -8551,11 +9024,13 @@
       ],
       "provenance": {
         "sources": [
-          "https://www.swireproperties.com/en/portfolio/current-developments/taikoo-li-sanlitun/"
+          "https://www.swireproperties.com/en/portfolio/current-developments/taikoo-li-sanlitun/",
+          "https://r.visitbeijing.com.cn/attraction/96"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Обычный визит в торговые и общественные зоны. Покупки, кафе, выставки, спорт и специальные события — отдельные услуги."
     }
   },
   {
@@ -8712,34 +9187,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Во второй половине дня, чтобы совместить витрины, ужин и вечернюю прогулку.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/specials/beijinglifeonthesubway/landmarksalongthesubwaylines/line1/202206/t20220624_2750302.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "У городского маршрута нет единого времени открытия; часы заведений и внутренних площадок различаются."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/specials/beijinglifeonthesubway/landmarksalongthesubwaylines/line1/202206/t20220624_2750302.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Отдельного билета на прогулку по городским улицам нет; покупки, питание и внутренние площадки оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/specials/beijinglifeonthesubway/landmarksalongthesubwaylines/line1/202206/t20220624_2750302.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для уличного маршрута общий слот не оформляют. Столики, выставки и специальные площадки бронируются отдельно."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/specials/beijinglifeonthesubway/landmarksalongthesubwaylines/line1/202206/t20220624_2750302.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Гуляйте по открытым общественным проходам; жилые дворы, офисы и закрытые территории не входят в маршрут."
       },
       "considerations": [
         "Метка — ориентир на улице, не её граница. Не все боковые улочки и торговые центры имеют одинаковый режим работы."
@@ -8756,9 +9243,10 @@
         "sources": [
           "https://english.beijing.gov.cn/specials/beijinglifeonthesubway/landmarksalongthesubwaylines/line1/202206/t20220624_2750302.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описана прогулка по общедоступным улицам и пространствам. Вход в музеи, храмы, магазины и на мероприятия — по правилам каждой площадки."
     }
   },
   {
@@ -8871,34 +9359,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём и к вечеру: книжный магазин, кафе и исторические фасады удобно объединить одним маршрутом.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202401/t20240119_3539744.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "У городского маршрута нет единого времени открытия; часы заведений и внутренних площадок различаются."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202401/t20240119_3539744.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Отдельного билета на прогулку по городским улицам нет; покупки, питание и внутренние площадки оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202401/t20240119_3539744.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для уличного маршрута общий слот не оформляют. Столики, выставки и специальные площадки бронируются отдельно."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202401/t20240119_3539744.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Гуляйте по открытым общественным проходам; жилые дворы, офисы и закрытые территории не входят в маршрут."
       },
       "considerations": [
         "Общие улицы, магазины и отдельные культурные площадки — разные форматы посещения. Новые части квартала и конкретные выставки проверяйте отдельно."
@@ -8920,9 +9420,10 @@
           "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202401/t20240119_3539744.html",
           "https://english.visitbeijing.com.cn/article/4RoXswn7nWR"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь описана прогулка по общедоступным улицам и пространствам. Вход в музеи, храмы, магазины и на мероприятия — по правилам каждой площадки."
     }
   },
   {
@@ -9081,34 +9582,45 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Во второй половине дня под работающие магазины или выбранное мероприятие.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Каталог Visit Beijing указывает 09:00–22:00. Режим магазинов, спортивных площадок и вечерних событий различается.",
+        "sources": [
+          "https://jr.visitbeijing.com.cn/gift/140"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://jr.visitbeijing.com.cn/gift/140"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для обычного посещения торговой части входной билет не предусмотрен; покупки и дополнительные программы оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://jr.visitbeijing.com.cn/gift/140"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Обычный визит не является сеансом с записью. Для мероприятий, спортивных занятий и ресторанов — свои правила."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://jr.visitbeijing.com.cn/gift/140"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Посещайте открытые торговые и общественные уровни; служебные зоны, офисы и закрытые террасы не входят в обычный визит."
       },
       "considerations": [
         "Метка относится к комплексу. Выставки, спортивные площадки и отдельные магазины могут иметь собственные условия доступа; не рассчитывайте на случайное мероприятие как на постоянную экспозицию."
@@ -9123,11 +9635,13 @@
       "combineWith": [],
       "provenance": {
         "sources": [
-          "https://english.beijing.gov.cn/travellinginbeijing/citytours/202407/t20240702_3735041.html"
+          "https://english.beijing.gov.cn/travellinginbeijing/citytours/202407/t20240702_3735041.html",
+          "https://jr.visitbeijing.com.cn/gift/140"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Обычный визит в торговые и общественные зоны. Покупки, кафе, выставки, спорт и специальные события — отдельные услуги."
     }
   },
   {
@@ -9293,28 +9807,38 @@
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "10:00–22:00; музейные программы, рестораны и отдельные магазины могут иметь своё расписание.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/leisure/401"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход в общие зоны бесплатный; товары, еда и отдельные программы оплачиваются по их тарифам.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/leisure/401"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/leisure/401"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Обычный визит не является сеансом с записью. Для мероприятий, спортивных занятий и ресторанов — свои правила."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://r.visitbeijing.com.cn/leisure/401"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Посещайте открытые торговые и общественные уровни; служебные зоны, офисы и закрытые террасы не входят в обычный визит."
       },
       "considerations": [
         "Произведения искусства в общих зонах и отдельная музейная/выставочная программа — разные части посещения. Проверяйте текущую экспозицию и правила фотосъёмки."
@@ -9330,11 +9854,13 @@
       "provenance": {
         "sources": [
           "https://english.bjchy.gov.cn/node/245",
-          "https://www.rlb.com/asia/projects/parkview-green-fangcaodi/"
+          "https://www.rlb.com/asia/projects/parkview-green-fangcaodi/",
+          "https://r.visitbeijing.com.cn/leisure/401"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Обычный визит в торговые и общественные зоны. Покупки, кафе, выставки, спорт и специальные события — отдельные услуги."
     }
   },
   {
@@ -9498,28 +10024,38 @@
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "10:00–22:00 по публикации Visit Beijing от 4 февраля 2026; отдельные рестораны и бары имеют свои часы.",
+        "sources": [
+          "https://www.visitbeijing.com.cn/article/4QEcAp1GxF7?device=amp"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход в общие зоны бесплатный; товары, еда и отдельные программы оплачиваются по их тарифам.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/attraction/97"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.visitbeijing.com.cn/article/4QEcAp1GxF7?device=amp"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Обычный визит не является сеансом с записью. Для мероприятий, спортивных занятий и ресторанов — свои правила."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.visitbeijing.com.cn/article/4QEcAp1GxF7?device=amp"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Посещайте открытые торговые и общественные уровни; служебные зоны, офисы и закрытые террасы не входят в обычный визит."
       },
       "considerations": [
         "Метка — ориентир в комплексе, а не вход в парк Чаоян или причал. Подсветка, сезонные украшения и мероприятия меняются; режим конкретных заведений проверяйте отдельно."
@@ -9536,11 +10072,14 @@
       ],
       "provenance": {
         "sources": [
-          "https://english.beijing.gov.cn/travellinginbeijing/commercialareas/202603/t20260325_4566094.html"
+          "https://english.beijing.gov.cn/travellinginbeijing/commercialareas/202603/t20260325_4566094.html",
+          "https://www.visitbeijing.com.cn/article/4QEcAp1GxF7?device=amp",
+          "https://r.visitbeijing.com.cn/attraction/97"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Обычный визит в торговые и общественные зоны. Покупки, кафе, выставки, спорт и специальные события — отдельные услуги."
     }
   },
   {
@@ -9668,34 +10207,45 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём, если важны выставки; ближе к вечеру ради торговых улиц и еды.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Торговый квартал 10:00–22:00; указанная в городском сообщении выставочная зона — 10:00–18:00.",
+        "sources": [
+          "https://japanese.beijing.gov.cn/consuminginbeijing/wheretobuy/commercialareas/updatesofcommercialareas/202506/t20250606_4107438.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://japanese.beijing.gov.cn/consuminginbeijing/wheretobuy/commercialareas/updatesofcommercialareas/202506/t20250606_4107438.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для обычного посещения торговой части входной билет не предусмотрен; покупки и дополнительные программы оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://japanese.beijing.gov.cn/consuminginbeijing/wheretobuy/commercialareas/updatesofcommercialareas/202506/t20250606_4107438.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Обычный визит не является сеансом с записью. Для мероприятий, спортивных занятий и ресторанов — свои правила."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://japanese.beijing.gov.cn/consuminginbeijing/wheretobuy/commercialareas/updatesofcommercialareas/202506/t20250606_4107438.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Посещайте открытые торговые и общественные уровни; служебные зоны, офисы и закрытые террасы не входят в обычный визит."
       },
       "considerations": [
         "Метка — ориентир в большом квартале. Исторические здания, художественные площадки и магазины могут открываться по разным правилам; весь комплекс не является единым музеем."
@@ -9711,11 +10261,13 @@
       "provenance": {
         "sources": [
           "https://english.beijing.gov.cn/latest/news/202505/t20250526_4097889.html",
-          "https://www.biad.com.cn/view/id/229/"
+          "https://www.biad.com.cn/view/id/229/",
+          "https://japanese.beijing.gov.cn/consuminginbeijing/wheretobuy/commercialareas/updatesofcommercialareas/202506/t20250606_4107438.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Обычный визит в торговые и общественные зоны. Покупки, кафе, выставки, спорт и специальные события — отдельные услуги."
     }
   },
   {
@@ -9794,34 +10346,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём или во второй половине дня; заранее выберите работающие магазины или событие.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
         "status": "unknown",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/consuminginbeijing/wheretobuy/commercialareas/updatesofcommercialareas/202608/t20260827_4838982.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Городское сообщение об открытии V-HUB от 27 августа 2026 не даёт единого графика. Для выбранного магазина или события проверьте его собственные часы."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/consuminginbeijing/wheretobuy/commercialareas/updatesofcommercialareas/202608/t20260827_4838982.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для обычного посещения торговой части входной билет не предусмотрен; покупки и дополнительные программы оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/consuminginbeijing/wheretobuy/commercialareas/updatesofcommercialareas/202608/t20260827_4838982.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Обычный визит не является сеансом с записью. Для мероприятий, спортивных занятий и ресторанов — свои правила."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/consuminginbeijing/wheretobuy/commercialareas/updatesofcommercialareas/202608/t20260827_4838982.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Посещайте открытые торговые и общественные уровни; служебные зоны, офисы и закрытые террасы не входят в обычный визит."
       },
       "considerations": [
         "Метка — ориентир комплекса на Wangjing Walk. Проверяйте действующие входы и программу: обновлённый V-HUB открылся в 2026 году.",
@@ -9839,9 +10403,10 @@
         "sources": [
           "https://english.beijing.gov.cn/consuminginbeijing/wheretobuy/commercialareas/updatesofcommercialareas/202608/t20260827_4838982.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Обычный визит в торговые и общественные зоны. Покупки, кафе, выставки, спорт и специальные события — отдельные услуги."
     }
   },
   {
@@ -9998,34 +10563,45 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "В часы работы торговых зон как крытая пауза во время прогулки по CBD.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "По карточке Trip.com: 10:00–21:30. Отдельные рестораны и зоны комплекса могут иметь другое время.",
+        "sources": [
+          "https://you.ctrip.com/shopping/beijing1/108322-dianping.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.cwtc.com/gmsc.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для обычного посещения торговой части входной билет не предусмотрен; покупки и дополнительные программы оплачиваются отдельно."
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.cwtc.com/gmsc.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Обычный визит не является сеансом с записью. Для мероприятий, спортивных занятий и ресторанов — свои правила."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.cwtc.com/gmsc.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Посещайте открытые торговые и общественные уровни; служебные зоны, офисы и закрытые террасы не входят в обычный визит."
       },
       "considerations": [
         "Метка — ориентир комплекса, который занимает несколько корпусов и уровней. Видовые рестораны и террасы не означают свободный проход на верхние этажи офисных башен."
@@ -10043,11 +10619,14 @@
       ],
       "provenance": {
         "sources": [
-          "https://www.cwtc.com/en/gmsc.html?_wap=1"
+          "https://www.cwtc.com/en/gmsc.html?_wap=1",
+          "https://www.cwtc.com/gmsc.html",
+          "https://you.ctrip.com/shopping/beijing1/108322-dianping.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Обычный визит в торговые и общественные зоны. Покупки, кафе, выставки, спорт и специальные события — отдельные услуги."
     }
   },
   {
@@ -10183,40 +10762,48 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём в часы основных читальных залов; избегайте поездки ради архитектуры в закрытые часы.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Основные читальные залы: вт–вс 10:00–20:00. Зона 潞云筑 с 1 сентября 2026 работает ежедневно 09:00–21:00, а не круглосуточно.",
+        "sources": [
+          "https://bjlib.clcn.net.cn/page/default/opentime",
+          "https://ykt.clcn.net.cn/announcement/1285.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Обычное посещение и чтение бесплатны; отдельные сервисы и мероприятия имеют собственные условия.",
+        "sources": [
+          "https://www.beijing.gov.cn/ywdt/gqrd/202401/t20240125_3545425.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Для обычного посещения предварительная запись не нужна; заказ из закрытого фонда и отдельные мероприятия оформляются отдельно.",
+        "sources": [
+          "https://www.beijing.gov.cn/ywdt/gqrd/202401/t20240125_3545425.html",
+          "https://bjlib.clcn.net.cn/page/default/opentime"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
         "status": "documented",
-        "value": "Действующая библиотека: соблюдайте тишину, отдельные залы могут иметь ограничения.",
+        "value": "Действующая публичная библиотека: соблюдайте тишину; редкие фонды и отдельные услуги доступны по своим правилам. Не путайте с главным зданием Capital Library.",
         "sources": [
-          "https://www.snohetta.com/projects/beijing-library",
-          "https://english.beijing.gov.cn/beijinginfo/culture/culturecalendar/information/202401/t20240112_3534215.html"
+          "https://bjlib.clcn.net.cn/page/default/opentime"
         ],
-        "checkedAt": "2026-11-02"
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
-        "Это действующая библиотека: соблюдайте тишину; правила входа, бронирования и доступ в отдельные залы проверяйте перед поездкой."
+        "Это действующая библиотека: соблюдайте тишину; правила входа, бронирования и доступ в отдельные залы проверяйте перед поездкой.",
+        "На части старых страниц зона 潞云筑 ещё названа «24-часовой». В объявлении библиотеки с 1 сентября 2026 установлен режим 09:00–21:00; круглосуточными остались сервисные книжные автоматы."
       ],
       "arrival": {
         "address": null,
@@ -10232,10 +10819,13 @@
       "provenance": {
         "sources": [
           "https://www.snohetta.com/projects/beijing-library",
-          "https://english.beijing.gov.cn/beijinginfo/culture/culturecalendar/information/202401/t20240112_3534215.html"
+          "https://english.beijing.gov.cn/beijinginfo/culture/culturecalendar/information/202401/t20240112_3534215.html",
+          "https://bjlib.clcn.net.cn/page/default/opentime",
+          "https://ykt.clcn.net.cn/announcement/1285.html",
+          "https://www.beijing.gov.cn/ywdt/gqrd/202401/t20240125_3545425.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -10289,34 +10879,44 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "При дневном свете ради вида из окон; книги и кофе можно оставить на вечер.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "10:00–22:00 по текущей карточке Visit Beijing. У отдельных мероприятий может быть собственное расписание.",
+        "sources": [
+          "https://jr.visitbeijing.com.cn/leisure/331"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход в общие зоны бесплатный; товары, еда и отдельные программы оплачиваются по их тарифам.",
+        "sources": [
+          "https://jr.visitbeijing.com.cn/leisure/331"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://jr.visitbeijing.com.cn/leisure/331"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Обычный визит не является сеансом с записью. Для мероприятий, спортивных занятий и ресторанов — свои правила."
       },
       "access": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://jr.visitbeijing.com.cn/leisure/331"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Посещайте открытые торговые и общественные уровни; служебные зоны, офисы и закрытые террасы не входят в обычный визит."
       },
       "considerations": [
         "На карте нужен именно филиал Beijing Fun, корпус E11: у PAGEONE есть другие магазины в Пекине. Часы работы уточняйте у филиала.",
@@ -10336,11 +10936,13 @@
       "provenance": {
         "sources": [
           "https://english.visitbeijing.com.cn/article/4EvQgznw3OE",
-          "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202303/t20230302_2927343.html"
+          "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202303/t20230302_2927343.html",
+          "https://jr.visitbeijing.com.cn/leisure/331"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Обычный визит в торговые и общественные зоны. Покупки, кафе, выставки, спорт и специальные события — отдельные услуги."
     }
   },
   {
@@ -10476,34 +11078,42 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "К открытию или дневной экскурсии; концертную программу планируйте отдельно.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вт–вс и официальные праздники 10:00–17:00, вход до 16:30; понедельник — выходной.",
+        "sources": [
+          "https://www.bpac.org.cn/cgyl/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Публичное посещение бесплатное, но по билету-записи. Концерты и спектакли оплачиваются отдельно.",
+        "sources": [
+          "https://www.bpac.org.cn/cgyl/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Нужна бесплатная именная запись; до 5 человек на аккаунт за посещение. Исключение — посетители от 65 лет с документом.",
+        "sources": [
+          "https://www.bpac.org.cn/cgyl/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход для посетителей через западный зал на первом этаже. Паспорт/документ или QR-код, проверка и досмотр; закрытые залы недоступны.",
+        "sources": [
+          "https://www.bpac.org.cn/cgyl/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Посещение залов и спектаклей зависит от программы; билет на концерт и экскурсия по зданию — разные варианты посещения. Уточняйте бронирование на сайте комплекса."
@@ -10511,7 +11121,7 @@
       "arrival": {
         "address": null,
         "metro": null,
-        "start": null,
+        "start": "Западный зал на первом этаже; для посещения не поднимайтесь по лестнице второго этажа.",
         "note": null,
         "coordinateSource": "https://commons.wikimedia.org/wiki/Category:Beijing_Performing_Arts_Centre"
       },
@@ -10522,10 +11132,11 @@
       "provenance": {
         "sources": [
           "https://en.chncpa.org/aboutus/",
-          "https://english.beijing.gov.cn/beijinginfo/culture/culturecalendar/information/202401/t20240112_3534215.html"
+          "https://english.beijing.gov.cn/beijinginfo/culture/culturecalendar/information/202401/t20240112_3534215.html",
+          "https://www.bpac.org.cn/cgyl/"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -10662,34 +11273,42 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём в день работы, оставив несколько часов; не ставьте музей на понедельник.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вт–вс 10:00–20:00, вход до 19:00; понедельник — выходной, кроме официальных праздников.",
+        "sources": [
+          "https://www.canalmuseum.org.cn/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Обычное посещение бесплатно; отдельные коммерческие услуги и специальные программы проверяйте отдельно.",
+        "sources": [
+          "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/tzxx/202312/t20231224_3508754.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Для обычного индивидуального посещения предварительная запись не требуется по текущей странице музея.",
+        "sources": [
+          "https://www.canalmuseum.org.cn/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "При входе нужен действующий документ и досмотр. Детям до 14 лет включительно требуется сопровождающий взрослый.",
+        "sources": [
+          "https://www.canalmuseum.org.cn/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Не путайте с главным Capital Museum в центре Пекина. Условия входа, необходимость бронирования и временные выставки проверяйте у музея."
@@ -10708,10 +11327,12 @@
       "provenance": {
         "sources": [
           "https://english.visitbeijing.com.cn/article/4NsYEVnsgeS",
-          "https://www.capitalmuseum.org.cn/"
+          "https://www.capitalmuseum.org.cn/",
+          "https://www.canalmuseum.org.cn/",
+          "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/tzxx/202312/t20231224_3508754.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -10789,34 +11410,42 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём вместе с 798 и под актуальные выставки или дизайн-события.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Общая территория — круглосуточно по городскому туристическому порталу; галереи и события работают по своим расписаниям.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563864.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход на общую территорию бесплатный; выставки, шоу и мероприятия могут требовать отдельного билета.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563864.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Для отдельных выставок и событий — запись/покупка через 798 Art Zone, Youzan, Damai или кассу площадки.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563864.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Открытый арт-квартал не означает, что все галереи открыты. Выбирайте конкретные выставки перед поездкой.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563864.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Общественные пространства и отдельные выставки имеют разные условия доступа; мероприятия могут требовать билета или регистрации.",
@@ -10837,9 +11466,10 @@
           "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563864.html",
           "https://english.beijing.gov.cn/specials/2021beijingdesignweek/publicactivities/designhop/throughoutbeijing/202109/t20210924_2501261.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Условия общей территории 798·751; платные выставки и закрытые здания учитываются отдельно."
     }
   },
   {
@@ -10998,34 +11628,43 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём ради длинного маршрута; для подсветки печей можно остаться после 19:00 в доступных зонах.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Набережная зелёного маршрута — 24 часа; эстакада 07:00–19:00; тропа к Гунбэйгэ вт–вс 09:30–17:00, пн закрыта.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Общественная прогулочная территория бесплатная; подъём на печь, музеи и специальные программы — по отдельным тарифам.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/leisure/408"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/consuminginbeijing/onedayinbeijing/sportshealth/newsofsportshealth/202507/t20250729_4160793.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Единого слота для всех зон нет. Запись на спорт — через AI尚首钢园; для музеев, подъёмов и событий выбирайте отдельную программу."
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Режим зависит от участка. Подъём на печь, музей, кафе и спортивные программы не входят в свободную прогулку.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Расстояния внутри большие. Территория парка, музеи, подъём на печь и спортивные объекты имеют отдельные условия посещения."
@@ -11044,11 +11683,14 @@
       "provenance": {
         "sources": [
           "https://english.bjsjs.gov.cn/2026exploreshijingshan/experience/202606/t20260602_762091.html",
-          "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html"
+          "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html",
+          "https://r.visitbeijing.com.cn/leisure/408",
+          "https://english.beijing.gov.cn/consuminginbeijing/onedayinbeijing/sportshealth/newsofsportshealth/202507/t20250729_4160793.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Здесь указан зелёный прогулочный маршрут Shougang. Расписания отдельных зданий, мероприятий и спортивных зон различаются."
     }
   },
   {
@@ -11117,34 +11759,43 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём по выбранной программе музея или подъёма; не считайте все уровни свободно доступными.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
         "status": "unknown",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "У музея RE·, верхней площадки и кафе нет подтверждённого общего графика в изученных материалах. Часы соседней эстакады нельзя считать часами музея."
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Подъём на верхнюю площадку — по билету; Hanging Café продаёт пакет с проходом на платформу и кофе. Это отдельные услуги.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Для подъёма выбирайте билет на верхнюю площадку; для кафе — соответствующий пакет. Внешний осмотр не включает эти программы.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Осмотр печи снаружи и подъём — разные варианты. В городском гайде для верхней площадки/кафе указано ограничение: дети ниже 1,2 м не допускаются.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Музей, XR-программа и подъём на верхние уровни могут продаваться отдельно. До визита проверьте доступные зоны и ограничения; координата — подтверждённая WGS84-точка съёмки у фасада."
@@ -11164,9 +11815,10 @@
           "https://english.bjsjs.gov.cn/homelatest/202512/t20251223_757148.html",
           "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Доменная печь №3: внешний осмотр, музей RE·, верхняя площадка и кафе — разные программы. Тариф и график проверяйте для выбранной."
     }
   },
   {
@@ -11251,34 +11903,44 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём для ракурса с градирнями; спортивные активности выбирайте отдельным сеансом.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/consuminginbeijing/onedayinbeijing/sportshealth/newsofsportshealth/202507/t20250729_4160793.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Для внешнего осмотра ориентируйтесь на открытые прогулочные зоны; у Sky Pulse Tower, соревнований и шоу своё расписание."
       },
       "cost": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/consuminginbeijing/onedayinbeijing/sportshealth/newsofsportshealth/202507/t20250729_4160793.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Осмотр сооружения с общественных дорожек не включает платные спортивные активности и мероприятия."
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Sky Pulse Tower продаёт билеты на месте, через Meituan и Douyin. Для внешнего осмотра такой билет не используется.",
+        "sources": [
+          "https://english.beijing.gov.cn/consuminginbeijing/onedayinbeijing/sportshealth/newsofsportshealth/202507/t20250729_4160793.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Sky Pulse Tower включает спуски, скалолазание и другие активности. Это не обычный туристический подъём на олимпийский трамплин.",
+        "sources": [
+          "https://english.beijing.gov.cn/consuminginbeijing/onedayinbeijing/sportshealth/newsofsportshealth/202507/t20250729_4160793.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Вид снаружи и вход внутрь спортивного объекта — разные варианты. Соревнования и мероприятия могут менять доступ на территорию."
@@ -11296,11 +11958,13 @@
       "provenance": {
         "sources": [
           "https://english.bjsjs.gov.cn/exploringshijingshan/travel/202101/t20210129_37067.html",
-          "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html"
+          "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html",
+          "https://english.beijing.gov.cn/consuminginbeijing/onedayinbeijing/sportshealth/newsofsportshealth/202507/t20250729_4160793.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Основной сценарий карточки — внешний осмотр трамплина. Sky Pulse Tower и другие спортивные активности оплачиваются и посещаются отдельно."
     }
   },
   {
@@ -11426,41 +12090,49 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Среда–воскресенье под действующую выставку Three Shadows; в начале ноября — до 18:00.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Three Shadows: ср–вс 10:00–18:00 до 14 ноября; с 15 ноября до 15 марта — до 17:00. Пн и вт закрыт.",
+        "sources": [
+          "https://www.threeshadows.cn/about/visit/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Для Three Shadows обычный билет 30 CNY, льготный 20 CNY. Это не общий билет во все галереи Цаочанди.",
+        "sources": [
+          "https://www.threeshadows.cn/about/visit/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Билеты Three Shadows — по QR-коду на официальной странице. Групповой тариф от 10 человек требует предварительного заказа.",
+        "sources": [
+          "https://www.threeshadows.cn/about/visit/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Основной проверенный адрес — Three Shadows, 155A Caochangdi. Другие галереи могут иметь собственные дни и условия.",
+        "sources": [
+          "https://www.threeshadows.cn/about/visit/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Часть известных галерей переехала: район стоит посещать под конкретную актуальную выставку, а не ожидать плотную прогулочную улицу как в 798. Фотографии здесь архивные; существование изображённых муралов сейчас не подтверждено."
       ],
       "arrival": {
-        "address": null,
-        "metro": null,
+        "address": "Three Shadows Photography Art Centre, 155A Caochangdi, Chaoyang.",
+        "metro": "Линия 14, Jiangtai или Wangjingnan, далее автобус до Caochangdi.",
         "start": null,
         "note": "Ориентир — комплекс Красный двор №1; выставки расположены по разным адресам района.",
         "coordinateSource": "https://www.openstreetmap.org/way/987659179"
@@ -11471,9 +12143,10 @@
           "https://www.threeshadows.cn/about/visit/",
           "https://www.threeshadows.cn/about/"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Указанные часы и билет относятся к Three Shadows Photography Art Centre — выбранной опорной площадке района."
     }
   },
   {
@@ -11625,34 +12298,43 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём с продолжением к вечеру ради архитектуры; платные объекты проверяйте каждый отдельно.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202512/t20251202_4315958.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "У большого комплекса нет одного расписания: лесопарк, площади и спортивные здания работают по собственным режимам."
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Обычный вход в Олимпийский парк бесплатный. Стадион, «Водяной куб» и другие объекты продают свои билеты.",
+        "sources": [
+          "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202512/t20251202_4315958.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Для обычного входа в Олимпийский парк предварительная запись не требуется по городскому сервису «京通».",
+        "sources": [
+          "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202512/t20251202_4315958.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Общественные площади, лесопарк и спортивные здания имеют отдельные условия. При мероприятиях возможны ограничения конкретных проходов.",
+        "sources": [
+          "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202512/t20251202_4315958.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Метка обозначает комплекс, а не конкретные ворота. Доступ на площади и билеты внутрь стадионов — разные вещи; мероприятия могут менять проход."
@@ -11672,11 +12354,13 @@
       ],
       "provenance": {
         "sources": [
-          "https://english.visitbeijing.com.cn/article/47OLkurttKy"
+          "https://english.visitbeijing.com.cn/article/47OLkurttKy",
+          "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202512/t20251202_4315958.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
-      }
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Общий олимпийский ансамбль и общественные прогулочные зоны. Билеты и расписание соседних спортивных зданий указаны в их отдельных карточках."
     }
   },
   {
@@ -11806,37 +12490,46 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "7–8 ноября — утром до 12:00 для входа; с 9 ноября возможен более поздний визит по объявленному режиму.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "6–8 ноября 2026: 10:00–13:00, вход до 12:00. С 9 ноября: 10:00–22:00, вход до 21:00 по объявлению оператора.",
+        "sources": [
+          "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202611/t20261103_4930633.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Официальный панорамный тур 100 CNY за взрослого: внутренние уровни, крыша и Golden Hall. Вид снаружи — без покупки этого билета.",
+        "sources": [
+          "https://www.n-s.cn/en/article_9aaad1dffa21419485c6d7b046b62ce4.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Покупайте выбранную программу через официальную билетную систему «巢票» со страницы стадиона. Концерт и осмотр — разные билеты.",
+        "sources": [
+          "https://www.n-s.cn/"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "6–8 ноября из-за концертов сокращено туристическое посещение и закрыта подземная парковка. Осмотр фасада не даёт входа внутрь.",
+        "sources": [
+          "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202611/t20261103_4930633.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
-        "Экскурсии и вход внутрь зависят от расписания и событий; проверяйте объявления стадиона перед поездкой."
+        "Экскурсии и вход внутрь зависят от расписания и событий; проверяйте объявления стадиона перед поездкой.",
+        "Для поездки 7–14 ноября 2026: 7 и 8 ноября туристический вход только до 12:00; с 9 ноября объявлено восстановление обычного режима. Даты относятся к конкретному объявлению."
       ],
       "arrival": {
         "address": null,
@@ -11851,10 +12544,12 @@
       ],
       "provenance": {
         "sources": [
-          "https://www.n-s.cn/"
+          "https://www.n-s.cn/",
+          "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202611/t20261103_4930633.html",
+          "https://www.n-s.cn/en/article_9aaad1dffa21419485c6d7b046b62ce4.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -11991,28 +12686,36 @@
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "По объявлению от 2 сентября 2026: 10:30–21:00, вход до 20:00; касса до 19:50, начало освобождения залов 20:30.",
+        "sources": [
+          "https://www.water-cube.com/newsInfo_eb045c8840c74b6689a9a4033eef7e4c.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Обычный осмотр 30 CNY; осмотр со световым шоу «水之光» — 48 CNY, когда шоу проводится. Плавание и аквапарк — отдельно.",
+        "sources": [
+          "https://www.water-cube.com/info_b30efae0c3094314869db7da57f2a152_page2.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "На официальной странице есть QR-код покупки; билеты продаёт также касса. Выбирайте осмотр или осмотр со шоу.",
+        "sources": [
+          "https://www.water-cube.com/info_b30efae0c3094314869db7da57f2a152_page2.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Фасад снаружи и платная экскурсионная зона — разные сценарии. Билет на осмотр не включает плавание, каток или аквапарк.",
+        "sources": [
+          "https://www.water-cube.com/info_b30efae0c3094314869db7da57f2a152_page2.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Осмотр, плавание, аквапарк и ледовые программы могут иметь отдельные билеты и часы работы. Уточняйте нужный формат на сайте центра."
@@ -12030,10 +12733,12 @@
       ],
       "provenance": {
         "sources": [
-          "https://www.water-cube.com/"
+          "https://www.water-cube.com/",
+          "https://www.water-cube.com/info_b30efae0c3094314869db7da57f2a152_page2.html",
+          "https://www.water-cube.com/newsInfo_eb045c8840c74b6689a9a4033eef7e4c.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -12185,34 +12890,42 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём ради озера и лесных маршрутов; возвращение планируйте с учётом длины выбранной петли.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "15 марта–15 ноября: 06:00–22:00, вход до 21:00. 16 ноября–14 марта: 06:00–21:00, вход до 20:00.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260320_4562517.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход в парк бесплатный; прокат и дополнительные услуги оплачиваются отдельно.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260320_4562517.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "В городском реестре парк указан как бесплатный и не требующий предварительной записи.",
+        "sources": [
+          "https://yllhj.beijing.gov.cn/ggfw/bjsggml/zhgy/cyq/202206/t20220614_2740317.shtml"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Открыты парковые прогулочные зоны; отдельные прокаты и программы не входят в бесплатный вход.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260320_4562517.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Выбирайте вход и длину маршрута заранее: парк большой, прогулка вокруг озера и переход между частями занимают разное время."
@@ -12229,10 +12942,11 @@
       ],
       "provenance": {
         "sources": [
-          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260320_4562517.html"
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260320_4562517.html",
+          "https://yllhj.beijing.gov.cn/ggfw/bjsggml/zhgy/cyq/202206/t20220614_2740317.shtml"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -12385,28 +13099,35 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём ради парка и соседних культурных зданий; у каждого здания свой выходной.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "По городскому культурному каталогу: ноябрь–март 07:00–21:00, апрель–октябрь 06:30–21:30.",
+        "sources": [
+          "https://www.bjszwhg.org.cn/detail/13570"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход на прогулочную территорию бесплатный; кафе, развлечения и отдельные программы оплачиваются отдельно.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/leisure/568"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
+        "status": "not_applicable",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://english.beijing.gov.cn/specials/greenway2026/mbldjtyl/202606/t20260603_4684412.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Обычная прогулка не является билетом в три соседних культурных здания. Для них и отдельных мероприятий оформляются собственные записи."
       },
       "access": {
         "status": "documented",
@@ -12417,7 +13138,8 @@
         "checkedAt": "2026-11-02"
       },
       "considerations": [
-        "Это отдельная поездка в Тунчжоу. Расстояния большие; экологическое ядро не является обычной прогулочной зоной. Выбирайте открытые дорожки и вход ближе к нужным культурным зданиям."
+        "Это отдельная поездка в Тунчжоу. Расстояния большие; экологическое ядро не является обычной прогулочной зоной. Выбирайте открытые дорожки и вход ближе к нужным культурным зданиям.",
+        "Городской гайд 2026 описывает зелёный маршрут как круглосуточный, а культурный каталог даёт сезонные часы парка. Для всего парка показан более ограниченный режим; отдельные входы уточняйте на месте."
       ],
       "arrival": {
         "address": null,
@@ -12433,10 +13155,13 @@
       ],
       "provenance": {
         "sources": [
-          "https://www.beijing.gov.cn/renwen/zt/stbj/sp/yq/202305/t20230509_3090969.html"
+          "https://www.beijing.gov.cn/renwen/zt/stbj/sp/yq/202305/t20230509_3090969.html",
+          "https://www.bjszwhg.org.cn/detail/13570",
+          "https://r.visitbeijing.com.cn/leisure/568",
+          "https://english.beijing.gov.cn/specials/greenway2026/mbldjtyl/202606/t20260603_4684412.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -12567,36 +13292,43 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "К открытию 09:30 в день работы; при покупке сразу выберите нужные зоны и кинопоказы.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
         "status": "documented",
-        "value": "По имеющимся сведениям, обычно закрыт по понедельникам; праздники проверяйте отдельно.",
+        "value": "Вт–вс 09:30–17:00; понедельник — выходной, кроме праздничных изменений. Детские сеансы: 09:30–12:50 и 13:40–17:00.",
         "sources": [
-          "https://english.beijing.gov.cn/travellinginbeijing/museums/202603/t20260323_4563774.html"
+          "https://www.cstm.org.cn/ykfw/yygp/index.html",
+          "https://www.cstm.org.cn/"
         ],
-        "checkedAt": "2026-11-02"
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Основная экспозиция: обычный взрослый билет 30 CNY. Детская зона и специальные кинотеатры — отдельные билеты по 30 CNY за сеанс.",
+        "sources": [
+          "https://www.cstm.org.cn/ykfw/yygp/index.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Обязателен именной онлайн-билет через сайт/официальный WeChat, включая бесплатные категории. Продажа за 7 дней в 18:00.",
+        "sources": [
+          "https://www.cstm.org.cn/ykfw/yygp/index.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Возьмите документ, указанный при покупке. Билеты разных зон и утренний/дневной детские сеансы не взаимозаменяемы.",
+        "sources": [
+          "https://www.cstm.org.cn/ykfw/yygp/index.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Обычно закрыт по понедельникам, кроме отдельных праздничных периодов. Проверяйте бронирование и требования к документам; театры и отдельные экспозиции могут требовать разных билетов."
@@ -12613,10 +13345,12 @@
       ],
       "provenance": {
         "sources": [
-          "https://english.beijing.gov.cn/travellinginbeijing/museums/202603/t20260323_4563774.html"
+          "https://english.beijing.gov.cn/travellinginbeijing/museums/202603/t20260323_4563774.html",
+          "https://www.cstm.org.cn/ykfw/yygp/index.html",
+          "https://www.cstm.org.cn/"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -12747,36 +13481,42 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Под конкретный кинопоказ с запасом на выставки; вторник не планируйте без праздничного объявления.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
         "status": "documented",
-        "value": "По имеющимся сведениям, обычный выходной — вторник; сеансы уточняйте отдельно.",
+        "value": "Пн, ср–вс 09:00–16:30, вход до 16:00. По вторникам закрыт, кроме официальных праздников.",
         "sources": [
           "https://www.bjp.org.cn/en/Tourist%20Guide/Opening%20Hours/index.shtml"
         ],
-        "checkedAt": "2026-11-02"
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Выставочные залы 10 CNY. Планетарные залы A / Space Theatre B — 45 CNY, 3D / 4D — 30 CNY за показ; билет на показ включает выставочные залы.",
+        "sources": [
+          "https://www.bjp.org.cn/cgzn/pwxx/index.shtml"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Именная покупка в WeChat 北京天文馆 на 3 дня, включая текущий. Театральный билет включает выставочные залы; для льгот нужны документы.",
+        "sources": [
+          "https://www.bjp.org.cn/cgzn/pwxx/index.shtml"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Вход через восточные двери с досмотром, выход через северные. Возьмите документ и QR-код; язык программы уточняйте при выборе сеанса.",
+        "sources": [
+          "https://www.bjp.org.cn/cgzn/pwxx/index.shtml"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Выходной по обычному расписанию — вторник. Заранее уточняйте сеансы, язык показа и состав билета: вход в экспозицию и фильмы могут оформляться отдельно."
@@ -12791,10 +13531,12 @@
       "combineWith": [],
       "provenance": {
         "sources": [
-          "https://www.bjp.org.cn/en/Tourist%20Guide/Opening%20Hours/index.shtml"
+          "https://www.bjp.org.cn/en/Tourist%20Guide/Opening%20Hours/index.shtml",
+          "https://www.bjp.org.cn/",
+          "https://www.bjp.org.cn/cgzn/pwxx/index.shtml"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -12925,34 +13667,42 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "Днём; субботняя продлённая работа позволяет оставить первый этаж на вечер.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Ноябрь–март: вт–пт и вс 09:00–17:00, вход до 16:30. В субботу первый этаж до 19:00, вход до 18:00; пн закрыт.",
+        "sources": [
+          "https://www.sina.cn/news/detail/5360138132128544.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Основное посещение бесплатно и запись бесплатна; билеты на коммерческие киносеансы — отдельная покупка.",
+        "sources": [
+          "https://news.bjd.com.cn/2026/10/04/11983762.shtml"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "booking": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Официальная бесплатная именная запись через каналы музея. Музей не уполномочивал сторонние компании продавать входные билеты.",
+        "sources": [
+          "https://news.bjd.com.cn/2026/10/04/11983762.shtml"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Продление субботы относится к первому этажу; этажи 2–4 закрываются в 17:00. Кинотеатры работают по расписанию сеансов.",
+        "sources": [
+          "https://www.sina.cn/news/detail/5360138132128544.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Проверяйте текущие открытые залы и расписание. Выставки и киносеансы могут иметь разные условия посещения; путь от 798 лучше оценивать как отдельный переезд."
@@ -12967,10 +13717,13 @@
       "combineWith": [],
       "provenance": {
         "sources": [
-          "https://www.cnfm.org.cn/"
+          "https://www.cnfm.org.cn/",
+          "https://www.sina.cn/news/detail/5360138132128544.html",
+          "https://english.beijing.gov.cn/consuminginbeijing/onedayinbeijing/museums/updatesofmuseums/202306/t20230601_3119121.html",
+          "https://news.bjd.com.cn/2026/10/04/11983762.shtml"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   },
@@ -13023,34 +13776,45 @@
         "checkedAt": null
       },
       "bestTime": {
-        "status": "unknown",
-        "value": null,
+        "status": "estimate",
+        "value": "В день, когда можно выделить несколько часов; сначала подтвердите пакет, длительность и питание.",
         "sources": [],
         "checkedAt": null
       },
       "hours": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Карточка Trip.com указывает круглосуточную работу. Водные зоны, питание и услуги могут иметь отдельный график.",
+        "sources": [
+          "https://you.ctrip.com/sight/beijing1/136010176.html"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "cost": {
         "status": "unknown",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.amap.com/place/B000A85XU0",
+          "https://you.ctrip.com/sight/beijing1/136010176.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Актуальная цена зависит от пакета и даты. Перед оплатой уточните длительность, питание и доплату за ночь по +86 10 87799999."
       },
       "booking": {
         "status": "unknown",
         "value": null,
-        "sources": [],
-        "checkedAt": null
+        "sources": [
+          "https://www.amap.com/place/B000A85XU0"
+        ],
+        "checkedAt": "2026-11-06",
+        "note": "Условия покупки и необходимость предварительной записи именно этого филиала уточняйте по +86 10 87799999. Не переносите правила тяньцзиньского филиала."
       },
       "access": {
-        "status": "unknown",
-        "value": null,
-        "sources": [],
-        "checkedAt": null
+        "status": "documented",
+        "value": "Нужен пекинский филиал: 北京市朝阳区高碑店乡半壁店村西店村9号. Сверяйте название и телефон +86 10 87799999 — у сети есть другие объекты.",
+        "sources": [
+          "https://www.amap.com/place/B000A85XU0"
+        ],
+        "checkedAt": "2026-11-06"
       },
       "considerations": [
         "Адрес: 北京市朝阳区高碑店乡半壁店村西店村9号. Перед поездкой уточняйте длительность пакета, включённое питание, доплату за ночь и платные процедуры. У других заведений с похожим названием могут быть другие условия."
@@ -13066,10 +13830,11 @@
       "provenance": {
         "sources": [
           "https://www.amap.com/place/B000A85XU0",
-          "https://www.trip.com/travel-guide/attraction/beijing/no-9-hot-spring-lifestyle-pavilion-136010176"
+          "https://www.trip.com/travel-guide/attraction/beijing/no-9-hot-spring-lifestyle-pavilion-136010176",
+          "https://you.ctrip.com/sight/beijing1/136010176.html"
         ],
-        "checkedAt": "2026-11-02",
-        "basis": "existing-project"
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
       }
     }
   }

@@ -2,10 +2,10 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readCity} from '../scripts/validate.mjs';
 import {validateData} from '../data-contract.js';
-import {filterPoints,matchesPoint} from '../taxonomy.js';
+import {availableTags,filterPoints,matchesPoint} from '../taxonomy.js';
 const data=await readCity(new URL('../../beijing/data/city.json',import.meta.url));
 const ctx={...data,categoryMap:new Map(data.categories.map(c=>[c.id,c])),pointMap:new Map(data.points.map(p=>[p.id,p]))};
-const empty={group:'',category:'',subtype:'',tag:'',query:''},ids=filters=>filterPoints(ctx.points,{...empty,...filters},ctx).map(p=>p.id);
+const empty={group:'',category:'',subtype:'',tags:[],query:''},ids=filters=>filterPoints(ctx.points,{...empty,...filters},ctx).map(p=>p.id);
 test('all current places have one category, while planned categories may be empty',()=>{
  assert.equal(ids({category:'animals'}).length,2);assert.equal(ctx.categories.length,12);assert.equal(ctx.points.length,79);
  assert.equal(ids({category:'history'}).length,9);assert.equal(ids({category:'nature'}).length,8);assert.equal(ids({category:'urban'}).length,13);assert.equal(ids({category:'art'}).length,6);assert.equal(ids({category:'hotel'}).length,11);assert.equal(ids({category:'museum'}).length,7);
@@ -16,10 +16,43 @@ test('walk filter spans categories and preserves all existing walk assessments',
  assert.equal(ctx.points.filter(p=>p.walk).length,31);assert.equal(ctx.pointMap.get('K').categoryId,'art');assert.ok(ctx.pointMap.get('K').walk);
 });
 test('group, category, subtype, feature and multilingual search combine',()=>{
- assert.deepEqual(ids({group:'walk',category:'nature',tag:'water',query:'Liangma'}),['E']);
+ assert.deepEqual(ids({group:'walk',category:'nature',tags:['water'],query:'Liangma'}),['E']);
  assert.deepEqual(ids({query:'亮马河'}),['E']);assert.deepEqual(ids({query:'Forbidden City'}),['1']);assert.deepEqual(ids({query:'Запретный'}),['1']);
  assert.deepEqual(ids({category:'history',subtype:'temple'}),['3','7','8']);
  assert.deepEqual(ids({category:'hotel',query:'H10'}),['H10']);assert.deepEqual(ids({query:'нет-такого-места'}),[]);
+});
+test('multiple quick tags match any selected tag without repeating places',()=>{
+ const points=[
+  {...ctx.points[0],id:'coffee',tags:['coffee']},
+  {...ctx.points[0],id:'water',tags:['water']},
+  {...ctx.points[0],id:'both',tags:['coffee','water']},
+  {...ctx.points[0],id:'neither',tags:[]},
+ ];
+ const selected=tags=>filterPoints(points,{tags},ctx).map(p=>p.id);
+ assert.deepEqual(selected(['coffee']),['coffee','both']);
+ assert.deepEqual(selected(['coffee','water']),['coffee','water','both']);
+ assert.deepEqual(selected(['water']),['water','both']);
+ assert.deepEqual(selected([]),['coffee','water','both','neither']);
+ const filtered=filterPoints(points,{tags:['coffee','water'],query:'both'},ctx);
+ assert.deepEqual(filtered.map(p=>p.id),['both']);
+ assert.deepEqual(filterPoints(points,{tags:['coffee','water'],category:'hotel'},ctx),[]);
+});
+test('quick tags count places once, omit unused tags and sort by popularity then label',()=>{
+ const tags=availableTags([{tags:['art','coffee']},{tags:['art','water']},{tags:['coffee','coffee']},{tags:[]}],ctx);
+ assert.deepEqual(tags.map(({id,count})=>({id,count})),[{id:'art',count:2},{id:'coffee',count:2},{id:'water',count:1}]);
+ assert.deepEqual(availableTags([],ctx),[]);
+});
+test('both cities expose every used card tag with a stable city-wide count',async()=>{
+ for(const city of ['beijing','shenzhen']){
+  const context=await readCity(new URL(`../../${city}/data/city.json`,import.meta.url));
+  const tags=availableTags(context.points,context),used=new Set(context.points.flatMap(p=>p.tags));
+  assert.deepEqual(new Set(tags.map(t=>t.id)),used);
+  for(let i=0;i<tags.length;i++){
+   const tag=tags[i];assert.equal(tag.count,context.points.filter(p=>p.tags.includes(tag.id)).length);
+   assert.equal(tag.label,context.city.taxonomy.tags[tag.id]);
+   if(i)assert.ok(tags[i-1].count>=tag.count);
+  }
+ }
 });
 test('category changes do not remove a walk assessment or hotel renderer',()=>{
  const c=structuredClone({city:data.city,trip:data.trip,categories:data.categories,points:data.points});

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "city": "beijing",
-  "version": "eab26e82945b5bbbf763670b",
-  "createdAt": "2026-11-06T10:57:40.108Z",
-  "bytes": 131008693,
+  "version": "1219bcfdc7071695dfa4907d",
+  "createdAt": "2026-11-06T11:14:05.272Z",
+  "bytes": 131009896,
   "map": {
     "style": "./offline/map-20261102/style.json",
     "bounds": [
@@ -19,8 +19,8 @@
   "files": [
     {
       "url": "/beijing/",
-      "bytes": 6516,
-      "sha256": "8f324fb7479f5d9cb637fe9423062dc18dc696280b2f1397b26595b7bed14135"
+      "bytes": 6672,
+      "sha256": "515de5499072c7704f03549cbef3155d74bc9158a9b671ed1bd87287cdf58893"
     },
     {
       "url": "/beijing/app-icons/apple-touch-icon.png",
@@ -3214,8 +3214,8 @@
     },
     {
       "url": "/beijing/index.html",
-      "bytes": 6516,
-      "sha256": "8f324fb7479f5d9cb637fe9423062dc18dc696280b2f1397b26595b7bed14135"
+      "bytes": 6672,
+      "sha256": "515de5499072c7704f03549cbef3155d74bc9158a9b671ed1bd87287cdf58893"
     },
     {
       "url": "/beijing/offline/map-20261102/FONT-CJK-LICENSE.txt",
@@ -7339,8 +7339,8 @@
     },
     {
       "url": "/travel-map/filters-ui.js",
-      "bytes": 4612,
-      "sha256": "13a5ba5b2dd55937fb4eb15b2bd1bd9ebf655c79c779762390a7579a500b233f"
+      "bytes": 4801,
+      "sha256": "4096d77b96bdd963e8ae7639239be06a74e7e65b4772359a2d1c56fd7e1c8a93"
     },
     {
       "url": "/travel-map/format.js",
@@ -7449,8 +7449,8 @@
     },
     {
       "url": "/travel-map/styles/map-page.css",
-      "bytes": 9039,
-      "sha256": "8b0db2ff3ef553c8bf7948ae4f09607e238f199e9a52ab50ed5595feef576cd5"
+      "bytes": 9034,
+      "sha256": "0633a1eaaa1189c9c36a60a5803fd1950202ffb5cc34bb07de8293d1443f5e3d"
     },
     {
       "url": "/travel-map/styles/offline.css",
@@ -7469,8 +7469,8 @@
     },
     {
       "url": "/travel-map/styles/taxonomy.css",
-      "bytes": 2273,
-      "sha256": "584ff2b09313a53efbd1e7fbb147e126694aaf2c0cdcfef0b0388f19dcb2a6f5"
+      "bytes": 2541,
+      "sha256": "bf4fa868b1fbd7c862b364f69f9580c8355e10285a862b0fe6ce1f7b8d3d75c0"
     },
     {
       "url": "/travel-map/styles/theme.css",
@@ -7484,8 +7484,8 @@
     },
     {
       "url": "/travel-map/taxonomy.js",
-      "bytes": 1285,
-      "sha256": "b8518fcfa8610976bf3529b3588ec5e96a8b9587e2023ee74c2035022ccdd74e"
+      "bytes": 1724,
+      "sha256": "e5e7399705c0bd7649a2f257d643a731e2fc0fc14dfdf75270352e11af9ae5bf"
     },
     {
       "url": "/travel-map/vendor/maplibre-5.6.1/LICENSE.txt",

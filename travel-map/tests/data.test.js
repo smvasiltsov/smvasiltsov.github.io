@@ -35,7 +35,7 @@ const cases=[
 for(const [name,mutate]of cases)test('rejects '+name,()=>{const c=copy();mutate(c);assert.ok(validateData(c).length);});
 test('new generic category and point require data changes only',()=>{
  const c=copy();c.categories.push({id:'market',label:'Рынок',listLabel:'Рынки',groupId:'shop',icon:'shopping'});
- c.points.push({id:'F1',categoryId:'market',name:'Рынок',description:'Описание',coord:[116.4,39.9],photos:[],cardType:'place',subtype:'historic-street',tags:['shopping'],aliases:['Market'],parentId:null});assert.deepEqual(validateData(c),[]);
+ c.points.push({id:'F1',categoryId:'market',name:'Рынок',description:'Описание',coord:[116.4,39.9],photos:[],cardType:'place',subtype:'historic-street',tags:['shopping'],aliases:['Market'],parentId:null,visit:structuredClone(c.points[0].visit)});assert.deepEqual(validateData(c),[]);
 });
 test('trip length, currency and score rules come from configuration',()=>{
  const c=copy();c.trip.checkOut='2026-11-10';c.trip.currency='USD';c.city.assessment.hotel.price.currency='USD';

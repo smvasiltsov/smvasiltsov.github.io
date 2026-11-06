@@ -1,4 +1,5 @@
 import {nights} from './format.js';
+import {validateVisit} from './visit-contract.js';
 const text = x => typeof x === 'string' && x.trim().length > 0;
 const finite = x => typeof x === 'number' && Number.isFinite(x);
 const validDate = x => { try { return /^\d{4}-\d{2}-\d{2}$/.test(x) && new Date(x+'T00:00:00Z').toISOString().startsWith(x); } catch { return false; } };
@@ -67,6 +68,7 @@ export function validateData({city, trip, categories, points} = {}) {
   }
   for(const point of points){
     if(!point)continue;
+    if(point.cardType==='place')errors.push(...validateVisit(point.visit,'point '+point.id+'.visit',new Set(pointMap.keys()),point.id));
     check(point.parentId===null||(text(point.parentId)&&pointMap.has(point.parentId)&&point.parentId!==point.id),'point '+point.id+'.parentId','known parent or null required');
     const visited=new Set([point.id]);let parent=pointMap.get(point.parentId);
     while(parent){if(visited.has(parent.id)){errors.push('point '+point.id+'.parentId: cycle');break;}visited.add(parent.id);parent=pointMap.get(parent.parentId);}

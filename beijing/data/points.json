@@ -121,7 +121,68 @@
     "aliases": [
       "Forbidden City",
       "Palace Museum"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Главный дворцовый ансамбль Пекина: парадные дворы, императорские залы и красные стены.",
+      "activities": [
+        "Пройти по центральной оси дворца",
+        "Посмотреть парадные залы и дворы",
+        "Заглянуть в боковые дворы"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "3–5 часов",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Императорский дворец; точка внутри комплекса.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "2"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "2",
@@ -244,7 +305,68 @@
     ],
     "aliases": [
       "Jingshan Park"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Короткая прогулка на холм ради панорамы крыш Запретного города.",
+      "activities": [
+        "Подняться к верхнему павильону",
+        "Рассмотреть дворцовые крыши и центральную ось",
+        "Прогуляться по дорожкам парка"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "45–90 минут",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Панорама Запретного города.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "1"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "3",
@@ -369,7 +491,66 @@
     "aliases": [
       "Temple of Heaven",
       "Tiantan"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Императорская храмовая архитектура и большая парковая прогулка в одном месте.",
+      "activities": [
+        "Посмотреть Зал молитв об урожае",
+        "Пройти по аллеям храмового комплекса",
+        "Понаблюдать за повседневной жизнью парка"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Храмовый комплекс и парк.",
+        "coordinateSource": null
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "4",
@@ -494,7 +675,66 @@
     "aliases": [
       "Summer Palace",
       "Yiheyuan"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Дворцы, павильоны и прогулки вокруг озера Куньмин — место для отдельного неспешного выезда.",
+      "activities": [
+        "Пройти вдоль озера Куньмин",
+        "Рассмотреть крытые галереи, павильоны и мосты",
+        "Выбрать маршрут с видами на холм Долголетия"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "3–5 часов",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Дворцы, сады и озеро Куньмин.",
+        "coordinateSource": null
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "5",
@@ -618,7 +858,69 @@
     "aliases": [
       "Shichahai",
       "Houhai"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Озёра старого Пекина, хутуны и кафе: удобно гулять без жёсткого маршрута.",
+      "activities": [
+        "Пройти вдоль озёр",
+        "Свернуть в хутуны у Хоухая",
+        "Остановиться в кафе и посмотреть вечерние виды"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1,5–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Ближе к вечеру, если хочется видов у воды.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир для прогулки, а не граница района.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "6",
+        "B"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "6",
@@ -741,7 +1043,69 @@
     "aliases": [
       "Drum Tower",
       "Gulou"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Историческая башня и окружающие переулки — удобный ориентир для прогулки по старому центру.",
+      "activities": [
+        "Рассмотреть Барабанную башню",
+        "Посмотреть соседнюю Колокольную башню",
+        "Пройти по расходящимся от башен переулкам"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "30–60 минут снаружи",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Башня и окружающие хутуны.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "5",
+        "B"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "7",
@@ -864,7 +1228,70 @@
     "aliases": [
       "Lama Temple",
       "Yonghegong"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Действующий тибетско-буддийский храм с выразительными залами и последовательностью дворов.",
+      "activities": [
+        "Пройти через храмовые дворы",
+        "Рассмотреть архитектуру и оформление залов",
+        "Соединить посещение с прогулкой по храмовому району"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Ламаистский храм рядом с Wudaoying.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "8",
+        "9",
+        "A"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "8",
@@ -986,7 +1413,70 @@
     ],
     "aliases": [
       "Confucius Temple"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Спокойные храмовые дворы и каменные стелы для знакомства с традицией китайской учёности.",
+      "activities": [
+        "Пройти по дворам храма",
+        "Рассмотреть каменные стелы",
+        "Продолжить знакомство с храмовым районом у академии"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "45–90 минут",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Храмовый комплекс у улицы Guozijian.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "9",
+        "7",
+        "A"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "9",
@@ -1114,7 +1604,70 @@
     "aliases": [
       "Imperial Academy",
       "Guozijian"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Бывшая Императорская академия: историческая архитектура и традиция классического образования.",
+      "activities": [
+        "Рассмотреть ансамбль академии",
+        "Познакомиться с темой классического образования",
+        "Прогуляться по улице Гоцзыцзянь"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "45–90 минут",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Гоцзыцзянь, рядом с храмом Конфуция.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "8",
+        "7",
+        "A"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "10",
@@ -1243,7 +1796,70 @@
     ],
     "aliases": [
       "Qianmen Street"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Парадная торговая улица старого Пекина с продолжением в более камерных переулках.",
+      "activities": [
+        "Пройти по пешеходной торговой улице",
+        "Посмотреть ворота у северного начала района",
+        "Свернуть в соседние торговые переулки"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Пешеходная улица; ориентир для начала прогулки.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "11",
+        "12",
+        "SH3"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "11",
@@ -1373,7 +1989,70 @@
     "aliases": [
       "Dashilan",
       "Dashilar"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Исторические вывески и торговые переулки: интереснее сворачивать с главного прохода.",
+      "activities": [
+        "Рассмотреть старые торговые вывески",
+        "Зайти в магазины традиционных брендов",
+        "Сравнить оживлённые проходы с жилыми хутунами"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Торговые переулки рядом с Qianmen.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "10",
+        "12",
+        "H"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "12",
@@ -1484,7 +2163,70 @@
     ],
     "aliases": [
       "Xianyukou"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Короткая гастрономическая остановка во время прогулки по Цяньмэнь и Дашиланю.",
+      "activities": [
+        "Пройти по гастрономической улице",
+        "Посмотреть традиционные пекинские заведения",
+        "Выбрать закусочную для обеда"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "30–60 минут без долгого обеда",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Улица еды; ориентир у западной части.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "10",
+        "11",
+        "I"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "13",
@@ -1594,7 +2336,71 @@
     ],
     "aliases": [
       "Tiananmen Square"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Монументальная площадь на центральной оси города; порядок доступа нужно уточнить заранее.",
+      "activities": [
+        "Осмотреть пространство площади",
+        "Рассмотреть ворота Тяньаньмэнь",
+        "Связать посещение с музеем или дворцовым маршрутом"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "45–90 минут без очередей",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Перед посещением проверьте условия доступа и предварительной регистрации."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Центральная площадь.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "14",
+        "1"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "14",
@@ -1705,7 +2511,70 @@
     ],
     "aliases": [
       "National Museum of China"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Большой музей для знакомства с историей Китая через археологию и искусство.",
+      "activities": [
+        "Выбрать исторические экспозиции",
+        "Посмотреть археологические находки",
+        "Выделить время на интересующие коллекции искусства"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–4 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Перед посещением проверьте выставки и порядок регистрации на официальном сайте."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Музей на восточной стороне площади.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "13"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "15",
@@ -1836,7 +2705,70 @@
     ],
     "aliases": [
       "798 Art District"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Бывшие промышленные корпуса, галереи и инсталляции для знакомства с творческим Пекином.",
+      "activities": [
+        "Пройти между промышленными корпусами",
+        "Выбрать действующие галереи и выставки",
+        "Посмотреть инсталляции, дизайн-магазины и кафе"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–4 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Программа отдельных галерей и выставочных пространств меняется."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Галереи, дизайн и индустриальная архитектура.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "CU5"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "16",
@@ -1967,7 +2899,66 @@
     "aliases": [
       "Mutianyu",
       "Great Wall"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Отдельная загородная поездка ради башен и горных панорам Великой стены.",
+      "activities": [
+        "Выбрать участок прогулки по стене",
+        "Рассмотреть башни на горных хребтах",
+        "Остановиться ради панорам"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "3–5 часов на месте, без дороги из Пекина",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка обозначает район Мутяньюй. Для поездки уточните нужный вход.",
+        "coordinateSource": null
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "A",
@@ -2088,7 +3079,70 @@
     ],
     "aliases": [
       "Wudaoying Hutong"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Компактный хутун для спокойной прогулки по кафе, мастерским и небольшим магазинам.",
+      "activities": [
+        "Пройти по улице Удаоин",
+        "Заглянуть в мастерские и небольшие магазины",
+        "Сделать паузу в кофейне"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "45–90 минут",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир для прогулки, а не граница района.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "7",
+        "8",
+        "9"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "B",
@@ -2210,7 +3264,69 @@
     "aliases": [
       "Gulou",
       "Beiluoguxiang"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Сеть переулков с кафе, барами и локальными магазинами, где можно долго менять маршрут.",
+      "activities": [
+        "Пройти по Beiluoguxiang",
+        "Сворачивать в соседние переулки",
+        "Выбрать небольшое кафе, бар или локальный магазин"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–4 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир для прогулки, а не граница района.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "6",
+        "5"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "C",
@@ -2331,7 +3447,68 @@
     ],
     "aliases": [
       "Sanlitun"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Современная мода, магазины и вечерняя городская жизнь вокруг Taikoo Li.",
+      "activities": [
+        "Пройти по торговым пространствам Taikoo Li",
+        "Посмотреть витрины и городскую архитектуру",
+        "Выбрать кафе или ресторан для вечерней остановки"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Ближе к вечеру ради городской атмосферы.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир для прогулки, а не граница района.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "SH1"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "D",
@@ -2452,7 +3629,68 @@
     ],
     "aliases": [
       "Longfusi"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Сочетание обновлённых культурных пространств, кафе и старых улиц Dongsi.",
+      "activities": [
+        "Осмотреть обновлённые городские пространства",
+        "Посмотреть работающие культурные площадки",
+        "Продолжить прогулку по старым переулкам Dongsi"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Фотографии показывают праздничное оформление февраля 2026 года, а не постоянную обстановку."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир для прогулки, а не граница района.",
+        "coordinateSource": null
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "E",
@@ -2574,7 +3812,68 @@
       "Liangma River Waterfront",
       "Liangmahe",
       "亮马河"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Прогулка вдоль воды, мостов и современных зданий, особенно интересная к вечеру.",
+      "activities": [
+        "Пройти вдоль Лянмахэ",
+        "Рассмотреть мосты и здания у воды",
+        "Выбрать участок для вечерней прогулки"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2,5 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Ближе к вечеру ради прогулки вдоль воды.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": "У Liangmaqiao; дальше можно идти вдоль реки.",
+        "note": "Метка — ориентир для прогулки, а не граница района.",
+        "coordinateSource": null
+      },
+      "combineWith": [
+        "SH6"
+      ],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "F",
@@ -2721,7 +4020,68 @@
     ],
     "aliases": [
       "Langyuan Station"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Архитектура бывших складов и творческие площадки для отдельной фотопрогулки.",
+      "activities": [
+        "Пройти между бывшими складскими зданиями",
+        "Рассмотреть промышленную архитектуру",
+        "Выбрать работающую площадку или кафе"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1,5–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Программа культурных событий меняется."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир для прогулки, а не граница района.",
+        "coordinateSource": null
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "G",
@@ -2842,7 +4202,66 @@
     "aliases": [
       "Baitasi",
       "White Pagoda"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Белая пагода, хутуны и небольшие кафе для спокойной прогулки по старому Пекину.",
+      "activities": [
+        "Рассмотреть белую пагоду храма Мяоин",
+        "Пройти по соседним хутунам",
+        "Сделать остановку в небольшом кафе"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир для прогулки, а не граница района.",
+        "coordinateSource": null
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "H",
@@ -2973,7 +4392,72 @@
     ],
     "aliases": [
       "Yangmeizhu Xiejie"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Книжные, кафе и дизайнерские магазины на короткой улице с продолжением в хутунах.",
+      "activities": [
+        "Пройти по Янмэйчжу",
+        "Заглянуть в книжные и дизайнерские магазины",
+        "Продолжить маршрут по Tieshu Xiejie и Yingtao Xiejie"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2,5 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир для прогулки, а не граница района.",
+        "coordinateSource": "https://www.openstreetmap.org/way/30749235"
+      },
+      "combineWith": [
+        "11",
+        "SH3",
+        "I"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.visitbeijing.com.cn/article/4PQ2YR76lkR"
+        ],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "I",
@@ -3125,7 +4609,72 @@
     "aliases": [
       "Sanlihe Park",
       "Sanli River"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Камерный маршрут у воды и мостиков среди хутунов возле Цяньмэня.",
+      "activities": [
+        "Пройти вдоль воды",
+        "Рассмотреть мостики и окружающие хутуны",
+        "Выбрать кафе для короткой остановки"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "45–90 минут",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир для прогулки, а не граница района.",
+        "coordinateSource": "https://mapcarta.com/W859951315"
+      },
+      "combineWith": [
+        "12",
+        "10",
+        "H"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.beijing.gov.cn/fwcj/chang/094ba075819d97194f353fad1f81c4e5.html"
+        ],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "J",
@@ -3227,7 +4776,68 @@
     "aliases": [
       "Longtan Zhonghu Park",
       "Longtan Central Lake Park"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Спокойная прогулка вокруг центрального озера с историческим колесом обозрения.",
+      "activities": [
+        "Выбрать прогулочную петлю у озера",
+        "Посмотреть сохранённое колесо обозрения",
+        "Сделать паузу с кофе"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир для прогулки, а не граница района.",
+        "coordinateSource": "https://zh.wikipedia.org/wiki/北京游乐园"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://yllhj.beijing.gov.cn/ggfw/bjsggml/zhgy/dcq/202206/t20220614_2740267.shtml"
+        ],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "K",
@@ -3277,7 +4887,70 @@
     ],
     "aliases": [
       "Yongyuan"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Небольшой культурный кластер ради ремёсел и дизайна; насыщенность визита зависит от программы.",
+      "activities": [
+        "Рассмотреть бывшие фабричные здания",
+        "Выбрать работающие мастерские",
+        "Проверить выставку или мастер-класс перед поездкой"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "30–90 минут",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Перед отдельной поездкой проверьте работающие площадки, выставки и мастер-классы."
+      ],
+      "arrival": {
+        "address": "永生巷4号",
+        "metro": null,
+        "start": null,
+        "note": "Положение метки приблизительное; точный вход уточняйте в AMap.",
+        "coordinateSource": "https://map.beijing.gov.cn/correction/655342a74817df6f8d6f7d6a?categoryId=whlvtyjd"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://r1.visitbeijing.com.cn/vbj-s/pdf/BaseManual/BaseManual_50.pdf"
+        ],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "L",
@@ -3390,7 +5063,72 @@
     ],
     "aliases": [
       "Guantan Terrace"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Короткая остановка на террасе с видом на Храм Неба, если площадка доступна.",
+      "activities": [
+        "Уточнить доступ на террасу пятого этажа",
+        "Посмотреть в сторону Храма Неба",
+        "Выделить время на чтение или кафе"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "20–60 минут",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Доступ на террасу, часы работы и условия посещения нужно уточнить у площадки."
+      ],
+      "arrival": {
+        "address": "天坛路9号 · рынок Хунцяо, пятый этаж",
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир для прогулки, а не граница района.",
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Entrance_lobby_of_Hongqiao_Market_(20200803132932).jpg"
+      },
+      "combineWith": [
+        "3"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.beijing.gov.cn/fwcj/chang/094ba075819d97194f353fad1f81c4e5.html"
+        ],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "M",
@@ -3520,7 +5258,70 @@
     ],
     "aliases": [
       "Fangzhuang"
-    ]
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Прогулка ради ужина и местной городской жизни вокруг Pufang Road и Fanggu Road.",
+      "activities": [
+        "Пройти по Pufang Road и Fanggu Road",
+        "Посмотреть район у Fangzhuang Shopping Centre",
+        "Выбрать место для ужина"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "45–90 минут",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Летний фестиваль не входит в описание постоянной гастрономической прогулки."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир для прогулки, а не граница района.",
+        "coordinateSource": "https://www.openstreetmap.org/way/256696822"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://www.bjft.gov.cn/ftq/jxdt/202404/079392334f234d59b49cfd90c11dfafe.shtml"
+        ],
+        "checkedAt": null,
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "H1",
@@ -5113,7 +6914,74 @@
     "coordinateSource": "https://www.openstreetmap.org/way/568979330",
     "coordinateMethod": "WGS84: центр геометрии/карточка объекта OpenStreetMap, не GCJ-02",
     "visitNote": "Это действующий офисный комплекс. Осмотр фасада и разрешённых общественных зон; доступ в атриум и правила съёмки внутри уточняйте у охраны, не рассчитывайте на свободный подъём на офисные этажи.",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-02",
+    "visit": {
+      "version": 1,
+      "summary": "Скульптурная башня Zaha Hadid Architects; главный интерес — архитектура, а доступ внутрь ограничен.",
+      "activities": [
+        "Рассмотреть закрученные объёмы снаружи",
+        "Сравнить силуэт с разных сторон",
+        "Уточнить возможность осмотра атриума и общественных зон"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "30–60 минут снаружи",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Осмотр фасада и разрешённых общественных зон; доступ в атриум нужно уточнять.",
+        "sources": [
+          "https://classic.sohochina.com/en/news-media/43515",
+          "https://www.bollinger-grohmann.com/en.projects.leeza-soho.html"
+        ],
+        "checkedAt": "2026-11-02"
+      },
+      "considerations": [
+        "Это действующий офисный комплекс. Осмотр фасада и разрешённых общественных зон; доступ в атриум и правила съёмки внутри уточняйте у охраны, не рассчитывайте на свободный подъём на офисные этажи."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Это действующий офисный комплекс. Осмотр фасада и разрешённых общественных зон; доступ в атриум и правила съёмки внутри уточняйте у охраны, не рассчитывайте на свободный подъём на офисные этажи.",
+        "coordinateSource": "https://www.openstreetmap.org/way/568979330"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://classic.sohochina.com/en/news-media/43515",
+          "https://www.bollinger-grohmann.com/en.projects.leeza-soho.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "AR2",
@@ -5253,6 +7121,73 @@
         "https://www.zha.com/projects/architecture/galaxy-soho?disclaimer=true",
         "https://www.sohochinaoffice.com/?lang=en"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Плавные объёмы, мосты и дворы Zaha Hadid Architects лучше рассматривать в движении.",
+      "activities": [
+        "Обойти округлые корпуса",
+        "Посмотреть мосты и переходы из открытых зон",
+        "Пройти через общественные дворы и торговые уровни"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "30–60 минут",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Общественные дворы и торговые уровни; офисные зоны ограничены.",
+        "sources": [
+          "https://www.zha.com/projects/architecture/galaxy-soho?disclaimer=true",
+          "https://www.sohochinaoffice.com/?lang=en"
+        ],
+        "checkedAt": "2026-11-02"
+      },
+      "considerations": [
+        "Для прогулки ориентируйтесь на общественные дворы и торговые уровни. Офисные зоны не являются туристическим маршрутом; доступ к отдельным переходам может ограничиваться."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Для прогулки ориентируйтесь на общественные дворы и торговые уровни. Офисные зоны не являются туристическим маршрутом; доступ к отдельным переходам может ограничиваться.",
+        "coordinateSource": "https://www.openstreetmap.org/relation/6096147"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://www.zha.com/projects/architecture/galaxy-soho?disclaimer=true",
+          "https://www.sohochinaoffice.com/?lang=en"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -5393,6 +7328,73 @@
         "https://www.zha.com/projects/architecture/wangjing-soho?disclaimer=true",
         "https://www.sohochinaoffice.com/?lang=en"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Три округлые башни и пространства между ними для архитектурной прогулки по Ванцзину.",
+      "activities": [
+        "Рассмотреть силуэт трёх башен",
+        "Пройти по общественной площади",
+        "Посмотреть торговую улицу и озеленённые участки"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "30–60 минут",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Прогулка вокруг комплекса и в открытых общественных зонах; офисные этажи не включены.",
+        "sources": [
+          "https://www.zha.com/projects/architecture/wangjing-soho?disclaimer=true",
+          "https://www.sohochinaoffice.com/?lang=en"
+        ],
+        "checkedAt": "2026-11-02"
+      },
+      "considerations": [
+        "Рассчитывайте на прогулку вокруг комплекса и по открытым общественным зонам. Это офисно-торговой объект; посещение офисных этажей не включено."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Рассчитывайте на прогулку вокруг комплекса и по открытым общественным зонам. Это офисно-торговой объект; посещение офисных этажей не включено.",
+        "coordinateSource": "https://www.openstreetmap.org/way/1145074158"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://www.zha.com/projects/architecture/wangjing-soho?disclaimer=true",
+          "https://www.sohochinaoffice.com/?lang=en"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -5536,6 +7538,74 @@
         "https://english.beijing.gov.cn/investinginbeijing/InvestmentSpecial/INV_BJ_CBD/",
         "https://english.beijing.gov.cn/latest/news/202507/t20250723_4155973.html"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Район небоскрёбов для архитектурного маршрута с отдельными остановками у знаковых зданий.",
+      "activities": [
+        "Посмотреть группу небоскрёбов у Гомао",
+        "Выделить остановки у CCTV и China Zun",
+        "Сделать крытую паузу в China World Mall"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Метка — ориентир района Гомао, а не вход в здание и не граница CBD. Смотровые площадки и доступ внутрь конкретных башен не подразумеваются: их нужно проверять отдельно."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир района Гомао, а не вход в здание и не граница CBD. Смотровые площадки и доступ внутрь конкретных башен не подразумеваются: их нужно проверять отдельно.",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Beijing_central_business_district"
+      },
+      "combineWith": [
+        "AR5",
+        "AR6",
+        "SH9"
+      ],
+      "provenance": {
+        "sources": [
+          "https://english.beijing.gov.cn/investinginbeijing/InvestmentSpecial/INV_BJ_CBD/",
+          "https://english.beijing.gov.cn/latest/news/202507/t20250723_4155973.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -5654,7 +7724,77 @@
     "coordinateSource": "https://www.openstreetmap.org/relation/7820447",
     "coordinateMethod": "WGS84: центр геометрии/карточка объекта OpenStreetMap, не GCJ-02",
     "visitNote": "Действующий телевизионный и офисный комплекс. Основной сценарий — осмотр снаружи из разрешённых общественных мест. Не путайте с отдельным TVCC и с Центральной телебашней на западе Пекина.",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-02",
+    "visit": {
+      "version": 1,
+      "summary": "Пространственная петля OMA — выразительная наружная остановка на маршруте по CBD.",
+      "activities": [
+        "Рассмотреть наклонные башни",
+        "Найти ракурс большой консоли",
+        "Сравнить форму здания с разных общественных точек"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "20–40 минут снаружи",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Основной сценарий — осмотр снаружи из разрешённых общественных мест.",
+        "sources": [
+          "https://www.oma.com/projects/cctv-headquarters",
+          "https://www.arup.com/projects/china-central-television-headquarters/"
+        ],
+        "checkedAt": "2026-11-02"
+      },
+      "considerations": [
+        "Действующий телевизионный и офисный комплекс. Основной сценарий — осмотр снаружи из разрешённых общественных мест. Не путайте с отдельным TVCC и с Центральной телебашней на западе Пекина."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Действующий телевизионный и офисный комплекс. Основной сценарий — осмотр снаружи из разрешённых общественных мест. Не путайте с отдельным TVCC и с Центральной телебашней на западе Пекина.",
+        "coordinateSource": "https://www.openstreetmap.org/relation/7820447"
+      },
+      "combineWith": [
+        "AR6",
+        "SH9"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.oma.com/projects/cctv-headquarters",
+          "https://www.arup.com/projects/china-central-television-headquarters/"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "AR6",
@@ -5772,7 +7912,77 @@
     "coordinateSource": "https://www.openstreetmap.org/way/599547918",
     "coordinateMethod": "WGS84: центр геометрии/карточка объекта OpenStreetMap, не GCJ-02",
     "visitNote": "Основной сценарий — осмотр снаружи. Башня служит корпоративной штаб-квартирой; подтверждённого туристического подъёма на общедоступную смотровую площадку в этой карточке нет.",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-02",
+    "visit": {
+      "version": 1,
+      "summary": "Высотный ориентир CBD с силуэтом ритуального сосуда; карточка предполагает осмотр снаружи.",
+      "activities": [
+        "Рассмотреть сужение и расширение башни",
+        "Найти общий ракурс с соседними небоскрёбами",
+        "Соединить остановку с маршрутом по Гомао"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "20–40 минут снаружи",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Осмотр снаружи; туристический подъём на общедоступную смотровую не подтверждён.",
+        "sources": [
+          "https://www.kpf.com/project/citic-tower-china-zun",
+          "https://english.beijing.gov.cn/investinginbeijing/investment_transaction_promotion/commercial_facilities/202306/t20230621_3143048.html"
+        ],
+        "checkedAt": "2026-11-02"
+      },
+      "considerations": [
+        "Основной сценарий — осмотр снаружи. Башня служит корпоративной штаб-квартирой; подтверждённого туристического подъёма на общедоступную смотровую площадку в этой карточке нет."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Основной сценарий — осмотр снаружи. Башня служит корпоративной штаб-квартирой; подтверждённого туристического подъёма на общедоступную смотровую площадку в этой карточке нет.",
+        "coordinateSource": "https://www.openstreetmap.org/way/599547918"
+      },
+      "combineWith": [
+        "AR5",
+        "SH9"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.kpf.com/project/citic-tower-china-zun",
+          "https://english.beijing.gov.cn/investinginbeijing/investment_transaction_promotion/commercial_facilities/202306/t20230621_3143048.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "AR7",
@@ -5891,7 +8101,71 @@
     "coordinateSource": "https://www.openstreetmap.org/relation/3134678",
     "coordinateMethod": "WGS84: центр геометрии/карточка объекта OpenStreetMap, не GCJ-02",
     "visitNote": "Это работающий медиакомплекс. Интерьер открывают по программам посещения и мероприятий; перед отдельной поездкой проверьте актуальный доступ. Наружная фотография не означает свободного входа внутрь.",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-02",
+    "visit": {
+      "version": 1,
+      "summary": "Медиацентр с необычной стальной оболочкой; посещение интерьера зависит от программы.",
+      "activities": [
+        "Рассмотреть внешнюю сетку здания",
+        "Сравнить изгибы оболочки с разных ракурсов",
+        "Проверить программу доступа к внутренним пространствам"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "30–60 минут снаружи",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Это работающий медиакомплекс. Интерьер открывают по программам посещения и мероприятий; перед отдельной поездкой проверьте актуальный доступ. Наружная фотография не означает свободного входа внутрь."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Это работающий медиакомплекс. Интерьер открывают по программам посещения и мероприятий; перед отдельной поездкой проверьте актуальный доступ. Наружная фотография не означает свободного входа внутрь.",
+        "coordinateSource": "https://www.openstreetmap.org/relation/3134678"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://www.kone.cn/en/stories-and-references/references/phoenix-international-media-center.aspx",
+          "https://english.visitbeijing.com.cn/article/47OOVRxUQYU"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "AR8",
@@ -6012,7 +8286,71 @@
     "coordinateSource": "https://www.openstreetmap.org/way/4974233",
     "coordinateMethod": "WGS84: центр геометрии/карточка объекта OpenStreetMap, не GCJ-02",
     "visitNote": "Внешний осмотр и посещение интерьера — разные сценарии. Для экскурсионного посещения и спектакля проверяйте отдельные билеты, расписание и правила входа на официальном сайте; наличие фотографии зала не гарантирует доступ туда во время обычного визита.",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-02",
+    "visit": {
+      "version": 1,
+      "summary": "Титаново-стеклянная оболочка среди воды: архитектурный осмотр можно дополнить спектаклем.",
+      "activities": [
+        "Рассмотреть овальный объём и отражения",
+        "Посмотреть доступную выставочную программу",
+        "Выбрать экскурсионный визит или спектакль"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "30–60 минут снаружи; спектакль отдельно",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Внешний осмотр и посещение интерьера — разные сценарии. Для экскурсионного посещения и спектакля проверяйте отдельные билеты, расписание и правила входа на официальном сайте; наличие фотографии зала не гарантирует доступ туда во время обычного визита."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Внешний осмотр и посещение интерьера — разные сценарии. Для экскурсионного посещения и спектакля проверяйте отдельные билеты, расписание и правила входа на официальном сайте; наличие фотографии зала не гарантирует доступ туда во время обычного визита.",
+        "coordinateSource": "https://www.openstreetmap.org/way/4974233"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://en.chncpa.org/",
+          "https://en.chncpa.org/ddh/visitinfo/"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "slug": "taikoo",
@@ -6153,6 +8491,71 @@
       "sources": [
         "https://www.swireproperties.com/en/portfolio/current-developments/taikoo-li-sanlitun/"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Открытый торговый комплекс для прогулки по современной архитектуре и витринам.",
+      "activities": [
+        "Пройти между отдельными корпусами",
+        "Посмотреть площади и витрины",
+        "Выбрать магазин или ресторан"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Метка — южная часть комплекса. Северная часть и отдельные здания могут меняться из-за реконструкции; уточняйте доступ к нужному магазину."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — южная часть комплекса. Северная часть и отдельные здания могут меняться из-за реконструкции; уточняйте доступ к нужному магазину.",
+        "coordinateSource": "https://www.openstreetmap.org/way/127291184"
+      },
+      "combineWith": [
+        "C"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.swireproperties.com/en/portfolio/current-developments/taikoo-li-sanlitun/"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -6293,6 +8696,69 @@
       "sources": [
         "https://english.beijing.gov.cn/specials/beijinglifeonthesubway/landmarksalongthesubwaylines/line1/202206/t20220624_2750302.html"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Оживлённая торговая улица с пешеходными участками, универмагами и моллами.",
+      "activities": [
+        "Пройти по пешеходным участкам",
+        "Посмотреть витрины универмагов",
+        "Выбрать торговый центр для остановки"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Метка — ориентир на улице, не её граница. Не все боковые улочки и торговые центры имеют одинаковый режим работы."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир на улице, не её граница. Не все боковые улочки и торговые центры имеют одинаковый режим работы.",
+        "coordinateSource": "https://www.openstreetmap.org/way/33612197"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://english.beijing.gov.cn/specials/beijinglifeonthesubway/landmarksalongthesubwaylines/line1/202206/t20220624_2750302.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -6389,6 +8855,74 @@
         "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202401/t20240119_3539744.html",
         "https://english.visitbeijing.com.cn/article/4RoXswn7nWR"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Компактный квартал исторических фасадов, книжных и кафе возле Дашиланя.",
+      "activities": [
+        "Пройти по переулкам квартала",
+        "Рассмотреть восстановленные фасады",
+        "Зайти в PAGEONE или выбрать кафе"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Общие улицы, магазины и отдельные культурные площадки — разные форматы посещения. Новые части квартала и конкретные выставки проверяйте отдельно."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Общие улицы, магазины и отдельные культурные площадки — разные форматы посещения. Новые части квартала и конкретные выставки проверяйте отдельно.",
+        "coordinateSource": "https://www.openstreetmap.org/way/1016649062"
+      },
+      "combineWith": [
+        "CU2",
+        "10",
+        "H"
+      ],
+      "provenance": {
+        "sources": [
+          "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202401/t20240119_3539744.html",
+          "https://english.visitbeijing.com.cn/article/4RoXswn7nWR"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -6531,6 +9065,69 @@
       "sources": [
         "https://english.beijing.gov.cn/travellinginbeijing/citytours/202407/t20240702_3735041.html"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Магазины, стрит-культура и яркие фасады в обновлённом комплексе Чаовая.",
+      "activities": [
+        "Рассмотреть яркие фасады",
+        "Посмотреть молодые бренды",
+        "Проверить текущие мероприятия и общественные площадки"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "45–90 минут",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Метка относится к комплексу. Выставки, спортивные площадки и отдельные магазины могут иметь собственные условия доступа; не рассчитывайте на случайное мероприятие как на постоянную экспозицию."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка относится к комплексу. Выставки, спортивные площадки и отдельные магазины могут иметь собственные условия доступа; не рассчитывайте на случайное мероприятие как на постоянную экспозицию.",
+        "coordinateSource": "https://www.openstreetmap.org/way/1148415659"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/citytours/202407/t20240702_3735041.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -6674,6 +9271,70 @@
         "https://english.bjchy.gov.cn/node/245",
         "https://www.rlb.com/asia/projects/parkview-green-fangcaodi/"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Архитектура и арт-объекты под прозрачной оболочкой — вариант для плохой погоды.",
+      "activities": [
+        "Рассмотреть внутреннее пространство комплекса",
+        "Посмотреть произведения искусства в общих зонах",
+        "Пройти по витринам и выбрать текущую выставку"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Подходит для дня с плохой погодой: основные впечатления внутри.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Произведения искусства в общих зонах и отдельная музейная/выставочная программа — разные части посещения. Проверяйте текущую экспозицию и правила фотосъёмки."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Произведения искусства в общих зонах и отдельная музейная/выставочная программа — разные части посещения. Проверяйте текущую экспозицию и правила фотосъёмки.",
+        "coordinateSource": "https://www.openstreetmap.org/way/156297801"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://english.bjchy.gov.cn/node/245",
+          "https://www.rlb.com/asia/projects/parkview-green-fangcaodi/"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -6815,6 +9476,71 @@
       "sources": [
         "https://english.beijing.gov.cn/travellinginbeijing/commercialareas/202603/t20260325_4566094.html"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Открытые торговые улицы и рестораны у воды для спокойного продолжения дня.",
+      "activities": [
+        "Пройти по открытым улицам и площадям",
+        "Посмотреть доступные выходы к воде",
+        "Выбрать ресторан или вечернюю остановку"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Ближе к вечеру как продолжение прогулки у воды.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Метка — ориентир в комплексе, а не вход в парк Чаоян или причал. Подсветка, сезонные украшения и мероприятия меняются; режим конкретных заведений проверяйте отдельно."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир в комплексе, а не вход в парк Чаоян или причал. Подсветка, сезонные украшения и мероприятия меняются; режим конкретных заведений проверяйте отдельно.",
+        "coordinateSource": "https://www.openstreetmap.org/way/359741619"
+      },
+      "combineWith": [
+        "E"
+      ],
+      "provenance": {
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/commercialareas/202603/t20260325_4566094.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -6926,6 +9652,70 @@
         "https://english.beijing.gov.cn/latest/news/202505/t20250526_4097889.html",
         "https://www.biad.com.cn/view/id/229/"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Обновлённый квартал с историческими дворами, современными магазинами и остановками на еду.",
+      "activities": [
+        "Пройти по переулкам квартала",
+        "Сравнить восстановленные дворы с новыми пространствами",
+        "Выбрать магазин или место для еды"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "45–90 минут",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Метка — ориентир в большом квартале. Исторические здания, художественные площадки и магазины могут открываться по разным правилам; весь комплекс не является единым музеем."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир в большом квартале. Исторические здания, художественные площадки и магазины могут открываться по разным правилам; весь комплекс не является единым музеем.",
+        "coordinateSource": "https://www.openstreetmap.org/relation/13334106"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://english.beijing.gov.cn/latest/news/202505/t20250526_4097889.html",
+          "https://www.biad.com.cn/view/id/229/"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -6988,6 +9778,70 @@
       "sources": [
         "https://english.beijing.gov.cn/consuminginbeijing/wheretobuy/commercialareas/updatesofcommercialareas/202608/t20260827_4838982.html"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Короткая прогулочная остановка на Wangjing Walk с магазинами и пространствами отдыха.",
+      "activities": [
+        "Осмотреть обновлённые общественные зоны",
+        "Пройти по Wangjing Walk",
+        "Проверить работающие магазины и события"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "45–90 минут",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Метка — ориентир комплекса на Wangjing Walk. Проверяйте действующие входы и программу: обновлённый V-HUB открылся в 2026 году.",
+        "Свободно лицензированные фотографии обновлённого комплекса пока не найдены. Официальная фотоподборка доступна по ссылке; она требует интернета."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир комплекса на Wangjing Walk. Проверяйте действующие входы и программу: обновлённый V-HUB открылся в 2026 году.",
+        "coordinateSource": "https://ditu.amap.com/place/B000A9KC58"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://english.beijing.gov.cn/consuminginbeijing/wheretobuy/commercialareas/updatesofcommercialareas/202608/t20260827_4838982.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -7128,6 +9982,72 @@
       "sources": [
         "https://www.cwtc.com/en/gmsc.html?_wap=1"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Большой крытый торговый комплекс для паузы во время прогулки по небоскрёбам Гомао.",
+      "activities": [
+        "Пройти по связанным торговым зонам",
+        "Посмотреть магазины и рестораны",
+        "Сделать крытую остановку на маршруте по CBD"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Метка — ориентир комплекса, который занимает несколько корпусов и уровней. Видовые рестораны и террасы не означают свободный проход на верхние этажи офисных башен."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир комплекса, который занимает несколько корпусов и уровней. Видовые рестораны и террасы не означают свободный проход на верхние этажи офисных башен.",
+        "coordinateSource": "https://www.openstreetmap.org/node/2418894058"
+      },
+      "combineWith": [
+        "AR5",
+        "AR6"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.cwtc.com/en/gmsc.html?_wap=1"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -7247,7 +10167,77 @@
       "beijing-library",
       "Beijing City Library"
     ],
-    "url": "https://www.snohetta.com/projects/beijing-library"
+    "url": "https://www.snohetta.com/projects/beijing-library",
+    "visit": {
+      "version": 1,
+      "summary": "Библиотека с террасами для чтения и колоннами-кронами — сильная архитектурная остановка.",
+      "activities": [
+        "Рассмотреть «долину» террас",
+        "Посмотреть колонны с кронами",
+        "Выделить время на чтение в разрешённых зонах"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Действующая библиотека: соблюдайте тишину, отдельные залы могут иметь ограничения.",
+        "sources": [
+          "https://www.snohetta.com/projects/beijing-library",
+          "https://english.beijing.gov.cn/beijinginfo/culture/culturecalendar/information/202401/t20240112_3534215.html"
+        ],
+        "checkedAt": "2026-11-02"
+      },
+      "considerations": [
+        "Это действующая библиотека: соблюдайте тишину; правила входа, бронирования и доступ в отдельные залы проверяйте перед поездкой."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": null,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/Category:Beijing_Library"
+      },
+      "combineWith": [
+        "CU3",
+        "CU4"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.snohetta.com/projects/beijing-library",
+          "https://english.beijing.gov.cn/beijinginfo/culture/culturecalendar/information/202401/t20240112_3534215.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "slug": "pageone-beijing-fun",
@@ -7283,7 +10273,75 @@
     ],
     "url": "https://english.visitbeijing.com.cn/article/4EvQgznw3OE",
     "photoGalleryUrl": "https://english.visitbeijing.com.cn/article/4EvQgznw3OE",
-    "photoGalleryLabel": "Фотографии на сайте источника ↗"
+    "photoGalleryLabel": "Фотографии на сайте источника ↗",
+    "visit": {
+      "version": 1,
+      "summary": "Книжный атриум и виды из окон верхних этажей в филиале PAGEONE в Beijing Fun.",
+      "activities": [
+        "Рассмотреть книжный атриум",
+        "Пройти по книжным этажам",
+        "Найти доступный вид на башню Чжэнъянмэнь"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "30–60 минут",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "На карте нужен именно филиал Beijing Fun, корпус E11: у PAGEONE есть другие магазины в Пекине. Часы работы уточняйте у филиала.",
+        "Свободно лицензированные фотографии именно этого объекта не найдены; не заменять снимками другого филиала или соседнего района."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": "Beijing Fun, корпус E11.",
+        "note": null,
+        "coordinateSource": "https://www.openstreetmap.org/way/477732087"
+      },
+      "combineWith": [
+        "SH3",
+        "10"
+      ],
+      "provenance": {
+        "sources": [
+          "https://english.visitbeijing.com.cn/article/4EvQgznw3OE",
+          "https://english.beijing.gov.cn/foreignersinbeijing/beijingthroughforeignerslens/202303/t20230302_2927343.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "slug": "beijing-art-center",
@@ -7402,7 +10460,74 @@
       "beijing-art-center",
       "Beijing Art Center"
     ],
-    "url": "https://en.chncpa.org/aboutus/"
+    "url": "https://en.chncpa.org/aboutus/",
+    "visit": {
+      "version": 1,
+      "summary": "Театральная архитектура с мотивами Великого канала и отдельной сценической программой.",
+      "activities": [
+        "Рассмотреть три объёма здания",
+        "Сравнить фасады с разных сторон",
+        "Выбрать концерт, спектакль или доступную экскурсию"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "30–60 минут снаружи; представление отдельно",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Посещение залов и спектаклей зависит от программы; билет на концерт и экскурсия по зданию — разные варианты посещения. Уточняйте бронирование на сайте комплекса."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": null,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/Category:Beijing_Performing_Arts_Centre"
+      },
+      "combineWith": [
+        "CU1",
+        "CU4"
+      ],
+      "provenance": {
+        "sources": [
+          "https://en.chncpa.org/aboutus/",
+          "https://english.beijing.gov.cn/beijinginfo/culture/culturecalendar/information/202401/t20240112_3534215.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "slug": "grand-canal-museum",
@@ -7521,7 +10646,74 @@
       "grand-canal-museum",
       "Beijing Grand Canal Museum"
     ],
-    "url": "https://english.visitbeijing.com.cn/article/4NsYEVnsgeS"
+    "url": "https://english.visitbeijing.com.cn/article/4NsYEVnsgeS",
+    "visit": {
+      "version": 1,
+      "summary": "Архитектура лодки, паруса и воды и музейная история Великого канала.",
+      "activities": [
+        "Рассмотреть здания и стеклянную галерею",
+        "Выбрать экспозицию о Великом канале",
+        "Совместить осмотр с культурными зданиями Тунчжоу"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Не путайте с главным Capital Museum в центре Пекина. Условия входа, необходимость бронирования и временные выставки проверяйте у музея."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": null,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/Category:The_Grand_Canal_Museum_of_Beijing"
+      },
+      "combineWith": [
+        "CU1",
+        "CU3"
+      ],
+      "provenance": {
+        "sources": [
+          "https://english.visitbeijing.com.cn/article/4NsYEVnsgeS",
+          "https://www.capitalmuseum.org.cn/"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "slug": "751-dpark",
@@ -7581,6 +10773,73 @@
         "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563864.html",
         "https://english.beijing.gov.cn/specials/2021beijingdesignweek/publicactivities/designhop/throughoutbeijing/202109/t20210924_2501261.html"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Промышленные башни и трубы бывшего газового завода как продолжение арт-маршрута у 798.",
+      "activities": [
+        "Рассмотреть промышленные башни и трубы",
+        "Найти старые железнодорожные элементы",
+        "Выбрать действующую выставку или дизайн-событие"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Общественные пространства и отдельные выставки имеют разные условия доступа; мероприятия могут требовать билета или регистрации.",
+        "Свободно лицензированные фотографии именно этого объекта не найдены; не заменять снимками другого филиала или соседнего района."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Ориентир на улице 751北路 в промышленном ансамбле, не вход в конкретную выставку.",
+        "coordinateSource": "https://www.openstreetmap.org/way/1130879766"
+      },
+      "combineWith": [
+        "15"
+      ],
+      "provenance": {
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563864.html",
+          "https://english.beijing.gov.cn/specials/2021beijingdesignweek/publicactivities/designhop/throughoutbeijing/202109/t20210924_2501261.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -7723,6 +10982,73 @@
         "https://english.bjsjs.gov.cn/2026exploreshijingshan/experience/202606/t20260602_762091.html",
         "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Большой индустриальный ландшафт для отдельной прогулки по бывшему сталелитейному комбинату.",
+      "activities": [
+        "Выбрать маршрут между промышленными объектами",
+        "Посмотреть доменные печи снаружи",
+        "Продолжить к озёрам или олимпийскому трамплину"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "3–5 часов",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Расстояния внутри большие. Территория парка, музеи, подъём на печь и спортивные объекты имеют отдельные условия посещения."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": null,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/Category:Shougang_Park"
+      },
+      "combineWith": [
+        "CU7",
+        "CU8"
+      ],
+      "provenance": {
+        "sources": [
+          "https://english.bjsjs.gov.cn/2026exploreshijingshan/experience/202606/t20260602_762091.html",
+          "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -7775,7 +11101,73 @@
       "shougang-no3-furnace",
       "Shougang No. 3 Blast Furnace"
     ],
-    "url": "https://english.bjsjs.gov.cn/homelatest/202512/t20251223_757148.html"
+    "url": "https://english.bjsjs.gov.cn/homelatest/202512/t20251223_757148.html",
+    "visit": {
+      "version": 1,
+      "summary": "Масштабная доменная печь и отдельная программа цифрового музея RE·.",
+      "activities": [
+        "Рассмотреть конструкцию печи снаружи",
+        "Уточнить доступ в цифровой музей",
+        "Выбрать XR-программу или доступные верхние уровни"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа, в зависимости от программы",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Музей, XR-программа и подъём на верхние уровни могут продаваться отдельно. До визита проверьте доступные зоны и ограничения; координата — подтверждённая WGS84-точка съёмки у фасада."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": null,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:No._3_Blast_Furnace_of_Shougang_Park_(20240916133522).jpg"
+      },
+      "combineWith": [
+        "CU8"
+      ],
+      "provenance": {
+        "sources": [
+          "https://english.bjsjs.gov.cn/homelatest/202512/t20251223_757148.html",
+          "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "slug": "big-air-shougang",
@@ -7843,7 +11235,73 @@
       "big-air-shougang",
       "Big Air Shougang"
     ],
-    "url": "https://english.bjsjs.gov.cn/exploringshijingshan/travel/202101/t20210129_37067.html"
+    "url": "https://english.bjsjs.gov.cn/exploringshijingshan/travel/202101/t20210129_37067.html",
+    "visit": {
+      "version": 1,
+      "summary": "Олимпийский трамплин на фоне градирен — необычная архитектурная остановка в Shougang.",
+      "activities": [
+        "Рассмотреть силуэт трамплина",
+        "Найти ракурс с градирнями",
+        "Включить остановку в маршрут по промышленному парку"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "20–40 минут снаружи",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Вид снаружи и вход внутрь спортивного объекта — разные варианты. Соревнования и мероприятия могут менять доступ на территорию."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": null,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/Category:Big_Air_Shougang"
+      },
+      "combineWith": [
+        "CU7"
+      ],
+      "provenance": {
+        "sources": [
+          "https://english.bjsjs.gov.cn/exploringshijingshan/travel/202101/t20210129_37067.html",
+          "https://english.beijing.gov.cn/specials/greenway2026/mbldwhdk/202606/t20260610_4694455.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "slug": "caochangdi",
@@ -7952,6 +11410,70 @@
         "https://www.threeshadows.cn/about/visit/",
         "https://www.threeshadows.cn/about/"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Разрозненный арт-район, куда стоит ехать ради конкретной выставки современной фотографии.",
+      "activities": [
+        "Проверить актуальную выставку Three Shadows",
+        "Посмотреть кирпичный двор арт-центра",
+        "Выбрать действующие площадки перед поездкой"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–2 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Часть известных галерей переехала: район стоит посещать под конкретную актуальную выставку, а не ожидать плотную прогулочную улицу как в 798. Фотографии здесь архивные; существование изображённых муралов сейчас не подтверждено."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Ориентир — комплекс Красный двор №1; выставки расположены по разным адресам района.",
+        "coordinateSource": "https://www.openstreetmap.org/way/987659179"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://www.threeshadows.cn/about/visit/",
+          "https://www.threeshadows.cn/about/"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -8087,6 +11609,74 @@
       "sources": [
         "https://english.visitbeijing.com.cn/article/47OLkurttKy"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Большие площади и спортивная архитектура олимпийского Пекина с продолжением в лесопарк.",
+      "activities": [
+        "Сравнить «Птичье гнездо» и «Водяной куб»",
+        "Пройти по открытым олимпийским площадям",
+        "Продолжить маршрут в лесопарк"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Метка обозначает комплекс, а не конкретные ворота. Доступ на площади и билеты внутрь стадионов — разные вещи; мероприятия могут менять проход."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир объекта, не обязательно точка входа.",
+        "coordinateSource": "https://www.openstreetmap.org/relation/14549539"
+      },
+      "combineWith": [
+        "PK2",
+        "PK3",
+        "PK4",
+        "MU1"
+      ],
+      "provenance": {
+        "sources": [
+          "https://english.visitbeijing.com.cn/article/47OLkurttKy"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -8200,7 +11790,73 @@
       "birds-nest"
     ],
     "parentId": "PK1",
-    "cardType": "place"
+    "cardType": "place",
+    "visit": {
+      "version": 1,
+      "summary": "Переплетённая стальная оболочка Национального стадиона; основной простой сценарий — наружный осмотр.",
+      "activities": [
+        "Рассмотреть переплетение стальных конструкций",
+        "Обойти доступные площади у стадиона",
+        "Сравнить стадион с «Водяным кубом»"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "30–60 минут снаружи",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Экскурсии и вход внутрь зависят от расписания и событий; проверяйте объявления стадиона перед поездкой."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир объекта, не обязательно точка входа.",
+        "coordinateSource": "https://www.openstreetmap.org/way/152301551"
+      },
+      "combineWith": [
+        "PK3",
+        "PK4"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.n-s.cn/"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "PK3",
@@ -8313,7 +11969,73 @@
       "water-cube"
     ],
     "parentId": "PK1",
-    "cardType": "place"
+    "cardType": "place",
+    "visit": {
+      "version": 1,
+      "summary": "«Пузырчатый» фасад олимпийского центра, который интересно сравнить со стадионом напротив.",
+      "activities": [
+        "Рассмотреть оболочку фасада",
+        "Посмотреть комплекс в паре с «Птичьим гнездом»",
+        "При желании выбрать отдельную водную или ледовую программу"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "30–60 минут снаружи; программы отдельно",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Вечером ради подсветки фасада; расписание программ проверяйте отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Осмотр, плавание, аквапарк и ледовые программы могут иметь отдельные билеты и часы работы. Уточняйте нужный формат на сайте центра."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир объекта, не обязательно точка входа.",
+        "coordinateSource": "https://www.openstreetmap.org/way/29201257"
+      },
+      "combineWith": [
+        "PK2",
+        "PK4"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.water-cube.com/"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "PK4",
@@ -8447,6 +12169,71 @@
       "sources": [
         "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260320_4562517.html"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Лесопарк с озером и длинными дорожками для спокойной прогулки на несколько часов.",
+      "activities": [
+        "Выбрать маршрут у озера",
+        "Пройти по зелёным дорожкам и холмам",
+        "Определить длину прогулки и удобный выход"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–4 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Выбирайте вход и длину маршрута заранее: парк большой, прогулка вокруг озера и переход между частями занимают разное время."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир объекта, не обязательно точка входа.",
+        "coordinateSource": "https://www.openstreetmap.org/way/33616744"
+      },
+      "combineWith": [
+        "PK1"
+      ],
+      "provenance": {
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260320_4562517.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -8582,6 +12369,75 @@
       "sources": [
         "https://www.beijing.gov.cn/renwen/zt/stbj/sp/yq/202305/t20230509_3090969.html"
       ]
+    },
+    "visit": {
+      "version": 1,
+      "summary": "Большой ландшафтный парк с возможностью совместить прогулку и новую культурную архитектуру.",
+      "activities": [
+        "Выбрать открытые парковые дорожки",
+        "Посмотреть ландшафт бывшей промышленной территории",
+        "Продолжить к библиотеке, арт-центру или музею"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "3–5 часов",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Выбирайте открытые дорожки; экологическое ядро не является обычной прогулочной зоной.",
+        "sources": [
+          "https://www.beijing.gov.cn/renwen/zt/stbj/sp/yq/202305/t20230509_3090969.html"
+        ],
+        "checkedAt": "2026-11-02"
+      },
+      "considerations": [
+        "Это отдельная поездка в Тунчжоу. Расстояния большие; экологическое ядро не является обычной прогулочной зоной. Выбирайте открытые дорожки и вход ближе к нужным культурным зданиям."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир объекта, не обязательно точка входа.",
+        "coordinateSource": "https://www.openstreetmap.org/way/779532223"
+      },
+      "combineWith": [
+        "CU1",
+        "CU3",
+        "CU4"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.beijing.gov.cn/renwen/zt/stbj/sp/yq/202305/t20230509_3090969.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
     }
   },
   {
@@ -8695,7 +12551,74 @@
       "science-museum"
     ],
     "parentId": "PK1",
-    "cardType": "place"
+    "cardType": "place",
+    "visit": {
+      "version": 1,
+      "summary": "Интерактивные экспозиции о физике, технике и космосе рядом с олимпийским комплексом.",
+      "activities": [
+        "Выбрать научные экспозиции",
+        "Посмотреть интерактивные эксперименты",
+        "Уточнить отдельные театральные и тематические программы"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–4 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "По имеющимся сведениям, обычно закрыт по понедельникам; праздники проверяйте отдельно.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/museums/202603/t20260323_4563774.html"
+        ],
+        "checkedAt": "2026-11-02"
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Обычно закрыт по понедельникам, кроме отдельных праздничных периодов. Проверяйте бронирование и требования к документам; театры и отдельные экспозиции могут требовать разных билетов."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир объекта, не обязательно точка входа.",
+        "coordinateSource": "https://www.openstreetmap.org/way/161298694"
+      },
+      "combineWith": [
+        "PK1"
+      ],
+      "provenance": {
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/museums/202603/t20260323_4563774.html"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "MU2",
@@ -8808,7 +12731,72 @@
       "planetarium"
     ],
     "parentId": null,
-    "cardType": "place"
+    "cardType": "place",
+    "visit": {
+      "version": 1,
+      "summary": "Астрономия и купольные кинозалы: визит лучше строить вокруг выбранного сеанса.",
+      "activities": [
+        "Посмотреть астрономические экспозиции",
+        "Выбрать купольный фильм",
+        "Заранее уточнить язык и состав программы"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1,5–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "По имеющимся сведениям, обычный выходной — вторник; сеансы уточняйте отдельно.",
+        "sources": [
+          "https://www.bjp.org.cn/en/Tourist%20Guide/Opening%20Hours/index.shtml"
+        ],
+        "checkedAt": "2026-11-02"
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Выходной по обычному расписанию — вторник. Заранее уточняйте сеансы, язык показа и состав билета: вход в экспозицию и фильмы могут оформляться отдельно."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир объекта, не обязательно точка входа.",
+        "coordinateSource": "https://www.openstreetmap.org/node/11233300438"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://www.bjp.org.cn/en/Tourist%20Guide/Opening%20Hours/index.shtml"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "MU3",
@@ -8921,7 +12909,70 @@
       "film-museum"
     ],
     "parentId": null,
-    "cardType": "place"
+    "cardType": "place",
+    "visit": {
+      "version": 1,
+      "summary": "История китайского кино и кинопроизводства в большом музейном здании.",
+      "activities": [
+        "Выбрать экспозиции по истории кино",
+        "Посмотреть материалы о съёмке и производстве фильмов",
+        "Проверить расписание киносеансов"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Проверяйте текущие открытые залы и расписание. Выставки и киносеансы могут иметь разные условия посещения; путь от 798 лучше оценивать как отдельный переезд."
+      ],
+      "arrival": {
+        "address": null,
+        "metro": null,
+        "start": null,
+        "note": "Метка — ориентир объекта, не обязательно точка входа.",
+        "coordinateSource": "https://www.openstreetmap.org/way/48915008"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://www.cnfm.org.cn/"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   },
   {
     "id": "SP1",
@@ -8956,6 +13007,70 @@
     "parentId": null,
     "cardType": "place",
     "photoGalleryUrl": "https://www.trip.com/travel-guide/attraction/beijing/no-9-hot-spring-lifestyle-pavilion-136010176",
-    "photoGalleryLabel": "Фотографии на сайте источника ↗"
+    "photoGalleryLabel": "Фотографии на сайте источника ↗",
+    "visit": {
+      "version": 1,
+      "summary": "Банный комплекс для длительного отдыха; состав впечатлений зависит от выбранного пакета.",
+      "activities": [
+        "Выбрать водные и парные зоны",
+        "Выделить время на отдых",
+        "Уточнить питание и процедуры в своём пакете"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "3–6 часов, по выбранному пакету",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "unknown",
+        "value": null,
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Адрес: 北京市朝阳区高碑店乡半壁店村西店村9号. Перед поездкой уточняйте длительность пакета, включённое питание, доплату за ночь и платные процедуры. У других заведений с похожим названием могут быть другие условия."
+      ],
+      "arrival": {
+        "address": "北京市朝阳区高碑店乡半壁店村西店村9号",
+        "metro": null,
+        "start": null,
+        "note": "Координаты именно указанного филиала; сверяйте полный китайский адрес.",
+        "coordinateSource": "https://www.openstreetmap.org/node/12594411001"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://www.amap.com/place/B000A85XU0",
+          "https://www.trip.com/travel-guide/attraction/beijing/no-9-hot-spring-lifestyle-pavilion-136010176"
+        ],
+        "checkedAt": "2026-11-02",
+        "basis": "existing-project"
+      }
+    }
   }
 ]

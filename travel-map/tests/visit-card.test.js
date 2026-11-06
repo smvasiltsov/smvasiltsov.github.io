@@ -9,8 +9,8 @@ const ids=new Set(context.points.map(p=>p.id));
 const errors=v=>validateVisit(v,'visit',ids,'1');
 const copy=()=>structuredClone(places[0].visit);
 
-test('all 64 places use the visit template without changing the hotel model',()=>{
-  assert.equal(places.length,64);
+test('all 68 places use the visit template without changing the hotel model',()=>{
+  assert.equal(places.length,68);
   for(const p of places){
     assert.deepEqual(validateVisit(p.visit,p.id,ids,p.id),[]);
     for(const key of practicalFields)assert.ok(Object.hasOwn(p.visit,key),p.id+': '+key);

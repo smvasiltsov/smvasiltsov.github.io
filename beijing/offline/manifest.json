@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "city": "beijing",
-  "version": "5109af90dd2bb2246bb131b8",
-  "createdAt": "2026-11-06T08:32:10.726Z",
-  "bytes": 130641016,
+  "version": "eab26e82945b5bbbf763670b",
+  "createdAt": "2026-11-06T10:57:40.108Z",
+  "bytes": 131008693,
   "map": {
     "style": "./offline/map-20261102/style.json",
     "bounds": [
@@ -51,6 +51,36 @@
       "url": "/beijing/app.webmanifest",
       "bytes": 786,
       "sha256": "8d4d44ce0f4cb4d4270f0188e24d4bb4fa3066cb51415b52f39a67938c3a1709"
+    },
+    {
+      "url": "/beijing/assets/photos/addition-MU4-thumb.jpg",
+      "bytes": 9733,
+      "sha256": "6a682571b5c757a3c2a927ced997cd72bdc7091928c4ea87f23c6ace5a311a18"
+    },
+    {
+      "url": "/beijing/assets/photos/addition-MU4.jpg",
+      "bytes": 57267,
+      "sha256": "59121f871a351bd9d42177795b8814c5ed06bcc3704b646e4a0b37d5d92ececd"
+    },
+    {
+      "url": "/beijing/assets/photos/addition-PK6-thumb.jpg",
+      "bytes": 15547,
+      "sha256": "a57120c38151c39a8dd4ab76fa6ef9513f4817a2b0c171c5d4fa2d3b83e761a2"
+    },
+    {
+      "url": "/beijing/assets/photos/addition-PK6.jpg",
+      "bytes": 154840,
+      "sha256": "01b4f3a30a2522c24b86fe0d305d08123676a70035bcbaefd8a0bf5c4f87178b"
+    },
+    {
+      "url": "/beijing/assets/photos/addition-SH10-thumb.jpg",
+      "bytes": 11091,
+      "sha256": "b49885fe06beacc3afa480f20fa340ceb46c462ff012434d65b53abb3131b1af"
+    },
+    {
+      "url": "/beijing/assets/photos/addition-SH10.jpg",
+      "bytes": 91456,
+      "sha256": "77aa33c4472f24d3217651aad206def9a15767db84d29a9ab6164b335548c360"
     },
     {
       "url": "/beijing/assets/places/1/01-thumb.webp",
@@ -3164,18 +3194,18 @@
     },
     {
       "url": "/beijing/data/categories.json",
-      "bytes": 1827,
-      "sha256": "c5cbe5b7afac5ccdcafcbb8163694e4afbd47867f4a52d532237cea2f5faeb0d"
+      "bytes": 2022,
+      "sha256": "f9b69b88995e822f825a8c20add55582164df99e56e45931fe60175e66602b35"
     },
     {
       "url": "/beijing/data/city.json",
-      "bytes": 9174,
-      "sha256": "8b09af5e58fa6887d3d5ee002fe6a38591b494c63162118d62e39b1685a99c17"
+      "bytes": 9300,
+      "sha256": "b37ed848a4ee16b567d37272718b3f0cfe051c91fad4c56bde444c48d7350dfe"
     },
     {
       "url": "/beijing/data/points.json",
-      "bytes": 747485,
-      "sha256": "aebd8b30a1ffeeced63ac38a600d78aa8e419d78bf6625be6554a88e84d7852b"
+      "bytes": 774907,
+      "sha256": "04f5c45f997ad9611e56ced643a4b76a8575b16b7598180bcbf1fc7f80d1fb3a"
     },
     {
       "url": "/beijing/data/trip.json",

@@ -13837,5 +13837,500 @@
         "basis": "source-review"
       }
     }
+  },
+  {
+    "id": "PK6",
+    "name": "Пекинский зоопарк / Beijing Zoo",
+    "localName": "北京动物园",
+    "coord": [
+      116.3295423,
+      39.941041
+    ],
+    "categoryId": "animals",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "zoo",
+    "tags": [
+      "family",
+      "park",
+      "walk"
+    ],
+    "aliases": [
+      "Пекинский зоопарк",
+      "Beijing Zoo",
+      "北京动物园",
+      "Beijing zoo and aquarium"
+    ],
+    "description": "Большой городской зоопарк у Сичжимэня: павильоны панд, крупные млекопитающие и прогулочные аллеи. В северной части расположен Beijing Aquarium с отдельным билетом.",
+    "visitNote": "Зоопарк и океанариум имеют разные билеты и часы работы. Сначала выберите пакет: билет океанариума включает однократное посещение обоих объектов.",
+    "locationNote": "Метка показывает территорию зоопарка по OSM, а не турникет. Для входа ориентируйтесь на южные ворота у метро 动物园.",
+    "sources": [
+      "https://english.beijing.gov.cn/specials/parktours/guidevisitors/beijingzoo/index.html",
+      "https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753328.html",
+      "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563860.html"
+    ],
+    "url": "https://www.bjzoo.com/",
+    "coordinateSource": "https://www.openstreetmap.org/way/29222967",
+    "checkedAt": "2026-11-06",
+    "photos": [
+      {
+        "src": "assets/photos/addition-PK6.jpg",
+        "thumbnail": "assets/photos/addition-PK6-thumb.jpg",
+        "width": 960,
+        "height": 640,
+        "author": "N509FZ",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gate_of_Beijing_Zoo_(20210219172711).jpg",
+        "caption": "Исторические ворота Пекинского зоопарка (2021)"
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Большой городской зоопарк у Сичжимэня: павильоны панд, крупные млекопитающие и прогулочные аллеи. В северной части расположен Beijing Aquarium с отдельным билетом.",
+      "activities": [
+        "Посмотреть панд, выбрав билет с павильоном Panda House",
+        "Пройти по аллеям к павильонам жирафов, слонов и приматов",
+        "При желании продолжить в океанариуме по его билету"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "3–4 часа; вместе с океанариумом — 5–6 часов",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Утром в будний день; если планируете океанариум, оставьте на него время до закрытия.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Апрель–октябрь: 07:30–18:00; ноябрь–март: 07:30–17:00. Павильон панд открывается в 08:00.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/parktours/guidevisitors/beijingzoo/index.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Взрослый: апрель–октябрь 15 CNY, с Panda House 19 CNY; ноябрь–март 10 и 14 CNY соответственно. Океанариум в эти билеты не входит.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753328.html",
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563860.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "Билеты доступны в кассах и через WeChat «北京动物园». Иностранцам доступно оформление по паспорту; при онлайн-покупке нужен тот же паспорт и QR-код.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753328.html",
+          "https://english.beijing.gov.cn/specials/parktours/guidevisitors/beijingzoo/index.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "Южный вход — у метро Beijing Zoo / 动物园, линия 4. Для Panda House выбирайте соответствующий билет. Кормить животных своей едой и снимать со вспышкой нельзя.",
+        "sources": [
+          "https://english.beijing.gov.cn/specials/parktours/guidevisitors/beijingzoo/index.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Зоопарк и океанариум имеют разные билеты и часы работы. Сначала выберите пакет: билет океанариума включает однократное посещение обоих объектов.",
+        "Большая территория: выберите несколько павильонов, особенно при поездке с детьми. Не кормите животных и не используйте вспышку."
+      ],
+      "arrival": {
+        "address": "北京市西城区西直门外大街137号",
+        "metro": "动物园 / Beijing Zoo · линия 4",
+        "start": "Южный вход со стороны Xizhimenwai Street",
+        "note": "Метка показывает территорию зоопарка по OSM, а не турникет. Для входа ориентируйтесь на южные ворота у метро 动物园.",
+        "coordinateSource": "https://www.openstreetmap.org/way/29222967"
+      },
+      "combineWith": [
+        "MU2"
+      ],
+      "provenance": {
+        "sources": [
+          "https://english.beijing.gov.cn/specials/parktours/guidevisitors/beijingzoo/index.html",
+          "https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753328.html",
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563860.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    }
+  },
+  {
+    "id": "MU4",
+    "name": "Пекинский океанариум / Beijing Aquarium",
+    "localName": "北京海洋馆",
+    "coord": [
+      116.3347572,
+      39.9433083
+    ],
+    "categoryId": "animals",
+    "cardType": "place",
+    "parentId": "PK6",
+    "subtype": "aquarium",
+    "tags": [
+      "family",
+      "indoors",
+      "water"
+    ],
+    "aliases": [
+      "Пекинский океанариум",
+      "Beijing Aquarium",
+      "Beijing Oceanarium",
+      "北京海洋馆"
+    ],
+    "description": "Крытый океанариум в северной части Пекинского зоопарка: аквариумы, морские и пресноводные обитатели, познавательные экспозиции.",
+    "visitNote": "Океанариум внутри зоопарка, но оплачивается по своему тарифу. Не покупайте второй обычный билет в зоопарк, если ваш пакет уже включает вход в оба места.",
+    "locationNote": "Метка — здание океанариума, не вход на территорию зоопарка. При поездке сразу в океанариум уточните доступные ворота по своему билету.",
+    "sources": [
+      "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563860.html",
+      "https://www.bj-sea.com/news-500.html"
+    ],
+    "url": "https://www.bj-sea.com/",
+    "coordinateSource": "https://www.openstreetmap.org/way/25375821",
+    "checkedAt": "2026-11-06",
+    "photos": [
+      {
+        "src": "assets/photos/addition-MU4.jpg",
+        "thumbnail": "assets/photos/addition-MU4-thumb.jpg",
+        "width": 960,
+        "height": 640,
+        "author": "Sam Greenhalgh from London, UK",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Beijing_aquarium_(5532372402).jpg",
+        "caption": "Аквариум в Beijing Aquarium"
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Крытый океанариум в северной части Пекинского зоопарка: аквариумы, морские и пресноводные обитатели, познавательные экспозиции.",
+      "activities": [
+        "Пройти маршрут через пресноводные и морские аквариумы",
+        "Посмотреть экспозицию китайского осетра",
+        "Выбрать кормление или программу по расписанию дня"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа; вместе с зоопарком — 5–6 часов",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "К открытию в будний день; последовательность залов удобно подстроить под программу кормлений.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "1 ноября 2026 — 31 марта 2027: 10:00–17:00, вход до 16:30. Базовый летний режим (апрель–октябрь): 09:00–17:30, вход до 17:00; на праздники возможны изменения.",
+        "sources": [
+          "https://www.bj-sea.com/news-500.html",
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563860.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Опубликованный взрослый тариф: апрель–октябрь 175 CNY, ноябрь–март 170 CNY. Включено по одному входу в океанариум и зоопарк; Panda House не указан в составе. Итоговую цену пакета сверяйте при покупке.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563860.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "Выберите билет на нужную дату через официальные каналы Beijing Aquarium / 北京海洋馆. Срок действия и условия конкретного пакета указаны в билете; льготы требуют подтверждающего документа.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563860.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "Океанариум находится внутри зоопарка на северном берегу реки Чанхэ. Билет зоопарка не даёт вход в океанариум; билет океанариума допускает по одному посещению обоих объектов.",
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563860.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Океанариум внутри зоопарка, но оплачивается по своему тарифу. Не покупайте второй обычный билет в зоопарк, если ваш пакет уже включает вход в оба места.",
+        "Расписание программ меняется; проверяйте табло и объявление на выбранную дату. Льготный билет предъявляют вместе с документом."
+      ],
+      "arrival": {
+        "address": "北京市海淀区气象路6号（北京动物园内）",
+        "metro": "动物园 / Beijing Zoo · линия 4, затем пешком через парк",
+        "start": "Северная часть зоопарка, у здания 北京海洋馆",
+        "note": "Метка — здание океанариума, не вход на территорию зоопарка. При поездке сразу в океанариум уточните доступные ворота по своему билету.",
+        "coordinateSource": "https://www.openstreetmap.org/way/25375821"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563860.html",
+          "https://www.bj-sea.com/news-500.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    }
+  },
+  {
+    "id": "MU5",
+    "name": "Red Brick Art Museum / Музей красного кирпича",
+    "localName": "红砖美术馆",
+    "coord": [
+      116.4937864,
+      40.041094
+    ],
+    "categoryId": "museum",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "art-museum",
+    "tags": [
+      "art",
+      "architecture",
+      "design",
+      "photography",
+      "indoors"
+    ],
+    "aliases": [
+      "Red Brick Art Museum",
+      "Red brick museum",
+      "Музей красного кирпича",
+      "Хунчжуань",
+      "红砖美术馆"
+    ],
+    "description": "Музей современного искусства на северо-востоке Пекина. Кирпичные арки, дворы и сад делают архитектуру самостоятельной частью посещения наряду со сменными выставками.",
+    "visitNote": "По понедельникам музей обычно закрыт. Перед поездкой проверьте текущую выставку и билет: архитектура, сад и временные экспозиции могут продаваться одним пакетом.",
+    "locationNote": "Метка соответствует зданию музея в OSM; вход ищите со стороны 顺白路. Не путайте с арт-кварталом 798.",
+    "sources": [
+      "https://r.visitbeijing.com.cn/museum/641",
+      "https://english.beijing.gov.cn/beijinginfo/culture/beijingtownscape/galleries/202401/t20240112_3534426.html",
+      "https://r1.visitbeijing.com.cn/vbj-s/pdf/BaseManual/BaseManual_56.pdf",
+      "https://aiiiii.com.cn/sites/9067.html"
+    ],
+    "url": "https://www.redbrickartmuseum.org/",
+    "coordinateSource": "https://www.openstreetmap.org/way/410678516",
+    "checkedAt": "2026-11-06",
+    "photos": [],
+    "visit": {
+      "version": 1,
+      "summary": "Музей современного искусства на северо-востоке Пекина. Кирпичные арки, дворы и сад делают архитектуру самостоятельной частью посещения наряду со сменными выставками.",
+      "activities": [
+        "Посмотреть текущую выставку современного искусства",
+        "Рассмотреть кирпичные арки, круглые проёмы и игру света",
+        "Пройти по саду и дворам музея"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "В светлое время, со временем на сад; в будни обычно проще спокойно рассмотреть архитектуру.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Вт–вс: 1 мая — 30 сентября 10:00–18:00, вход до 17:30; 1 октября — 30 апреля 10:00–17:30, вход до 17:00. Пн закрыт, кроме праздничных исключений.",
+        "sources": [
+          "https://english.beijing.gov.cn/beijinginfo/culture/beijingtownscape/galleries/202401/t20240112_3534426.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "В туристическом каталоге Пекина: взрослый билет 120 CNY, льготный 100 CNY при подтверждающем документе. Для текущей выставки проверяйте состав и цену билета перед оплатой.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/museum/641"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "Бронирование через официальный WeChat «红砖美术馆». Выберите актуальную выставку и дату: выставочные проекты и условия билетов меняются.",
+        "sources": [
+          "https://r1.visitbeijing.com.cn/vbj-s/pdf/BaseManual/BaseManual_56.pdf"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "Адрес: у пересечения Shunbai Road и Maquanying West Road, примерно 100 м западнее, с северной стороны дороги. Сад и выставочные залы планируйте в часы работы музея.",
+        "sources": [
+          "https://r.visitbeijing.com.cn/museum/641",
+          "https://english.beijing.gov.cn/beijinginfo/culture/beijingtownscape/galleries/202401/t20240112_3534426.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "По понедельникам музей обычно закрыт. Перед поездкой проверьте текущую выставку и билет: архитектура, сад и временные экспозиции могут продаваться одним пакетом.",
+        "Метро не у самого входа: заложите дополнительный путь от Maquanying. Поездка к 798 — отдельный переезд, а не соседний двор."
+      ],
+      "arrival": {
+        "address": "北京市朝阳区崔各庄乡何各庄村顺白路与马泉营西路交叉口西100米路北",
+        "metro": "马泉营 / Maquanying · линия 15, далее пешком или такси",
+        "start": "Вход с северной стороны Shunbai Road / 顺白路",
+        "note": "Метка соответствует зданию музея в OSM; вход ищите со стороны 顺白路. Не путайте с арт-кварталом 798.",
+        "coordinateSource": "https://www.openstreetmap.org/way/410678516"
+      },
+      "combineWith": [
+        "15",
+        "CU5"
+      ],
+      "provenance": {
+        "sources": [
+          "https://r.visitbeijing.com.cn/museum/641",
+          "https://english.beijing.gov.cn/beijinginfo/culture/beijingtownscape/galleries/202401/t20240112_3534426.html",
+          "https://r1.visitbeijing.com.cn/vbj-s/pdf/BaseManual/BaseManual_56.pdf",
+          "https://aiiiii.com.cn/sites/9067.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "photoGalleryUrl": "https://gs.ctrip.com/html5/you/sight/beijing1/1485830.html",
+    "photoGalleryLabel": "Фотографии музея на Trip.com ↗"
+  },
+  {
+    "id": "SH10",
+    "name": "Beijing SKP / Торговый центр SKP",
+    "localName": "北京SKP",
+    "coord": [
+      116.4727932,
+      39.9086753
+    ],
+    "categoryId": "shopping",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "mall",
+    "tags": [
+      "shopping",
+      "indoors",
+      "design",
+      "food"
+    ],
+    "aliases": [
+      "Beijing SKP",
+      "SKP Beijing",
+      "Пекин SKP",
+      "Shin Kong Place",
+      "新光天地"
+    ],
+    "description": "Универмаг премиальных марок в районе Даванлу: мода, косметика, украшения, витрины и рестораны. На карте отмечено основное здание Beijing SKP на Jianguo Road, 87.",
+    "visitNote": "Для такси укажите 北京SKP，建国路87号. SKP-S — другое здание рядом; адрес магазина или мероприятия сверяйте перед поездкой.",
+    "locationNote": "Метка — территория основного Beijing SKP по OSM, не SKP-S. Конкретный вход выбирайте по подходу от метро 大望路.",
+    "sources": [
+      "https://www.skp-beijing.com/shop?c=beijing",
+      "https://www.bjsubway.com/station/xltcx/line1/2013-08-19/22.html?sk=1"
+    ],
+    "url": "https://www.skp-beijing.com/",
+    "coordinateSource": "https://www.openstreetmap.org/way/1271096272",
+    "checkedAt": "2026-11-06",
+    "photos": [
+      {
+        "src": "assets/photos/addition-SH10.jpg",
+        "thumbnail": "assets/photos/addition-SH10-thumb.jpg",
+        "width": 960,
+        "height": 640,
+        "author": "N509FZ",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:SKP_Beijing_(20180415180620).jpg",
+        "caption": "Основное здание Beijing SKP (2018)"
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Универмаг премиальных марок в районе Даванлу: мода, косметика, украшения, витрины и рестораны. На карте отмечено основное здание Beijing SKP на Jianguo Road, 87.",
+      "activities": [
+        "Посмотреть витрины и коллекции модных брендов",
+        "Выбрать этажи с аксессуарами, косметикой или предметами для дома",
+        "Сделать остановку на кофе или еду между магазинами"
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Днём или ранним вечером; удобная остановка в помещении в холодную или дождливую погоду.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Ежедневно 10:00–22:00 по официальному сайту Beijing SKP. Расписание отдельных ресторанов и событий проверяйте отдельно.",
+        "sources": [
+          "https://www.skp-beijing.com/shop?c=beijing"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Общего входного билета для посещения торговых этажей нет; покупки, еда и платные мероприятия оплачиваются отдельно.",
+        "sources": [
+          "https://www.skp-beijing.com/shop?c=beijing"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Для обычного посещения торговых этажей общий слот не оформляют. Запись в бутики, столики и специальные мероприятия — по их собственным условиям.",
+        "sources": [
+          "https://www.skp-beijing.com/shop?c=beijing"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "Основное здание: 北京市朝阳区建国路87号. Рядом находится отдельное SKP-S; на этой карточке и метке — Beijing SKP по адресу 87 Jianguo Road.",
+        "sources": [
+          "https://www.skp-beijing.com/shop?c=beijing"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Для такси укажите 北京SKP，建国路87号. SKP-S — другое здание рядом; адрес магазина или мероприятия сверяйте перед поездкой."
+      ],
+      "arrival": {
+        "address": "北京市朝阳区建国路87号",
+        "metro": "大望路 / Dawanglu · линии 1 и 14",
+        "start": "Основное здание Beijing SKP на северной стороне Jianguo Road",
+        "note": "Метка — территория основного Beijing SKP по OSM, не SKP-S. Конкретный вход выбирайте по подходу от метро 大望路.",
+        "coordinateSource": "https://www.openstreetmap.org/way/1271096272"
+      },
+      "combineWith": [
+        "AR4",
+        "SH9"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.skp-beijing.com/shop?c=beijing",
+          "https://www.bjsubway.com/station/xltcx/line1/2013-08-19/22.html?sk=1"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Посещение общедоступных торговых этажей основного Beijing SKP; специальные мероприятия и SKP-S имеют свои условия."
+    }
   }
 ]

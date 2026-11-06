@@ -9,7 +9,7 @@ const original=await readCity(new URL('../../beijing/data/city.json',import.meta
 const copy=()=>structuredClone({city:original.city,trip:original.trip,categories:original.categories,points:original.points});
 test('all city data and deployed image files are valid',async()=>assert.deepEqual(await validateFiles(original),[]));
 test('existing scores, points and galleries survive migration',()=>{
- assert.equal(original.points.length,75);assert.equal(original.points.reduce((n,p)=>n+p.photos.length,0),338);
+ assert.equal(original.points.length,79);assert.equal(original.points.slice(0,75).reduce((n,p)=>n+p.photos.length,0),338);
  const hotels={H1:7.7,H2:7.9,H3:6.3,H4:6.9,H5:7.5,H6:7.2,H7:6.1,H8:7.1,H9:8,H10:8.2,H11:6.7};
  for(const [id,score]of Object.entries(hotels))assert.equal(hotelScore(original.points.find(p=>p.id===id).hotel,original).score,score,id);
  const walks={A:4.1,B:4.6,C:4.5,D:4.3,E:4.3,F:4.4,G:4.1,H:4.3,I:3.9,J:3.6,K:3.5,L:3.4,M:3.4};
@@ -48,7 +48,7 @@ test('entry page contains only the online map and shared module',async()=>{
 });
 
 test('requested new places have sources, access notes and correct parent relations',()=>{
- const added=original.points.slice(40),map=new Map(original.points.map(p=>[p.id,p]));assert.equal(added.length,35);
+ const added=original.points.slice(40,75),map=new Map(original.points.map(p=>[p.id,p]));assert.equal(added.length,35);
  for(const p of added){assert.ok(p.sources.length,p.id);assert.ok(p.visitNote,p.id);assert.equal(p.checkedAt,'2026-11-02');assert.ok(p.coordinateSource||p.coordinateEvidence,p.id);if(!p.photos.length)assert.ok(p.photoGalleryUrl,p.id);}
  for(const [child,parent]of Object.entries({CU2:'SH3',CU1:'PK5',CU3:'PK5',CU4:'PK5',CU7:'CU6',CU8:'CU6',AR5:'AR4',AR6:'AR4',SH9:'AR4',SH1:'C',PK2:'PK1',PK3:'PK1',MU1:'PK1'}))assert.equal(map.get(child).parentId,parent,child);
  assert.equal(original.points.filter(p=>p.hotel).length,11);

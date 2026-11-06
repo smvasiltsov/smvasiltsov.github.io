@@ -21,6 +21,13 @@
     "icon": "museum"
   },
   {
+    "id": "animals",
+    "label": "Зоопарки и океанариумы",
+    "listLabel": "Зоопарки и океанариумы",
+    "groupId": "see",
+    "icon": "nature"
+  },
+  {
     "id": "culture",
     "label": "Культурные пространства",
     "listLabel": "Культурные пространства",

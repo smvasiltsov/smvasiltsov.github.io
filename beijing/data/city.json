@@ -262,7 +262,10 @@
       "science-museum": "Музей науки",
       "planetarium": "Планетарий",
       "film-museum": "Музей кино",
-      "bath-complex": "Банный комплекс"
+      "bath-complex": "Банный комплекс",
+      "zoo": "Зоопарк",
+      "aquarium": "Океанариум",
+      "art-museum": "Музей искусства"
     },
     "tags": {
       "historical": "Историческое",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-06",
   "photos": [
     {
       "pointId": "1",
@@ -3022,6 +3022,51 @@
       "thumbnail": "./assets/places/M/06-thumb.webp",
       "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Peking_Duck_Restaurant_Beijing_%283019202241%29.jpg/1280px-Peking_Duck_Restaurant_Beijing_%283019202241%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "sha256": "3251ee04b3940e55102a3e29e6123a6f2951ee7ea2e3e6178be357dad318d7b0"
+    },
+    {
+      "pointId": "PK6",
+      "name": "Пекинский зоопарк / Beijing Zoo",
+      "src": "assets/photos/addition-PK6.jpg",
+      "thumbnail": "assets/photos/addition-PK6-thumb.jpg",
+      "width": 960,
+      "height": 640,
+      "author": "N509FZ",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gate_of_Beijing_Zoo_(20210219172711).jpg",
+      "caption": "Исторические ворота Пекинского зоопарка (2021)",
+      "changes": "Уменьшенная копия без кадрирования.",
+      "sourceProvider": "Wikimedia Commons"
+    },
+    {
+      "pointId": "MU4",
+      "name": "Пекинский океанариум / Beijing Aquarium",
+      "src": "assets/photos/addition-MU4.jpg",
+      "thumbnail": "assets/photos/addition-MU4-thumb.jpg",
+      "width": 960,
+      "height": 640,
+      "author": "Sam Greenhalgh from London, UK",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Beijing_aquarium_(5532372402).jpg",
+      "caption": "Аквариум в Beijing Aquarium",
+      "changes": "Уменьшенная копия без кадрирования.",
+      "sourceProvider": "Wikimedia Commons"
+    },
+    {
+      "pointId": "SH10",
+      "name": "Beijing SKP / Торговый центр SKP",
+      "src": "assets/photos/addition-SH10.jpg",
+      "thumbnail": "assets/photos/addition-SH10-thumb.jpg",
+      "width": 960,
+      "height": 640,
+      "author": "N509FZ",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:SKP_Beijing_(20180415180620).jpg",
+      "caption": "Основное здание Beijing SKP (2018)",
+      "changes": "Уменьшенная копия без кадрирования.",
+      "sourceProvider": "Wikimedia Commons"
     }
   ],
   "notes": "Авторство и условия использования указаны для каждого файла. Официальные файлы с требованием сохранения без изменений размещены исходными байтами; в других случаях преобразования указаны в changes."

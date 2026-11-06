@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 2,
+  "id": "shenzhen",
+  "name": "Шэньчжэнь",
+  "locale": "ru-RU",
+  "timezone": "Asia/Shanghai",
+  "assetBase": "../",
+  "points": "./points.json",
+  "categories": "./categories.json",
+  "trip": "./trip.json",
+  "pages": {
+    "map": "../",
+    "compare": "../compare.html"
+  },
+  "map": {
+    "label": "Карта Шэньчжэня",
+    "style": "https://tiles.openfreemap.org/styles/liberty",
+    "defaultView": {
+      "center": [
+        114.03,
+        22.58
+      ],
+      "zoom": 10
+    },
+    "selectedZoom": 14,
+    "maxFitZoom": 11
+  },
+  "navigation": {
+    "provider": "amap",
+    "label": "AMap",
+    "sourceApplication": "TravelMap"
+  },
+  "transport": {
+    "url": "https://www.szmc.net/",
+    "label": "Маршрут на официальном сайте метро Шэньчжэня ↗"
+  },
+  "hotelDestinations": [],
+  "assessment": {
+    "walk": {
+      "criteria": [
+        {
+          "id": "fashion",
+          "label": "Модность",
+          "weight": 0.25,
+          "description": "Современные кафе, дизайн, независимые магазины и культурная среда."
+        },
+        {
+          "id": "atmosphere",
+          "label": "Крутость / атмосфера",
+          "weight": 0.25,
+          "description": "Характер места, выразительность архитектуры и желание задержаться."
+        },
+        {
+          "id": "scale",
+          "label": "Масштаб прогулки",
+          "weight": 0.25,
+          "description": "Сколько можно гулять и менять маршрут: 1 — одна короткая остановка; 3 — около часа; 5 — большой район на несколько часов. Это не площадь в гектарах."
+        },
+        {
+          "id": "interest",
+          "label": "Интересность",
+          "weight": 0.25,
+          "description": "Разнообразие остановок: архитектура, культура, магазины, еда и местная жизнь."
+        }
+      ],
+      "note": "Небольшая терраса может быть интересной и атмосферной, но получить низкий балл масштаба. Большой парк может быть хорош для отдыха при умеренной «модности». Продолжительность — ориентир с остановками, не измеренный маршрут."
+    }
+  },
+  "offline": {
+    "mapFolder": "offline/map-20261106",
+    "bounds": [
+      113.73,
+      22.44,
+      114.65,
+      22.84
+    ],
+    "minZoom": 7,
+    "tileMaxZoom": 13,
+    "displayMaxZoom": 17,
+    "coverageLabel": "Шэньчжэнь: от Баоаня и Гуанмина до Дапэна"
+  },
+  "taxonomy": {
+    "groups": [
+      {
+        "id": "see",
+        "label": "Смотреть",
+        "color": "#315a8b",
+        "darkColor": "#8db9ee",
+        "shape": "circle",
+        "tagIds": []
+      },
+      {
+        "id": "walk",
+        "label": "Гулять",
+        "color": "#975429",
+        "darkColor": "#e6ac79",
+        "shape": "square",
+        "tagIds": [
+          "walk"
+        ]
+      },
+      {
+        "id": "shop",
+        "label": "Шопинг",
+        "color": "#8b5276",
+        "darkColor": "#d5a3c5",
+        "shape": "square",
+        "tagIds": [
+          "shopping"
+        ]
+      },
+      {
+        "id": "food",
+        "label": "Поесть",
+        "color": "#93641a",
+        "darkColor": "#edc17c",
+        "shape": "circle",
+        "tagIds": []
+      },
+      {
+        "id": "relax",
+        "label": "Отдохнуть",
+        "color": "#497f82",
+        "darkColor": "#9acdd0",
+        "shape": "circle",
+        "tagIds": []
+      },
+      {
+        "id": "stay",
+        "label": "Жить",
+        "color": "#286d50",
+        "darkColor": "#91d7b4",
+        "shape": "diamond",
+        "tagIds": []
+      }
+    ],
+    "subtypes": {
+      "palace": "Дворец и комплекс",
+      "park": "Парк",
+      "temple": "Храм",
+      "lake-area": "Озёрный район",
+      "tower": "Историческая башня",
+      "academy": "Историческая академия",
+      "historic-street": "Историческая улица",
+      "food-street": "Гастрономическая улица",
+      "square": "Площадь",
+      "national-museum": "Национальный музей",
+      "art-district": "Арт-квартал",
+      "fortification": "Историческое укрепление",
+      "hutong": "Хутуны",
+      "modern-district": "Современный район",
+      "cultural-district": "Культурный район",
+      "waterfront": "Набережная и прогулка у воды",
+      "creative-cluster": "Креативный кластер",
+      "viewpoint": "Смотровая терраса",
+      "food-district": "Гастрономический район",
+      "hotel": "Отель",
+      "cafe": "Кафе",
+      "restaurant": "Ресторан",
+      "bar": "Бар",
+      "bakery": "Пекарня",
+      "office-tower": "Офисная башня",
+      "mixed-use-complex": "Многофункциональный комплекс",
+      "media-center": "Медиацентр",
+      "performing-arts-center": "Центр исполнительских искусств",
+      "open-air-mall": "Торговый комплекс под открытым небом",
+      "shopping-street": "Торговая улица",
+      "shopping-district": "Торговый район",
+      "creative-mall": "Креативный торговый центр",
+      "art-mall": "Торговый центр с искусством",
+      "mall": "Торговый центр",
+      "library": "Библиотека",
+      "bookstore": "Книжный магазин",
+      "history-museum": "Исторический музей",
+      "industrial-park": "Индустриальный парк",
+      "industrial-museum": "Индустриальный музей",
+      "sports-architecture": "Спортивная архитектура",
+      "olympic-park": "Олимпийский комплекс",
+      "stadium": "Стадион",
+      "sports-center": "Спортивный центр",
+      "forest-park": "Лесопарк",
+      "science-museum": "Музей науки",
+      "planetarium": "Планетарий",
+      "film-museum": "Музей кино",
+      "bath-complex": "Банный комплекс",
+      "theme-park": "Тематический парк",
+      "beach": "Морской пляж",
+      "botanical-garden": "Ботанический сад",
+      "observation-deck": "Смотровая площадка"
+    },
+    "tags": {
+      "historical": "Историческое",
+      "modern": "Современное",
+      "water": "У воды",
+      "indoors": "В помещении",
+      "evening": "Вечером",
+      "art": "Искусство",
+      "design": "Дизайн",
+      "coffee": "Кофе",
+      "shopping": "Магазины",
+      "park": "Парк",
+      "walk": "Для прогулки",
+      "long-walk": "Долгая прогулка",
+      "panorama": "Панорамные виды",
+      "food": "Еда",
+      "industrial": "Индустриальное наследие",
+      "sacred": "Религия",
+      "suburban": "За городом",
+      "architecture": "Архитектура",
+      "books": "Книги",
+      "theatre": "Театр",
+      "technology": "Технологии",
+      "olympics": "Олимпиада",
+      "photography": "Фотография",
+      "family": "С детьми",
+      "cinema": "Кино",
+      "relax": "Отдых"
+    }
+  }
+}

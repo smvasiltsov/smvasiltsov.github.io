@@ -15,10 +15,12 @@ export function validateData({city, trip, categories, points} = {}) {
   coords(city.map?.defaultView?.center, 'city.map.defaultView.center');
   for (const [key, value] of Object.entries({defaultZoom: city.map?.defaultView?.zoom, selectedZoom: city.map?.selectedZoom, maxFitZoom: city.map?.maxFitZoom})) check(finite(value) && value >= 0 && value <= 22, 'city.map.'+key, 'zoom must be 0–22');
   check(['amap','osm'].includes(city.navigation?.provider), 'city.navigation.provider', 'supported: amap or osm');
-  check(validDate(trip.checkIn) && validDate(trip.checkOut) && nights(trip) > 0, 'trip.dates', 'valid check-in before check-out required');
-  check(Number.isInteger(trip.adults) && trip.adults > 0 && Number.isInteger(trip.rooms) && trip.rooms > 0, 'trip.guests', 'positive adults and rooms');
   check(/^[A-Z]{3}$/.test(trip.currency), 'trip.currency', 'ISO currency required');
-  check(validDate(trip.pricesCheckedAt), 'trip.pricesCheckedAt', 'valid date required');
+  if(points.some(p=>p?.cardType==='hotel')){
+    check(validDate(trip.checkIn) && validDate(trip.checkOut) && nights(trip) > 0, 'trip.dates', 'valid check-in before check-out required');
+    check(Number.isInteger(trip.adults) && trip.adults > 0 && Number.isInteger(trip.rooms) && trip.rooms > 0, 'trip.guests', 'positive adults and rooms');
+    check(validDate(trip.pricesCheckedAt), 'trip.pricesCheckedAt', 'valid date required');
+  }
   const taxonomy=city.taxonomy||{}, groups=Array.isArray(taxonomy.groups)?taxonomy.groups:[], groupMap=new Map();
   check(groups.length>0,'city.taxonomy.groups','groups required');
   for(const group of groups){

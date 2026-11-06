@@ -2,13 +2,13 @@
 Provider policy: https://openfreemap.org/tos/ (checked 2026-11-02).
 Run: python3 travel-map/scripts/prepare-offline-map.py beijing/data/city.json
 """
-import concurrent.futures, hashlib, json, math, pathlib, sys, threading, time, urllib.request
+import concurrent.futures, datetime, hashlib, json, math, pathlib, sys, threading, time, urllib.request
 from urllib.parse import quote
 city_path=pathlib.Path(sys.argv[1]).resolve(); root=city_path.parent.parent
-config=json.loads(city_path.read_text())['offline']
+city=json.loads(city_path.read_text());config=city['offline']
 out=root/config['mapFolder']; out.mkdir(parents=True,exist_ok=True)
 bounds=config['bounds']; minimum=config['minZoom']; maximum=config['tileMaxZoom']
-ua='TravelMap/1.0 (+https://smvasiltsov.github.io/beijing/)'
+ua=f'TravelMap/1.0 (+https://smvasiltsov.github.io/{city["id"]}/)'
 lock=threading.Lock(); total=sum(p.stat().st_size for p in out.rglob('*') if p.is_file()); limit=50_000_000
 
 def download(url,path):
@@ -88,5 +88,5 @@ style['sources'].pop('ne2_shaded',None);style['layers']=[layer for layer in styl
 style['sources']['openmaptiles']={'type':'vector','tiles':['./tiles/{z}/{x}/{y}.pbf'],'minzoom':minimum,'maxzoom':maximum,'bounds':bounds,'attribution':tilejson['attribution']}
 style['glyphs']='./fonts/{fontstack}/{range}.pbf';style['sprite']='./sprite/ofm'
 (out/'style.json').write_text(json.dumps(style,ensure_ascii=False,separators=(',',':')))
-(out/'snapshot.json').write_text(json.dumps({'provider':'OpenFreeMap','source':tilejson['tiles'][0],'downloadedAt':'2026-11-02','bounds':bounds,'minZoom':minimum,'tileMaxZoom':maximum,'displayMaxZoom':config['displayMaxZoom'],'tiles':len(jobs),'glyphRanges':len(ranges),'attribution':tilejson['attribution'],'policy':'https://openfreemap.org/tos/'},ensure_ascii=False,indent=2))
+(out/'snapshot.json').write_text(json.dumps({'provider':'OpenFreeMap','source':tilejson['tiles'][0],'downloadedAt':datetime.date.today().isoformat(),'bounds':bounds,'minZoom':minimum,'tileMaxZoom':maximum,'displayMaxZoom':config['displayMaxZoom'],'tiles':len(jobs),'glyphRanges':len(ranges),'attribution':tilejson['attribution'],'policy':'https://openfreemap.org/tos/'},ensure_ascii=False,indent=2))
 print(f'Complete: {len(jobs)} tiles, {len(glyph_jobs)} glyph files, {total/1e6:.1f} MB',flush=True)

@@ -1,0 +1,2347 @@
+[
+  {
+    "id": "1",
+    "name": "Ping An Finance Center · Free Sky",
+    "localName": "平安金融中心 / 云际观光层",
+    "coord": [
+      114.0503,
+      22.5367
+    ],
+    "categoryId": "architecture",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "observation-deck",
+    "tags": [
+      "modern",
+      "panorama",
+      "architecture",
+      "indoors"
+    ],
+    "aliases": [
+      "Ping An Finance Centre Free Sky",
+      "平安金融中心 / 云际观光层"
+    ],
+    "description": "Башня Ping An высотой около 599 м — главный вертикальный ориентир Футяня. Туристическая площадка Free Sky находится на 116-м этаже, на высоте около 548 м: отсюда видны деловой центр, горы и залив. Это отдельный туристический вход, а не свободное посещение офисного небоскрёба.",
+    "url": "https://w000007.tabccc.com/page7666.html",
+    "photos": [
+      {
+        "src": "assets/photos/25419642.jpg",
+        "thumbnail": "assets/photos/25419642-thumb.jpg",
+        "width": 619,
+        "height": 1100,
+        "author": "Charlie fong",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pingan_International_Finance_Center2020.jpg",
+        "caption": "Ping An Finance Center · Free Sky · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Панорама Футяня с 116-го этажа одного из самых высоких небоскрёбов мира. Идите в ясный день: облака могут скрыть весь город.",
+      "activities": [
+        "Обойти панорамный этаж и сравнить виды на центр и залив.",
+        "Найти Civic Center и парк Ляньхуашань среди кварталов Футяня.",
+        "Дождаться перехода от дневного города к вечерней подсветке."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–1,5 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Ясный будний день; за час до заката, если хотите дневной и вечерний вид.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "10:00–20:00, последний вход 19:15 по сайту Free Sky.",
+        "sources": [
+          "https://w000007.tabccc.com/page7666.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Стандартная взрослая цена у Klook — 200 CNY; скидки и пакеты зависят от даты. Проверяйте итог перед оплатой.",
+        "sources": [
+          "https://www.klook.cn/zh-CN/activity/10507-ping-an-financial-center-in-shenzhen-guangdong/"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "Билет на выбранную дату через Free Sky или продавца; условия Klook предусматривают получение по данным заказа в кассе B1.",
+        "sources": [
+          "https://w000007.tabccc.com/ticket.html",
+          "https://www.klook.cn/zh-CN/activity/10507-ping-an-financial-center-in-shenzhen-guangdong/"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "Туристическая площадка на 116-м этаже, вход через отдельную кассу B1. Для иностранного билета заранее проверьте принимаемые документы; контакт +86 755 29163888.",
+        "sources": [
+          "https://w000007.tabccc.com/ticket.html",
+          "https://www.klook.cn/zh-CN/activity/10507-ping-an-financial-center-in-shenzhen-guangdong/"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Проверьте видимость перед покупкой: высокая влажность и облака резко меняют впечатление.",
+        "Цена и билет относятся к Free Sky, а не к офисным этажам башни."
+      ],
+      "arrival": {
+        "address": "Футянь, Yitian Road 5033 / 益田路5033号",
+        "metro": "Shopping Park / 购物公园, линии 1 и 3, выход D.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Ping_An_Finance_Centre"
+      },
+      "combineWith": [
+        "2",
+        "8",
+        "9"
+      ],
+      "provenance": {
+        "sources": [
+          "https://w000007.tabccc.com/page7666.html",
+          "https://www.klook.cn/zh-CN/activity/10507-ping-an-financial-center-in-shenzhen-guangdong/",
+          "https://w000007.tabccc.com/ticket.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "photoGalleryUrl": "https://w000007.tabccc.com/page7666.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "2",
+    "name": "Lianhuashan Park & Civic Center",
+    "localName": "莲花山公园 / 市民中心",
+    "coord": [
+      114.05,
+      22.555
+    ],
+    "categoryId": "nature",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "park",
+    "tags": [
+      "park",
+      "walk",
+      "panorama",
+      "architecture",
+      "evening"
+    ],
+    "aliases": [
+      "Lianhuashan Park Civic Center",
+      "莲花山公园 / 市民中心"
+    ],
+    "description": "Парк Ляньхуашань расположен севернее Civic Center. От газонов дорожки поднимаются к памятнику Дэн Сяопину и обзорной площадке, откуда видна ось административного и делового центра. После спуска можно пройти к площади и рассмотреть широкую волнообразную крышу Civic Center.",
+    "url": "https://cgj.sz.gov.cn/xsmh/gysz/twf/dgwy/content/post_10841225.html",
+    "photos": [
+      {
+        "src": "assets/photos/49424712.jpg",
+        "thumbnail": "assets/photos/49424712-thumb.jpg",
+        "width": 1100,
+        "height": 734,
+        "author": "jo.sau from London/Vilnius, UK/Lithuania",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Lianhuashan_Garden.jpg",
+        "caption": "Lianhuashan Park & Civic Center · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Лучший простой маршрут для знакомства с панорамой Футяня: невысокий холм, зелёный парк и большая площадь Civic Center.",
+      "activities": [
+        "Подняться к памятнику Дэн Сяопину и панораме Футяня.",
+        "Пройти по газонам и тенистым дорожкам парка.",
+        "Спуститься к площади Civic Center и посмотреть на силуэт административного комплекса."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1,5–2,5 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Утром или ближе к закату; на обзорную площадку лучше подняться до темноты.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Парк 06:00–23:00, вход до 22:30. У административных зданий собственный режим.",
+        "sources": [
+          "https://cgj.sz.gov.cn/xsmh/gysz/twf/dgwy/content/post_10841225.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Городской парк открыт бесплатно; музеи и мероприятия рядом имеют отдельные условия.",
+        "sources": [
+          "https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_11190503.html",
+          "https://you.ctrip.com/destinationsite/sight/shenzhen26/50541-sight.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Обычная прогулка не является сеансом с записью; экскурсии и мероприятия оформляются отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Маршрут по парку и публичной площади не включает вход в административные помещения Civic Center.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "На холм ведут подъёмы и ступени; возьмите воду.",
+        "Световое шоу не гарантировано каждый вечер: расписание специальных показов проверяйте отдельно."
+      ],
+      "arrival": {
+        "address": "Футянь, Hongli Road 6030 / 红荔路6030号; Civic Center южнее парка.",
+        "metro": "Children’s Palace / 少年宫, линии 3 и 4; Civic Center / 市民中心, линии 2 и 4.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Lianhuashan_Park"
+      },
+      "combineWith": [
+        "1",
+        "8",
+        "9"
+      ],
+      "provenance": {
+        "sources": [
+          "https://cgj.sz.gov.cn/xsmh/gysz/twf/dgwy/content/post_10841225.html",
+          "https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_11190503.html",
+          "https://you.ctrip.com/destinationsite/sight/shenzhen26/50541-sight.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Карточка объединяет прогулку по парку и внешний осмотр Civic Center; внутренние залы в маршрут не включены."
+    },
+    "photoGalleryUrl": "https://cgj.sz.gov.cn/xsmh/gysz/twf/dgwy/content/post_10841225.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "3",
+    "name": "Shenzhen Bay Park · набережная",
+    "localName": "深圳湾公园",
+    "coord": [
+      113.9881,
+      22.5245
+    ],
+    "categoryId": "nature",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "waterfront",
+    "tags": [
+      "water",
+      "park",
+      "walk",
+      "long-walk",
+      "panorama"
+    ],
+    "aliases": [
+      "Shenzhen Bay Park",
+      "深圳湾公园"
+    ],
+    "description": "Shenzhen Bay Park — цепочка прибрежных садов и дорожек протяжённостью около 13 км. Здесь удобно выбрать небольшой участок на час или устроить длинную прогулку. В прохладные месяцы залив интересен перелётными птицами; подходить к ним и сходить на илистый берег не нужно.",
+    "url": "https://www.szns.gov.cn/mlns/stns/kh/bhgy/content/post_12595646.html",
+    "photos": [
+      {
+        "src": "assets/photos/47149909.jpg",
+        "thumbnail": "assets/photos/47149909-thumb.jpg",
+        "width": 1100,
+        "height": 825,
+        "author": "Mx. Granger",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Shenzhen_Bay_Park_-_2019-12-09_-_2.jpg",
+        "caption": "Shenzhen Bay Park · набережная · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Длинная прогулка вдоль залива, мангровых берегов и городской панорамы. На противоположной стороне виден Гонконг.",
+      "activities": [
+        "Пройти вдоль воды от станции Shenzhen Bay Park.",
+        "Понаблюдать за птицами с оборудованных дорожек, не заходя на отмели.",
+        "Выбрать западный участок с видами на современные кварталы Наньшаня."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1–3 часа на выбранный участок",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Рано утром для птиц или во второй половине дня; избегайте полуденной жары.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "06:00–23:00 по каталогу Наньшаня от января 2026. Отдельные проходы могут временно закрываться.",
+        "sources": [
+          "https://www.szns.gov.cn/mlns/stns/kh/bhgy/content/post_12595646.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Общедоступный городской парк; прогулка бесплатна, прокат и услуги отдельно.",
+        "sources": [
+          "https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_11027359.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Прогулочная территория не имеет общего билетного сеанса; организованные активности проверяются отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Начать можно у станции 深圳湾公园, выходы A, C или D2. Не путайте с охраняемыми участками мангрового заповедника.",
+        "sources": [
+          "https://www.szns.gov.cn/mlns/stns/kh/bhgy/content/post_12595646.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Парк очень длинный: заранее выберите точку выхода, чтобы не идти весь берег обратно.",
+        "При грозе, тайфуне или сильном ветре доступ к воде может ограничиваться."
+      ],
+      "arrival": {
+        "address": "Южный берег Шэньчжэня вдоль Binhai Avenue; выбранная точка — центральная прибрежная зона.",
+        "metro": "Shenzhen Bay Park / 深圳湾公园, линия 9; для западного участка удобны другие станции.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Shenzhen_Bay_Park"
+      },
+      "combineWith": [
+        "6",
+        "7"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.szns.gov.cn/mlns/stns/kh/bhgy/content/post_12595646.html",
+          "https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_11027359.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "photoGalleryUrl": "https://www.szns.gov.cn/mlns/stns/kh/bhgy/content/post_12595646.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "4",
+    "name": "Huaqiangbei · район электроники",
+    "localName": "华强北",
+    "coord": [
+      114.087,
+      22.54565
+    ],
+    "categoryId": "shopping",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "shopping-district",
+    "tags": [
+      "technology",
+      "shopping",
+      "walk",
+      "indoors"
+    ],
+    "aliases": [
+      "Huaqiangbei Electronics Market",
+      "华强北"
+    ],
+    "description": "Хуацянбэй — целый торговый район, а не один рынок. Вокруг Huaqiang North Road находятся SEG, Huaqiang Electronics World и множество специализированных зданий. Витрины интересны даже без покупок: здесь видно, как устроена торговля компонентами и готовыми устройствами.",
+    "url": "https://you.ctrip.com/shopping/shenzhen26/1594073.html",
+    "photos": [
+      {
+        "src": "assets/photos/14613993.jpg",
+        "thumbnail": "assets/photos/14613993-thumb.jpg",
+        "width": 825,
+        "height": 1100,
+        "author": "Charlie fong",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Huaqiangbei%26Shennan_Cross2021.jpg",
+        "caption": "Huaqiangbei · район электроники · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Район, где электроника продаётся этажами: детали, аксессуары, смартфоны и устройства для сборки прототипов.",
+      "activities": [
+        "Пройти пешеходную улицу и сравнить специализацию торговых зданий.",
+        "Зайти на несколько этажей SEG или соседнего рынка электроники.",
+        "Посмотреть компоненты, инструменты и необычные аксессуары, заранее сравнив цены."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Будний день после 11:00 и до вечера, когда большинство продавцов уже на месте.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Единого режима района нет. Карточка рынка SEG KangLe на Trip.com указывает 10:00–19:00; у других зданий часы отличаются.",
+        "sources": [
+          "https://you.ctrip.com/shopping/shenzhen26/1594073.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Уличная прогулка и обычный просмотр торговых рядов не требуют общего входного билета; покупки оплачиваются отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "В район и обычные торговые ряды не оформляют туристический слот. Встречу с конкретным поставщиком согласуйте отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Посещайте открытые торговые этажи; склады, офисы и сервисные помещения не входят в обычную прогулку.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "До оплаты проверяйте комплектацию, работоспособность, язык интерфейса, гарантию и возможность возврата.",
+        "Цена на витрине может относиться к оптовой партии или отдельному компоненту."
+      ],
+      "arrival": {
+        "address": "Футянь, Huaqiang North Road / 华强北路 и соседние улицы.",
+        "metro": "Huaqiangbei / 华强北, линии 2 и 7; Huaqiang Road / 华强路, линия 1.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Huaqiangbei"
+      },
+      "combineWith": [
+        "1",
+        "8",
+        "9"
+      ],
+      "provenance": {
+        "sources": [
+          "https://you.ctrip.com/shopping/shenzhen26/1594073.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Прогулка по району с заходом в открытые рынки. Расписание одного здания не распространяется на весь Хуацянбэй."
+    },
+    "photoGalleryUrl": "https://you.ctrip.com/shopping/shenzhen26/1594073.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "5",
+    "name": "Happy Harbour & Bay Glory",
+    "localName": "欢乐港湾 / 湾区之光",
+    "coord": [
+      113.881011,
+      22.5463106
+    ],
+    "categoryId": "urban",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "waterfront",
+    "tags": [
+      "water",
+      "evening",
+      "panorama",
+      "walk",
+      "family"
+    ],
+    "aliases": [
+      "Happy Harbour OH Bay Bay Glory",
+      "欢乐港湾 / 湾区之光"
+    ],
+    "description": "Happy Harbour, также OH Bay, объединяет прибрежный парк, коммерческие кварталы и колесо обозрения. Прогулка и поездка на колесе — разные сценарии: можно остаться на набережной или купить отдельный билет в прозрачную кабину. Район особенно выразителен на закате и после включения подсветки.",
+    "url": "https://octb2b.smartoct.com/index.php/m/Index/showSets/id/19/share_key/1-0-1773852879/_IS/1.html",
+    "photos": [
+      {
+        "src": "assets/photos/place-5.jpg",
+        "thumbnail": "assets/photos/place-5-thumb.jpg",
+        "width": 1100,
+        "height": 733,
+        "author": "Iswzo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bay_Glory_2022.jpg",
+        "caption": "Happy Harbour & Bay Glory · Wikimedia Commons"
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Современная набережная Баоаня с ресторанами и колесом обозрения Bay Glory высотой 128 м.",
+      "activities": [
+        "Пройти по набережной и общественным площадям OH Bay.",
+        "Подняться на Bay Glory, если погода и видимость хорошие.",
+        "Остаться на ужин и вечернюю подсветку; показы сверять по объявлениям."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа; поездка на колесе с очередью — дополнительно",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Во второй половине дня, чтобы застать закат и вечерний свет.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Колесо: пн/ср/чт 10:30–22:00, пт–вс до 22:30; праздники до 23:00. Дни обслуживания начинаются позже; вход прекращается за 30 минут.",
+        "sources": [
+          "https://octb2b.smartoct.com/index.php/m/Index/showSets/id/19/share_key/1-0-1773852879/_IS/1.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Прогулка по общей территории бесплатная. Bay Glory: полный билет 150 CNY в обычные дни, 180 CNY в официальные праздники; акции отдельно.",
+        "sources": [
+          "https://www.sz.gov.cn/en_szgov/news/latest/content/post_8701857.html",
+          "https://m.bendibao.com/show968134.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "Для колеса нужен отдельный билет; официальный канал — WeChat «深圳欢乐港湾» / OCT-OH-BAY. Выбирайте дату и тип билета.",
+        "sources": [
+          "https://octb2b.smartoct.com/index.php/m/Index/showSets/id/19/share_key/1-0-1773852879/_IS/1.html",
+          "https://www.sz.gov.cn/en_szgov/travel/cultural/content/post_8694954.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "Ветер и обслуживание меняют работу колеса. В день недельной проверки открытие может сдвигаться на 14:00, месячной — на 18:00.",
+        "sources": [
+          "https://octb2b.smartoct.com/index.php/m/Index/showSets/id/19/share_key/1-0-1773852879/_IS/1.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Расписание колеса не является режимом всех ресторанов и общественных пространств.",
+        "Музыкальные и водные шоу зависят от календаря и погоды."
+      ],
+      "arrival": {
+        "address": "Баоань, прибрежный парк Happy Harbour / 欢乐港湾滨海文化公园.",
+        "metro": "Linhai / 临海, линия 5; Baohua / 宝华, линия 5.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://www.openstreetmap.org/way/771513760"
+      },
+      "combineWith": [
+        "13"
+      ],
+      "provenance": {
+        "sources": [
+          "https://octb2b.smartoct.com/index.php/m/Index/showSets/id/19/share_key/1-0-1773852879/_IS/1.html",
+          "https://www.sz.gov.cn/en_szgov/news/latest/content/post_8701857.html",
+          "https://m.bendibao.com/show968134.html",
+          "https://www.sz.gov.cn/en_szgov/travel/cultural/content/post_8694954.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Общественная набережная и отдельная платная поездка на колесе обозрения."
+    },
+    "photoGalleryUrl": "https://octb2b.smartoct.com/index.php/m/Index/showSets/id/19/share_key/1-0-1773852879/_IS/1.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "6",
+    "name": "Shenzhen Bay Culture Square",
+    "localName": "深圳湾文化广场",
+    "coord": [
+      113.9404676,
+      22.5153022
+    ],
+    "categoryId": "culture",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "mixed-use-complex",
+    "tags": [
+      "modern",
+      "architecture",
+      "art",
+      "design",
+      "indoors"
+    ],
+    "aliases": [
+      "Shenzhen Bay Culture Square MAD",
+      "深圳湾文化广场"
+    ],
+    "description": "Открытый в 2025 году комплекс у Shenzhen Talent Park объединяет выставки дизайна и общественные пространства. Архитектура Ма Яньсуна строится на больших камнеподобных объёмах и переходах между городом и заливом. Внутри постоянные и временные экспозиции: для них продаются разные билеты.",
+    "url": "https://www.szns.gov.cn/mlns/whns/whcg/content/post_12605761.html",
+    "photos": [
+      {
+        "src": "assets/photos/extra-3.jpg",
+        "thumbnail": "assets/photos/extra-3-thumb.jpg",
+        "width": 1100,
+        "height": 825,
+        "author": "liunanno",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Shenzhen_Bay_Cultural_Square.jpg",
+        "caption": "Shenzhen Bay Culture Square · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Культурный комплекс MAD Architects с плавными объёмами, похожими на морские камни, и выставками дизайна.",
+      "activities": [
+        "Обойти объёмы комплекса снаружи и посмотреть на переходы между ними.",
+        "Посетить постоянные залы о дизайне и повседневной жизни.",
+        "Продолжить прогулку к Talent Park и берегу залива."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Будний день после открытия; внешнюю архитектуру удобно снимать ближе к закату.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Вт–вс 10:00–18:00, понедельник закрыт. Вход в выставочные залы до 17:00.",
+        "sources": [
+          "https://www.szns.gov.cn/mlns/whns/whcg/content/post_12605761.html",
+          "https://goguangdong.southcn.com/node_d614603771/de31e6ae0a.shtml"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Базовый билет в постоянные выставочные зоны — 20 CNY по городскому сообщению. Тематические и временные выставки оплачиваются по отдельным тарифам.",
+        "sources": [
+          "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12510081.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "Онлайн-покупка через мини-программу «深圳湾文化广场»: выберите дату, сеанс и нужную выставку. Билет постоянных залов не включает все спецпроекты.",
+        "sources": [
+          "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12510081.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "Выставочные зоны имеют контроль билетов; доступ на отдельные террасы и переходы может ограничиваться. Адрес комплекса — 科苑南路2516号.",
+        "sources": [
+          "https://www.szns.gov.cn/mlns/whns/whcg/content/post_12605761.html",
+          "https://goguangdong.southcn.com/node_d614603771/de31e6ae0a.shtml"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Это действующий культурный комплекс, а не только площадка для фотографий; состав открытых залов меняется.",
+        "Не путайте с Sea World Culture and Arts Center в Шэкоу."
+      ],
+      "arrival": {
+        "address": "Наньшань, Keyuan South Road 2516 / 科苑南路2516号.",
+        "metro": "Rencai Park / 人才公园, линия 13; Houhai / 后海, линии 2 и 11 — дальше пешком.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://www.openstreetmap.org/way/325009438"
+      },
+      "combineWith": [
+        "3",
+        "7"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.szns.gov.cn/mlns/whns/whcg/content/post_12605761.html",
+          "https://goguangdong.southcn.com/node_d614603771/de31e6ae0a.shtml",
+          "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12510081.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "photoGalleryUrl": "https://www.szns.gov.cn/mlns/whns/whcg/content/post_12605761.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "7",
+    "name": "Sea World Shekou & Culture and Arts Center",
+    "localName": "海上世界 / 海上世界文化艺术中心",
+    "coord": [
+      113.91194444,
+      22.48611111
+    ],
+    "categoryId": "culture",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "cultural-district",
+    "tags": [
+      "water",
+      "architecture",
+      "art",
+      "food",
+      "walk",
+      "evening"
+    ],
+    "aliases": [
+      "Sea World Shekou Culture Arts Center Design Society",
+      "海上世界 / 海上世界文化艺术中心"
+    ],
+    "description": "Sea World — городской район Шэкоу с ресторанами и площадью вокруг корабля «Минхуа», а не океанариум. Южнее, у берега, расположен Sea World Culture and Arts Center: выставочные пространства, театр, террасы и виды на воду. Между двумя точками удобно идти пешком.",
+    "url": "https://www.sz.gov.cn/szzt2010/szwtt/wtcg/whcg/content/post_11131232.html",
+    "photos": [
+      {
+        "src": "assets/photos/extra-1.jpg",
+        "thumbnail": "assets/photos/extra-1-thumb.jpg",
+        "width": 1100,
+        "height": 619,
+        "author": "李汉宗 (Lhzss8)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Seaworld_CAC1.jpg",
+        "caption": "Sea World Shekou & Culture and Arts Center · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Прогулка от корабля «Минхуа» и ресторанных площадей к культурному центру Фумихико Маки у моря.",
+      "activities": [
+        "Посмотреть на корабль «Минхуа» и пройти ресторанные площади.",
+        "Дойти до Sea World Culture and Arts Center и рассмотреть архитектуру Маки.",
+        "Выбрать текущую выставку или остаться на прогулку у воды и ужин."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–4 часа с выставкой или ужином",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Днём для выставок, затем прогулка к вечеру; отдельные галереи закрываются раньше здания.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Здание культурного центра 10:00–22:00. Выставки: будни 10:00–19:00, выходные/праздники 10:00–21:00; у отдельных галерей свои дни.",
+        "sources": [
+          "https://www.sz.gov.cn/szzt2010/szwtt/wtcg/whcg/content/post_11131232.html",
+          "https://m.bendibao.com/jingdian/haishangshijiewenhuayishuzhongxin/"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Прогулка по площадям и берегу не является выставочным билетом. Выставки, спектакли и ресторанные заказы оплачиваются отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "У района нет общего сеанса. Для выбранной выставки или спектакля нужен его билет, для ресторана возможна бронь столика.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Sea World и культурный центр — разные точки. Центр находится у моря на Wanghai Road 1187, а не внутри корабля.",
+        "sources": [
+          "https://www.amazingshenzhen.com.cn/content/2023-05/12/content_30192680.htm",
+          "https://www.sz.gov.cn/szzt2010/szwtt/wtcg/whcg/content/post_11131232.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Билеты в конкретные галереи не открывают автоматически все помещения и террасы.",
+        "Фонтан и световые программы проверяйте по объявлениям дня."
+      ],
+      "arrival": {
+        "address": "Шэкоу: площадь Sea World; культурный центр — Wanghai Road 1187 / 望海路1187号.",
+        "metro": "Sea World / 海上世界, линии 2 и 12; далее прогулка к берегу.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Sea_World_%28Shenzhen%29"
+      },
+      "combineWith": [
+        "3",
+        "6"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.sz.gov.cn/szzt2010/szwtt/wtcg/whcg/content/post_11131232.html",
+          "https://m.bendibao.com/jingdian/haishangshijiewenhuayishuzhongxin/",
+          "https://www.amazingshenzhen.com.cn/content/2023-05/12/content_30192680.htm"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Две связанные пешком площадки: район Sea World и отдельный культурный центр у берега."
+    },
+    "photoGalleryUrl": "https://www.sz.gov.cn/szzt2010/szwtt/wtcg/whcg/content/post_11131232.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "8",
+    "name": "Museum of Contemporary Art & Urban Planning",
+    "localName": "深圳市当代艺术与城市规划馆",
+    "coord": [
+      114.05666667,
+      22.54861111
+    ],
+    "categoryId": "museum",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "mixed-use-complex",
+    "tags": [
+      "modern",
+      "architecture",
+      "art",
+      "indoors"
+    ],
+    "aliases": [
+      "Shenzhen Museum of Contemporary Art Urban Planning MOCAUP MOCAPE",
+      "深圳市当代艺术与城市规划馆"
+    ],
+    "description": "«Два музея» в Футяне объединяют современное искусство и городское планирование. Внутри — крупные изогнутые пространства, модели города и сменные выставки. Бесплатная градостроительная экспозиция и коммерческие художественные проекты имеют разные условия.",
+    "url": "https://www.sohu.com/a/1071596855_121106875",
+    "photos": [
+      {
+        "src": "assets/photos/extra-2.jpg",
+        "thumbnail": "assets/photos/extra-2-thumb.jpg",
+        "width": 1100,
+        "height": 735,
+        "author": "Timeahfurm002",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_Futian_Fuzhong_Road_MOCAPE_Museum_of_Contemporary_Art_%26_Planning_Exhibition_facade_Sept_2017_IX1_03.jpg",
+        "caption": "Museum of Contemporary Art & Urban Planning · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Музейный комплекс о том, как растёт город, и о современном искусстве; выразительная архитектура интересна сама по себе.",
+      "activities": [
+        "Рассмотреть внешнюю оболочку и внутренние плавные переходы.",
+        "Посетить градостроительную экспозицию и модели развития Шэньчжэня.",
+        "Выбрать временную выставку современного искусства по текущей афише."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "В будний день после 10:00; понедельник обычно выходной.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Вт–вс 10:00–18:00, вход до 17:30. Летнее продление завершено с 3 сентября 2026; понедельник закрыт.",
+        "sources": [
+          "https://www.sohu.com/a/1071596855_121106875"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Градостроительная экспозиция бесплатная. Временные художественные выставки могут быть платными; единого билета на всё нет.",
+        "sources": [
+          "https://www.sohu.com/a/1071596855_121106875"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "Обычный вход без предварительной записи по объявлению музея от 3 сентября 2026. Специальные экскурсии и платные выставки оформляются отдельно.",
+        "sources": [
+          "https://www.sohu.com/a/1071596855_121106875"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "Ориентируйтесь на действующие входы северного и южного корпусов и досмотр. Выставка реформ Shenzhen Museum находится в этом же комплексе, но история и фольклор — у Civic Center.",
+        "sources": [
+          "https://www.sohu.com/a/1071596855_121106875",
+          "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/Attractions/content/post_12404821.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Правила приведены по датированному объявлению музея в перепечатке; у отдельных платных выставок собственные билеты.",
+        "Это не филиал истории и фольклора Shenzhen Museum."
+      ],
+      "arrival": {
+        "address": "Футянь, Fuzhong Road 184 / 福中路184号.",
+        "metro": "Children’s Palace / 少年宫, линии 3 и 4; Civic Center / 市民中心 — для прогулки по району.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://zh.wikipedia.org/wiki/深圳市当代艺术与城市规划馆"
+      },
+      "combineWith": [
+        "1",
+        "2",
+        "9"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.sohu.com/a/1071596855_121106875",
+          "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/Attractions/content/post_12404821.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "photoGalleryUrl": "https://www.sohu.com/a/1071596855_121106875",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "9",
+    "name": "Shenzhen Museum · история и фольклор",
+    "localName": "深圳博物馆（金田路馆·历史民俗）",
+    "coord": [
+      114.0568,
+      22.5465
+    ],
+    "categoryId": "museum",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "history-museum",
+    "tags": [
+      "historical",
+      "indoors",
+      "family"
+    ],
+    "aliases": [
+      "Shenzhen Museum History Folk Culture Jintian Road",
+      "深圳博物馆（金田路馆·历史民俗）"
+    ],
+    "description": "Для этой карточки выбран филиал истории и фольклора на Jintian Road, в восточном крыле Civic Center. Экспозиции рассказывают о древнем регионе, повседневной культуре и современной истории Шэньчжэня. У музея есть и другие адреса: древнее искусство на Tongxin Road и выставка реформ в комплексе MOCAUP.",
+    "url": "https://cdn3.shenzhenmuseum.com/museum/html/aboutus/visit-service.html",
+    "photos": [
+      {
+        "src": "assets/photos/place-9.jpg",
+        "thumbnail": "assets/photos/place-9-thumb.jpg",
+        "width": 1100,
+        "height": 825,
+        "author": "GAFLWING 218 lNANGM",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3%E5%B8%82_Shenzhen_%E7%A6%8F%E7%94%B0%E5%8D%80_Futian_%E5%B8%82%E6%B0%91%E4%B8%AD%E5%BF%83_Civic_Center_%E7%A6%8F%E4%B8%AD%E4%B8%89%E8%B7%AF_Fuzhong_3rd_Road_%E9%87%91%E7%94%B0%E8%B7%AF_Jintian_Road_Shenzhen_Museum_January_2026_N13P_07.jpg",
+        "caption": "Shenzhen Museum · история и фольклор · Wikimedia Commons"
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Понять, что было на месте мегаполиса до небоскрёбов: история региона, местные сообщества и превращение в современный город.",
+      "activities": [
+        "Пройти историческую экспозицию от ранних поселений к современному городу.",
+        "Посмотреть предметы быта и материалы о местных традициях.",
+        "Совместить музей с площадью Civic Center и парком Ляньхуашань."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1,5–2,5 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "В будний день в первой половине открытия, до прогулки по Футяню.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Вт–вс 10:00–18:00, вход до 17:30. Понедельник закрыт; праздничные изменения публикуются отдельно.",
+        "sources": [
+          "https://cdn3.shenzhenmuseum.com/museum/html/aboutus/visit-service.html",
+          "https://mobile.shenzhenmuseum.com/guide"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Постоянное посещение бесплатно; отдельные мероприятия имеют свои условия.",
+        "sources": [
+          "https://cdn3.shenzhenmuseum.com/museum/html/aboutus/visit-service.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "С 22 июля 2024 для обычного индивидуального посещения запись не требуется. Лекции и отдельные мероприятия бронируются отдельно.",
+        "sources": [
+          "https://cdn3.shenzhenmuseum.com/museum/html/aboutus/visit-service.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "Выбран филиал 金田路馆（历史民俗） в восточном крыле Civic Center. Не отправляйтесь по адресу Tongxin Road, если нужна эта экспозиция.",
+        "sources": [
+          "https://cdn3.shenzhenmuseum.com/museum/html/aboutus/visit-service.html",
+          "https://business.cctv.cn/2024/11/01/ARTIZD4HNhVyIBhvyNrOaW5C241029.shtml"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Летние вечерние часы не считаются обычным ноябрьским расписанием.",
+        "Перед поездкой сверяйте название филиала, а не только «Shenzhen Museum»."
+      ],
+      "arrival": {
+        "address": "Футянь, Jintian Road 4001 / 金田路4001号, восточное крыло Civic Center.",
+        "metro": "Civic Center / 市民中心, линии 2 и 4.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Shenzhen_Museum"
+      },
+      "combineWith": [
+        "1",
+        "2",
+        "8"
+      ],
+      "provenance": {
+        "sources": [
+          "https://cdn3.shenzhenmuseum.com/museum/html/aboutus/visit-service.html",
+          "https://mobile.shenzhenmuseum.com/guide",
+          "https://business.cctv.cn/2024/11/01/ARTIZD4HNhVyIBhvyNrOaW5C241029.shtml"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "photoGalleryUrl": "https://cdn3.shenzhenmuseum.com/museum/html/aboutus/visit-service.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "10",
+    "name": "Shenzhen Science & Technology Museum · Гуанмин",
+    "localName": "深圳科学技术馆（光明）",
+    "coord": [
+      113.9386023,
+      22.7751148
+    ],
+    "categoryId": "museum",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "science-museum",
+    "tags": [
+      "technology",
+      "family",
+      "indoors",
+      "modern",
+      "architecture"
+    ],
+    "aliases": [
+      "Shenzhen Science Technology Museum Guangming",
+      "深圳科学技术馆（光明）"
+    ],
+    "description": "Новый музей в Гуанмине открылся в 2025 году и расположен далеко от старого центра Футяня. На пяти этажах рассматриваются цифровые технологии, повседневная жизнь, умная промышленность и происхождение Вселенной. Кинотеатры, временные выставки и некоторые активности оформляются отдельно от постоянных залов.",
+    "url": "https://m.bendibao.com/show1014031.html",
+    "photos": [
+      {
+        "src": "assets/photos/extra-4.jpg",
+        "thumbnail": "assets/photos/extra-4-thumb.jpg",
+        "width": 1100,
+        "height": 825,
+        "author": "GuoaMeni KammueDu",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E5%85%89%E6%98%8E%E5%8D%80_Guangming_%E6%B7%B1%E5%9C%B3%E7%A7%91%E5%AD%B8%E6%8A%80%E8%A1%93%E9%A4%A8_Shenzhen_Science_%26_Technology_Museum_name_sign_n_gray_facade_May_2025_R12S.jpg",
+        "caption": "Shenzhen Science & Technology Museum · Гуанмин · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Большой новый музей цифровой цивилизации: интерактивные экспонаты, ИИ, промышленность и научные кинотеатры.",
+      "activities": [
+        "Провести время у интерактивных экспонатов об ИИ и цифровых технологиях.",
+        "Сравнить темы «Wonderful Life» и «Smart Industry».",
+        "Выбрать научный фильм или дополнительную программу по отдельному расписанию."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "4–6 часов; можно выделить целый день",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "К открытию в будний день; заранее купите билет, особенно на выходные.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Вт–пт 10:00–17:00; сб–вс и праздники 09:30–18:00. Пн закрыт, кроме праздничных исключений.",
+        "sources": [
+          "https://m.bendibao.com/show1014031.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Постоянные залы: обычный билет 50 CNY, льготный 32 CNY. Кинотеатры и временные выставки отдельно.",
+        "sources": [
+          "https://m.bendibao.com/show1014031.html",
+          "https://www.sz.gov.cn/szzt2010/zdlyzl/sfxx/bz/fw/content/post_12151811.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "Именная покупка в мини-программе «深圳科学技术馆», включая бесплатные категории. В 20:00 открывается продажа на шестой день вперёд.",
+        "sources": [
+          "https://m.bendibao.com/show1014031.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "Возьмите оригинал документа, использованного при покупке. Нужен новый музей в Гуанмине, Guanghui Avenue 8; не старый научный зал в Футяне.",
+        "sources": [
+          "https://m.bendibao.com/show1014031.html",
+          "https://www.amazingshenzhen.com.cn/content/2025-05/14/content_31567292.htm"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Правила покупки и часы сверены с публикацией сентября 2026: ранние сообщения об открытии указывали другой горизонт продажи.",
+        "Дорогу в Гуанмин планируйте отдельно; это не короткая остановка между музеями Футяня."
+      ],
+      "arrival": {
+        "address": "Гуанмин, Guanghui Avenue 8 / 光辉大道8号.",
+        "metro": "Guangming / 光明, линия 6, выход C или D; далее по указателям к музею.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://www.openstreetmap.org/way/1455699525"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://m.bendibao.com/show1014031.html",
+          "https://www.sz.gov.cn/szzt2010/zdlyzl/sfxx/bz/fw/content/post_12151811.html",
+          "https://www.amazingshenzhen.com.cn/content/2025-05/14/content_31567292.htm"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "photoGalleryUrl": "https://m.bendibao.com/show1014031.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "11",
+    "name": "OCT-LOFT Creative Culture Park",
+    "localName": "华侨城创意文化园",
+    "coord": [
+      113.9886215,
+      22.5412214
+    ],
+    "categoryId": "art",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "creative-cluster",
+    "tags": [
+      "art",
+      "design",
+      "coffee",
+      "walk",
+      "industrial"
+    ],
+    "aliases": [
+      "OCT-LOFT Creative Culture Park",
+      "华侨城创意文化园"
+    ],
+    "description": "OCT-LOFT занимает переустроенные заводские кварталы восточной части OCT. Его лучше смотреть как живой район: переходить между дворами, заглядывать в открытые пространства и оставлять время на кофе. Галереи, концерты и T-Street Market имеют собственную программу; творческий рынок проходит в определённые даты.",
+    "url": "https://sz.bendibao.com/tour/201564/ly702265.html",
+    "photos": [
+      {
+        "src": "assets/photos/extra-5.jpg",
+        "thumbnail": "assets/photos/extra-5-thumb.jpg",
+        "width": 1100,
+        "height": 734,
+        "author": "Dinkun Chen",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:OCT_LOFT,_SHENZHEN.jpg",
+        "caption": "OCT-LOFT Creative Culture Park · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Бывшие промышленные корпуса, превращённые в творческий квартал с книжными, галереями, музыкой и кафе.",
+      "activities": [
+        "Пройти между южной и северной частями квартала, рассматривая старые корпуса.",
+        "Зайти в открытые галереи, книжные или дизайнерские магазины.",
+        "Проверить афишу T-Street Market и музыкальных площадок."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "После полудня в выходной для оживлённой среды; в будни — спокойнее.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "У квартала нет единого музейного графика. Часы галерей, книжных, кафе и концертных площадок различаются.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Общая прогулка по кварталу бесплатна; концерты, отдельные выставки и покупки оплачиваются отдельно.",
+        "sources": [
+          "https://sz.bendibao.com/tour/201564/ly702265.html",
+          "https://m.bendibao.com/tour/jingdianbao/detail.php?id=91476"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Обычная прогулка не требует общего слота. Для концерта или мастер-класса оформляйте билет выбранного организатора.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "В маршрут входят открытые дворы и общественные заведения. Офисы и работающие студии доступны только с согласия владельцев.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Не путайте OCT-LOFT с тематическими парками OCT или торговым центром OCT PARK.",
+        "Перед поездкой на конкретную выставку проверьте её адрес и выходной."
+      ],
+      "arrival": {
+        "address": "Наньшань, Xiangshan East Street / 香山东街, творческие кварталы OCT.",
+        "metro": "Qiaocheng East / 侨城东, линия 1; Qiaocheng North / 侨城北, линия 2 — выбирайте по нужной части квартала.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://www.openstreetmap.org/way/741581536"
+      },
+      "combineWith": [
+        "17",
+        "18",
+        "19"
+      ],
+      "provenance": {
+        "sources": [
+          "https://sz.bendibao.com/tour/201564/ly702265.html",
+          "https://m.bendibao.com/tour/jingdianbao/detail.php?id=91476"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Прогулка по креативному кварталу; вход в отдельные выставки и концертные залы учитывается отдельно."
+    },
+    "photoGalleryUrl": "https://sz.bendibao.com/tour/201564/ly702265.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "12",
+    "name": "Dafen Oil Painting Village",
+    "localName": "大芬油画村",
+    "coord": [
+      114.13160111,
+      22.61236306
+    ],
+    "categoryId": "art",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "art-district",
+    "tags": [
+      "art",
+      "shopping",
+      "walk"
+    ],
+    "aliases": [
+      "Dafen Oil Painting Village",
+      "大芬油画村"
+    ],
+    "description": "Дафэнь вырос из деревни в известный центр масляной живописи и торговли картинами. Здесь соседствуют репродукции, оригинальные работы, рамочные мастерские и небольшие галереи. Самое интересное — наблюдать процесс и разговаривать с художниками; это рабочий район, а не единая музейная экспозиция.",
+    "url": "https://www.eyeshenzhen.com/content/2023-05/22/content_30237564.htm",
+    "photos": [
+      {
+        "src": "assets/photos/7543655.jpg",
+        "thumbnail": "assets/photos/7543655-thumb.jpg",
+        "width": 1100,
+        "height": 825,
+        "author": "Szdapanwen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_%E5%A4%A7%E8%8A%AC%E6%B2%B9%E7%95%AB%E6%9D%91_Da_Fen_Oil_Painting_Village_entrance_sign_Aug-2010.JPG",
+        "caption": "Dafen Oil Painting Village · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Квартал мастерских, где картины пишут, продают и оформляют прямо на соседних улицах.",
+      "activities": [
+        "Пройти узкие улицы с холстами и мастерскими.",
+        "Посмотреть, как пишут и оформляют картины, спросив разрешение на съёмку.",
+        "Выбрать оригинальную работу или урок живописи, заранее согласовав условия."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "1,5–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Днём, когда мастерские открыты; не приезжайте только ради ночной прогулки.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Уличный квартал не имеет общего сеанса. Мастерские открываются по своему графику; музей Dafen Art Museum — отдельная площадка.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "За прогулку по улицам нет общего входного билета. Картины, оформление и уроки живописи оплачиваются отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Для уличного маршрута запись не нужна; урок, заказ картины или посещение закрытой студии согласуйте с художником.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Не заходите в рабочую мастерскую без разрешения. Dafen Art Museum и частные галереи не являются одним учреждением.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "При заказе уточните размер, материал, авторство, срок изготовления и упаковку для перевозки.",
+        "Старинные и новые фотографии могут показывать разные улицы квартала."
+      ],
+      "arrival": {
+        "address": "Лунган, Buji / 布吉, Dafen Oil Painting Village / 大芬油画村.",
+        "metro": "Dafen / 大芬, линия 3; далее пешком в художественный квартал.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Dafen_Village"
+      },
+      "combineWith": [
+        "14"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.eyeshenzhen.com/content/2023-05/22/content_30237564.htm"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Открытые улицы и мастерские деревни; часы и билеты отдельных музеев сюда не перенесены."
+    },
+    "photoGalleryUrl": "https://www.eyeshenzhen.com/content/2023-05/22/content_30237564.htm",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "13",
+    "name": "Nantou Ancient City",
+    "localName": "南头古城",
+    "coord": [
+      113.916456,
+      22.546307
+    ],
+    "categoryId": "history",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "historic-street",
+    "tags": [
+      "historical",
+      "design",
+      "art",
+      "food",
+      "walk"
+    ],
+    "aliases": [
+      "Nantou Ancient City Xin’an",
+      "南头古城"
+    ],
+    "description": "Наньтоу напоминает, что история региона началась задолго до специальной экономической зоны. В компактной сети улиц сохранились исторические ориентиры, а часть зданий приспособлена под магазины и культурные пространства. Это жилой и коммерческий квартал после обновления, а не полностью нетронутый древний город.",
+    "url": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+    "photos": [
+      {
+        "src": "assets/photos/3208904.jpg",
+        "thumbnail": "assets/photos/3208904-thumb.jpg",
+        "width": 1100,
+        "height": 733,
+        "author": "Iswzo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%A4%B4%E5%8F%A4%E5%9F%8E%E5%8D%97%E9%97%A82022.jpg",
+        "caption": "Nantou Ancient City · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Старинный городской узел Наньшаня, где исторические ворота и переулки соседствуют с современными кафе и дизайном.",
+      "activities": [
+        "Войти через южные ворота и пройти главную историческую ось.",
+        "Свернуть в переулки и сравнить старую ткань с современными вставками.",
+        "Выбрать музейную остановку, небольшую выставку или кафе."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Будний день во второй половине дня; к вечеру становится оживлённее.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "У исторических улиц нет единого времени закрытия всех заведений. Музей, выставки и магазины имеют собственные часы.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Прогулка по основному кварталу бесплатная; покупки, еда и отдельные программы оплачиваются отдельно.",
+        "sources": [
+          "https://www.sznews.com/news/content/2021-01/22/content_23911222_0.htm"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Для прогулки по улицам общего сеанса нет. У конкретного музея, события или ресторана может быть собственная запись.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Посещайте публичные улицы и открытые заведения; жилые дворы и закрытые крыши не являются частью общего маршрута.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "considerations": [
+        "Для истории стоит зайти в музей; одни кафе дают лишь часть представления о месте.",
+        "Уважайте жителей и не перекрывайте узкие проходы ради фотографий."
+      ],
+      "arrival": {
+        "address": "Наньшань, Nantou Ancient City / 南头古城; южные ворота у Shennan Avenue.",
+        "metro": "Nantou Ancient City / 南头古城, линия 12; Zhongshan Park / 中山公园 — для северной части.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Nantou_%28historic_town%29"
+      },
+      "combineWith": [
+        "5"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+          "https://www.sznews.com/news/content/2021-01/22/content_23911222_0.htm"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "photoGalleryUrl": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "14",
+    "name": "Gankeng Hakka Town",
+    "localName": "甘坑客家小镇 / 甘坑古镇",
+    "coord": [
+      114.0995854,
+      22.6589693
+    ],
+    "categoryId": "history",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "cultural-district",
+    "tags": [
+      "historical",
+      "walk",
+      "food",
+      "evening",
+      "family"
+    ],
+    "aliases": [
+      "Gankeng Hakka Town",
+      "甘坑客家小镇 / 甘坑古镇"
+    ],
+    "description": "Ганькэн объединяет сохранившуюся деревенскую среду и современный туристический квартал. Здесь можно рассмотреть старые дома, пройти крытые и каменные переулки, попробовать местную еду. Некоторые дворы, культурные пространства и семейные развлечения продают отдельные билеты.",
+    "url": "https://m.bendibao.com/show865871.html",
+    "photos": [
+      {
+        "src": "assets/photos/extra-6.jpg",
+        "thumbnail": "assets/photos/extra-6-thumb.jpg",
+        "width": 1100,
+        "height": 825,
+        "author": "Ubahnverleih",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gankeng_Historic_Town.jpg",
+        "caption": "Gankeng Hakka Town · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Квартал с архитектурой хакка, узкими переулками и вечерними фонарями; удобен для неспешной прогулки и еды.",
+      "activities": [
+        "Пройти переулки и посмотреть на дома и дворы хакка.",
+        "Найти старые архитектурные ориентиры и сравнить их с новыми туристическими вставками.",
+        "Дождаться фонарей и попробовать еду в открытых заведениях."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "После 15:00 с продолжением до раннего вечера; по выходным значительно люднее.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "У открытого квартала нет одного графика всех улиц, мастерских и ресторанов. Платные внутренние площадки работают отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Основной квартал открыт бесплатно; отдельные дворы, опыты, проживание и развлечения могут быть платными.",
+        "sources": [
+          "https://m.bendibao.com/show865871.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "Для обычного входа в квартал предварительная запись не требуется; для платных программ действуют отдельные условия.",
+        "sources": [
+          "https://m.bendibao.com/show865871.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "От станции Gankeng, линия 10, выход B; дальше пешком к древнему кварталу. Точка станции не совпадает с самим туристическим центром.",
+        "sources": [
+          "https://m.bendibao.com/show865871.html",
+          "https://www.sznews.com/news/content/mb/2026-04/02/content_32001995.htm"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Архитектура и коммерческие декорации соседствуют: не все постройки одинаково старые.",
+        "Булыжник, узкие переулки и ступени могут быть неудобны для коляски."
+      ],
+      "arrival": {
+        "address": "Лунган, Jihua / 吉华, Gankeng Ancient Town / 甘坑古镇.",
+        "metro": "Gankeng / 甘坑, линия 10, выход B; далее около 10–15 минут пешком.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://www.openstreetmap.org/way/1039077937"
+      },
+      "combineWith": [
+        "12"
+      ],
+      "provenance": {
+        "sources": [
+          "https://m.bendibao.com/show865871.html",
+          "https://www.sznews.com/news/content/mb/2026-04/02/content_32001995.htm"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Прогулка по общедоступному кварталу, без платных внутренних комплексов."
+    },
+    "photoGalleryUrl": "https://m.bendibao.com/show865871.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "15",
+    "name": "Dapeng Fortress · крепость Дапэн",
+    "localName": "大鹏所城",
+    "coord": [
+      114.50888889,
+      22.59694444
+    ],
+    "categoryId": "history",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "fortification",
+    "tags": [
+      "historical",
+      "architecture",
+      "walk",
+      "suburban"
+    ],
+    "aliases": [
+      "Dapeng Fortress Dapeng Ancient City",
+      "大鹏所城"
+    ],
+    "description": "Крепость Дапэн основана в 1394 году как часть береговой обороны. Внутри — старые улицы, ворота и исторические резиденции, включая дом генерала Лай Эньцзюэ. От центра города далеко: место разумно рассматривать как самостоятельную поездку на полуостров, а не короткую остановку после Футяня.",
+    "url": "https://www.dpxq.gov.cn/english/travel/culturalattractions/content/post_3361416.html",
+    "photos": [
+      {
+        "src": "assets/photos/21787425.jpg",
+        "thumbnail": "assets/photos/21787425-thumb.jpg",
+        "width": 1100,
+        "height": 733,
+        "author": "Iswzo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E9%B9%8F%E6%89%80%E5%9F%8E%E5%8D%97%E9%97%A8%E4%B8%9C%E8%B7%AF.jpg",
+        "caption": "Dapeng Fortress · крепость Дапэн · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Редкий для Шэньчжэня большой исторический ансамбль: крепостные ворота, узкие улицы и дома военных семей эпохи Мин.",
+      "activities": [
+        "Войти через южные ворота и пройти основные исторические улицы.",
+        "Рассмотреть сохранившиеся ворота и доступные исторические дома.",
+        "Совместить крепость с прогулкой в районе Jiaochangwei, если остаётся время."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–3 часа в крепости; на дорогу и полуостров выделить отдельный день",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Утро буднего дня; рассчитывайте возвращение заранее.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Улицы крепости и внутренние выставочные дома имеют разный режим. Для посещения залов проверяйте расписание музея Дапэна на нужную дату.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "cost": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "Прогулка по историческим улицам не является общим платным музейным сеансом; отдельные услуги и выставочные программы проверяются отдельно.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "booking": {
+        "status": "not_applicable",
+        "value": null,
+        "note": "У уличного маршрута нет общего слота. Для исторических залов и групповой экскурсии уточняйте правила музея; въезд автомобиля на полуостров — отдельный вопрос.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "access": {
+        "status": "documented",
+        "value": "Комплекс находится в Дапэне на востоке Шэньчжэня. Внутри — охраняемые исторические здания; следуйте открытым проходам и ограничениям реставрации.",
+        "sources": [
+          "https://www.dpxq.gov.cn/english/travel/culturalattractions/content/post_3361416.html",
+          "https://www.eyeshenzhen.com/content/2023-05/12/content_30213461.htm"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Расстояние до центра велико: не объединяйте с Гуанмином в один насыщенный день.",
+        "Не поднимайтесь на закрытые стены; ремонт исторических конструкций может ограничивать доступ."
+      ],
+      "arrival": {
+        "address": "Дапэн, Pengcheng / 鹏城, Dapeng Fortress / 大鹏所城, вход с Nanmen Street.",
+        "metro": "Прямого метро к крепости нет. Планируйте автобус или такси на последний участок; актуальный маршрут проверяйте по дате поездки.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Dapeng_Fortress"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://www.dpxq.gov.cn/english/travel/culturalattractions/content/post_3361416.html",
+          "https://www.eyeshenzhen.com/content/2023-05/12/content_30213461.htm"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "photoGalleryUrl": "https://www.dpxq.gov.cn/english/travel/culturalattractions/content/post_3361416.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "16",
+    "name": "Hongfa Temple & Fairy Lake Botanical Garden",
+    "localName": "弘法寺 / 仙湖植物园",
+    "coord": [
+      114.1639745,
+      22.5709933
+    ],
+    "categoryId": "nature",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "botanical-garden",
+    "tags": [
+      "park",
+      "sacred",
+      "walk",
+      "long-walk",
+      "water"
+    ],
+    "aliases": [
+      "Hongfa Temple Fairy Lake Xianhu Botanical Garden",
+      "弘法寺 / 仙湖植物园"
+    ],
+    "description": "Ботанический сад Сяньху расположен у склонов Утуншаня. Внутри — озеро, коллекционные сады и храм Хунфа на возвышенности. Храм и сад не имеют одного общего времени посещения: ранний вход на территорию ещё не означает, что открыты храмовые залы и оранжереи.",
+    "url": "https://cgj.sz.gov.cn/xsmh/xhzwy/bmfw/content/post_8920370.html",
+    "photos": [
+      {
+        "src": "assets/photos/extra-0.jpg",
+        "thumbnail": "assets/photos/extra-0-thumb.jpg",
+        "width": 1100,
+        "height": 825,
+        "author": "Huangdan2060",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hongfa_Temple,_Shenzhen_001.jpg",
+        "caption": "Hongfa Temple & Fairy Lake Botanical Garden · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Большая зелёная прогулка среди холмов, озера и специальных садов с посещением действующего буддийского храма.",
+      "activities": [
+        "Пройти к озеру и выбрать несколько коллекционных садов.",
+        "Подняться к храму Хунфа, соблюдая правила действующего монастыря.",
+        "Вернуться по зелёным дорожкам или воспользоваться отдельным парковым транспортом."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "3–5 часов",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Утром в будний день; для храма и коллекционных садов планируйте дневное время.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Территория сада 06:00–21:30; платный дневной период 08:00–18:00. Специализированные сады и храм имеют более короткий режим.",
+        "sources": [
+          "https://cgj.sz.gov.cn/xsmh/xhzwy/bmfw/content/post_8920370.html",
+          "https://cgj.sz.gov.cn/xsmh/xhzwy/index.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Обычный взрослый билет сада 15 CNY, в официальные праздники 10 CNY. До 08:00 и после 18:00 вход на территорию бесплатный; шаттлы отдельно.",
+        "sources": [
+          "https://cgj.sz.gov.cn/xsmh/xhzwy/bmfw/content/post_8920370.html",
+          "https://cgj.sz.gov.cn/xsmh/xhzwy/wxsp/"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "Официальная покупка/запись через WeChat «深圳市仙湖植物园», ID szbgac. Для праздничных и специальных дней проверяйте отдельные объявления.",
+        "sources": [
+          "https://cgj.sz.gov.cn/xsmh/xhzwy/wxsp/"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "Удобный подход от Xianhu Road / 仙湖路, выход C3, далее к главным воротам. Дневной билет сада не гарантирует доступ во все помещения храма.",
+        "sources": [
+          "https://www.szlh.gov.cn/English/chill-in-luohu/hot-spots/ecological-leisure/content/post_11904308.html",
+          "https://cgj.sz.gov.cn/xsmh/xhzwy/bmfw/content/post_8920370.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "У старой английской страницы другой тариф; здесь использованы китайские сведения городского управления.",
+        "В храме соблюдайте указания о съёмке, одежде и религиозных практиках. При штормовых предупреждениях сад закрывается."
+      ],
+      "arrival": {
+        "address": "Лоху, Xianhu Road 160 / 仙湖路160号; координата у кассы главного входа.",
+        "metro": "Xianhu Road / 仙湖路, линия 8, выход C3; до главного входа около 760 м.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://www.openstreetmap.org/node/12444797518"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://cgj.sz.gov.cn/xsmh/xhzwy/bmfw/content/post_8920370.html",
+          "https://cgj.sz.gov.cn/xsmh/xhzwy/index.html",
+          "https://cgj.sz.gov.cn/xsmh/xhzwy/wxsp/",
+          "https://www.szlh.gov.cn/English/chill-in-luohu/hot-spots/ecological-leisure/content/post_11904308.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      },
+      "scope": "Вход в ботанический сад и отдельное посещение храма внутри него; расписания специальных садов и храмовых помещений отличаются."
+    },
+    "photoGalleryUrl": "https://cgj.sz.gov.cn/xsmh/xhzwy/bmfw/content/post_8920370.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "17",
+    "name": "Window of the World",
+    "localName": "世界之窗",
+    "coord": [
+      113.96975556,
+      22.53751389
+    ],
+    "categoryId": "culture",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "theme-park",
+    "tags": [
+      "family",
+      "walk",
+      "architecture",
+      "evening"
+    ],
+    "aliases": [
+      "Window of the World",
+      "世界之窗"
+    ],
+    "description": "В «Окне в мир» собраны уменьшенные версии известных сооружений, тематические зоны и развлекательные программы. За несколько часов можно перейти от европейских монументов к азиатским ансамблям и выбрать вечернее шоу. Открытые аттракционы, спектакли и подсветка зависят от даты.",
+    "url": "https://you.ctrip.com/sight/shenzhen26/2778.html",
+    "photos": [
+      {
+        "src": "assets/photos/1884312.jpg",
+        "thumbnail": "assets/photos/1884312-thumb.jpg",
+        "width": 1100,
+        "height": 733,
+        "author": "Dinkun Chen",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:WINDOWS_OF_THE_WORLD_SHENZHEN_(13).jpg",
+        "caption": "Window of the World · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Тематический парк с миниатюрами мировых достопримечательностей: скорее прогулка и постановочные виды, чем настоящий музей архитектуры.",
+      "activities": [
+        "Пройти по тематическим регионам и сравнить миниатюры памятников.",
+        "Подняться на доступные обзорные точки по правилам парка.",
+        "Проверить программу вечерних представлений и остаться на выбранное."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "4–6 часов",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "К открытию в будний день или после полудня с продолжением до вечерней программы.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "В календаре Trip.com на 9 октября–30 ноября: 09:30–21:30, вход до 20:30. На отдельные событийные даты часы меняются.",
+        "sources": [
+          "https://you.ctrip.com/sight/shenzhen26/2778.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Стандартный взрослый полный день — 220 CNY по билетному обзору Bendibao. Ночной билет и акции отличаются; проверяйте дату.",
+        "sources": [
+          "https://sz.bendibao.com/youhui/2024816/977649.shtm"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "Покупайте билет с указанием даты и категории: полный день или вечер. Ночной билет не даёт вход утром.",
+        "sources": [
+          "https://you.ctrip.com/sight/shenzhen26/2778.html",
+          "https://sz.bendibao.com/youhui/2024816/977649.shtm"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "Станция 世界之窗 у входа в парк. Подъёмы, аттракционы и представления могут иметь отдельные ограничения и очереди.",
+        "sources": [
+          "https://you.ctrip.com/sight/shenzhen26/2778.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Шоу и фейерверки не гарантированы каждый день; ориентируйтесь на календарь парка.",
+        "Часы приведены по сезонному календарю продавца, а не как неизменный круглогодичный режим."
+      ],
+      "arrival": {
+        "address": "Наньшань, Shennan Avenue 9037 / 深南大道9037号.",
+        "metro": "Window of the World / 世界之窗, линии 1 и 2.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Window_of_the_World"
+      },
+      "combineWith": [
+        "11",
+        "18",
+        "19"
+      ],
+      "provenance": {
+        "sources": [
+          "https://you.ctrip.com/sight/shenzhen26/2778.html",
+          "https://sz.bendibao.com/youhui/2024816/977649.shtm"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "photoGalleryUrl": "https://you.ctrip.com/sight/shenzhen26/2778.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "18",
+    "name": "Splendid China Folk Culture Village",
+    "localName": "锦绣中华民俗村",
+    "coord": [
+      113.98361111,
+      22.535
+    ],
+    "categoryId": "culture",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "theme-park",
+    "tags": [
+      "historical",
+      "family",
+      "walk",
+      "evening"
+    ],
+    "aliases": [
+      "Splendid China Folk Culture Village",
+      "锦绣中华民俗村"
+    ],
+    "description": "«Великолепный Китай» и деревня народных культур работают как связанный парк. Миниатюры дают обзор известных мест страны, а этнографические зоны и выступления — зрелищное знакомство с традициями. Это тематическая постановка; расписание представлений стоит выбрать заранее, чтобы не пропустить главное.",
+    "url": "https://www.szjxzh.com.cn/youkefuwu/gongyuanshijian/index.html",
+    "photos": [
+      {
+        "src": "assets/photos/1884320.jpg",
+        "thumbnail": "assets/photos/1884320-thumb.jpg",
+        "width": 1100,
+        "height": 825,
+        "author": "Dmpendse at English Wikipedia",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Splendid_China_002.jpg",
+        "caption": "Splendid China Folk Culture Village · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Миниатюры памятников Китая, этнографические деревни и сценические представления в одном тематическом парке.",
+      "activities": [
+        "Пройти зону миниатюр китайских памятников и природных ландшафтов.",
+        "Посмотреть этнографические деревни и ремесленные демонстрации.",
+        "Выбрать одно или два представления по расписанию дня."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "4–6 часов",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "После открытия с запасом времени на представления; вечерний билет — другой сценарий.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "Страница расписания 2026: будни 10:00–22:00, вечерний вход с 17:30. Главная страница показывает закрытие 21:30; сверяйте календарь нужного дня.",
+        "sources": [
+          "https://www.szjxzh.com.cn/youkefuwu/gongyuanshijian/index.html",
+          "https://www.szjxzh.com.cn/"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "По FAQ оператора: дневной билет 220 CNY, вечерний 100 CNY. Транспорт, отдельные развлечения и питание могут оплачиваться дополнительно.",
+        "sources": [
+          "https://www.szjxzh.com.cn/youkefuwu/changjianwenti/index.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "Официальная мини-программа 锦绣中华: именная покупка на выбранную дату. Условия вечернего и льготного билета отличаются.",
+        "sources": [
+          "https://www.szjxzh.com.cn/",
+          "https://www.szjxzh.com.cn/youkefuwu/changjianwenti/index.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "Нужен документ, указанный при покупке. Официальный FAQ описывает китайскую ID-карту; иностранцам следует заранее уточнить оформление по паспорту: +86 755 26905222.",
+        "sources": [
+          "https://www.szjxzh.com.cn/youkefuwu/changjianwenti/index.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Время закрытия на двух страницах оператора расходится: не планируйте вход или поздний выход без проверки дня.",
+        "Не считайте все дополнительные услуги и все шоу автоматически включёнными в любой тип билета."
+      ],
+      "arrival": {
+        "address": "Наньшань, Shennan Avenue 9005 / 深南大道9005号.",
+        "metro": "OCT / 华侨城, линия 1; это другая станция, чем 世界之窗.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Splendid_China_Folk_Village"
+      },
+      "combineWith": [
+        "11",
+        "17",
+        "19"
+      ],
+      "provenance": {
+        "sources": [
+          "https://www.szjxzh.com.cn/youkefuwu/gongyuanshijian/index.html",
+          "https://www.szjxzh.com.cn/",
+          "https://www.szjxzh.com.cn/youkefuwu/changjianwenti/index.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "photoGalleryUrl": "https://www.szjxzh.com.cn/youkefuwu/gongyuanshijian/index.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "19",
+    "name": "Shenzhen Happy Valley",
+    "localName": "深圳欢乐谷",
+    "coord": [
+      113.973949,
+      22.541574
+    ],
+    "categoryId": "culture",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "theme-park",
+    "tags": [
+      "family",
+      "walk",
+      "evening"
+    ],
+    "aliases": [
+      "Shenzhen Happy Valley",
+      "深圳欢乐谷"
+    ],
+    "description": "Happy Valley — большой парк аттракционов в районе OCT. Здесь важнее подобрать подходящие по возрасту и ограничениям развлечения, чем пытаться увидеть всё. Соседний аквапарк Maya Beach имеет отдельные правила и билет; обычный билет в сухопутный парк не стоит считать универсальным.",
+    "url": "https://sz.happyvalley.cn/cms/frmparktime.aspx",
+    "photos": [
+      {
+        "src": "assets/photos/1774626.jpg",
+        "thumbnail": "assets/photos/1774626-thumb.jpg",
+        "width": 1100,
+        "height": 825,
+        "author": "古海岸遗址",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%B7%B1%E5%9C%B3%E6%AC%A2%E4%B9%90%E8%B0%B7%E2%80%94%E6%AD%A3%E9%97%A8.jpg",
+        "caption": "Shenzhen Happy Valley · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "День ради аттракционов: горки, тематические зоны и представления. Лучше оставить много времени на очереди и перерывы.",
+      "activities": [
+        "Выбрать подходящие горки и проверить ограничения роста у входа.",
+        "Чередовать активные аттракционы со спокойными зонами и представлениями.",
+        "Сверить вечернюю программу, если билет позволяет остаться."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "6–8 часов",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Будний день к открытию; на популярные аттракционы закладывайте очереди.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "На странице оператора при проверке: 09:30–23:00, вечерний вход с 17:00. Время определяется по дню; вход прекращается за час до закрытия.",
+        "sources": [
+          "https://sz.happyvalley.cn/cms/frmparktime.aspx"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Официальный FAQ: полный дневной билет 260 CNY. Большинство аттракционов и представлений включено; питание, банджи, дождевики и транспорт отдельно.",
+        "sources": [
+          "https://sz.happyvalley.cn/frmquestion.aspx"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "Онлайн-билет выбирается на дату; вход однократный, после выхода новый вход требует нового билета. Официальная покупка — через сайт/мини-программу.",
+        "sources": [
+          "https://sz.happyvalley.cn/frmquestion.aspx",
+          "https://sz.happyvalley.cn/frmticket.aspx"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "У аттракционов ограничения роста и состояния здоровья. Для именного билета возьмите документ; оформление по иностранному паспорту уточняйте до покупки: +86 755 26949184.",
+        "sources": [
+          "https://sz.happyvalley.cn/frmquestion.aspx",
+          "https://sz.happyvalley.cn/frmticket.aspx"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Сухопутный парк и Maya Beach — разные билеты.",
+        "Дождь, ветер и обслуживание могут останавливать отдельные аттракционы."
+      ],
+      "arrival": {
+        "address": "Наньшань, OCT / 华侨城, Happy Valley / 欢乐谷.",
+        "metro": "Window of the World / 世界之窗, линии 1 и 2; далее пешком по указателям к Happy Valley.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Happy_Valley_Shenzhen"
+      },
+      "combineWith": [
+        "11",
+        "17",
+        "18"
+      ],
+      "provenance": {
+        "sources": [
+          "https://sz.happyvalley.cn/cms/frmparktime.aspx",
+          "https://sz.happyvalley.cn/frmquestion.aspx",
+          "https://sz.happyvalley.cn/frmticket.aspx"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "photoGalleryUrl": "https://sz.happyvalley.cn/cms/frmparktime.aspx",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  },
+  {
+    "id": "20",
+    "name": "Dameisha Beach · пляж Дамэйша",
+    "localName": "大梅沙海滨公园",
+    "coord": [
+      114.3051,
+      22.5963
+    ],
+    "categoryId": "nature",
+    "cardType": "place",
+    "parentId": null,
+    "subtype": "beach",
+    "tags": [
+      "water",
+      "relax",
+      "walk",
+      "family"
+    ],
+    "aliases": [
+      "Dameisha Beach Seaside Park",
+      "大梅沙海滨公园"
+    ],
+    "description": "Дамэйша — один из самых доступных пляжей Шэньчжэня, особенно после продления метро к побережью. Это общественный пляжный парк: купание разрешено только в открытых контролируемых зонах и при подходящих условиях. Для спокойного отдыха лучше выбирать будни и избегать праздничного пика.",
+    "url": "https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_10986843.html",
+    "photos": [
+      {
+        "src": "assets/photos/49411503.jpg",
+        "thumbnail": "assets/photos/49411503-thumb.jpg",
+        "width": 1100,
+        "height": 826,
+        "author": "Nkon21",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dameisha_Beach_230530_(1).jpg",
+        "caption": "Dameisha Beach · пляж Дамэйша · внешний вид; условия посещения проверяйте в карточке."
+      }
+    ],
+    "visit": {
+      "version": 1,
+      "summary": "Большой общественный морской пляж среди гор Яньтяня. Можно приехать ради песка, прогулки и открытого горизонта.",
+      "activities": [
+        "Пройти вдоль широкой полосы песка и посмотреть на горы вокруг залива.",
+        "Искупаться только при открытой спасательной зоне и разрешающих флагах.",
+        "Продолжить прогулку по доступному прибрежному променаду."
+      ],
+      "duration": {
+        "status": "estimate",
+        "value": "2–4 часа",
+        "sources": [],
+        "checkedAt": null
+      },
+      "bestTime": {
+        "status": "estimate",
+        "value": "Утром в будний день или ближе к закату; для купания ориентируйтесь на погоду и флаги.",
+        "sources": [],
+        "checkedAt": null
+      },
+      "hours": {
+        "status": "documented",
+        "value": "07:00–23:00 по опубликованным правилам парка. Купальная зона и спасательная служба имеют более короткий режим.",
+        "sources": [
+          "https://www.yantian.gov.cn/cn/hdjl/dwzsk/ggjt/content/post_10861463.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "cost": {
+        "status": "documented",
+        "value": "Общественный пляжный парк бесплатный; душ, хранение вещей, прокат и дополнительные услуги оплачиваются отдельно.",
+        "sources": [
+          "https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_10986843.html",
+          "https://m.bendibao.com/show948586.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "booking": {
+        "status": "documented",
+        "value": "В пиковый сезон применяется бесплатная запись через «大梅沙旅游». Перед поездкой проверьте, действует ли она на выбранную дату; автомобильные ограничения — отдельные правила.",
+        "sources": [
+          "https://m.bendibao.com/show948586.html",
+          "https://www.yantian.gov.cn/cn/hdjl/dwzsk/ggjt/content/post_10861463.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "access": {
+        "status": "documented",
+        "value": "Вход в парк не равен разрешению купаться. Следуйте флагам, ограждениям и указаниям спасателей; при шторме берег закрывается.",
+        "sources": [
+          "https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_10986843.html"
+        ],
+        "checkedAt": "2026-11-06"
+      },
+      "considerations": [
+        "Не переносите сезонные правила бронирования въезда в Дапэн на пляж Дамэйша.",
+        "Даже в ноябре нужна защита от солнца; после дождей и при волнении море может быть закрыто для купания."
+      ],
+      "arrival": {
+        "address": "Яньтянь, Dameisha / 大梅沙, у прибрежной полосы Yanmei Road / 盐梅路.",
+        "metro": "Dameisha / 大梅沙, линия 8; далее пешком к входу пляжного парка.",
+        "start": null,
+        "note": "Координата — ориентир места, а не гарантия расположения билетного входа. Сверяйте вход с указателями.",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Dameisha_Beach"
+      },
+      "combineWith": [],
+      "provenance": {
+        "sources": [
+          "https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_10986843.html",
+          "https://www.yantian.gov.cn/cn/hdjl/dwzsk/ggjt/content/post_10861463.html",
+          "https://m.bendibao.com/show948586.html"
+        ],
+        "checkedAt": "2026-11-06",
+        "basis": "source-review"
+      }
+    },
+    "photoGalleryUrl": "https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_10986843.html",
+    "photoGalleryLabel": "Фотографии и сведения на сайте площадки ↗"
+  }
+]

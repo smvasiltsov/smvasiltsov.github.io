@@ -9,7 +9,7 @@ export async function setupOffline(context) {
   const scope = context.pages.map, storage = cityStorage(scope);
   const title = el('strong', context.city.name + ' на устройстве'), close = el('button', 'Закрыть ×'); close.type = 'button';
   const heading = el('div', undefined, 'offline-heading'); heading.append(title, close);
-  const description = el('p', `${context.city.offline?.coverageLabel || context.city.name}: карта, все карточки, сравнение отелей и фотографии. Без интернета доступна область из пакета. Остальная карта подгружается автоматически при доступном интернете.`);
+  const description = el('p', `${context.city.offline?.coverageLabel || context.city.name}: карта, все карточки${context.points.some(p=>p.cardType==='hotel')?', сравнение отелей':''} и фотографии. Без интернета доступна область из пакета. Остальная карта подгружается автоматически при доступном интернете.`);
   const status = el('p', 'Проверяю хранилище…'); status.id = 'offline-status'; status.setAttribute('role', 'status');
   const progress = el('progress'); progress.hidden = true; progress.setAttribute('aria-label', 'Сохранение города');
   const actions = el('div', undefined, 'offline-actions'), save = el('button', 'Скачать город'), cancel = el('button', 'Остановить'), remove = el('button', 'Удалить с устройства');

@@ -9,6 +9,7 @@ import {Cards} from './cards.js';
 import {MapView} from './map-view.js';
 import {setupOffline} from './offline-ui.js';
 import {PointPicker} from './point-picker.js';
+import {setupCitySwitcher} from './city-switcher.js';
 async function start(){
   const context=await loadCity();document.title=`${context.city.name} · личная карта путешествия`;$('city-name').textContent=context.city.name;
   const hotelCount=hotels(context).length;$('city-counts').textContent=`${context.points.length} ${plural(context.points.length,['место','места','мест'])}${hotelCount?' · '+hotelCount+' '+plural(hotelCount,['отель','отеля','отелей']):''}`;
@@ -34,6 +35,7 @@ async function start(){
   const params=new URLSearchParams(location.search),requested=context.pointMap.get(params.get('place')||params.get('hotel'));if(requested)choose(requested);
 }
 const headerMenu=$('header-menu'),header=headerMenu.closest('header');
+setupCitySwitcher();
 headerMenu.onclick=()=>{const open=header.dataset.menuOpen!=='true';header.dataset.menuOpen=String(open);headerMenu.setAttribute('aria-expanded',String(open));headerMenu.setAttribute('aria-label',open?'Закрыть меню':'Открыть меню');};
 setupInstall();
 $('data-retry').onclick=()=>location.reload();

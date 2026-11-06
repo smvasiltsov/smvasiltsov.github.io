@@ -1,0 +1,18 @@
+{
+  "provider": "OpenFreeMap",
+  "source": "https://tiles.openfreemap.org/planet/20261101_080013_pt/{z}/{x}/{y}.pbf",
+  "downloadedAt": "2026-11-06",
+  "bounds": [
+    113.73,
+    22.44,
+    114.65,
+    22.84
+  ],
+  "minZoom": 7,
+  "tileMaxZoom": 13,
+  "displayMaxZoom": 17,
+  "tiles": 352,
+  "glyphRanges": 96,
+  "attribution": "<a href=\"https://openfreemap.org\" target=\"_blank\">OpenFreeMap</a> <a href=\"https://www.openmaptiles.org/\" target=\"_blank\">&copy; OpenMapTiles</a> Data from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a>",
+  "policy": "https://openfreemap.org/tos/"
+}
